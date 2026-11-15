@@ -4,11 +4,11 @@ This document maps questions and methods; it is not a report of completed resear
 
 ## Working with evidence
 
-Before a decision, identify the question, what depends on it, and sufficient evidence to answer it. Look for relevant earlier material in `~/research/ha-composable-card/` and recheck historical conclusions against the current source.
+Before a decision, identify the question, what depends on it, and sufficient evidence to answer it. Look for relevant earlier material in `~/research/ha-lovelace-extended/` and recheck historical conclusions against the current source.
 
 Each material conclusion needs its source, date/version, method, observation, limitations, and consequence. Distinguish observed facts, hypotheses to test, and pending questions. Official documentation describes a contract; source inspection reveals an implementation; experiments demonstrate only the scenarios executed. A mock does not establish physical behavior.
 
-Use the change's `research.md` to maintain this record. Public sources should have links and versions/commits where needed. Raw evidence, reference clones, and investigation scripts belong in `~/research/ha-composable-card/<task>/`. Durable sanitized conclusions belong in the repository, in English; do not depend exclusively on local paths unavailable to other contributors.
+Use the change's `research.md` to maintain this record. Public sources should have links and versions/commits where needed. Raw evidence, reference clones, and investigation scripts belong in `~/research/ha-lovelace-extended/<task>/`. Durable sanitized conclusions belong in the repository, in English; do not depend exclusively on local paths unavailable to other contributors.
 
 ## D0. Problem discovery and the actual desk contract
 

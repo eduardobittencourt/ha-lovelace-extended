@@ -1,10 +1,10 @@
-# HA Composable Card
+# Lovelace Extended
 
 A library in conception for building Home Assistant interfaces with independent bindings per element, visual configuration, and performance as the top priority.
 
-**Status:** product documentation only. No implementation, installable package, or published release. The name is provisional.
+**Status:** product documentation only. No implementation, installable package, or published release.
 
-The project is intended to be open source from the outset, with English as its working language. Choosing a license and publishing the remote repository are still pending; active promotion is a separate, later milestone.
+Development is public from the outset, with English as the project's working language. The repository is [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended). Selecting an open source license is still pending; active promotion is a separate, later milestone.
 
 ## The idea
 

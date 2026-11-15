@@ -5,6 +5,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 ## Agreed
 
 | Decision | Consequence |
+| Project name: Lovelace Extended; repository: `ha-lovelace-extended` | Native-style Home Assistant cards with independent entity bindings and visual configuration |
 | --- | --- |
 | Performance is the number one priority | Capabilities and dependencies must justify their cost |
 | Web Components are the technical direction | Avoid additional layers without demonstrated benefit |
@@ -17,12 +18,12 @@ This initial record comes from the product discussion. “Agreed” identifies d
 | Active promotion follows readiness for complete dashboards | Completing the personal MVP does not trigger promotion |
 | Current work is documentation and process setup | No product implementation, dependency installation, or HA changes in these tasks |
 | OpenSpec is adopted for SDD at the user's request | Changes must consider research, discovery, and tests before assuming contracts |
-| The project is intended to be open source from the outset | Early public development is distinct from later active promotion; license and remote publication still need to be completed |
+| The project is intended to be open source from the outset | Early public development is distinct from later active promotion; selecting a license is still pending |
+| Public repository: `eduardobittencourt/ha-lovelace-extended` | Initial product documentation and OpenSpec setup are published on GitHub |
 | All project content is in English | Documents, specs, examples, code, comments, commit messages, and default product text follow this policy; conversations may remain in Portuguese |
 
 ## Proposed, subject to adjustment
 
-- Provisional name: `ha-composable-card`.
 - A primary entity supplies defaults, with per-element overrides.
 - MVP fixed composition with designated regions for additional actions.
 - Conceptual separation of surface, elements, bindings, editor, and recipes.
@@ -48,7 +49,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 - Entity discovery and integration-specific adapters.
 - Extension interfaces, if needed, and their performance boundaries.
 - Reference dashboard and coverage needed for active promotion.
-- Final name, license, distribution, and remote publication. Select a license before presenting the repository as licensed open source; do not defer that choice to the active-promotion milestone.
+- License and distribution. Select a license before presenting the repository as licensed open source; do not defer that choice to the active-promotion milestone.
 
 ## Recording new decisions
 

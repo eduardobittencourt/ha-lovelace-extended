@@ -6,7 +6,7 @@ context: |
   text must be in English. Conversation may follow the user's language without
   changing the repository language. Retain OpenSpec structural headings and
   SHALL/MUST, WHEN/THEN keywords expected by the CLI.
-  Project: HA Composable Card (provisional). Documentation-only conception;
+  Project: Lovelace Extended. Documentation-only conception;
   no implemented card, supported HA version or performance baseline yet.
   Read README.md, docs/roadmap.md and docs/decisions.md, then only the relevant
   docs/manifesto.md, docs/mvp.md and docs/architecture.md for the change.
@@ -19,8 +19,9 @@ context: |
   actions must be verified. Free grid and recipe catalog belong to later stages.
   Future: constrained grid, reusable elements/behaviors and recipes; active
   promotion only after maturity for complete dashboards. The project is intended
-  to be open source from the outset; license selection and initial public
-  publication are separate early tasks, not postponed until active promotion.
+  to be open source from the outset. The public repository is
+  github.com/eduardobittencourt/ha-lovelace-extended; license selection remains
+  an early task, not postponed until active promotion.
   Roadmap entries describe future work, not evidence or implemented requirements.
   Follow docs/openspec.md and docs/discovery.md. Distinguish verified facts,
   hypotheses and unknowns. Investigate blockers before dependent specs/design;
@@ -28,7 +29,7 @@ context: |
   Discovery-only changes may deliver research and docs. Product implementation
   and physical tests require corresponding task scope; this setup authorizes
   neither. Do not install tooling merely to plan a change.
-  External evidence: ~/research/ha-composable-card/<task>/. Preserve sanitized
+  External evidence: ~/research/ha-lovelace-extended/<task>/. Preserve sanitized
   durable findings and source references in the repository; never credentials,
   private inventories or full HA configurations.
 

@@ -11,13 +11,13 @@ Product stages 0–6 are pending. No schedule or implementation is implied. Each
 
 This setup does not complete product research. Stages 0–6 remain pending. Follow the [OpenSpec guide](openspec.md) and select relevant questions from the [discovery map](discovery.md). Each change must identify its stage, available evidence, blocking unknowns, required experiments, and exit criteria. Changes may deliver research only, without implementing the card.
 
-## Open source setup — pending
+## Open source setup — in progress
 
 The project is intended to be open source from the outset. This is independent of stage 6 readiness for active promotion.
 
 - [ ] Select an open source license and add its license text with correct attribution.
-- [ ] Publish the repository remotely when requested, accurately stating its documentation-only status.
-- [ ] Recheck external links and contributor-facing instructions before publication; keep durable findings understandable without private environment access.
+- [x] Publish the public repository at [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended), accurately stating its documentation-only status.
+- [x] Review contributor-facing instructions and tracked content for publication; keep durable findings understandable without private environment access.
 
 ## 0. Specify the real use case and initial boundaries
 
@@ -98,7 +98,7 @@ In a future implementation task:
 - [ ] Validate prolonged use on selected phones, tablets, and desktops.
 - [ ] Define and exercise compatibility, migration, and configuration recovery.
 - [ ] Document installation, usage, limitations, and updates.
-- [ ] Confirm the final name and distribution channel; verify that early open source licensing/publication tasks are complete.
+- [ ] Confirm the distribution channel; verify that early open source licensing/publication tasks are complete.
 
 **Exit:** evidence of replacing a complete dashboard with consistent quality. Only then start active promotion.
 
