@@ -1,6 +1,6 @@
 # Incremental roadmap
 
-Product stages 0–6 are pending. No schedule or implementation is implied. Each stage should produce small, reviewable evidence before the next.
+Product stage 0 is in progress; stages 1–6 are pending. No schedule or implementation is implied. Each stage should produce small, reviewable evidence before the next.
 
 ## Process setup — completed
 
@@ -9,7 +9,7 @@ Product stages 0–6 are pending. No schedule or implementation is implied. Each
 - [x] Record the discovery questions and methods map.
 - [x] Set English as the language of all repository content and future OpenSpec artifacts.
 
-This setup does not complete product research. Stages 0–6 remain pending. Follow the [OpenSpec guide](openspec.md) and select relevant questions from the [discovery map](discovery.md). Each change must identify its stage, available evidence, blocking unknowns, required experiments, and exit criteria. Changes may deliver research only, without implementing the card.
+This setup does not complete product research. Stage 0 research is tracked separately below. Follow the [OpenSpec guide](openspec.md) and select relevant questions from the [discovery map](discovery.md). Each change must identify its stage, available evidence, blocking unknowns, required experiments, and exit criteria. Changes may deliver research only, without implementing the card.
 
 ## Open source setup — in progress
 
@@ -21,15 +21,17 @@ The project is intended to be open source from the outset. This is independent o
 
 ## 0. Specify the real use case and initial boundaries
 
+Archived research evidence (2026-11-15): [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md). Public comparisons include a command-only MQTT cover and a constructed light-plus-sensor composition. These challenge assumptions without adding implemented devices. The user-selected primary environment is iPhone 14 Pro / Safari / reported iOS 27. The validation protocol is documented, but no target-device baseline or numeric acceptance limit has been measured.
+
 - [ ] Discover the problem and actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing data inspection from physical tests.
 - [ ] Research frontend contracts and the visual reference in the target version ([D1](discovery.md#d1-visual-discovery-and-frontend-contracts)), separating documented APIs from internals.
-- [ ] Read and verify the desk's entities, attributes, capabilities, and actions.
-- [ ] Record only the necessary contract, without credentials or private inventories.
-- [ ] Choose the native card and HA version for the visual reference.
+- [x] Read and verify the desk's entities, attributes, capabilities, and action metadata (read-only; physical execution remains separate).
+- [x] Record only the necessary contract, without credentials or private inventories.
+- [x] Choose the native card and HA version for the visual reference (Tile / Core 2026.11.1 / frontend 20261028.5; rendered fit pending).
 - [ ] Define fixed layout regions and desk editor flows.
 - [ ] Define the target version, reference device/browser, and dimensions.
 - [ ] Record a baseline and performance acceptance limits before implementation.
-- [ ] Record sources, versions, hypotheses, and blockers in `research.md`; define baseline protocols and scenarios without inventing measurements.
+- [x] Record sources, versions, hypotheses, and blockers in `research.md`; define baseline protocols and scenarios without inventing measurements.
 
 **Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration.
 

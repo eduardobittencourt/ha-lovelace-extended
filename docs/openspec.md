@@ -9,7 +9,7 @@ Initialized with OpenSpec **1.14.3**, **Codex** integration, and the **core** pr
 - [Research template](../openspec/schemas/research-first/templates/research.md): facts, hypotheses, questions, experiments, and outcomes.
 - Generated skills in `.agents/skills/`, versioned in the project. Customize the process through config, schema, and documents rather than editing generated skills manually.
 
-No product change is open and no runtime specification has been consolidated. The specs/changes directories are initially empty. Tool setup does not change the card's maturity stage.
+The research change [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md) was archived on 2026-11-15 with all 16 research/documentation tasks complete. No active change remains; the research is separate from product implementation; no runtime specification has been consolidated. Tool setup and completed research tasks do not by themselves complete stage 0.
 
 ## Initial setup verification
 
@@ -34,11 +34,11 @@ Skills consult CLI-returned instructions containing the configured context and r
 
 The core profile also includes `$openspec-update-change` and `$openspec-sync-specs`. If the client does not yet recognize generated skills, open a session in the project directory or use the CLI directly as described below.
 
-## Suggested first change
+## Archived initial research
 
-A suggestion for when the user starts work; not yet created:
+The initial research change used the local schema, with `skip_specs: true`, and is now archived. Sync assessment found no delta specs, so no main specifications were written. Its [research record](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) distinguishes observed desk data, public comparative cases, source-derived frontend contracts, and unmeasured runtime behavior.
 
-> Use openspec-propose for discover-desk-and-frontend-contracts, roadmap stage 0, with research and documentation deliverables only. Inspect the actual desk and HA frontend contracts through read-only access; define remaining validation and a performance protocol. Do not implement the card or execute physical commands. Record evidence and keep decisions requiring experiments open.
+The desk remains the first acceptance example within a reusable open source library. The selected research reference is Core 2026.11.1 / frontend 20261028.5 / Tile, with iPhone 14 Pro / Safari / reported iOS 27 as the primary device. No product code or physical commands are included. Numerical performance limits and actual target-device baseline captures are pending; review those gates before proposing the stage 1 experiment.
 
 For research without product behavior changes, declare no new/modified capabilities and set `skip_specs: true` in the change's `.openspec.yaml`, preserving other generated fields. The CLI can then skip specs. Do not invent runtime requirements merely to satisfy validation.
 
@@ -54,12 +54,12 @@ openspec list --specs
 openspec schema validate research-first
 ```
 
-When opening a change, the following uses the project's default schema:
+For a future change, replace `your-change-name` below; these commands use the project's default schema:
 
 ```sh
-openspec new change discover-desk-and-frontend-contracts
-openspec status --change discover-desk-and-frontend-contracts --json
-openspec instructions proposal --change discover-desk-and-frontend-contracts --json
+openspec new change your-change-name
+openspec status --change your-change-name --json
+openspec instructions proposal --change your-change-name --json
 ```
 
 `new change` creates the directory and metadata; write documents following `instructions`. Recheck status and instructions for each ready artifact (`proposal`, `research`, `specs`, `design`, `tasks`) and for `apply` before proceeding. Do not replace status inspection with a blind command sequence.
@@ -67,7 +67,7 @@ openspec instructions proposal --change discover-desk-and-frontend-contracts --j
 For a change with completed artifacts:
 
 ```sh
-openspec validate discover-desk-and-frontend-contracts --strict --no-interactive
+openspec validate your-change-name --strict --no-interactive
 ```
 
 ## What the tool verifies

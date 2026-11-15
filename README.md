@@ -12,6 +12,8 @@ A card brings together visually consistent elements — icons, text, indicators,
 
 The MVP uses a fixed layout inspired by a native HA card. Its first application is a height-adjustable desk: state and controls from a `cover` entity, together with three memory buttons bound to other entities. Everything is configured through the visual editor.
 
+The desk is a first acceptance example, not the final product objective. Initial research also examines public non-desk and non-cover cases to distinguish reusable bindings from domain and installation details; these comparisons do not establish implemented support.
+
 The future vision allows elements to be placed on an internal grid and provides ready-made recipes built from those same pieces. This should enable experiences for lights, 3D printers, vacuums, washing machines, and other devices represented by multiple entities.
 
 ## Documentation
@@ -30,7 +32,7 @@ The future vision allows elements to be placed on an internal grid and provides 
 
 Read the MVP and the first pending roadmap stage. Use the discovery map and OpenSpec workflow to answer the questions relevant to that stage, record evidence, and update affected documents. Unchecked items represent future work, not existing functionality.
 
-The next step is a research change to verify the desk's actual contract, HA frontend contracts, and the validation environment. OpenSpec is configured; no product change has been opened. Implementation should begin only in a later task that requests it.
+The research change archived on 2026-11-15 is [discover-desk-and-frontend-contracts](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md). Its [evidence record](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) covers the desk's read-only contract, public comparison cases, versioned frontend contracts, and the validation protocol. The selected target is iPhone 14 Pro / Safari / reported iOS 27. Target-device baselines, numerical acceptance limits and rendered fit remain open; stage 0 is not complete. No product implementation has started.
 
 ## Current boundaries
 

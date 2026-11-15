@@ -2,6 +2,8 @@
 
 This document maps questions and methods; it is not a report of completed research. Product stages are in the [roadmap](roadmap.md), and the per-change workflow is in the [OpenSpec guide](openspec.md).
 
+The archived [stage 0 research](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) records actual evidence separately. The desk is the first acceptance example, not the final library objective. Public contracts and contrasting examples must challenge installation-specific assumptions before they become shared behavior.
+
 ## Working with evidence
 
 Before a decision, identify the question, what depends on it, and sufficient evidence to answer it. Look for relevant earlier material in `~/research/ha-lovelace-extended/` and recheck historical conclusions against the current source.
@@ -18,6 +20,7 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 - Read relevant entities, capabilities, attributes, units, and actions. Assume neither memory domains nor a conversion from percentage position to physical height without evidence.
 - Understand how the integration confirms receipt, movement, and arrival, if it provides that information.
 - Record use dimensions and what makes the current solution insufficient.
+- Compare the sanitized desk map with a publicly documented non-desk cover and an explicitly sourced non-cover composition. Separate reusable bindings, domain semantics, and installation mappings; label constructed examples and avoid treating documentation review as tested compatibility.
 
 **Exit evidence:** a sanitized role/data/action map, known limitations, and acceptance scenarios. Physical observation is separate from reading data and requires corresponding task scope.
 
@@ -28,6 +31,7 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 - Check the candidate native card in the selected version: regions, states, actions, dimensions, and editor/Sections behavior.
 - Consult official documentation and relevant code for card, editor, selector, action, and sizing contracts.
 - Identify documented APIs, internal components, and their compatibility risks. Native appearance does not require coupling to private DOM structure.
+- Pin frontend implementation observations to the revision bundled by the selected Core release. Evaluate public custom-card precedents for specific questions, without treating their internals as HA extension contracts or adopting their code.
 - Evaluate visual editing of independent sources and actions, including errors and unavailability.
 - Define the initial browser, language, theme, and device scope without assuming universal support.
 

@@ -4,11 +4,22 @@
 
 The user has a height-adjustable desk. A `cover` entity provides its primary information and controls, while three memory positions are triggered through other entities. The goal is to bring these controls together in one visually configured card.
 
-Entity IDs, memory entity domains, available attributes, and exact actions still need verification. This document assumes neither that memories use `button` entities nor that height is available in centimeters.
+The desk is the first acceptance example, not the final objective of the library. Research also compares public cases outside this installation; those comparisons do not add implemented devices or compatibility promises.
+
+Read-only inspection on 2026-11-14 verified this example's `cover` with open, close, stop, and position capabilities, three `button` memory actions, and a separate height `sensor` in centimeters. These are installation mappings, not universal desk requirements. See the [research record](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) for provenance and limits.
+
+| Role in the example | Verified data/action contract | Limit |
+| --- | --- | --- |
+| Primary control | `cover`, `current_position` in percent; `cover.open_cover`, `close_cover`, `stop_cover`, `set_cover_position` | `supported_features: 15` in this snapshot; capabilities must be checked per entity |
+| Height information | Separate distance `sensor`, unit `cm` | Display this source directly; deriving physical height from rounded cover percent loses information |
+| Memory 1 / 2 / 3 | Three independent `button` targets, each using `button.press` | A press timestamp is not a selected memory or arrival indication; `unknown` can mean never pressed, not unavailable |
+| Movement context | Separate `lock`, connectivity and problem indicators | Local firmware may reject a command while HA reports no action error; do not auto-unlock or infer success |
+
+The local firmware source maps its specific 62–128 cm range to cover position and guards movement using local readiness conditions. This is source evidence for this example, not physical validation of the installed build. There is no exposed per-memory target/arrival entity in the inspected role map. Primary controls operate toward endpoints/positions; a UI hold gesture must not be substituted for their semantics.
 
 ## Proposed experience
 
-Use a native HA card as the layout and visual reference. The exact reference will be selected before implementation; Tile is a candidate, not a settled decision.
+Use a native HA card as the layout and visual reference. The initial research reference is horizontal Tile with bottom-aligned controls in Sections, matched to Core 2026.11.1 / frontend 20261028.5. This establishes a source reference; rendered fit and supported-version policy still need validation.
 
 The card will have a fixed composition with designated regions for an icon, title, subtitle/state, primary controls, and additional actions. The placement and limits of these regions still need specification.
 
@@ -21,6 +32,29 @@ The card will have a fixed composition with designated regions for an icon, titl
 | Card body action | Configured separately from individual element actions |
 
 A primary entity supplies defaults. Each element can use another binding. Information source and action target are independent concepts; the initial contract must cover the real use case without requiring a universal expression editor.
+
+## Candidate layout and editor flows
+
+This is a research-backed proposal, not an implemented interface. The starting layout uses the full width of a section, with an identity/information region, a primary-control region, and a row for the three additional actions. Exact row count, minimum width and touch dimensions remain subject to rendered validation on the reference device. Do not assume the additional actions fit a standard Tile footprint.
+
+| Region | Candidate content | Evidence / validation boundary |
+| --- | --- | --- |
+| Identity and information | Primary name/icon defaults, optional overrides, independently selected state/attribute source with its unit | Tile structure and the desk's separate height sensor support this split; long names, text scaling and missing data need testing |
+| Primary controls | Capability-aware cover endpoint/stop/position controls | The observed desk supports these actions; the public MQTT counterexample shows that availability and position cannot be assumed |
+| Additional actions | Three labeled controls, each with its own action target | Map the desk memories to independent `button.press` targets; do not expose their press timestamps as arrival or selection |
+| Body action | Configured independently, initially a details action or none | Never implicitly move or unlock the desk; inner-control events must remain isolated |
+
+Candidate visual editor flow:
+
+1. Start from an empty configuration and select a primary entity. A preview must not execute actions or require private default IDs.
+2. Configure identity/information defaults and explicitly choose any independent source. Preserve unit/meaning; a missing numeric attribute must not become zero.
+3. Choose supported primary controls, then configure the label, action type, target and required data for each additional action. Display/action sources remain separate. Evaluate schema forms first; use a custom editor only if the later experiment demonstrates the need.
+4. Validate required fields and known capabilities. Distinguish invalid configuration, missing entity, `unavailable`, and domain-specific `unknown`; a never-pressed button is not inherently unusable.
+5. Save the complete configuration, reload, reopen the editor and change one binding. Other labels, actions and sources must persist. No YAML editing is part of the intended flow.
+6. Exercise keyboard/focus, touch and screen-reader names in a later validation task. Each inner action dispatches once and does not trigger the body action. Error/confirmation cancellation must not produce success feedback.
+7. After a command, represent only evidence actually supplied by HA. Transport completion or a button press is not physical arrival. Missing feedback stays unknown; reconnection must not replay previous actions.
+
+The observed desk also has a lock. On 2026-11-14, the user chose to keep lock/unlock in existing HA controls. No in-card lock control or automatic unlock is included. Physical desk-operation validation must explicitly account for that external prerequisite; transport completion while locked is not proof that movement happened.
 
 ## Included
 

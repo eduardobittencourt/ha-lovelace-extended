@@ -22,7 +22,15 @@ This initial record comes from the product discussion. “Agreed” identifies d
 | Public repository: `eduardobittencourt/ha-lovelace-extended` | Initial product documentation and OpenSpec setup are published on GitHub |
 | All project content is in English | Documents, specs, examples, code, comments, commit messages, and default product text follow this policy; conversations may remain in Portuguese |
 
-## Proposed, subject to adjustment
+## Stage 0 research selections and user decisions
+
+- On 2026-11-14, the user confirmed that the desk is a first acceptance example, not the library's final objective. The research includes public contrasting cases without expanding implemented support.
+- The source reference is Core 2026.11.1 / frontend 20261028.5, with horizontal Tile and bottom controls in Sections. This is a research selection, not a minimum supported version or proof of rendered fit.
+- The user selected iPhone 14 Pro / Safari / reported iOS 27 as the primary validation environment. Exact device/browser build and viewport must be captured with measurements.
+- The user chose to keep desk lock/unlock in existing HA controls. The card must not automatically unlock; complete desk-operation validation includes that external prerequisite. No in-card lock control is added to the MVP.
+- The [stage 1 experiment plan](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md#future-stage-1-experiment-and-gates-task-34) is documented, not executed. Baselines, numerical limits, exact rendered dimensions, and runtime binding/editor feasibility remain gates. Minimal Web Components versus Lit and context versus hass update delivery are still open.
+
+## Proposed architecture, subject to adjustment
 
 - A primary entity supplies defaults, with per-element overrides.
 - MVP fixed composition with designated regions for additional actions.
@@ -32,11 +40,11 @@ This initial record comes from the product discussion. “Agreed” identifies d
 
 ## Resolve before implementing the MVP
 
-1. Which native card and HA version will serve as the visual reference? Tile is one possibility.
-2. Which data, units, capabilities, and actions does the actual desk integration provide?
-3. Which data source and action types are needed for the initial contract?
-4. How will layout regions be arranged and additional actions configured?
-5. What minimum HA version and initial browser/device matrix will be supported?
+1. The initial research reference is horizontal Tile with bottom controls in Sections on Core 2026.11.1 / frontend 20261028.5. Confirm rendered fit before implementation; this is not the minimum supported version.
+2. The read-only desk map verifies cover position/actions, a separate cm sensor and three button memories. Physical command/arrival validation remains separate; local firmware can reject a command without a surfaced HA error.
+3. Candidate source/action needs are documented in the MVP; validate visual editing and persistence before settling the public contract.
+4. Candidate fixed regions and editor flows are documented; rendered fit and exact minimum dimensions remain open.
+5. iPhone 14 Pro / Safari / reported iOS 27 is the primary reference. What minimum HA version and wider support matrix will be promised remains unresolved.
 6. Which concrete performance metrics, scenarios, and limits will be adopted?
 7. Which minimal stack meets the HA and editor contracts with sustainable cost?
 
