@@ -1,37 +1,39 @@
 # HA Composable Card
 
-Biblioteca em concepção para criar interfaces do Home Assistant com vínculos independentes por elemento, configuração visual e desempenho como prioridade.
+A library in conception for building Home Assistant interfaces with independent bindings per element, visual configuration, and performance as the top priority.
 
-**Estado:** documentação de produto. Sem implementação, pacote instalável ou versão publicada. O nome é provisório.
+**Status:** product documentation only. No implementation, installable package, or published release. The name is provisional.
 
-## A ideia
+The project is intended to be open source from the outset, with English as its working language. Choosing a license and publishing the remote repository are still pending; active promotion is a separate, later milestone.
 
-Um card reúne elementos visuais consistentes — ícone, textos, indicadores e controles — que podem mostrar dados e executar ações de entidades diferentes. Uma entidade principal fornece padrões; cada elemento pode substituir esses vínculos.
+## The idea
 
-No MVP, o layout será fixo e terá o bloco nativo do HA como referência visual. A primeira aplicação é uma mesa com regulagem de altura: estado e controles de uma entidade `cover`, acompanhados de três botões de memória ligados a outras entidades. Tudo configurado pelo editor visual.
+A card brings together visually consistent elements — icons, text, indicators, and controls — that can display data and execute actions from different entities. A primary entity supplies defaults; each element can override its bindings.
 
-A visão de futuro é permitir posicionar elementos em um grid interno e oferecer receitas prontas construídas com essas mesmas peças. Isso deverá permitir experiências para luzes, impressoras 3D, aspiradores, máquinas de lavar e outros aparelhos representados por múltiplas entidades.
+The MVP uses a fixed layout inspired by a native HA card. Its first application is a height-adjustable desk: state and controls from a `cover` entity, together with three memory buttons bound to other entities. Everything is configured through the visual editor.
 
-## Documentação
+The future vision allows elements to be placed on an internal grid and provides ready-made recipes built from those same pieces. This should enable experiences for lights, 3D printers, vacuums, washing machines, and other devices represented by multiple entities.
 
-| Documento | Finalidade |
+## Documentation
+
+| Document | Purpose |
 | --- | --- |
-| [Manifesto](docs/manifesto.md) | Princípios e identidade do produto |
-| [MVP](docs/mvp.md) | Escopo, caso da mesa e critérios de aceitação |
-| [Arquitetura conceitual](docs/architecture.md) | Elementos, vínculos e limites técnicos propostos |
-| [Roteiro](docs/roadmap.md) | Etapas pequenas, evidências e critérios para avançar |
-| [Decisões e questões abertas](docs/decisions.md) | O que foi acordado e o que precisa ser decidido |
-| [Research e discovery](docs/discovery.md) | Perguntas, métodos e evidências antes de assumir contratos |
-| [OpenSpec](docs/openspec.md) | Fluxo SDD, configuração local e como iniciar changes |
+| [Manifesto](docs/manifesto.md) | Product principles and identity |
+| [MVP](docs/mvp.md) | Scope, desk use case, and acceptance criteria |
+| [Conceptual architecture](docs/architecture.md) | Proposed elements, bindings, and technical boundaries |
+| [Roadmap](docs/roadmap.md) | Small steps, evidence, and exit criteria |
+| [Decisions and open questions](docs/decisions.md) | Agreed directions and decisions still needed |
+| [Research and discovery](docs/discovery.md) | Questions, methods, and evidence before assuming contracts |
+| [OpenSpec](docs/openspec.md) | SDD workflow, local setup, and starting changes |
 
-## Como retomar
+## Resuming work
 
-Leia o MVP e a primeira etapa pendente do roteiro. Use o mapa de discovery e o fluxo OpenSpec para resolver as questões necessárias para essa etapa, registrar evidência e atualizar os documentos afetados. Os checklists ainda desmarcados representam trabalho futuro, não funcionalidades existentes.
+Read the MVP and the first pending roadmap stage. Use the discovery map and OpenSpec workflow to answer the questions relevant to that stage, record evidence, and update affected documents. Unchecked items represent future work, not existing functionality.
 
-O próximo passo é uma change de pesquisa para conferir o caso real da mesa, contratos do frontend e o ambiente de validação. OpenSpec está configurado; nenhuma change de produto foi aberta. A implementação deve começar somente em uma tarefa posterior que a solicite.
+The next step is a research change to verify the desk's actual contract, HA frontend contracts, and the validation environment. OpenSpec is configured; no product change has been opened. Implementation should begin only in a later task that requests it.
 
-## Limites atuais
+## Current boundaries
 
-Não foram escolhidos stack de implementação, versão mínima do HA, formato público de configuração, licença ou estratégia de distribuição. Não há promessa de compatibilidade com integrações ou aparelhos específicos.
+The implementation stack, minimum HA version, public configuration format, license, and distribution strategy have not been selected. Compatibility with specific integrations or devices is not promised.
 
-O MVP utilizável no dashboard pessoal e a maturidade para divulgação ativa são marcos diferentes. A divulgação deve esperar a cobertura e a qualidade necessárias para substituir dashboards completos.
+A usable MVP in the personal dashboard and readiness for active promotion are different milestones. Active promotion should wait until coverage and quality are sufficient to replace complete dashboards. This does not postpone the project's open source intent.

@@ -1,102 +1,111 @@
-# Roteiro incremental
+# Incremental roadmap
 
-As etapas de produto 0–6 estão pendentes. Não há prazo ou implementação implícita. Cada etapa deve produzir uma evidência pequena e revisável antes da seguinte.
+Product stages 0–6 are pending. No schedule or implementation is implied. Each stage should produce small, reviewable evidence before the next.
 
-## Preparação do processo — concluída
+## Process setup — completed
 
-- [x] Inicializar OpenSpec com integração Codex e artefatos em português.
-- [x] Configurar contexto, regras e schema local com `research.md` antes de specs/design.
-- [x] Registrar o mapa de perguntas e métodos de discovery.
+- [x] Initialize OpenSpec with Codex integration.
+- [x] Configure context, rules, and a local schema with `research.md` before specs/design.
+- [x] Record the discovery questions and methods map.
+- [x] Set English as the language of all repository content and future OpenSpec artifacts.
 
-Essa preparação não conclui nenhuma pesquisa do produto. As etapas 0–6 continuam pendentes. Seguir o [guia OpenSpec](openspec.md) e selecionar as perguntas pertinentes no [mapa de discovery](discovery.md). Cada change deve indicar sua etapa, evidências existentes, desconhecidos bloqueantes, experimentos necessários e critério de saída. Podem existir changes exclusivamente de pesquisa, sem implementação do card.
+This setup does not complete product research. Stages 0–6 remain pending. Follow the [OpenSpec guide](openspec.md) and select relevant questions from the [discovery map](discovery.md). Each change must identify its stage, available evidence, blocking unknowns, required experiments, and exit criteria. Changes may deliver research only, without implementing the card.
 
-## 0. Especificar o caso real e os limites iniciais
+## Open source setup — pending
 
-- [ ] Executar a descoberta do problema e contrato da mesa ([D0](discovery.md#d0-descoberta-do-problema-e-do-contrato-real-da-mesa)), diferenciando leitura de dados e teste físico.
-- [ ] Pesquisar os contratos do frontend e a referência visual na versão alvo ([D1](discovery.md#d1-descoberta-visual-e-dos-contratos-do-frontend)), distinguindo APIs documentadas e detalhes internos.
-- [ ] Conferir, por leitura, entidades, atributos, capacidades e ações da mesa.
-- [ ] Registrar apenas o contrato necessário, sem credenciais ou inventários privados.
-- [ ] Escolher o bloco nativo e a versão do HA usados como referência visual.
-- [ ] Definir regiões do layout fixo e os fluxos do editor para a mesa.
-- [ ] Definir versão alvo, dispositivo/navegador e dimensões de referência.
-- [ ] Registrar baseline e limites de aceitação de desempenho antes de implementar.
-- [ ] Registrar fontes, versões, hipóteses e bloqueadores em `research.md`; definir protocolo e cenários do baseline sem inventar medições.
+The project is intended to be open source from the outset. This is independent of stage 6 readiness for active promotion.
 
-**Saída:** especificação curta que permita verificar os critérios do MVP sem depender de suposições sobre a integração.
+- [ ] Select an open source license and add its license text with correct attribution.
+- [ ] Publish the repository remotely when requested, accurately stating its documentation-only status.
+- [ ] Recheck external links and contributor-facing instructions before publication; keep durable findings understandable without private environment access.
 
-## 1. Provar o contrato mínimo do card
+## 0. Specify the real use case and initial boundaries
 
-Em uma tarefa futura de implementação:
+- [ ] Discover the problem and actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing data inspection from physical tests.
+- [ ] Research frontend contracts and the visual reference in the target version ([D1](discovery.md#d1-visual-discovery-and-frontend-contracts)), separating documented APIs from internals.
+- [ ] Read and verify the desk's entities, attributes, capabilities, and actions.
+- [ ] Record only the necessary contract, without credentials or private inventories.
+- [ ] Choose the native card and HA version for the visual reference.
+- [ ] Define fixed layout regions and desk editor flows.
+- [ ] Define the target version, reference device/browser, and dimensions.
+- [ ] Record a baseline and performance acceptance limits before implementation.
+- [ ] Record sources, versions, hypotheses, and blockers in `research.md`; define baseline protocols and scenarios without inventing measurements.
 
-- [ ] Delimitar hipóteses e critérios de confirmação/refutação das provas técnicas ([D2](discovery.md#d2-baseline-alternativas-e-provas-técnicas)); decidir somente o mínimo necessário para executar o experimento.
-- [ ] Criar a menor superfície possível com dois elementos ligados a entidades diferentes.
-- [ ] Configurar ambos visualmente e persistir a configuração.
-- [ ] Executar uma ação independente e verificar o isolamento de eventos.
-- [ ] Medir atualizações provocadas por entidades relevantes e não relacionadas.
-- [ ] Registrar a escolha de stack e seus custos com base na prova.
-- [ ] Atualizar `research.md` e decisões com resultados reais; recortar uma nova change quando a abordagem precisar mudar.
+**Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration.
 
-**Saída:** evidência de que o modelo de vínculos e o editor funcionam com custo aceitável. Não requer grid livre nem framework de receitas.
+## 1. Demonstrate the minimum card contract
 
-## 2. Concluir o MVP da mesa
+In a future implementation task:
 
-- [ ] Preparar cenários e evidências de validação da experiência e integração ([D3](discovery.md#d3-validação-da-experiência-e-da-integração)), separando testes sintéticos e físicos.
-- [ ] Entregar a composição fixa, controles e três ações de memória.
-- [ ] Completar os fluxos de criação e edição visual.
-- [ ] Validar falhas, indisponibilidade, reconexão e persistência.
-- [ ] Conferir toque, teclado, foco, tamanhos e temas escolhidos.
-- [ ] Executar a validação física planejada com o usuário, considerando o movimento real da mesa.
-- [ ] Demonstrar todos os critérios de [aceitação](mvp.md#critérios-de-aceitação).
+- [ ] Bound hypotheses and pass/fail criteria for technical experiments ([D2](discovery.md#d2-baselines-alternatives-and-technical-experiments)); decide only what is needed to run the experiment.
+- [ ] Build the smallest surface with two elements bound to different entities.
+- [ ] Configure both visually and persist the configuration.
+- [ ] Execute an independent action and verify event isolation.
+- [ ] Measure updates caused by relevant and unrelated entities.
+- [ ] Record stack choice and costs based on the experiment.
+- [ ] Update `research.md` and decisions with actual results; scope another change if the approach must change.
 
-**Saída:** um card que substitui a solução atual da mesa no dashboard pessoal.
+**Exit:** evidence that the binding model and editor work at acceptable cost. A free grid or recipe framework is not required.
 
-## 3. Validar reutilização em experiências simples
+## 2. Complete the desk MVP
 
-- [ ] Investigar necessidades reais de outros casos antes de generalizar os contratos ([D4](discovery.md#d4-descoberta-da-reutilização-e-composição)).
-- [ ] Aplicar as mesmas peças a uma luz e a outra composição de múltiplas entidades.
-- [ ] Identificar o que é visual, vínculo e comportamento de domínio.
-- [ ] Ampliar somente as peças necessárias e repetir a medição de desempenho.
-- [ ] Avaliar estabilidade de configuração e atualização entre versões da biblioteca.
+- [ ] Prepare validation scenarios and evidence for experience/integration ([D3](discovery.md#d3-experience-and-integration-validation)), separating synthetic and physical tests.
+- [ ] Deliver the fixed composition, controls, and three memory actions.
+- [ ] Complete visual creation and editing flows.
+- [ ] Validate errors, unavailability, reconnection, and persistence.
+- [ ] Check touch, keyboard, focus, selected sizes, and themes.
+- [ ] Perform planned physical validation with the user, accounting for actual desk movement.
+- [ ] Demonstrate all [acceptance criteria](mvp.md#acceptance-criteria).
 
-**Saída:** demonstração de que o modelo atende mais de um aparelho sem acumular exceções específicas no núcleo.
+**Exit:** a card that replaces the current desk solution in the personal dashboard.
 
-## 4. Introduzir composição livre e receitas
+## 3. Validate reuse in simple experiences
 
-- [ ] Experimentar usabilidade e restrições de grid e comparar modelos de receita antes de fechar APIs públicas ([D4](discovery.md#d4-descoberta-da-reutilização-e-composição)).
-- [ ] Definir o contrato público dos elementos e as restrições do grid interno.
-- [ ] Permitir adicionar, remover, mover e redimensionar elementos visualmente.
-- [ ] Definir regras de adaptação ao espaço disponível.
-- [ ] Implementar receitas com os mesmos contratos das composições próprias.
-- [ ] Decidir e validar cópia versus vínculo versionado de receitas.
+- [ ] Investigate actual needs in other cases before generalizing contracts ([D4](discovery.md#d4-reuse-and-composition-discovery)).
+- [ ] Apply the same pieces to a light and another multi-entity composition.
+- [ ] Identify visual elements, bindings, and domain behaviors.
+- [ ] Extend only necessary building blocks and repeat performance measurement.
+- [ ] Evaluate configuration stability and updates between library versions.
 
-**Saída:** liberdade de composição utilizável sem YAML, com identidade visual e custo controlado.
+**Exit:** evidence that the model serves more than one device without accumulating device-specific exceptions in the core.
 
-## 5. Atender experiências compostas
+## 4. Introduce free composition and recipes
 
-- [ ] Executar discovery específico de cada aparelho e integração ([D5](discovery.md#d5-descoberta-de-aparelhos-compostos)), com evidência para capacidades e limites alegados.
-- [ ] Escolher um caso por vez: impressora 3D, aspirador com múltiplos cômodos ou máquina de lavar.
-- [ ] Mapear capacidades e diferenças entre integrações sem inventar informações indisponíveis.
-- [ ] Introduzir estado temporário, comportamentos ou adaptadores apenas quando necessários.
-- [ ] Tratar recursos caros, como câmera e histórico, com carregamento e ciclo de vida explícitos.
+- [ ] Experiment with usability/grid constraints and compare recipe models before settling public APIs ([D4](discovery.md#d4-reuse-and-composition-discovery)).
+- [ ] Define public element contracts and internal grid constraints.
+- [ ] Allow visual addition, removal, movement, and resizing of elements.
+- [ ] Define adaptation to available space.
+- [ ] Implement recipes using the same contracts as custom compositions.
+- [ ] Decide and validate copied versus linked/versioned recipes.
 
-**Saída:** uma experiência completa e validada por caso, com peças reaproveitáveis e limites de suporte documentados.
+**Exit:** usable composition freedom without YAML, with consistent visuals and controlled cost.
 
-## 6. Atingir maturidade para divulgação ativa
+## 5. Support composite experiences
 
-- [ ] Pesquisar lacunas e validar cobertura/manutenção no dashboard de referência ([D6](discovery.md#d6-descoberta-de-cobertura-e-manutenção)).
-- [ ] Definir o dashboard completo de referência e sua matriz de cobertura.
-- [ ] Cobrir navegação, informação, controles cotidianos, detalhes e estados de falha.
-- [ ] Validar uso prolongado em celular, tablet e desktop escolhidos.
-- [ ] Definir e exercitar compatibilidade, migração e recuperação de configuração.
-- [ ] Documentar instalação, uso, limitações e processo de atualização.
-- [ ] Definir licença, nome definitivo e canal de distribuição.
+- [ ] Perform device/integration-specific discovery ([D5](discovery.md#d5-composite-device-discovery)) with evidence for claimed capabilities and limits.
+- [ ] Select one case at a time: a 3D printer, a vacuum with multiple-room selection, or a washing machine.
+- [ ] Map capabilities and integration differences without inventing unavailable information.
+- [ ] Add temporary state, behaviors, or adapters only when needed.
+- [ ] Handle costly resources such as cameras/history with explicit loading and lifecycle behavior.
 
-**Saída:** evidência de substituição de um dashboard inteiro com qualidade consistente. Só então iniciar divulgação ativa.
+**Exit:** a complete validated experience per case, with reusable pieces and documented support boundaries.
 
-## Protocolo de desempenho a especificar na etapa 0
+## 6. Reach readiness for active promotion
 
-Registrar ambiente, cenário e método antes de fixar metas numéricas. Medir carregamento frio/quente, transferência e execução de JavaScript, resposta aos controles, memória após uso e ciclos de montagem/remoção, além do trabalho causado por atualizações de entidades não relacionadas.
+- [ ] Research gaps and validate coverage/maintenance in the reference dashboard ([D6](discovery.md#d6-coverage-and-maintenance-discovery)).
+- [ ] Define the complete reference dashboard and coverage matrix.
+- [ ] Cover navigation, information, everyday controls, details, and error states.
+- [ ] Validate prolonged use on selected phones, tablets, and desktops.
+- [ ] Define and exercise compatibility, migration, and configuration recovery.
+- [ ] Document installation, usage, limitations, and updates.
+- [ ] Confirm the final name and distribution channel; verify that early open source licensing/publication tasks are complete.
 
-Comparar com a referência nativa e com a solução atual da mesa quando houver equivalência de cenário. Separar latência da interface, comunicação com o HA e resposta física do aparelho. Não atribuir à biblioteca toda a latência de um comando.
+**Exit:** evidence of replacing a complete dashboard with consistent quality. Only then start active promotion.
 
-Resultados e limites devem acompanhar a implementação correspondente; ainda não existem medições ou promessas numéricas.
+## Performance protocol to specify in stage 0
+
+Record the environment, scenario, and method before setting numeric targets. Measure cold/warm loading, JavaScript transfer and execution, control responsiveness, memory after use and mount/unmount cycles, and work caused by unrelated entity updates.
+
+Compare with the native reference and current desk solution where scenarios are equivalent. Separate interface latency, HA communication, and physical device response. Do not attribute all command latency to the library.
+
+Results and limits must accompany the corresponding implementation; no measurements or numeric promises exist yet.

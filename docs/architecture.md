@@ -1,65 +1,65 @@
-# Arquitetura conceitual
+# Conceptual architecture
 
-Este documento registra direções e hipóteses. Não define uma API implementada, sintaxe de configuração ou stack fechada.
+This document records directions and hypotheses. It does not define an implemented API, configuration syntax, or settled stack.
 
-## Partes do sistema
+## System parts
 
-1. **Superfície e layout:** apresentação do card e organização dos elementos. No MVP, composição fixa; futuramente, grid interno com restrições de tamanho e acessibilidade.
-2. **Elementos:** ícone, texto, indicador, progresso, slider, botão, interruptor e seleção, incorporados conforme a necessidade de cada etapa.
-3. **Vínculos e comportamentos:** leitura de estados/atributos, transformação de valores e execução de ações. Podem envolver entidades diferentes.
-4. **Editor:** configuração visual dos recursos disponíveis e validação antes de persistir.
-5. **Receitas futuras:** composições prontas usando os mesmos elementos e comportamentos.
+1. **Surface and layout:** card presentation and element arrangement. A fixed composition for the MVP; later, an internal grid with size and accessibility constraints.
+2. **Elements:** icon, text, indicator, progress, slider, button, switch, and selection, added as each stage needs them.
+3. **Bindings and behaviors:** state/attribute reading, value conversion, and action execution. These can involve different entities.
+4. **Editor:** visual configuration of available capabilities and validation before persistence.
+5. **Future recipes:** ready-made compositions using the same elements and behaviors.
 
-Essas partes podem ser módulos internos. Não há requisito de criar pacotes separados nem um Web Component para cada fragmento de texto.
+These parts can be internal modules. Separate packages or a Web Component for every text fragment are not required.
 
-## Modelo de vínculos
+## Binding model
 
-A entidade principal é uma conveniência para herdar padrões, não uma limitação para todo o card. Elementos possuem identidades estáveis e podem substituir os vínculos relevantes.
+The primary entity is a convenience for inheriting defaults, not a restriction for the entire card. Elements have stable identities and can override relevant bindings.
 
-Separar conceitualmente:
+Separate these concepts:
 
-- Informação apresentada: estado, atributo, texto fixo ou valor derivado por um comportamento suportado.
-- Interação: ação executada e seus parâmetros/destinos.
-- Disponibilidade: condições necessárias para mostrar informação e habilitar ações.
-- Estado temporário: seleção ou edição local que ainda não foi enviada ao HA.
+- Displayed information: state, attribute, fixed text, or a value derived by a supported behavior.
+- Interaction: executed action and its parameters/targets.
+- Availability: conditions needed to show information and enable actions.
+- Temporary state: a local selection or edit that has not yet been sent to HA.
 
-Nem todo elemento precisa desses quatro recursos. O MVP implementa apenas os contratos necessários à mesa; futuras seleções de cômodos precisarão de estado temporário e tradução para os comandos da integração.
+Not every element needs all four capabilities. The MVP implements only contracts needed for the desk; future room selection will require temporary state and translation into integration-specific commands.
 
-Um elemento visual reutilizável não resolve sozinho a semântica de um domínio: brilho, velocidade e temperatura podem compartilhar um slider, mas precisam de escalas e comandos próprios. Controles suportados devem incluir essa tradução, para evitar lógica repetida em cada receita.
+A reusable visual element does not solve domain semantics by itself: brightness, speed, and temperature may share a slider but require different scales and commands. Supported controls should include that translation to avoid repeated logic in every recipe.
 
-## Integração com o HA
+## HA integration
 
-- Direção acordada: Web Components, usando os contratos de custom cards e edição disponíveis na versão alvo.
-- O HA organiza o card no dashboard; o layout interno pertence à biblioteca.
-- Usar a aparência nativa como referência não obriga a depender de componentes internos não documentados.
-- Reuso de componentes do HA, Lit, ferramentas de build, estratégias de dados e versões mínimas precisam de avaliação posterior.
-- Nesta etapa não há necessidade estabelecida de integração Python ou serviço adicional.
+- Agreed direction: Web Components using the custom card and editing contracts available in the target version.
+- HA arranges the card in the dashboard; the internal layout belongs to the library.
+- Using native appearance as a reference does not require depending on undocumented internal components.
+- Reusing HA components, choosing Lit, build tools, data strategies, and minimum versions require later evaluation.
+- No need for a Python integration or additional service has been established at this stage.
 
-## Desempenho
+## Performance
 
-Hipóteses a validar na prova técnica:
+Hypotheses to validate in the technical experiment:
 
-- Preparar estrutura e vínculos quando a configuração mudar, evitando refazer esse trabalho a cada estado recebido.
-- Atualizar apenas os elementos afetados, considerando também mudanças relevantes de idioma, tema e contexto.
-- Evitar assinaturas e requisições duplicadas; liberar recursos ao remover o card.
-- Separar o carregamento do editor do uso cotidiano.
-- Carregar recursos especializados conforme a necessidade e evitar trabalho de conteúdo oculto.
-- Manter interações locais fluidas e controlar a frequência de envio de comandos quando aplicável.
+- Prepare structure and bindings when configuration changes, avoiding that work on every received state update.
+- Update only affected elements while also considering relevant language, theme, and context changes.
+- Avoid duplicate subscriptions and requests; release resources when removing the card.
+- Separate editor loading from everyday use.
+- Load specialized resources when needed and avoid work for hidden content.
+- Keep local interactions responsive and control command frequency where applicable.
 
-O custo deve ser medido em relação à quantidade de elementos e vínculos. Um motor genérico também pode gerar sobrecarga; seu benefício depende da implementação e da evidência.
+Measure cost against element and binding count. A generic engine can also introduce overhead; its value depends on implementation and evidence.
 
-## Receitas e evolução
+## Recipes and evolution
 
-Receitas definirão elementos, layout, vínculos e padrões. Tanto receitas quanto composições próprias deverão usar os mesmos contratos.
+Recipes will define elements, layout, bindings, and defaults. Both recipes and custom compositions must use the same contracts.
 
-Ainda está aberta a escolha entre copiar a receita para uma composição independente ou manter vínculo versionado com substituições locais. A sugestão anterior de vínculo versionado é uma hipótese, não uma decisão aceita. A avaliação deve incluir migrações, mudanças de identificadores, conflitos e comportamento após remoção de elementos.
+Copying a recipe into an independent composition versus keeping a versioned link with local overrides remains undecided. The earlier suggestion of versioned linkage is a hypothesis, not an accepted decision. Evaluation must include migrations, identifier changes, conflicts, and behavior after element removal.
 
-## Referências para a futura investigação
+## References for later investigation
 
-- [Custom cards do HA](https://contributors.home-assistant.io/frontend/custom-ui/card/)
-- [Editor e seletor de cards](https://contributors.home-assistant.io/frontend/custom-ui/card-editor/)
+- [HA custom cards](https://contributors.home-assistant.io/frontend/custom-ui/card/)
+- [Card editor and picker](https://contributors.home-assistant.io/frontend/custom-ui/card-editor/)
 - [Custom card features](https://contributors.home-assistant.io/frontend/custom-ui/card-feature/)
-- [Tile](https://www.home-assistant.io/dashboards/tile/) e [Sections](https://www.home-assistant.io/dashboards/sections/)
-- [Button Card](https://github.com/custom-cards/button-card), inspiração para a flexibilidade de composição.
+- [Tile](https://www.home-assistant.io/dashboards/tile/) and [Sections](https://www.home-assistant.io/dashboards/sections/)
+- [Button Card](https://github.com/custom-cards/button-card), an inspiration for composition flexibility.
 
-Conferir os contratos na versão do HA escolhida antes de implementar. Mushroom, UI Lovelace Minimalist e Bubble Card foram referências na discussão de produto; esta documentação não depende de comparações permanentes de suas funcionalidades.
+Verify contracts against the chosen HA version before implementation. Mushroom, UI Lovelace Minimalist, and Bubble Card informed the product discussion; this documentation does not depend on permanent feature comparisons.

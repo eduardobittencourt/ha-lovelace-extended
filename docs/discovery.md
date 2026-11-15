@@ -1,97 +1,97 @@
-# Research e discovery
+# Research and discovery
 
-Este documento é um mapa de perguntas e métodos, não um relatório de pesquisa concluída. As etapas de produto estão no [roadmap](roadmap.md); o fluxo de cada change está no [guia OpenSpec](openspec.md).
+This document maps questions and methods; it is not a report of completed research. Product stages are in the [roadmap](roadmap.md), and the per-change workflow is in the [OpenSpec guide](openspec.md).
 
-## Como trabalhar com evidência
+## Working with evidence
 
-Antes de uma decisão, identificar a pergunta, o que depende dela e a evidência suficiente para respondê-la. Consultar material anterior pertinente em `~/research/ha-composable-card/` e confirmar conclusões antigas na fonte atual.
+Before a decision, identify the question, what depends on it, and sufficient evidence to answer it. Look for relevant earlier material in `~/research/ha-composable-card/` and recheck historical conclusions against the current source.
 
-Cada conclusão relevante precisa de fonte, data/versão, método, observação, limitações e consequência. Diferenciar fato observado, hipótese a testar e questão pendente. Documento oficial explica um contrato; leitura de código revela implementação; experimento demonstra apenas o cenário executado. Um mock não comprova comportamento físico.
+Each material conclusion needs its source, date/version, method, observation, limitations, and consequence. Distinguish observed facts, hypotheses to test, and pending questions. Official documentation describes a contract; source inspection reveals an implementation; experiments demonstrate only the scenarios executed. A mock does not establish physical behavior.
 
-Usar `research.md` da change para manter esse registro. Fontes públicas devem ter links e versões/commits quando necessários. Evidência bruta, clones e scripts de investigação ficam em `~/research/ha-composable-card/<tarefa>/`. Conclusões duráveis e sanitizadas pertencem ao repositório; não depender exclusivamente de caminhos locais que outro colaborador não poderá abrir.
+Use the change's `research.md` to maintain this record. Public sources should have links and versions/commits where needed. Raw evidence, reference clones, and investigation scripts belong in `~/research/ha-composable-card/<task>/`. Durable sanitized conclusions belong in the repository, in English; do not depend exclusively on local paths unavailable to other contributors.
 
-## D0. Descoberta do problema e do contrato real da mesa
+## D0. Problem discovery and the actual desk contract
 
-**Antes de:** especificar comportamento dependente da integração e concluir o MVP.
+**Before:** specifying integration-dependent behavior and completing the MVP.
 
-- Identificar os fluxos reais: consultar posição, mover a mesa e acionar cada memória; conferir quais controles de fato existem.
-- Consultar por leitura as entidades, capacidades, atributos, unidades e ações relevantes. Não presumir domínio das memórias nem converter posição percentual em altura física sem base.
-- Entender como a integração confirma recebimento, movimento e posição atingida, se oferecer essas informações.
-- Registrar dimensões de uso e o que torna a solução atual insuficiente.
+- Identify actual flows: check position, move the desk, and trigger each memory; verify which controls exist.
+- Read relevant entities, capabilities, attributes, units, and actions. Assume neither memory domains nor a conversion from percentage position to physical height without evidence.
+- Understand how the integration confirms receipt, movement, and arrival, if it provides that information.
+- Record use dimensions and what makes the current solution insufficient.
 
-**Evidência de saída:** mapa sanitizado de papéis/dados/ações, limitações conhecidas e cenários de aceitação. Observação física é uma atividade distinta da consulta e exige escopo correspondente.
+**Exit evidence:** a sanitized role/data/action map, known limitations, and acceptance scenarios. Physical observation is separate from reading data and requires corresponding task scope.
 
-## D1. Descoberta visual e dos contratos do frontend
+## D1. Visual discovery and frontend contracts
 
-**Antes de:** escolher a referência, dependências e arquitetura inicial.
+**Before:** choosing a reference, dependencies, and the initial architecture.
 
-- Conferir o bloco nativo candidato na versão escolhida: regiões, estados, ações, tamanhos e comportamento no editor/Sections.
-- Consultar documentação oficial e código pertinente dos contratos de card, editor, seletores, ações e dimensionamento.
-- Identificar APIs documentadas, componentes internos e respectivos riscos de compatibilidade. Aparência nativa não exige acoplamento ao DOM privado.
-- Avaliar como fontes e ações independentes podem ser editadas sem YAML, incluindo erros e indisponibilidade.
-- Definir o recorte inicial de navegadores, idiomas, temas e dispositivos, sem presumir suporte universal.
+- Check the candidate native card in the selected version: regions, states, actions, dimensions, and editor/Sections behavior.
+- Consult official documentation and relevant code for card, editor, selector, action, and sizing contracts.
+- Identify documented APIs, internal components, and their compatibility risks. Native appearance does not require coupling to private DOM structure.
+- Evaluate visual editing of independent sources and actions, including errors and unavailability.
+- Define the initial browser, language, theme, and device scope without assuming universal support.
 
-**Evidência de saída:** referência visual identificada por versão, fluxos do editor, contratos utilizáveis e dúvidas técnicas que precisam de prova.
+**Exit evidence:** a versioned visual reference, editor flows, usable contracts, and technical questions requiring experiments.
 
-## D2. Baseline, alternativas e provas técnicas
+## D2. Baselines, alternatives, and technical experiments
 
-**Antes de:** assumir stack definitiva e viabilidade de desempenho.
+**Before:** assuming a final stack and feasible performance.
 
-- Definir cenários comparáveis e medir a referência nativa e a solução atual quando fizer sentido; separar frio/quente e latência local/remota/física.
-- Definir critérios de aceitação a partir do dispositivo alvo e das medições, com método reproduzível.
-- Comparar a implementação mínima via Web Components e alternativas pertinentes, como Lit, sem transformar essa comparação em adoção antecipada.
-- Provar vínculo com duas entidades, atualização seletiva, ciclo de vida e isolamento de eventos; conferir também alterações de tema e idioma.
-- Verificar carregamento separado do editor e configuração persistida/reaberta. Medir custo conforme cresce o número de elementos/cards.
+- Define comparable scenarios and measure the native reference and current solution where relevant; separate cold/warm loading and local/remote/physical latency.
+- Set acceptance criteria from target devices and measurements using a reproducible method.
+- Compare minimal Web Components and relevant alternatives such as Lit without treating comparison as adoption.
+- Demonstrate two-entity binding, selective updates, lifecycle behavior, and event isolation; check theme and language changes too.
+- Verify separate editor loading and saved/reopened configuration. Measure cost as element/card count grows.
 
-**Evidência de saída:** relatório de resultados, limitações, escolha justificada e decisão de avançar, ajustar ou descartar a abordagem.
+**Exit evidence:** results, limitations, a justified choice, and a decision to proceed, adjust, or discard the approach.
 
-Uma prova que precise de código deve ser uma change de experimento explicitamente delimitada. Seu sucesso não torna o protótipo automaticamente código de produção.
+An experiment needing code must be an explicitly bounded experimental change. Success does not automatically make its prototype production code.
 
-## D3. Validação da experiência e da integração
+## D3. Experience and integration validation
 
-**Antes de:** declarar o MVP concluído.
+**Before:** declaring the MVP complete.
 
-- Validar os fluxos do editor desde uma configuração vazia até a edição após recarregar.
-- Exercitar cenários sintéticos de erro, entidade ausente, indisponibilidade e reconexão, sem causar indisponibilidade no HA de produção só para testar.
-- Planejar separadamente o teste físico dos comandos reais da mesa e registrar o que foi observado.
-- Verificar toque, teclado, foco, nomes acessíveis, temas e tamanhos escolhidos.
-- Observar uso cotidiano e repetir o protocolo de desempenho pertinente ao resultado final.
+- Validate editor flows from empty configuration through editing after reload.
+- Exercise synthetic error, missing entity, unavailability, and reconnection scenarios without disrupting production HA merely to test them.
+- Plan physical testing of actual desk commands separately and record observations.
+- Check touch, keyboard, focus, accessible names, selected themes, and sizes.
+- Observe everyday use and repeat the relevant performance protocol on the final result.
 
-**Evidência de saída:** critérios do MVP demonstrados, divergências conhecidas e aceitação da substituição da solução atual pelo usuário.
+**Exit evidence:** demonstrated MVP criteria, known discrepancies, and user acceptance of the replacement.
 
-## D4. Descoberta da reutilização e composição
+## D4. Reuse and composition discovery
 
-**Antes de:** consolidar contratos públicos e desenvolver grid/receitas.
+**Before:** consolidating public contracts and developing the grid/recipes.
 
-- Conferir necessidades reais de uma luz e de outra composição com múltiplas entidades.
-- Identificar peças comuns e comportamentos de domínio, evitando generalizar somente a partir da mesa.
-- Experimentar regras de grid, área mínima, adaptação e fluxos de edição com problemas de uso concretos.
-- Comparar receita copiada e receita vinculada/versionada, incluindo personalizações, conflitos e migrações.
+- Verify actual needs for a light and another multi-entity composition.
+- Identify common building blocks and domain behaviors instead of generalizing from the desk alone.
+- Experiment with grid rules, minimum size, adaptation, and editing flows against concrete usability problems.
+- Compare copied and linked/versioned recipes, including customization, conflicts, and migrations.
 
-**Evidência de saída:** limites da abstração demonstrados e escolha do modelo de composição/receitas apoiada em cenários.
+**Exit evidence:** demonstrated abstraction boundaries and a composition/recipe choice supported by scenarios.
 
-## D5. Descoberta de aparelhos compostos
+## D5. Composite device discovery
 
-**Antes de:** cada experiência especializada.
+**Before:** each specialized experience.
 
-- Investigar um caso por vez: impressora, lavagem ou limpeza de múltiplos cômodos.
-- Conferir capacidades e diferenças das integrações realmente selecionadas.
-- Provar estado temporário e tradução de comandos quando necessário; verificar custos de mídia/histórico no cenário escolhido.
+- Investigate one case at a time: printing, washing, or cleaning multiple rooms.
+- Verify capabilities and differences in the integrations actually selected.
+- Demonstrate temporary state and command translation when needed; check media/history costs in the chosen scenario.
 
-**Evidência de saída:** contrato e suporte delimitados por caso, sem alegar compatibilidade genérica a partir de uma única integração.
+**Exit evidence:** a bounded contract and support scope for each case, without claiming generic compatibility from a single integration.
 
-## D6. Descoberta de cobertura e manutenção
+## D6. Coverage and maintenance discovery
 
-**Antes de:** divulgação ativa.
+**Before:** active promotion.
 
-- Inventariar somente as experiências necessárias ao dashboard completo de referência e identificar lacunas.
-- Validar atualização, migração e uso prolongado nas versões e dispositivos selecionados.
-- Definir distribuição, licença e documentação com base no público e manutenção pretendidos.
+- Inventory only the experiences needed for the complete reference dashboard and identify gaps.
+- Validate updates, migration, and prolonged use on selected versions/devices.
+- Revisit distribution and documentation for the intended audience and maintenance scope. Licensing and initial public publication belong to the earlier open source setup milestone.
 
-**Evidência de saída:** matriz de cobertura demonstrada e limites públicos de suporte.
+**Exit evidence:** demonstrated coverage and public support boundaries.
 
-## Critério para seguir
+## Proceeding criteria
 
-Uma questão é bloqueante quando sua resposta pode mudar o escopo, contrato, arquitetura ou critério de aceitação da próxima entrega. Resolver antes dessa entrega, ou recortar uma change de investigação que a responda. Questões adiáveis precisam de justificativa e do marco em que voltarão a ser relevantes.
+A question is blocking when its answer could change the next delivery's scope, contract, architecture, or acceptance criteria. Resolve it before that delivery or scope a research change to answer it. Deferrable questions need justification and a milestone for revisiting them.
 
-Não é necessário investigar todo o mapa em cada change. Quando evidência existente for suficiente, citá-la e explicar sua aplicabilidade. Quando a investigação refutar uma hipótese, atualizar proposta, design e tarefas afetadas antes de prosseguir.
+Not every change needs to investigate the entire map. When existing evidence is sufficient, cite it and explain its applicability. When research refutes a hypothesis, update affected proposal, design, and tasks before proceeding.

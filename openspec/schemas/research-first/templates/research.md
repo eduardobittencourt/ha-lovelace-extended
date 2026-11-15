@@ -2,33 +2,33 @@
 
 ## Scope
 
-<!-- Etapa do roadmap, pergunta central e limites da investigação. -->
+<!-- Roadmap stage, central question, and investigation boundaries. -->
 
 ## Evidence
 
-| ID | Fato observado | Fonte, data e versão | Método | Limitações | Decisão apoiada |
+| ID | Observed fact | Source, date, and version | Method | Limitations | Supported decision |
 | --- | --- | --- | --- | --- | --- |
 
-<!-- Sem observação, não preencher como fato. Justificar a reutilização de evidência. -->
+<!-- Do not present unobserved claims as facts. Justify evidence reuse. -->
 
 ## Hypotheses
 
-| Hipótese | Evidência necessária | Critério de confirmação ou refutação |
+| Hypothesis | Required evidence | Confirmation or refutation criterion |
 | --- | --- | --- |
 
 ## Open Questions
 
-| Pergunta | Bloqueante ou adiável | Motivo / decisão dependente | Próxima ação |
+| Question | Blocking or deferrable | Rationale / dependent decision | Next action |
 | --- | --- | --- | --- |
 
 ## Research and Experiments
 
-<!-- Para cada pendência: fonte/ambiente, método, critério de conclusão, efeitos
-e limites do escopo. Provas de código e testes físicos só entram quando fizerem
-parte do trabalho autorizado. -->
+<!-- For each pending item: source/environment, method, completion criterion,
+side effects, and scope boundaries. Code experiments and physical tests belong
+here only when included in the authorized task. -->
 
 ## Outcome
 
-<!-- Estado: pendente, concluído ou limitado por acesso/evidência.
-Relacionar conclusões aos IDs de evidência, decisões abertas e docs a atualizar.
-Um plano escrito não equivale a uma investigação concluída. -->
+<!-- Status: pending, complete, or limited by access/evidence.
+Connect conclusions to evidence IDs, open decisions, and documents to update.
+A written plan does not mean the investigation is complete. -->

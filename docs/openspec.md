@@ -1,50 +1,52 @@
-# OpenSpec no projeto
+# OpenSpec in this project
 
-## Configuração
+## Setup
 
-Inicializado com OpenSpec **1.14.3**, integração **Codex**, perfil **core** e artefatos em português. A CLI é a já instalada na devbox; não foi adicionada dependência de runtime ou ferramenta de build ao produto.
+Initialized with OpenSpec **1.14.3**, **Codex** integration, and the **core** profile. All project artifacts are now configured to use English. The existing devbox CLI is used; no product runtime dependency or build tool was added.
 
-- [Configuração](../openspec/config.yaml): contexto enxuto, regras por artefato e orientações para apply/archive.
-- [Schema local research-first](../openspec/schemas/research-first/schema.yaml): derivado do `spec-driven`, com um artefato de pesquisa e dependências adicionais.
-- [Template de pesquisa](../openspec/schemas/research-first/templates/research.md): fatos, hipóteses, questões, experimentos e resultados.
-- Skills geradas em `.agents/skills/`, versionadas no projeto. Não editar manualmente o conteúdo gerado para personalizar o processo; usar config, schema e documentos.
+- [Configuration](../openspec/config.yaml): concise context, per-artifact rules, and apply/archive guidance.
+- [Local research-first schema](../openspec/schemas/research-first/schema.yaml): derived from `spec-driven`, with a research artifact and additional dependencies.
+- [Research template](../openspec/schemas/research-first/templates/research.md): facts, hypotheses, questions, experiments, and outcomes.
+- Generated skills in `.agents/skills/`, versioned in the project. Customize the process through config, schema, and documents rather than editing generated skills manually.
 
-Não há change de produto aberta nem especificação de runtime consolidada. Os diretórios de specs/changes são inicialmente vazios. A configuração desta ferramenta não muda o estágio de maturidade do card.
+No product change is open and no runtime specification has been consolidated. The specs/changes directories are initially empty. Tool setup does not change the card's maturity stage.
 
-## Verificação da configuração inicial
+## Initial setup verification
 
-Schema validado com `openspec schema validate research-first --json`, sem issues. Duas changes descartáveis verificaram a seleção do schema padrão, as dependências de `research`, a injeção de contexto/regras e o bloqueio de apply sem tarefas: uma com specs e outra de pesquisa com `skip_specs: true`. Ambas foram removidas após a conferência. Nenhuma pesquisa de produto ou teste físico foi executado por essa validação.
+The schema was validated with `openspec schema validate research-first --json`, without issues. Two disposable changes checked default schema selection, research dependencies, context/rule injection, and apply blocking without tasks: one with specs and one research-only change using `skip_specs: true`. Both were removed afterward. This verification did not perform product research or physical tests.
 
-## Fontes de contexto
+The English-language revision rechecked schema validation, template resolution, and English instructions/context through a disposable change. Language changes do not constitute new product evidence.
 
-`docs/` mantém intenção do produto, limites e roteiro. `openspec/changes/<nome>/` mantém proposta, investigação, deltas, design e tarefas de uma entrega delimitada. `openspec/specs/` recebe contratos consolidados conforme changes concluídas forem sincronizadas/arquivadas; não copiar toda a visão futura para lá como se já estivesse pronta.
+## Context sources
 
-As skills consultam as instruções retornadas pela CLI, que incluem o contexto e regras configuradas. Links no contexto não inserem automaticamente o conteúdo dos documentos: o agente deve ler os arquivos relevantes. Consultar o [mapa de discovery](discovery.md) conforme a etapa.
+`docs/` holds product intent, boundaries, and the roadmap. `openspec/changes/<name>/` holds the proposal, research, deltas, design, and tasks for a bounded delivery. `openspec/specs/` receives consolidated contracts as completed changes are synchronized/archived; do not copy the entire future vision there as if it were delivered.
 
-## Fluxo
+Skills consult CLI-returned instructions containing the configured context and rules. Links in context do not automatically insert document contents: the agent must read relevant files. Consult the [discovery map](discovery.md) for the current stage.
 
-1. **Explorar:** entender a pergunta e consultar as fontes pertinentes, sem implementar. No Codex, usar `$openspec-explore` com o assunto.
-2. **Propor:** usar `$openspec-propose` para uma entrega pequena. O schema é resolvido pela configuração local.
-3. **Pesquisar:** preencher `research.md` com evidência existente e pendências. Specs e design dependem desse arquivo.
-4. **Especificar e planejar:** criar deltas quando houver mudança de comportamento, design proporcional e tarefas verificáveis.
-5. **Aplicar:** usar `$openspec-apply-change` quando a execução estiver solicitada. Uma change de pesquisa executa pesquisa e documentação, não implementação do produto.
-6. **Validar e arquivar:** conferir resultados, coerência das specs e atualização dos documentos; então usar `$openspec-archive-change` quando apropriado.
+## Workflow
 
-O perfil core também inclui `$openspec-update-change` e `$openspec-sync-specs`. Se o cliente ainda não reconhecer as skills recém-geradas, abrir uma sessão no diretório do projeto ou usar a CLI diretamente, conforme os comandos abaixo.
+1. **Explore:** understand the question and consult relevant sources without implementing. In Codex, use `$openspec-explore` with the topic.
+2. **Propose:** use `$openspec-propose` for a small delivery. The schema resolves from local configuration.
+3. **Research:** fill `research.md` with available evidence and unknowns. Specs and design depend on this file.
+4. **Specify and plan:** create deltas when behavior changes, proportionate design, and verifiable tasks.
+5. **Apply:** use `$openspec-apply-change` when execution is requested. A research change executes research/documentation tasks, not product implementation.
+6. **Validate and archive:** check outcomes, spec consistency, and documentation updates; then use `$openspec-archive-change` when appropriate.
 
-## Proposta de primeira change
+The core profile also includes `$openspec-update-change` and `$openspec-sync-specs`. If the client does not yet recognize generated skills, open a session in the project directory or use the CLI directly as described below.
 
-Sugestão para quando o usuário iniciar o trabalho, ainda não criada:
+## Suggested first change
 
-> Usar openspec-propose para a change descobrir-contrato-mesa-e-frontend, etapa 0 do roadmap, com entrega somente de pesquisa e documentação. Conferir por leitura os contratos reais da mesa e do frontend do HA; definir o que falta validar e um protocolo de desempenho. Não implementar o card nem executar comandos físicos. Registrar evidências e deixar em aberto decisões que precisem de experimento.
+A suggestion for when the user starts work; not yet created:
 
-Para uma investigação sem alteração de comportamento do produto, listar nenhuma capacidade nova/modificada e definir `skip_specs: true` no `.openspec.yaml` dessa change, preservando os demais campos gerados. O CLI pode então pular specs. Não inventar requisito de runtime apenas para satisfazer validação.
+> Use openspec-propose for discover-desk-and-frontend-contracts, roadmap stage 0, with research and documentation deliverables only. Inspect the actual desk and HA frontend contracts through read-only access; define remaining validation and a performance protocol. Do not implement the card or execute physical commands. Record evidence and keep decisions requiring experiments open.
 
-Se uma resposta exigir protótipo, a entrega dessa pesquisa pode ser a especificação de uma change de experimento posterior. Não presumir os resultados de testes ainda não executados para fechar um design de produção.
+For research without product behavior changes, declare no new/modified capabilities and set `skip_specs: true` in the change's `.openspec.yaml`, preserving other generated fields. The CLI can then skip specs. Do not invent runtime requirements merely to satisfy validation.
 
-## CLI de apoio
+If an answer requires a prototype, the research delivery may specify a later experimental change. Do not assume unexecuted test results to settle a production design.
 
-Executar na raiz do projeto:
+## Supporting CLI commands
+
+Run at the project root:
 
 ```sh
 openspec list --json
@@ -52,30 +54,30 @@ openspec list --specs
 openspec schema validate research-first
 ```
 
-Quando for abrir uma change, o comando abaixo usa o schema padrão do projeto:
+When opening a change, the following uses the project's default schema:
 
 ```sh
-openspec new change descobrir-contrato-mesa-e-frontend
-openspec status --change descobrir-contrato-mesa-e-frontend --json
-openspec instructions proposal --change descobrir-contrato-mesa-e-frontend --json
+openspec new change discover-desk-and-frontend-contracts
+openspec status --change discover-desk-and-frontend-contracts --json
+openspec instructions proposal --change discover-desk-and-frontend-contracts --json
 ```
 
-`new change` cria o diretório e os metadados; os documentos devem ser escritos seguindo `instructions`. Consultar novamente o status e as instruções de cada artefato pronto (`proposal`, `research`, `specs`, `design`, `tasks`) e de `apply` antes de avançar. Não substituir a inspeção do status por uma sequência cega de comandos.
+`new change` creates the directory and metadata; write documents following `instructions`. Recheck status and instructions for each ready artifact (`proposal`, `research`, `specs`, `design`, `tasks`) and for `apply` before proceeding. Do not replace status inspection with a blind command sequence.
 
-Para uma change com os artefatos preenchidos:
+For a change with completed artifacts:
 
 ```sh
-openspec validate descobrir-contrato-mesa-e-frontend --strict --no-interactive
+openspec validate discover-desk-and-frontend-contracts --strict --no-interactive
 ```
 
-## O que a ferramenta verifica
+## What the tool verifies
 
-O schema estabelece dependências de arquivos. A existência de `research.md` não prova que as perguntas foram respondidas; a validação estrutural não audita fontes, desempenho ou comportamento físico. Regras de contexto e orientações de operação são instruções ao agente, não bloqueios de segurança executáveis.
+The schema defines file dependencies. The existence of `research.md` does not prove its questions have been answered; structural validation does not audit sources, performance, or physical behavior. Context rules and operation guidance are instructions to the agent, not executable safety checks.
 
-O agente deve verificar se as evidências sustentam os artefatos seguintes. Uma change de investigação pode ter plano e tarefas de pesquisa ainda pendentes; uma change de produção deve resolver os bloqueadores antes de assumir contratos dependentes.
+The agent must check that evidence supports subsequent artifacts. A research change can contain a plan and pending research tasks; a production change must resolve blockers before assuming dependent contracts.
 
-## Manutenção
+## Maintenance
 
-`openspec update --help` descreve a regeneração das integrações. Atualizar somente no escopo de uma tarefa de manutenção; usar perfil core e revisar o diff. Conferir novamente a resolução do schema, dependências, regras e skills após uma atualização. Schemas locais são uma funcionalidade experimental do OpenSpec; o fork deve ser revisto perante mudanças upstream.
+`openspec update --help` describes integration regeneration. Update only within a maintenance task; use the core profile and review the diff. Recheck schema resolution, dependencies, rules, and skills after updates. Local schemas are an experimental OpenSpec feature; review the fork against upstream changes.
 
-Referências oficiais: [customização](https://github.com/Fission-AI/OpenSpec/blob/main/docs/customization.md) e [fluxo OPSX](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md). A CLI instalada é a referência para os comandos efetivamente disponíveis neste ambiente.
+Official references: [customization](https://github.com/Fission-AI/OpenSpec/blob/main/docs/customization.md) and [OPSX workflow](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md). The installed CLI is the reference for commands actually available in this environment.

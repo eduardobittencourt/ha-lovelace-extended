@@ -52,7 +52,7 @@ artifacts:
     description: Evidence, hypotheses, discovery questions and experiment boundaries
     template: research.md
     instruction: |
-      Write research.md in Portuguese using the template. Read the proposal,
+      Write research.md in English using the template. Read the proposal,
       docs/discovery.md and only the product documents relevant to this change.
       Separate existing evidence from work still to be performed. Record sources,
       dates, versions, method, limitations and consequences of each finding.

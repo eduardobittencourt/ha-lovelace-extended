@@ -1,53 +1,55 @@
-# Decisões e questões abertas
+# Decisions and open questions
 
-Registro inicial derivado da conversa de produto. "Acordado" identifica direções expressas pelo usuário; "proposto" identifica escolhas que ainda precisam de validação.
+This initial record comes from the product discussion. “Agreed” identifies directions expressed by the user; “proposed” identifies choices still needing validation.
 
-## Acordado
+## Agreed
 
-| Decisão | Consequência |
+| Decision | Consequence |
 | --- | --- |
-| Desempenho é prioridade número um | Funcionalidades e dependências precisam justificar seu custo |
-| Web Components são a direção técnica | Evitar camadas adicionais sem benefício demonstrado |
-| Um card pode combinar várias entidades | Fonte e ação precisam poder variar por elemento |
-| Flexibilidade de conteúdo e controle, com estilo delimitado | Linguagem visual e padrões de interação pertencem à biblioteca |
-| Configuração visual é central | Recursos oficiais não devem exigir YAML manual |
-| MVP com layout próximo ao bloco padrão do HA | Adiar composição livre para reduzir o escopo inicial |
-| Mesa e suas três memórias são o primeiro problema real | A aceitação inicial depende dessa experiência completa |
-| Futuro com elementos e receitas | Experiências prontas e próprias compartilham as peças |
-| Divulgação ativa após maturidade para dashboards completos | Concluir o MVP pessoal não dispara divulgação |
-| Trabalho atual é apenas documentação | Não iniciar implementação, instalação ou mudanças no HA nesta tarefa |
-| OpenSpec adotado para SDD por solicitação do usuário | Changes devem considerar pesquisa, discovery e testes antes de assumir contratos |
+| Performance is the number one priority | Capabilities and dependencies must justify their cost |
+| Web Components are the technical direction | Avoid additional layers without demonstrated benefit |
+| A card can combine several entities | Data source and action must be able to vary per element |
+| Flexible content and control within a bounded style | Visual language and interaction patterns belong to the library |
+| Visual configuration is central | Official capabilities must not require manual YAML editing |
+| MVP layout close to a standard HA card | Defer free composition to reduce initial scope |
+| The desk and its three memories are the first real problem | Initial acceptance depends on this complete experience |
+| Future elements and recipes | Ready-made and custom experiences share building blocks |
+| Active promotion follows readiness for complete dashboards | Completing the personal MVP does not trigger promotion |
+| Current work is documentation and process setup | No product implementation, dependency installation, or HA changes in these tasks |
+| OpenSpec is adopted for SDD at the user's request | Changes must consider research, discovery, and tests before assuming contracts |
+| The project is intended to be open source from the outset | Early public development is distinct from later active promotion; license and remote publication still need to be completed |
+| All project content is in English | Documents, specs, examples, code, comments, commit messages, and default product text follow this policy; conversations may remain in Portuguese |
 
-## Proposto, ainda sujeito a ajuste
+## Proposed, subject to adjustment
 
-- Nome provisório: `ha-composable-card`.
-- Entidade principal como fonte de padrões, com substituições por elemento.
-- MVP com composição fixa e regiões previstas para ações adicionais.
-- Separação conceitual entre superfície, elementos, vínculos, editor e receitas.
-- Roteiro incremental com critérios de saída, sem cronograma fechado.
-- Configuração inicial: OpenSpec 1.14.3, Codex/core e schema local `research-first`, derivado do `spec-driven`. Escolha operacional implementada nesta tarefa; não é uma decisão sobre a stack do card.
+- Provisional name: `ha-composable-card`.
+- A primary entity supplies defaults, with per-element overrides.
+- MVP fixed composition with designated regions for additional actions.
+- Conceptual separation of surface, elements, bindings, editor, and recipes.
+- Incremental roadmap with exit criteria and no fixed schedule.
+- Initial setup: OpenSpec 1.14.3, Codex/core, and the local `research-first` schema derived from `spec-driven`. This is an implemented process choice, not a decision about the card's stack.
 
-## Resolver antes de implementar o MVP
+## Resolve before implementing the MVP
 
-1. Qual bloco e versão do HA serão a referência visual? Tile é uma possibilidade.
-2. Quais dados, unidades, capacidades e ações a integração real da mesa oferece?
-3. Quais tipos de fonte e ação são necessários no contrato inicial?
-4. Como serão dispostas as regiões do layout e configuradas as ações adicionais?
-5. Qual versão mínima do HA e qual matriz inicial de navegadores/dispositivos?
-6. Quais métricas, cenários e limites concretos de desempenho serão adotados?
-7. Qual stack mínima atende ao contrato do HA e ao editor com menor custo sustentável?
+1. Which native card and HA version will serve as the visual reference? Tile is one possibility.
+2. Which data, units, capabilities, and actions does the actual desk integration provide?
+3. Which data source and action types are needed for the initial contract?
+4. How will layout regions be arranged and additional actions configured?
+5. What minimum HA version and initial browser/device matrix will be supported?
+6. Which concrete performance metrics, scenarios, and limits will be adopted?
+7. Which minimal stack meets the HA and editor contracts with sustainable cost?
 
-## Resolver quando a etapa exigir
+## Resolve when the relevant stage requires it
 
-- Sintaxe pública, versionamento e migrações da configuração.
-- Regras de grid, responsividade, condições e estado temporário.
-- Como transformar uma receita em uma composição personalizada.
-- Receitas copiadas versus vinculadas e versionadas; ainda não há escolha.
-- Descoberta de entidades e adaptadores específicos de integrações.
-- Interface de extensões, se necessária, e seus limites de desempenho.
-- Dashboard de referência e cobertura exigida para divulgação.
-- Nome definitivo, licença, distribuição e publicação remota.
+- Public syntax, versioning, and configuration migrations.
+- Grid rules, responsiveness, conditions, and temporary state.
+- Turning a recipe into a custom composition.
+- Copied versus linked/versioned recipes; no choice has been made.
+- Entity discovery and integration-specific adapters.
+- Extension interfaces, if needed, and their performance boundaries.
+- Reference dashboard and coverage needed for active promotion.
+- Final name, license, distribution, and remote publication. Select a license before presenting the repository as licensed open source; do not defer that choice to the active-promotion milestone.
 
-## Como registrar novas decisões
+## Recording new decisions
 
-Anotar contexto, escolha, alternativas relevantes e consequência. Indicar se foi acordada com o usuário ou proposta para validação. Atualizar o documento de escopo afetado em vez de acumular decisões contraditórias apenas neste registro.
+Record context, choice, relevant alternatives, and consequences. State whether a decision was agreed with the user or proposed for validation. Update the affected scope document instead of accumulating contradictory decisions only in this record.
