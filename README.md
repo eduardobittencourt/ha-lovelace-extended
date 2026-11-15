@@ -21,12 +21,14 @@ A visão de futuro é permitir posicionar elementos em um grid interno e oferece
 | [Arquitetura conceitual](docs/architecture.md) | Elementos, vínculos e limites técnicos propostos |
 | [Roteiro](docs/roadmap.md) | Etapas pequenas, evidências e critérios para avançar |
 | [Decisões e questões abertas](docs/decisions.md) | O que foi acordado e o que precisa ser decidido |
+| [Research e discovery](docs/discovery.md) | Perguntas, métodos e evidências antes de assumir contratos |
+| [OpenSpec](docs/openspec.md) | Fluxo SDD, configuração local e como iniciar changes |
 
 ## Como retomar
 
-Leia o MVP e a primeira etapa pendente do roteiro. Resolva apenas as questões necessárias para essa etapa, registre a evidência obtida e atualize os documentos afetados. Os checklists ainda desmarcados representam trabalho futuro, não funcionalidades existentes.
+Leia o MVP e a primeira etapa pendente do roteiro. Use o mapa de discovery e o fluxo OpenSpec para resolver as questões necessárias para essa etapa, registrar evidência e atualizar os documentos afetados. Os checklists ainda desmarcados representam trabalho futuro, não funcionalidades existentes.
 
-O próximo passo é conferir o caso real da mesa e definir a referência visual e o ambiente de validação. A implementação deve começar somente em uma tarefa posterior que a solicite.
+O próximo passo é uma change de pesquisa para conferir o caso real da mesa, contratos do frontend e o ambiente de validação. OpenSpec está configurado; nenhuma change de produto foi aberta. A implementação deve começar somente em uma tarefa posterior que a solicite.
 
 ## Limites atuais
 

@@ -1,0 +1,64 @@
+schema: research-first
+
+context: |
+  Language: Portuguese. Retain OpenSpec structural headings and SHALL/MUST,
+  WHEN/THEN keywords expected by the CLI.
+  Project: HA Composable Card (provisional). Documentation-only conception;
+  no implemented card, supported HA version or performance baseline yet.
+  Read README.md, docs/roadmap.md and docs/decisions.md, then only the relevant
+  docs/manifesto.md, docs/mvp.md and docs/architecture.md for the change.
+  Product: visually consistent card with independent data/action bindings per
+  element, visual editor and performance as the first priority. Web Components
+  are the agreed direction; Lit, build tools, private HA components, config
+  syntax, minimum HA version and distribution remain undecided.
+  MVP: fixed layout inspired by the native HA block, cover-based desk controls
+  and three independent memory actions. Actual entities, attributes, units and
+  actions must be verified. Free grid and recipe catalog belong to later stages.
+  Future: constrained grid, reusable elements/behaviors and recipes; active
+  promotion only after maturity for complete dashboards.
+  Roadmap entries describe future work, not evidence or implemented requirements.
+  Follow docs/openspec.md and docs/discovery.md. Distinguish verified facts,
+  hypotheses and unknowns. Investigate blockers before dependent specs/design;
+  bounded spikes test hypotheses without assuming their production suitability.
+  Discovery-only changes may deliver research and docs. Product implementation
+  and physical tests require corresponding task scope; this setup authorizes
+  neither. Do not install tooling merely to plan a change.
+  External evidence: ~/research/ha-composable-card/<task>/. Preserve sanitized
+  durable findings and source references in the repository; never credentials,
+  private inventories or full HA configurations.
+
+rules:
+  proposal:
+    - Relate the change to a roadmap stage; identify scope, non-goals and discovery versus implementation deliverables.
+    - List material unknowns and intended sources; do not turn assumptions into promises. Check existing specs before declaring capabilities.
+    - For research/docs/tooling with no product behavior delta, set skip_specs to true in change metadata; do not invent product requirements.
+  research:
+    - Select relevant questions from docs/discovery.md; avoid repeating the full project inventory.
+    - Record source/date/version, method, observation, limitations and the decision supported by each material conclusion.
+    - Separate facts, hypotheses and pending questions. Classify pending questions as blocking or deferrable with rationale.
+    - Never fabricate measurements or physical validation. Missing access leaves dependent decisions open.
+    - For a spike state hypothesis, bounded experiment, success/failure criteria, side effects and evidence destination.
+  specs:
+    - Describe observable behavior with testable scenarios; keep implementation mechanisms in design.
+    - Ground integration-dependent behavior in research.md. Include relevant missing/unavailable entities, action errors and event independence.
+    - Do not present roadmap items as implemented. Discovery-only changes do not establish untested runtime contracts.
+  design:
+    - Cite research findings for choices and alternatives; resolve blockers before dependent technical choices.
+    - Explain relevant loading, updates, lifecycle, accessibility and compatibility costs; distinguish documented contracts from HA internals.
+    - Experiments need a bounded plan, not a predetermined production architecture.
+  tasks:
+    - Order work by dependencies with evidence of completion per task; keep unresolved research ahead of dependent implementation.
+    - Research-only changes track research/documentation tasks; future product implementation belongs to another change.
+    - Include relevant performance checks, separating interface, transport and physical latency. Never invent numeric targets.
+    - Update affected docs and roadmap from evidence; mark work complete only when acceptance was demonstrated.
+
+operations:
+  apply:
+    guidance:
+      - Read research.md with context artifacts; check that conclusions still apply to the target versions.
+      - Research-only apply covers research/docs, not implementing a card or moving the desk.
+      - If findings change the approach, update research and dependent artifacts before affected tasks.
+  archive:
+    guidance:
+      - Record actual outcomes and limitations; artifact creation alone does not complete roadmap milestones.
+      - Keep openspec/specs for consolidated behavior; discovery conclusions belong in research and product docs.

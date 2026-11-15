@@ -16,6 +16,7 @@ Registro inicial derivado da conversa de produto. "Acordado" identifica direçõ
 | Futuro com elementos e receitas | Experiências prontas e próprias compartilham as peças |
 | Divulgação ativa após maturidade para dashboards completos | Concluir o MVP pessoal não dispara divulgação |
 | Trabalho atual é apenas documentação | Não iniciar implementação, instalação ou mudanças no HA nesta tarefa |
+| OpenSpec adotado para SDD por solicitação do usuário | Changes devem considerar pesquisa, discovery e testes antes de assumir contratos |
 
 ## Proposto, ainda sujeito a ajuste
 
@@ -24,6 +25,7 @@ Registro inicial derivado da conversa de produto. "Acordado" identifica direçõ
 - MVP com composição fixa e regiões previstas para ações adicionais.
 - Separação conceitual entre superfície, elementos, vínculos, editor e receitas.
 - Roteiro incremental com critérios de saída, sem cronograma fechado.
+- Configuração inicial: OpenSpec 1.14.3, Codex/core e schema local `research-first`, derivado do `spec-driven`. Escolha operacional implementada nesta tarefa; não é uma decisão sobre a stack do card.
 
 ## Resolver antes de implementar o MVP
 
