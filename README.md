@@ -4,7 +4,7 @@ A library in conception for building Home Assistant interfaces with independent 
 
 **Status:** product documentation only. No implementation, installable package, or published release.
 
-Development is public from the outset, with English as the project's working language. The repository is [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended). Selecting an open source license is still pending; active promotion is a separate, later milestone.
+Development is public from the outset, with English as the project's working language. The repository is [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended). Original project material uses Apache-2.0, with third-party terms preserved; active promotion is a separate, later milestone.
 
 ## The idea
 
@@ -28,6 +28,16 @@ The future vision allows elements to be placed on an internal grid and provides 
 | [Research and discovery](docs/discovery.md) | Questions, methods, and evidence before assuming contracts |
 | [OpenSpec](docs/openspec.md) | SDD workflow, local setup, and starting changes |
 
+## Contributing and reporting
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for small corrections, research and
+substantial proposals, and [AGENTS.md](AGENTS.md) for agent instructions.
+Ordinary questions and proposals belong in
+[GitHub issues](https://github.com/eduardobittencourt/ha-lovelace-extended/issues).
+Use [SECURITY.md](SECURITY.md) for private vulnerability reports and the
+[Code of Conduct](CODE_OF_CONDUCT.md) for conduct expectations and private
+reporting. There is no installable product or separate support service yet.
+
 ## Resuming work
 
 Read the MVP and the first pending roadmap stage. Use the discovery map and OpenSpec workflow to answer the questions relevant to that stage, record evidence, and update affected documents. Unchecked items represent future work, not existing functionality.
@@ -36,6 +46,15 @@ The research change archived on 2026-11-15 is [discover-desk-and-frontend-contra
 
 ## Current boundaries
 
-The implementation stack, minimum HA version, public configuration format, license, and distribution strategy have not been selected. Compatibility with specific integrations or devices is not promised.
+The implementation stack, minimum HA version, public configuration format, and distribution strategy have not been selected. Compatibility with specific integrations or devices is not promised.
 
 A usable MVP in the personal dashboard and readiness for active promotion are different milestones. Active promotion should wait until coverage and quality are sufficient to replace complete dashboards. This does not postpone the project's open source intent.
+
+## License
+
+Copyright 2026 Eduardo Bittencourt.
+
+Original project material is licensed under the [Apache License 2.0](LICENSE).
+Third-party material retains its own terms: generated/derived OpenSpec material
+is MIT-licensed and the conduct policy is CC BY 4.0. See
+[third-party notices](THIRD_PARTY_NOTICES.md) for covered paths and attribution.

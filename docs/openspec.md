@@ -9,7 +9,27 @@ Initialized with OpenSpec **1.14.3**, **Codex** integration, and the **core** pr
 - [Research template](../openspec/schemas/research-first/templates/research.md): facts, hypotheses, questions, experiments, and outcomes.
 - Generated skills in `.agents/skills/`, versioned in the project. Customize the process through config, schema, and documents rather than editing generated skills manually.
 
-The research change [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md) was archived on 2026-11-15 with all 16 research/documentation tasks complete. No active change remains; the research is separate from product implementation; no runtime specification has been consolidated. Tool setup and completed research tasks do not by themselves complete stage 0.
+The research change [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md) was archived on 2026-11-15 with all 16 research/documentation tasks complete. The research is separate from product implementation; no runtime specification has been consolidated. Use `openspec list --json` for current work rather than inferring lifecycle state from this archive record. Tool setup and completed research tasks do not by themselves complete stage 0.
+
+## Contributor workflow and licensing
+
+[CONTRIBUTING.md](../CONTRIBUTING.md) distinguishes lightweight corrections from
+substantial work using this process. [AGENTS.md](../AGENTS.md) supplies concise
+agent guidance. No private devbox setup or HA access is needed for documentation
+contributions. Reporting routes are in [SECURITY.md](../SECURITY.md) and
+[CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md).
+
+The community foundation change, archived on 2026-11-18 with all 17 tasks complete, is
+[establish-open-source-community-files](../openspec/changes/archive/2026-11-18-establish-open-source-community-files/proposal.md).
+Its documentation/templates do not create runtime specs or complete stage 0.
+For subsequent changes, review actual tasks and evidence before archiving;
+`status` completion of planning artifacts does not mean implementation tasks
+are complete.
+
+Original material uses Apache-2.0. Generated OpenSpec skills and inherited
+schema/template material retain MIT terms and attribution in
+[THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md). Customize project config and
+schema without editing generated skills or rewriting archived history.
 
 ## Initial setup verification
 

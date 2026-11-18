@@ -20,8 +20,10 @@ context: |
   Future: constrained grid, reusable elements/behaviors and recipes; active
   promotion only after maturity for complete dashboards. The project is intended
   to be open source from the outset. The public repository is
-  github.com/eduardobittencourt/ha-lovelace-extended; license selection remains
-  an early task, not postponed until active promotion.
+  github.com/eduardobittencourt/ha-lovelace-extended. Original project material
+  uses Apache-2.0; preserve third-party terms in THIRD_PARTY_NOTICES.md.
+  CONTRIBUTING.md owns the public contribution workflow; SECURITY.md and
+  CODE_OF_CONDUCT.md own their separate private reporting routes.
   Roadmap entries describe future work, not evidence or implemented requirements.
   Follow docs/openspec.md and docs/discovery.md. Distinguish verified facts,
   hypotheses and unknowns. Investigate blockers before dependent specs/design;

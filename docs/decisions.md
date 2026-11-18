@@ -18,7 +18,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 | Active promotion follows readiness for complete dashboards | Completing the personal MVP does not trigger promotion |
 | Current work is documentation and process setup | No product implementation, dependency installation, or HA changes in these tasks |
 | OpenSpec is adopted for SDD at the user's request | Changes must consider research, discovery, and tests before assuming contracts |
-| The project is intended to be open source from the outset | Early public development is distinct from later active promotion; selecting a license is still pending |
+| The project is intended to be open source from the outset | Early public development is distinct from later active promotion; original material uses Apache-2.0 with third-party terms preserved |
 | Public repository: `eduardobittencourt/ha-lovelace-extended` | Initial product documentation and OpenSpec setup are published on GitHub |
 | All project content is in English | Documents, specs, examples, code, comments, commit messages, and default product text follow this policy; conversations may remain in Portuguese |
 
@@ -29,6 +29,23 @@ This initial record comes from the product discussion. “Agreed” identifies d
 - The user selected iPhone 14 Pro / Safari / reported iOS 27 as the primary validation environment. Exact device/browser build and viewport must be captured with measurements.
 - The user chose to keep desk lock/unlock in existing HA controls. The card must not automatically unlock; complete desk-operation validation includes that external prerequisite. No in-card lock control is added to the MVP.
 - The [stage 1 experiment plan](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md#future-stage-1-experiment-and-gates-task-34) is documented, not executed. Baselines, numerical limits, exact rendered dimensions, and runtime binding/editor feasibility remain gates. Minimal Web Components versus Lit and context versus hass update delivery are still open.
+
+## Community foundation decisions
+
+- The maintainer selected Apache-2.0 for original material, with the approved
+  notice "Copyright 2026 Eduardo Bittencourt". See [LICENSE](../LICENSE) and
+  [third-party notices](../THIRD_PARTY_NOTICES.md); OpenSpec material remains MIT
+  and the adapted Contributor Covenant 2.1 remains CC BY 4.0.
+- [CONTRIBUTING.md](../CONTRIBUTING.md) owns the public correction/proposal/review
+  workflow. Focused documentation/proposal issue templates and a PR template
+  match the documentation-only stage. Governance, support and releases are not
+  implied by these files.
+- The maintainer approved Contributor Covenant 2.1 and the reporting owner/contact
+  in [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md). Vulnerabilities use the separate
+  private GitHub route in [SECURITY.md](../SECURITY.md).
+- On 2026-11-18, the maintainer separately authorized enabling GitHub private
+  vulnerability reporting; the enabled state was verified. This does not
+  authorize other settings changes, publication or releases.
 
 ## Proposed architecture, subject to adjustment
 
@@ -57,7 +74,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 - Entity discovery and integration-specific adapters.
 - Extension interfaces, if needed, and their performance boundaries.
 - Reference dashboard and coverage needed for active promotion.
-- License and distribution. Select a license before presenting the repository as licensed open source; do not defer that choice to the active-promotion milestone.
+- Distribution channel and release process. The license is selected; distribution remains undecided.
 
 ## Recording new decisions
 

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/eduardobittencourt/ha-lovelace-extended/security/advisories/new
+    about: Use the enabled GitHub private reporting channel; do not post sensitive details in issues.
+  - name: Report a conduct violation privately
+    url: mailto:eduardo@bittencourt.dev
+    about: Email Eduardo Bittencourt using the Code of Conduct reporting contact.

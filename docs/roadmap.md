@@ -11,13 +11,21 @@ Product stage 0 is in progress; stages 1–6 are pending. No schedule or impleme
 
 This setup does not complete product research. Stage 0 research is tracked separately below. Follow the [OpenSpec guide](openspec.md) and select relevant questions from the [discovery map](discovery.md). Each change must identify its stage, available evidence, blocking unknowns, required experiments, and exit criteria. Changes may deliver research only, without implementing the card.
 
-## Open source setup — in progress
+## Open source setup — foundation completed
 
 The project is intended to be open source from the outset. This is independent of stage 6 readiness for active promotion.
 
-- [ ] Select an open source license and add its license text with correct attribution.
+- [x] Adopt Apache-2.0 for original material and preserve third-party terms in [license notices](../THIRD_PARTY_NOTICES.md).
 - [x] Publish the public repository at [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended), accurately stating its documentation-only status.
 - [x] Review contributor-facing instructions and tracked content for publication; keep durable findings understandable without private environment access.
+- [x] Add public contribution guidance, conduct/security policies and focused issue/PR templates; verify reporting routes and preserve upstream terms.
+
+Community foundation delivery is tracked in the
+[OpenSpec change](../openspec/changes/archive/2026-11-18-establish-open-source-community-files/tasks.md).
+Licensing, contribution guidance, conduct/security policies and GitHub templates
+are complete in the working tree and await review/publication. Default-branch
+publication and releases are separate actions; GitHub templates activate only
+when published to that branch. This work does not close the product-stage gates below.
 
 ## 0. Specify the real use case and initial boundaries
 
