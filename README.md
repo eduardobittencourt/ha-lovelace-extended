@@ -10,7 +10,7 @@ Development is public from the outset, with English as the project's working lan
 
 A card brings together visually consistent elements — icons, text, indicators, and controls — that can display data and execute actions from different entities. A primary entity supplies defaults; each element can override its bindings.
 
-The MVP uses a fixed layout inspired by a native HA card. Its first application is a height-adjustable desk: state and controls from a `cover` entity, together with three memory buttons bound to other entities. Everything is configured through the visual editor.
+The MVP uses a fixed composition inspired by a native HA card, with internal placement adapting to HA-allocated card space. Its first application is a height-adjustable desk: state and controls from a `cover` entity, together with three memory buttons bound to other entities. Everything is configured through the visual editor.
 
 The desk is a first acceptance example, not the final product objective. Initial research also examines public non-desk and non-cover cases to distinguish reusable bindings from domain and installation details; these comparisons do not establish implemented support.
 
@@ -40,9 +40,9 @@ reporting. There is no installable product or separate support service yet.
 
 ## Resuming work
 
-Read the MVP and the first pending roadmap stage. Use the discovery map and OpenSpec workflow to answer the questions relevant to that stage, record evidence, and update affected documents. Unchecked items represent future work, not existing functionality.
+Read the MVP and the first pending roadmap stage. The next step is a separately scoped stage 1 experimental proposal using the [bounded brief](openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment). Before execution, select reproducible conditions, safe fixtures, checks and measurement methods. A particular phone or existing numerical baseline is not a start prerequisite. Use the discovery map and OpenSpec workflow to record evidence and update affected documents. Unchecked items represent future work, not existing functionality.
 
-The research change archived on 2026-11-15 is [discover-desk-and-frontend-contracts](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md). Its [evidence record](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) covers the desk's read-only contract, public comparison cases, versioned frontend contracts, and the validation protocol. The selected target is iPhone 14 Pro / Safari / reported iOS 27. Target-device baselines, numerical acceptance limits and rendered fit remain open; stage 0 is not complete. No product implementation has started.
+The research change archived on 2026-11-15 is [discover-desk-and-frontend-contracts](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md). Its [evidence record](openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) covers the desk's read-only contract, public comparison cases, versioned frontend contracts, and the validation protocol. The selected iPhone 14 Pro / Safari / reported iOS 27 remains a reference test environment. The [current roadmap](docs/roadmap.md) supersedes the historical pre-experiment phone/baseline gate: collect comparable measurements during experimentation and justify budgets before accepting performance. Full desk fit, remaining device/accessibility checks and physical/everyday validation remain MVP gates. Stage 0 is not declared complete; its scope synthesis remains open. No product implementation has started.
 
 ## Current boundaries
 

@@ -29,33 +29,38 @@ when published to that branch. This work does not close the product-stage gates 
 
 ## 0. Specify the real use case and initial boundaries
 
-Archived research evidence (2026-11-15): [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md). Public comparisons include a command-only MQTT cover and a constructed light-plus-sensor composition. These challenge assumptions without adding implemented devices. The user-selected primary environment is iPhone 14 Pro / Safari / reported iOS 27. The validation protocol is documented, but no target-device baseline or numeric acceptance limit has been measured.
+Archived research evidence (2026-11-15): [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md). Public comparisons include a command-only MQTT cover and a constructed light-plus-sensor composition. These challenge assumptions without adding implemented devices. The previously selected iPhone 14 Pro / Safari / reported iOS 27 remains a useful validation environment; its exact build and usable viewport are unobserved. No target-device baseline, numeric acceptance limit or rendered fit has been measured.
 
-- [ ] Discover the problem and actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing data inspection from physical tests.
-- [ ] Research frontend contracts and the visual reference in the target version ([D1](discovery.md#d1-visual-discovery-and-frontend-contracts)), separating documented APIs from internals.
+The current sequence separates preparation from experimental evidence. It supersedes the archive's proposal to require phone baselines before the first experiment; historical observations and limitations remain valid. A reference device is neither a required development host nor an exclusive supported device.
+
+- [ ] Complete the short scope/acceptance specification from problem discovery and the actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing read-only findings from later physical tests.
+- [x] Research frontend contracts and select a versioned visual reference ([D1](discovery.md#d1-visual-discovery-and-frontend-contracts)); source findings do not prove runtime compatibility.
 - [x] Read and verify the desk's entities, attributes, capabilities, and action metadata (read-only; physical execution remains separate).
 - [x] Record only the necessary contract, without credentials or private inventories.
-- [x] Choose the native card and HA version for the visual reference (Tile / Core 2026.11.1 / frontend 20261028.5; rendered fit pending).
-- [ ] Define fixed layout regions and desk editor flows.
-- [ ] Define the target version, reference device/browser, and dimensions.
-- [ ] Record a baseline and performance acceptance limits before implementation.
-- [x] Record sources, versions, hypotheses, and blockers in `research.md`; define baseline protocols and scenarios without inventing measurements.
+- [x] Choose the native visual research reference (Tile / Core 2026.11.1 / frontend 20261028.5; rendered fit pending).
+- [x] Document candidate fixed semantic regions and desk editor flows in the [MVP](mvp.md#candidate-layout-and-editor-flows); validate their fit and persistence in stages 1–2.
+- [x] Define the layout starting point: HA allocates dashboard space through Sections/Masonry contracts; the card adapts internally to that space. Concrete experimental allocations and environments are selected before stage 1 execution.
+- [x] Record sources, versions, hypotheses and measurement methods without inventing baseline samples or numerical limits.
 
-**Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration.
+**Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration. The remaining synthesis item is open; this documentation revision does not declare stage 0 complete. A separately scoped stage 1 proposal may investigate its own unresolved technical questions under the entry gate below.
 
 ## 1. Demonstrate the minimum card contract
 
-In a future implementation task:
+Use the [bounded experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) when proposing the separate experimental change. It is a plan, not an executed prototype.
 
-- [ ] Bound hypotheses and pass/fail criteria for technical experiments ([D2](discovery.md#d2-baselines-alternatives-and-technical-experiments)); decide only what is needed to run the experiment.
+**Entry:** document bounded questions, versioned contracts, a reproducible test environment, safe fixtures, functional/layout pass/fail checks and a measurement plan before execution. Select only the experimental mechanisms needed to investigate the questions. Neither access to a particular phone nor an existing numerical baseline is required. Experimental code, dependencies and test-environment changes require their own proposal and scope.
+
+- [ ] Bound hypotheses and checks for technical experiments ([D2](discovery.md#d2-baselines-alternatives-and-technical-experiments)); pin HA/frontend, browser, tools, theme/locale and concrete narrow/intermediate/wide card allocations before running.
 - [ ] Build the smallest surface with two elements bound to different entities.
-- [ ] Configure both visually and persist the configuration.
-- [ ] Execute an independent action and verify event isolation.
-- [ ] Measure updates caused by relevant and unrelated entities.
-- [ ] Record stack choice and costs based on the experiment.
-- [ ] Update `research.md` and decisions with actual results; scope another change if the approach must change.
+- [ ] Configure both visually in HA; save, reload, reopen and change one binding without losing the other.
+- [ ] Execute an independent inner action once and verify isolation from the card body action using safe intercepted dispatch.
+- [ ] Measure relevant/unrelated update work, editor loading and mount/unmount cleanup; check invalid/missing/unavailable states and theme/locale changes.
+- [ ] Validate Sections and Masonry allocations, long labels, enlarged text, keyboard focus, touch reachability and accessible names; record failures and tested coverage.
+- [ ] Collect comparable native/experimental performance samples using the protocol below; compare the current desk solution only where workloads match and it is available.
+- [ ] Justify numerical budgets from evidence and requirements, then evaluate results against them before accepting performance or a cost-dependent production stack choice.
+- [ ] Update research and decisions with actual results, costs and limitations; scope another change if the approach must change.
 
-**Exit:** evidence that the binding model and editor work at acceptable cost. A free grid or recipe framework is not required.
+**Exit:** demonstrated binding/editor correctness, layout coverage and measured costs with justified acceptance budgets met. Limited or negative feasibility findings are valid experimental outcomes, but do not close this exit or prove acceptable performance. Missing measurements remain pending. A free grid or recipe framework is not required; a prototype does not become production code automatically.
 
 ## 2. Complete the desk MVP
 
@@ -112,10 +117,17 @@ In a future implementation task:
 
 **Exit:** evidence of replacing a complete dashboard with consistent quality. Only then start active promotion.
 
-## Performance protocol to specify in stage 0
+## Performance protocol: define before execution, measure during the experiment
 
-Record the environment, scenario, and method before setting numeric targets. Measure cold/warm loading, JavaScript transfer and execution, control responsiveness, memory after use and mount/unmount cycles, and work caused by unrelated entity updates.
+Define scenarios and methods during preparation; pin the actual environment and capture tools before experimental execution. Collect samples alongside the experiment, then justify numerical budgets before accepting performance. Measure cold/warm loading, JavaScript transfer and execution, control responsiveness, memory after use and mount/unmount cycles, and work caused by unrelated entity updates.
 
-Compare with the native reference and current desk solution where scenarios are equivalent. Separate interface latency, HA communication, and physical device response. Do not attribute all command latency to the library.
+Compare with the native reference in equivalent scenarios, and the current desk solution where available and equivalent. Separate interface latency, HA communication, and physical device response. Do not attribute all command latency to the library.
+
+| Outstanding evidence | Destination and acceptance gate |
+| --- | --- |
+| Exact device/browser metadata and rendered dimensions | Record each stage 1 capture environment and allocated card widths; complete desk-specific fit and remaining reference-device checks before stage 2 exit. A desktop sample does not establish Safari behavior. |
+| Comparable baselines and numerical limits | Collect native/experimental samples in stage 1; justify and meet budgets before performance approval or a cost-dependent production choice. Repeat the relevant protocol on the final MVP. |
+| Full desk composition, accessibility and integration behavior | Stage 2: validate all MVP criteria, with separately scoped physical commands and everyday user acceptance. |
+| Wider compatibility and dashboard coverage | Validate claimed versions/devices at the relevant later stages; complete stage 6 coverage before active promotion. |
 
 Results and limits must accompany the corresponding implementation; no measurements or numeric promises exist yet.

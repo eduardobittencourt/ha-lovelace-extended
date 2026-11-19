@@ -30,7 +30,7 @@ A reusable visual element does not solve domain semantics by itself: brightness,
 ## HA integration
 
 - Agreed direction: Web Components using the custom card and editing contracts available in the target version.
-- HA arranges the card in the dashboard; the internal layout belongs to the library.
+- HA allocates dashboard space: Sections uses `getGridOptions` for grid sizing/resize limits, while Masonry uses `getCardSize` as a height estimate. The library arranges its internal content responsively within that allocated space; neither hook proves content fit.
 - Using native appearance as a reference does not require depending on undocumented internal components.
 - Reusing HA components, choosing Lit, build tools, data strategies, and minimum versions require later evaluation.
 - No need for a Python integration or additional service has been established at this stage.
@@ -45,6 +45,14 @@ Tile is the selected visual research reference, with bottom controls in Sections
 
 Direct reuse of `ha-*` / `hui-*` elements and internal action helpers remains version-coupled even when the native source is useful as a reference. Documented form schemas do not make every internal selector element a stable API. No production dependency, serialization format, minimum HA version, or stack is settled by this research.
 
+### Allocation, composition and test conditions
+
+The MVP fixes semantic regions and supported controls, not a phone viewport or immutable pixel positions. Internal placement may adapt to available card width while preserving information, action independence and usable controls. The later free grid concerns user-defined composition; it is not required for this adaptation.
+
+Validate concrete narrow/intermediate/wide allocations in Sections and Masonry, long labels, enlarged text, focus order, touch reachability and accessible names before accepting tested layout coverage. Establish minimum allocations from usable content rather than copying Tile's footprint. Complete the full desk composition and remaining device/accessibility checks before MVP acceptance.
+
+The iPhone reference is one test environment. Pin versions and record actual widths for each experiment; other recorded environments can start discovery, without establishing Safari or universal compatibility. Follow the [roadmap gates](roadmap.md#performance-protocol-define-before-execution-measure-during-the-experiment). Native visual alignment does not select a private-component dependency or production stack.
+
 ## Performance
 
 Hypotheses to validate in the technical experiment:
@@ -55,6 +63,8 @@ Hypotheses to validate in the technical experiment:
 - Separate editor loading from everyday use.
 - Load specialized resources when needed and avoid work for hidden content.
 - Keep local interactions responsive and control command frequency where applicable.
+
+Define comparable capture methods before execution and gather native/experimental samples during the experiment. Justify budgets and pass them before claiming acceptable performance or choosing a production approach based on cost.
 
 Measure cost against element and binding count. A generic engine can also introduce overhead; its value depends on implementation and evidence.
 

@@ -58,11 +58,17 @@ The core profile also includes `$openspec-update-change` and `$openspec-sync-spe
 
 The initial research change used the local schema, with `skip_specs: true`, and is now archived. Sync assessment found no delta specs, so no main specifications were written. Its [research record](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md) distinguishes observed desk data, public comparative cases, source-derived frontend contracts, and unmeasured runtime behavior.
 
-The desk remains the first acceptance example within a reusable open source library. The selected research reference is Core 2026.11.1 / frontend 20261028.5 / Tile, with iPhone 14 Pro / Safari / reported iOS 27 as the primary device. No product code or physical commands are included. Numerical performance limits and actual target-device baseline captures are pending; review those gates before proposing the stage 1 experiment.
+The desk remains the first acceptance example within a reusable open source library. The selected research reference is Core 2026.11.1 / frontend 20261028.5 / Tile, with iPhone 14 Pro / Safari / reported iOS 27 as a reference test environment. No product code or physical commands are included. Numerical limits, baseline captures and rendered fit remain pending. The [current sequencing decision](decisions.md#layout-and-validation-sequence--2026-11-18) supersedes the archived pre-experiment phone/baseline gate: propose a bounded experiment separately, define reproducible conditions and methods before execution, collect comparable samples alongside it, and justify budgets before accepting performance or a cost-dependent production choice. Reference-device samples are not a start prerequisite; complete remaining desk/device/accessibility and physical/everyday validation before MVP acceptance.
 
 For research without product behavior changes, declare no new/modified capabilities and set `skip_specs: true` in the change's `.openspec.yaml`, preserving other generated fields. The CLI can then skip specs. Do not invent runtime requirements merely to satisfy validation.
 
 If an answer requires a prototype, the research delivery may specify a later experimental change. Do not assume unexecuted test results to settle a production design.
+
+## Next bounded experimental proposal
+
+The documentation change [align-roadmap-with-native-ha-layout](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/proposal.md) was archived on 2026-11-18 with all 8/8 documentation tasks complete. It revises preparation and acceptance timing; it delivers no runtime implementation and does not declare stage 0 complete. The remaining scope synthesis is tracked in the roadmap. Historical findings remain unchanged.
+
+The [experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) defines the next separately scoped delivery: two independent bindings, visual save/reload/reopen in HA, isolated actions, selective updates/cleanup, allocated-width and accessibility checks, and comparable measurements. Its code, dependencies and test-environment setup require that later scope. A standalone mock cannot establish actual HA editor persistence.
 
 ## Supporting CLI commands
 

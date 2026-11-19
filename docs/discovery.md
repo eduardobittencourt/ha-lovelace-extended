@@ -26,28 +26,30 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 
 ## D1. Visual discovery and frontend contracts
 
-**Before:** choosing a reference, dependencies, and the initial architecture.
+**Before:** choosing a visual reference and the contracts needed for an experiment; recheck version applicability before execution and dependency suitability before production adoption.
 
 - Check the candidate native card in the selected version: regions, states, actions, dimensions, and editor/Sections behavior.
 - Consult official documentation and relevant code for card, editor, selector, action, and sizing contracts.
 - Identify documented APIs, internal components, and their compatibility risks. Native appearance does not require coupling to private DOM structure.
 - Pin frontend implementation observations to the revision bundled by the selected Core release. Evaluate public custom-card precedents for specific questions, without treating their internals as HA extension contracts or adopting their code.
 - Evaluate visual editing of independent sources and actions, including errors and unavailability.
-- Define the initial browser, language, theme, and device scope without assuming universal support.
+- Define a reproducible experimental browser, language, theme and environment without assuming universal support. Treat devices as test conditions; distinguish HA dashboard allocation from internal content adaptation. Select concrete container widths before execution.
 
 **Exit evidence:** a versioned visual reference, editor flows, usable contracts, and technical questions requiring experiments.
 
 ## D2. Baselines, alternatives, and technical experiments
 
-**Before:** assuming a final stack and feasible performance.
+**Before:** assuming a final stack or acceptable performance. The experiment gathers evidence for those decisions; its entry does not depend on an existing phone baseline.
 
-- Define comparable scenarios and measure the native reference and current solution where relevant; separate cold/warm loading and local/remote/physical latency.
-- Set acceptance criteria from target devices and measurements using a reproducible method.
+- Before execution, define bounded questions, versioned contracts, reproducible conditions, safe fixtures, functional/layout pass/fail checks and a measurement plan. Scope code, dependencies and environment changes explicitly.
+- During the experiment, measure comparable native/experimental scenarios and the current solution where available and equivalent; separate cold/warm loading and UI/transport/physical latency.
+- Justify numerical budgets from measurements and requirements before accepting performance or making a cost-dependent production choice. Missing samples remain open; one device is not a prerequisite for starting.
+- Check Sections/Masonry allocation and internal fit across recorded narrow/intermediate/wide card widths, long labels and enlarged text; record accessibility observations and coverage limits.
 - Compare minimal Web Components and relevant alternatives such as Lit without treating comparison as adoption.
 - Demonstrate two-entity binding, selective updates, lifecycle behavior, and event isolation; check theme and language changes too.
 - Verify separate editor loading and saved/reopened configuration. Measure cost as element/card count grows.
 
-**Exit evidence:** results, limitations, a justified choice, and a decision to proceed, adjust, or discard the approach.
+**Exit evidence:** demonstrated correctness/layout coverage, comparable results, limitations and a decision to proceed, adjust or discard the approach. Acceptable-performance claims and production choices require justified budgets and passing results. A limited or negative feasibility report does not satisfy the stage 1 exit.
 
 An experiment needing code must be an explicitly bounded experimental change. Success does not automatically make its prototype production code.
 
@@ -97,5 +99,7 @@ An experiment needing code must be an explicitly bounded experimental change. Su
 ## Proceeding criteria
 
 A question is blocking when its answer could change the next delivery's scope, contract, architecture, or acceptance criteria. Resolve it before that delivery or scope a research change to answer it. Deferrable questions need justification and a milestone for revisiting them.
+
+An experiment can investigate unresolved feasibility questions when its scope, safe execution and evidence plan are defined. It cannot use those unknowns as settled contracts. Before MVP completion, finish desk-specific fit, device/accessibility, integration, separately scoped physical/everyday validation and final performance checks. Wider support requires evidence for the claimed scope.
 
 Not every change needs to investigate the entire map. When existing evidence is sufficient, cite it and explain its applicability. When research refutes a hypothesis, update affected proposal, design, and tasks before proceeding.

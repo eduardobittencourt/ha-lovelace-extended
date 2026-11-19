@@ -21,7 +21,7 @@ The local firmware source maps its specific 62–128 cm range to cover position 
 
 Use a native HA card as the layout and visual reference. The initial research reference is horizontal Tile with bottom-aligned controls in Sections, matched to Core 2026.11.1 / frontend 20261028.5. This establishes a source reference; rendered fit and supported-version policy still need validation.
 
-The card will have a fixed composition with designated regions for an icon, title, subtitle/state, primary controls, and additional actions. The placement and limits of these regions still need specification.
+The card will have a fixed composition with designated regions for an icon, title, subtitle/state, primary controls, and additional actions. These are fixed semantic regions; their internal placement can adapt to the allocated card space. Usable minimum allocations and precise placement still require rendered validation.
 
 | Part | Expected configuration for the desk |
 | --- | --- |
@@ -35,7 +35,7 @@ A primary entity supplies defaults. Each element can use another binding. Inform
 
 ## Candidate layout and editor flows
 
-This is a research-backed proposal, not an implemented interface. The starting layout uses the full width of a section, with an identity/information region, a primary-control region, and a row for the three additional actions. Exact row count, minimum width and touch dimensions remain subject to rendered validation on the reference device. Do not assume the additional actions fit a standard Tile footprint.
+This is a research-backed proposal, not an implemented interface. The candidate starts at full-section width, with an identity/information region, a primary-control region and a region for three additional actions. HA controls dashboard allocation: `getGridOptions` supplies Sections sizing, while `getCardSize` supplies a height estimate for Masonry placement. The card adapts its internal arrangement to the available width. Exact row count, minimum allocations and touch dimensions require rendered checks across recorded container widths, long labels and enlarged text, followed by full desk validation before MVP completion. Do not assume the additional actions fit a standard Tile footprint.
 
 | Region | Candidate content | Evidence / validation boundary |
 | --- | --- | --- |
@@ -56,6 +56,8 @@ Candidate visual editor flow:
 
 The observed desk also has a lock. On 2026-11-14, the user chose to keep lock/unlock in existing HA controls. No in-card lock control or automatic unlock is included. Physical desk-operation validation must explicitly account for that external prerequisite; transport completion while locked is not proof that movement happened.
 
+Reference devices, including iPhone 14 Pro / Safari / reported iOS 27, identify validation conditions rather than a fixed product viewport or exclusive support scope. The separately scoped experiment may use another reproducible environment; its results cannot establish untested Safari behavior. Native appearance does not require depending on private HA components. Stage 1 tests the minimal surface, while stage 2 must validate the complete desk composition and remaining accessibility/device cases.
+
 ## Included
 
 - One card type with a fixed layout and a visual language aligned with the chosen reference.
@@ -65,7 +67,7 @@ The observed desk also has a lock. On 2026-11-14, the user chose to keep lock/un
 - Handling of unavailable/missing entities, invalid configuration, and action failures.
 - Internal controls that do not accidentally trigger the card body action.
 - Configuration persistence, subsequent editing, and coherent behavior after reconnection.
-- Performance and accessibility verification in the reference environment.
+- Performance and accessibility verification in recorded reference environments and allocated card sizes, with explicit tested coverage and limitations.
 
 ## Deferred
 
@@ -86,8 +88,8 @@ The observed desk also has a lock. On 2026-11-14, the user chose to keep lock/un
 - [ ] Save, reload, and edit configuration without losing bindings.
 - [ ] Represent unavailability and errors without indicating false success.
 - [ ] Never represent a memory position as reached without device-provided evidence.
-- [ ] Support touch and keyboard use, visible focus, accessible names, and the selected dimensions.
-- [ ] Pass the performance protocol defined before implementation.
+- [ ] Support touch and keyboard use, visible focus and accessible names across selected card allocations, long labels and enlarged text; complete the remaining reference-device checks.
+- [ ] Pass justified performance budgets using the protocol defined before experimental execution, with comparable samples collected during experimentation and repeated on the final MVP.
 - [ ] Replace the current desk solution and receive user validation in everyday use.
 
 ## What the MVP demonstrates
