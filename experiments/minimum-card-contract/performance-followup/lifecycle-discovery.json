@@ -1,0 +1,1397 @@
+{
+  "series": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13324460,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13284872,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13290104,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13311660,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13311820,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13312136,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13927452,
+          "documents": 4,
+          "nodes": 2675,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 10,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13981116,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 20,
+          "created": 60,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14048164,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 30,
+          "created": 90,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14087432,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 40,
+          "created": 120,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14093136,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 50,
+          "created": 150,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14107264,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13748296,
+          "documents": 4,
+          "nodes": 2210,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13764636,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13768096,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13790808,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13791388,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13791704,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13317052,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13277464,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13282696,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13304252,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13304412,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13304728,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13950640,
+          "documents": 4,
+          "nodes": 2675,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 10,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13991208,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 20,
+          "created": 60,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14058404,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 30,
+          "created": 90,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14096160,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 40,
+          "created": 120,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14101900,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 50,
+          "created": 150,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14116652,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13755524,
+          "documents": 4,
+          "nodes": 2210,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13769920,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13773380,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13796116,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13796696,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13797012,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13311680,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13272092,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13277324,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13298880,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13299040,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13299356,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13950660,
+          "documents": 4,
+          "nodes": 2675,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 10,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13991808,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 20,
+          "created": 60,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14060832,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 30,
+          "created": 90,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14096784,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 40,
+          "created": 120,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14102464,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        },
+        {
+          "cycle": 50,
+          "created": 150,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14117216,
+          "documents": 2,
+          "nodes": 2585,
+          "jsEventListeners": 497
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13747836,
+          "documents": 4,
+          "nodes": 2210,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 10,
+          "created": 10,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13764184,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 20,
+          "created": 20,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13767644,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 30,
+          "created": 30,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13790356,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 40,
+          "created": 40,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13790936,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        },
+        {
+          "cycle": 50,
+          "created": 50,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13791252,
+          "documents": 2,
+          "nodes": 2120,
+          "jsEventListeners": 402
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13314100,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13281412,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13283604,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13308132,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13310516,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13314244,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14615572,
+          "documents": 4,
+          "nodes": 6331,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 10,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14724028,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 20,
+          "created": 600,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14843628,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 30,
+          "created": 900,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14865464,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 40,
+          "created": 1200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14874996,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 50,
+          "created": 1500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14887384,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 0,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13871684,
+          "documents": 4,
+          "nodes": 2437,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13840916,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13887024,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13951564,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13955540,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13963440,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13317916,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13285268,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13287460,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13312000,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13314384,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13318112,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14645144,
+          "documents": 4,
+          "nodes": 6331,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 10,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14755256,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 20,
+          "created": 600,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14855608,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 30,
+          "created": 900,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14875816,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 40,
+          "created": 1200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14883116,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 50,
+          "created": 1500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14895564,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 1,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13889360,
+          "documents": 4,
+          "nodes": 2437,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13858456,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13902840,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13967360,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13971336,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13979380,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13342188,
+          "documents": 4,
+          "nodes": 2158,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13309492,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13311684,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13334972,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13337356,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13341060,
+          "documents": 2,
+          "nodes": 2068,
+          "jsEventListeners": 382
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14599608,
+          "documents": 4,
+          "nodes": 6331,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 10,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14704700,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 20,
+          "created": 600,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14825764,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 30,
+          "created": 900,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14846236,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 40,
+          "created": 1200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14855768,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        },
+        {
+          "cycle": 50,
+          "created": 1500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 14868192,
+          "documents": 2,
+          "nodes": 6241,
+          "jsEventListeners": 1415
+        }
+      ],
+      "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 2,
+      "version": {
+        "protocolVersion": "1.3",
+        "product": "HeadlessChrome/159.0.8154.6",
+        "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+        "jsVersion": "15.9.128.1"
+      },
+      "positiveControl": {
+        "retainedVisible": true,
+        "releasedCollected": true
+      },
+      "cycles": 50,
+      "settleMs": 100,
+      "readings": [
+        {
+          "cycle": 0,
+          "created": 0,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13902792,
+          "documents": 4,
+          "nodes": 2437,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 10,
+          "created": 100,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13872288,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 20,
+          "created": 200,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13918132,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 30,
+          "created": 300,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13982652,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 40,
+          "created": 400,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13986776,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        },
+        {
+          "cycle": 50,
+          "created": 500,
+          "weakTargetsStillPresent": 0,
+          "heapBytes": 13995216,
+          "documents": 2,
+          "nodes": 2347,
+          "jsEventListeners": 447
+        }
+      ],
+      "ownedAfterRemoval": "zero after every removal",
+      "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+      "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+    }
+  ],
+  "acceptance": "pending; diagnostic method investigation",
+  "primary_sources": {
+    "heapProtocol": "https://chromium.googlesource.com/v8/v8/+/cde7a77e3a253dc96424a7ef8d7118022cd26dfd/include/js_protocol.pdl",
+    "weakReferences": "https://github.com/v8/v8.dev/blob/a1dc18bd5c9d0577cee563179fa3922665c68e31/src/features/weak-references.md",
+    "animationFrames": "https://github.com/whatwg/html/blob/c4aab9ee4477adbbb7e546b2c4abfc864e918e04/source"
+  },
+  "interpretation": "All 18 calibrated series observed zero surviving weak targets at all 108 checkpoints. Experimental owned resources were zero after each of 50 removals/series. This is a bounded released-object diagnostic, not a general absence-of-leaks proof or an approved heap budget. WeakRef arrays themselves grow as diagnostic bookkeeping; global heap/DOM values include HA and browser work. Empty div controls match the harness, not native internals. No survivor existed for retainer-path inspection. Isolated retained-byte attribution remains unsupported."
+}

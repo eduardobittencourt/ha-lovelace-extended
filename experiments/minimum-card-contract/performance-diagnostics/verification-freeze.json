@@ -1,0 +1,103 @@
+{
+  "policySha256": "e786862c500e8079a2a25021634ba3c6d5150deb763e9d612fbbaa3675e11925",
+  "planSha256": "ee0bcd0daa9df5e7a3fb6433394cfcdb59a9cfe60d37a94c82b1e6669f2ba997",
+  "environmentSha256": "2fbce792f1e06944baee4ece23d804cb3d9ad016bca73d39fb19f8c382c04bdf",
+  "wrapperSha256": "4ec338d203dcac3560aa3a9a46eef36440632dfbccb8413648f3b7be0d2d5459",
+  "fixtures": {
+    "checks": [
+      {
+        "variant": "empty",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      }
+    ],
+    "acceptance": "pending; discovery only"
+  }
+}

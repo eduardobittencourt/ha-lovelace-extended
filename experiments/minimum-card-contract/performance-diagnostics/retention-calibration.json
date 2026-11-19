@@ -1,0 +1,329 @@
+{
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "HeadlessChrome/159.0.8154.6",
+    "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+    "jsVersion": "15.9.128.1"
+  },
+  "calibrated": false,
+  "summaries": [
+    {
+      "exposeInternals": false,
+      "checks": {
+        "harness": true,
+        "retained": true,
+        "debuggerRoot": true,
+        "released": true,
+        "sharedExclusion": true,
+        "ephemeronAttribution": false,
+        "ephemeronRelease": true
+      },
+      "controls": [
+        {
+          "name": "pilot-harness",
+          "exposeInternals": false,
+          "snapshotBytes": 2567753,
+          "owners": [],
+          "keys": []
+        },
+        {
+          "name": "pilot-retained",
+          "exposeInternals": false,
+          "snapshotBytes": 2569135,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                },
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccOwner",
+                  "type": "property"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "pilot-debugger-root",
+          "exposeInternals": false,
+          "snapshotBytes": 2569038,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "synthetic",
+                  "fromName": "(Global handles)",
+                  "edge": "1 / DevTools console",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "pilot-released",
+          "exposeInternals": false,
+          "snapshotBytes": 2568544,
+          "owners": [],
+          "keys": []
+        },
+        {
+          "name": "pilot-shared",
+          "exposeInternals": false,
+          "snapshotBytes": 2569428,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 120,
+              "objects": 3,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccOwner",
+                  "type": "property"
+                },
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "pilot-ephemeron",
+          "exposeInternals": false,
+          "snapshotBytes": 2570186,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "MccDiagnosticKey",
+                  "edge": "1 / part of key (MccDiagnosticKey @95151) -> value (MccDiagnosticOwner @95161) pair in WeakMap (table @95159)",
+                  "type": "internal"
+                },
+                {
+                  "fromType": "array",
+                  "fromName": "",
+                  "edge": "1 / part of key (MccDiagnosticKey @95151) -> value (MccDiagnosticOwner @95161) pair in WeakMap (table @95159)",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": [
+            {
+              "shallowBytes": 52,
+              "bytes": 52,
+              "objects": 1,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccKey",
+                  "type": "property"
+                },
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pilot-ephemeron-released",
+          "exposeInternals": false,
+          "snapshotBytes": 2571411,
+          "owners": [],
+          "keys": []
+        }
+      ]
+    },
+    {
+      "exposeInternals": true,
+      "checks": {
+        "harness": true,
+        "retained": true,
+        "debuggerRoot": true,
+        "released": true,
+        "sharedExclusion": true,
+        "ephemeronAttribution": false,
+        "ephemeronRelease": true
+      },
+      "controls": [
+        {
+          "name": "revision-harness",
+          "exposeInternals": true,
+          "snapshotBytes": 2565445,
+          "owners": [],
+          "keys": []
+        },
+        {
+          "name": "revision-retained",
+          "exposeInternals": true,
+          "snapshotBytes": 2567223,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccOwner",
+                  "type": "property"
+                },
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "revision-debugger-root",
+          "exposeInternals": true,
+          "snapshotBytes": 2567100,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "synthetic",
+                  "fromName": "(Global handles)",
+                  "edge": "7 / DevTools console",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "revision-released",
+          "exposeInternals": true,
+          "snapshotBytes": 2566615,
+          "owners": [],
+          "keys": []
+        },
+        {
+          "name": "revision-shared",
+          "exposeInternals": true,
+          "snapshotBytes": 2567503,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 120,
+              "objects": 3,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccOwner",
+                  "type": "property"
+                },
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": []
+        },
+        {
+          "name": "revision-ephemeron",
+          "exposeInternals": true,
+          "snapshotBytes": 2568263,
+          "owners": [
+            {
+              "shallowBytes": 52,
+              "bytes": 16528,
+              "objects": 5,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "MccDiagnosticKey",
+                  "edge": "1 / part of key (MccDiagnosticKey @93313) -> value (MccDiagnosticOwner @95155) pair in WeakMap (table @95161)",
+                  "type": "internal"
+                },
+                {
+                  "fromType": "array",
+                  "fromName": "",
+                  "edge": "1 / part of key (MccDiagnosticKey @93313) -> value (MccDiagnosticOwner @95155) pair in WeakMap (table @95161)",
+                  "type": "internal"
+                }
+              ]
+            }
+          ],
+          "keys": [
+            {
+              "shallowBytes": 52,
+              "bytes": 52,
+              "objects": 1,
+              "incoming": [
+                {
+                  "fromType": "object",
+                  "fromName": "Window [JSGlobalObject] / ://",
+                  "edge": "mccKey",
+                  "type": "property"
+                },
+                {
+                  "fromType": "native",
+                  "fromName": "system / PropertyCell",
+                  "edge": "value",
+                  "type": "internal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "revision-ephemeron-released",
+          "exposeInternals": true,
+          "snapshotBytes": 2569480,
+          "owners": [],
+          "keys": []
+        }
+      ]
+    }
+  ],
+  "boundary": "Candidate exclusive strong-edge snapshot bytes; shallow size and retained graph are distinguished; no renderer-global subtraction",
+  "next": "Unsupported: strong-edge traversal failed ownership calibration. Require validated ephemeron-aware/embedder dominator semantics before retained-byte acceptance; do not run the full lifecycle byte series.",
+  "acceptance": "pending; no numerical budget approved"
+}

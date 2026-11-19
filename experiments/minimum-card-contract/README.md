@@ -211,3 +211,209 @@ The change was archived on 2026-11-19 with sync to the
 [experimental main spec](../../openspec/specs/independent-element-bindings/spec.md).
 Archiving preserves the technical review's withheld performance acceptance and
 does not close stage 1 or adopt the prototype as production code.
+
+## Stage 1 performance follow-up campaign
+
+The archived [`evaluate-stage-one-performance` change](../../openspec/changes/archive/2026-11-19-evaluate-stage-one-performance/tasks.md) keeps `src/`, the original
+manifest/results and archived evidence unchanged. Its separate
+[manifest](performance-followup/execution.json) records reconstruction and its
+[partially approved matrix](performance-followup/budget-review.json) records the
+four explicit numerical agreements and six other required pending rows. The
+[verification review](performance-followup/review.md) records one approved budget
+failing and three passing; the historical 1108.60 ms observation is retained.
+Overall performance acceptance remains withheld.
+
+Reconstruct with the setup commands above, setting `MCC_RESEARCH` to
+`$HOME/research/ha-lovelace-extended/evaluate-stage-one-performance` for image,
+sandbox and preflight commands. The generated private-state directory is the
+same disposable directory as before: verify it is absent/not running before
+setup. Reuse the locked dependencies and revision 1255 browser; do not replace
+host tools. Stop if capacity or isolation is inadequate. This campaign used an
+external guard that stops the sandbox below a 1 GiB free-space reserve; monitor
+free space during capture and retain evidence of any storage stop.
+
+From the experiment directory, with the isolated server running:
+
+```sh
+export MCC_RESEARCH="$HOME/research/ha-lovelace-extended/evaluate-stage-one-performance"
+node tools/ha-smoke.mjs
+node tools/allocate.mjs
+node tools/register.mjs
+node tools/recorder-check.mjs
+node tools/measurement-preflight.mjs
+node tools/followup-preflight.mjs control-preflight-v2
+```
+
+New drivers require an explicit external campaign root and a unique run name.
+The path above is the local convention; another external root may be supplied
+through `MCC_RESEARCH`. Historical evidence and the checkout are protected.
+They create
+a fresh subdirectory exclusively before importing historical helpers and refuse
+to overwrite it; choose another name on a subsequent run. `followup-preflight`
+checks empty/native/experimental one/ten-group dashboards, experimental-resource
+absence/presence and intercepted synthetic activation with unchanged helper
+state. The empty dashboard has no card resource; its driver-only button is
+added after readiness, positioned above the HA host for real pointer activation.
+This local recorder control is not equivalent to native HA action semantics.
+It bounds shared driver work only. There is no empty card-editor equivalent.
+
+Published [discovery findings and limitations](performance-followup/discovery.md)
+link the sanitized samples and required pending metric rows.
+
+Repeated discovery uses separate entry points, serially, from that same directory:
+
+```sh
+node tools/followup-measure.mjs discovery-loads loads
+node tools/followup-measure.mjs discovery-editors editors
+node tools/followup-measure.mjs discovery-updates-v3 updates
+node tools/followup-methods.mjs method-validation-v2
+node tools/followup-lifecycle.mjs discovery-lifecycle
+node tools/followup-rendering.mjs discovery-rendering
+python3 tools/followup-summarize.py
+```
+
+These names identify this campaign's retained executions; use fresh unique names
+for another capture. The summarizer is a publisher for those specific completed
+runs, not a generic acceptance evaluator, and refuses to overwrite published
+artifacts. It expects all named runs and records source/provenance identities.
+For an independent report reproduction, supply
+`--output /path/to/a/new/report-directory` to the summarizer; that directory must
+not exist. Missing failed pilots are not required on a successful reproduction.
+
+The [driver history](performance-followup/method-history.json) provides exact
+patches to reconstruct earlier discovery source hashes from the current driver.
+The measurement entry-point revisions differ only in update-mode token renewal/
+final-state checks; load/editor/input branches are identical. Separately recorded
+post-capture portability changes permit another explicit external output root
+without changing measurement logic.
+
+The frozen discovery defaults are ten cold/warm pairs, thirty local inputs and
+ten independent first-open/reopen editor pairs for each empty/native/experimental
+one/ten-group workload. Empty editor observations cover edit-mode setup only.
+Updates use three independent repetitions per workload/class/rate, 60 seconds
+at 1 Hz and 10 seconds at 20 Hz. Token renewal occurs outside each timed workload;
+each window checks that the measured page received its final fixture state.
+The `settleMs: 200` schedule field applies only before update windows; loads and
+editors use their documented readiness boundaries. Whole-dashboard totals and
+rotated block/control contrasts remain descriptive, with shared cost and unequal
+native composition explicitly retained. Never subtract CDP counters across
+navigation; the separate method probe demonstrates the reset with an intentional
+500 ms script before reload, outside timing collection.
+
+Lifecycle diagnostics create fresh nodes, remove them, release all strong
+harness references and inspect forced-GC checkpoints with weak references and a
+positive retained/released control. Scalar ownership diagnostics are separate
+from renderer-global heap/DOM observations. Rendering diagnostics change the
+first visible fixture value in browser-side hass snapshots and compare setter
+costs with/without a content observer. They record the content-matching observer
+callback and following frame opportunity on the browser clock. Neither milestone
+establishes final compositor presentation, HA transport or physical response.
+Consult the campaign evidence for actual method validation outcomes and limits;
+commands alone are not proof of support or acceptance.
+
+
+## Approved follow-up verification
+
+The [approval](performance-followup/approval.json) covers only the four presented
+limits and maximum/no-replacement rule. The [frozen plan](performance-followup/verification-plan.json)
+contains method/environment/source identities and the separate 120-load/180-input
+schedule. All required unapproved/unsupported rows remain pending. Fresh capture
+uses a newly reconstructed disposable lab and an external campaign root:
+
+```sh
+export MCC_RESEARCH="$HOME/research/ha-lovelace-extended/evaluate-stage-one-performance/verification-20261119"
+node tools/followup-preflight.mjs preflight
+node --test tools/followup-evaluate.test.mjs
+node tools/followup-verify.mjs acceptance
+node tools/followup-evaluate.mjs performance-followup/verification-plan.json performance-followup/verification-samples.json /path/to/a/new-review.json
+```
+
+Names above identify retained runs and cannot be overwritten. `followup-verify`
+checks all frozen source hashes before browser activity and stops on invalid
+captures, preserving observations/reasons. It never replaces a slow valid sample.
+The evaluator reads explicit approved maxima, has no historical-candidate defaults,
+checks frozen provenance and all trial/control coverage, and leaves required
+unsupported/unapproved rows pending. A failed budget does not authorize changing
+the subject or threshold. Offline evaluation uses the published sanitized samples
+and needs no private HA access. The [review](performance-followup/review.md)
+records the actual cold-readiness failure and remaining stage 1 gates.
+
+## Stage 1 performance diagnostics
+
+The archived [`diagnose-stage-one-performance-gaps` investigation](../../openspec/changes/archive/2026-11-19-diagnose-stage-one-performance-gaps/research.md) preserves the
+subject and all historical evidence. Its [offline preflight](performance-diagnostics/preflight.json)
+reconciles the four approved limits, ten required rows, 36 current identities,
+five reconstructed historical methods and an exact replay of the published
+verification decision. Both 1108.60 and 1104.80 ms cold observations remain valid.
+This preflight collects no fresh acceptance data.
+
+From the repository root, use a new external destination:
+
+```sh
+python3 experiments/minimum-card-contract/tools/diagnostic-preflight.py "$HOME/research/ha-lovelace-extended/diagnose-stage-one-performance-gaps/preflight"
+```
+
+That directory must not exist. From the experiment directory, run the output
+boundary controls before lab work:
+
+```sh
+node --test tools/diagnostic-paths.test.mjs
+export MCC_DIAGNOSTICS="$HOME/research/ha-lovelace-extended/diagnose-stage-one-performance-gaps"
+```
+
+New diagnostic drivers use `diagnostic-common.mjs` and `startRun()` before any
+browser/authentication helper import. `MCC_DIAGNOSTICS` must name an existing
+external directory; each driver requires a unique run name. The checkout, both
+historical campaigns, aliases into those locations and existing run names are
+rejected before browser/authentication activity. A 1 GiB reserve applies before
+run allocation and each observation/report write. Lab acquisition and runtime
+also require continuous external storage guarding; this output check alone does
+not guard image extraction or trace/snapshot streaming. Keep raw traces and
+private state out of the checkout. The published manifest contains only sanitized
+identities, approval provenance and historical outcomes.
+
+The [initial readiness pilot](performance-diagnostics/readiness-pilot-incomplete.json)
+retains the ten completed observations preceding the empty-dashboard timeout.
+The [corrected protocol](performance-diagnostics/protocol.md) describes the
+property-based label fix, the 24-load calibration and the separate
+[120-load campaign](performance-diagnostics/readiness.json). The [diagnosis](performance-diagnostics/diagnosis.md)
+links both method calibrations and the optimization handoff.
+
+After disposable lab preflight and with the storage guard active, use unique
+external run names from this directory:
+
+```sh
+node tools/diagnostic-loads.mjs readiness-new-pilot pilot
+node tools/diagnostic-loads.mjs readiness-new-series campaign
+python3 tools/diagnostic-readiness-report.py "$MCC_DIAGNOSTICS/readiness-new-series" "$MCC_DIAGNOSTICS/readiness-new-report.json"
+node tools/diagnostic-retention.mjs retention-new-pilot
+node tools/diagnostic-presentation.mjs presentation-new-pilot
+```
+
+Review the readiness pilot before the series. Presentation and retention pilots
+are separate headless synthetic controls. Their published outcome withholds both
+metrics because calibration failed. Run the eligible subset separately after
+verifying the served hashes and six fixture controls:
+
+```sh
+export MCC_RESEARCH="$MCC_DIAGNOSTICS"
+node tools/followup-preflight.mjs verification-new-controls
+node tools/diagnostic-verification.mjs capture verification-new "$MCC_RESEARCH/verification-new-controls/preflight.json"
+node tools/diagnostic-verification.mjs evaluate "$MCC_DIAGNOSTICS/verification-new/samples.json" "$MCC_DIAGNOSTICS/verification-new-freeze/freeze.json" "$MCC_DIAGNOSTICS/verification-new-result.json"
+```
+
+The [verification policy](performance-diagnostics/verification-policy.json) pins
+the historical plan and diagnostic lab record. For offline replay, pass the
+published [samples](performance-diagnostics/verification-samples.json) and
+[freeze](performance-diagnostics/verification-freeze.json) to the evaluator
+with a new output path. Compare output to the [decision](performance-diagnostics/verification-result.json).
+The [ten-row matrix](performance-diagnostics/budget-matrix.json) identifies
+dated agreement and the remaining metric prerequisites. The
+[editor approval](performance-diagnostics/editor-approval.json) covers the
+experimental card's first open and same-document reopen separately. Run the
+approval-backed editor driver in a dedicated serial session after lab preflight.
+
+```sh
+node tools/diagnostic-editor.mjs editor-new
+node tools/diagnostic-editor-evaluate.mjs performance-diagnostics/editor-approval.json "$MCC_DIAGNOSTICS/editor-new/plan.json" "$MCC_DIAGNOSTICS/editor-new/samples.json" "$MCC_DIAGNOSTICS/editor-new-result.json"
+```

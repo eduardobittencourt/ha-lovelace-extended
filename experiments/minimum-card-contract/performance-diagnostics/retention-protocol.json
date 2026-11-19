@@ -1,0 +1,28 @@
+{
+  "phase": "bounded retained-byte calibration; not acceptance",
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "HeadlessChrome/159.0.8154.6",
+    "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+    "jsVersion": "15.9.128.1"
+  },
+  "sourceHashes": {
+    "tools/diagnostic-retention.mjs": "7e469956b650b5a8ce6db7ecd924a59dca0861502409e0b612ea31413cf230a4",
+    "tools/diagnostic-heap.mjs": "fb72e9b66a34967c6c00d21ffb96480321c85c3e9b805476e06868df2077e7c7"
+  },
+  "size": "Sum of self_size for strong-reachable nodes disconnected by removal of owner vertex; candidate only",
+  "controls": [
+    "harness only",
+    "retained payload",
+    "debugger-only root",
+    "released debugger group",
+    "shared payload",
+    "ephemeron key/value"
+  ],
+  "stop": "One default pilot and at most one exposeInternals revision; full campaign only if every ownership control calibrates",
+  "references": [
+    "https://github.com/v8/v8/blob/15.9.128.1/include/js_protocol.pdl",
+    "https://github.com/v8/v8/blob/15.9.128.1/include/v8-profiler.h"
+  ]
+}

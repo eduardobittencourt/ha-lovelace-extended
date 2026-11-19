@@ -1,0 +1,46 @@
+[
+  {
+    "revision": "v1",
+    "sha256": "24305e8c369683064f6f2a8e53a06e96cdbc8bcb4f1e4d02996adb0f291baa1e",
+    "runs": [
+      "discovery-loads",
+      "discovery-editors",
+      "discovery-updates"
+    ],
+    "patch_from_current_published_source": "--- tools/followup-measure.mjs\n+++ discovery-source-v1.mjs\n@@ -81,10 +81,8 @@\n   }\n   const remain=start+seconds*1000-clock.now();if(remain>0)await delay(remain);\n   await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));\n-  const observedState=await page.evaluate(id=>document.querySelector('home-assistant').hass.states[id]?.state,id);\n-  assert.equal(Number(observedState),total%99,'Measured page must observe the final synthetic update');\n   const after=await metrics(cdp);\n-  await record('update',{variant,count,repeat,kind,hz,seconds,updates:total,observedFinalState:observedState,late,elapsedMs:clock.now()-start,scriptMs:(after.ScriptDuration-before.ScriptDuration)*1000,taskMs:(after.TaskDuration-before.TaskDuration)*1000});\n+  await record('update',{variant,count,repeat,kind,hz,seconds,updates:total,late,elapsedMs:clock.now()-start,scriptMs:(after.ScriptDuration-before.ScriptDuration)*1000,taskMs:(after.TaskDuration-before.TaskDuration)*1000});\n  }\n  await fetch(base+'/api/states/'+fixture.a_source,{method:'POST',headers,body:JSON.stringify({state:original.state,attributes:original.attributes})});\n  await fetch(base+'/api/states/input_number.mcc_unrelated',{method:'DELETE',headers});\n@@ -110,7 +108,6 @@\n    }\n   }else{\n    for(let repeat=0;repeat<3;repeat++)for(const variant of rotate(repeat)){\n-    Object.assign(auth,await common.tokens()); // Renew outside timed windows for campaigns longer than a token lifetime.\n     await prepare(control,variant,count);const {context,page,cdp}=await newPage();\n     try{await page.goto(base+'/mcc-experiment/bench');await ready(page,variant,count);await delay(200);await updates(page,cdp,variant,count,repeat);}finally{await context.close();}\n    }\n",
+    "scope": "Only update-mode authentication renewal and final-state validation changed; load/editor/input branches are identical."
+  },
+  {
+    "revision": "v2",
+    "sha256": "2524ecd8de724221ddad2b0bfa2092b7e67a68ac71d472cd4cf55ca31d7c9944",
+    "runs": [
+      "discovery-updates-v2"
+    ],
+    "patch_from_current_published_source": "--- tools/followup-measure.mjs\n+++ discovery-source-v2.mjs\n@@ -81,10 +81,8 @@\n   }\n   const remain=start+seconds*1000-clock.now();if(remain>0)await delay(remain);\n   await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));\n-  const observedState=await page.evaluate(id=>document.querySelector('home-assistant').hass.states[id]?.state,id);\n-  assert.equal(Number(observedState),total%99,'Measured page must observe the final synthetic update');\n   const after=await metrics(cdp);\n-  await record('update',{variant,count,repeat,kind,hz,seconds,updates:total,observedFinalState:observedState,late,elapsedMs:clock.now()-start,scriptMs:(after.ScriptDuration-before.ScriptDuration)*1000,taskMs:(after.TaskDuration-before.TaskDuration)*1000});\n+  await record('update',{variant,count,repeat,kind,hz,seconds,updates:total,late,elapsedMs:clock.now()-start,scriptMs:(after.ScriptDuration-before.ScriptDuration)*1000,taskMs:(after.TaskDuration-before.TaskDuration)*1000});\n  }\n  await fetch(base+'/api/states/'+fixture.a_source,{method:'POST',headers,body:JSON.stringify({state:original.state,attributes:original.attributes})});\n  await fetch(base+'/api/states/input_number.mcc_unrelated',{method:'DELETE',headers});\n",
+    "scope": "Only update-mode authentication renewal and final-state validation changed; load/editor/input branches are identical."
+  },
+  {
+    "revision": "v3",
+    "sha256": "b0dc0a68b2d8a84710ad35d74a939a919f5906c382f596fb14c3ff7bb9b23dad",
+    "runs": [
+      "discovery-updates-v3"
+    ],
+    "patch_from_current_published_source": "",
+    "scope": "Only update-mode authentication renewal and final-state validation changed; load/editor/input branches are identical."
+  },
+  {
+    "revision": "common-during-discovery",
+    "file": "tools/followup-common.mjs",
+    "sha256": "52c9983105caeffee26b24dcfbe51e8967977f2407a971d4dacec2f358501b11",
+    "runs": "All completed discovery captures",
+    "patch_from_current_published_source": "--- tools/followup-common.mjs\n+++ discovery-common.mjs\n@@ -2,19 +2,12 @@\n import assert from 'node:assert/strict';\n import {mkdir, realpath, appendFile, writeFile, statfs} from 'node:fs/promises';\n import {homedir} from 'node:os';\n-import {resolve, relative, dirname} from 'node:path';\n-import {fileURLToPath} from 'node:url';\n-assert.ok(process.env.MCC_RESEARCH,'Set MCC_RESEARCH to an explicit external campaign root');\n-const root=await realpath(resolve(process.env.MCC_RESEARCH));\n-const legacy=resolve(homedir(),'research/ha-lovelace-extended/demonstrate-minimum-card-contract');\n-const legacyRoot=await realpath(legacy).catch(error=>{if(error.code==='ENOENT')return legacy;throw error;});\n-const checkout=resolve(dirname(fileURLToPath(import.meta.url)),'../../..');\n-for(const protectedRoot of [legacyRoot,checkout]){\n- const path=relative(protectedRoot,root);\n- assert.ok(path==='..'||path.startsWith('../'),'Raw campaign root must be outside historical evidence and the checkout');\n-}\n+import {resolve, relative} from 'node:path';\n+const expected=resolve(homedir(),'research/ha-lovelace-extended/evaluate-stage-one-performance');\n+assert.equal(resolve(process.env.MCC_RESEARCH ?? ''),expected,'Set MCC_RESEARCH to the follow-up campaign root');\n export const run=process.argv[2];\n assert.match(run ?? '',/^[a-z][a-z0-9-]{0,63}$/,'Supply a unique discovery run name');\n+const root=await realpath(expected);\n export const output=resolve(root,run);\n assert.equal(relative(root,output),run);\n await mkdir(output); // Exclusive: an existing run is never overwritten.\n",
+    "scope": "After discovery, output validation was made portable: any explicit external campaign root is allowed, while historical evidence and the checkout remain protected. Canonical campaign capture behavior and imported measurement helpers are unchanged."
+  },
+  {
+    "revision": "publisher-used-for-discovery",
+    "file": "tools/followup-summarize.py",
+    "sha256": "b63cd2075cb7af4ff3a2b5c3f3edaf2f78a1e1e8469595c668932c755bb6740a",
+    "patch_from_current_published_source": "--- tools/followup-summarize.py\n+++ discovery-publisher.py\n@@ -2,19 +2,12 @@\n from collections import Counter, defaultdict\n from pathlib import Path\n import hashlib\n-import argparse\n import json\n-import os\n import statistics\n \n experiment = Path(__file__).resolve().parents[1]\n-area = Path(os.environ.get('MCC_RESEARCH', str(Path.home() / 'research/ha-lovelace-extended/evaluate-stage-one-performance')))\n-parser = argparse.ArgumentParser(description=__doc__)\n-parser.add_argument('--output', type=Path, help='Publish to a new external directory without overwriting repository evidence')\n-args = parser.parse_args()\n-out = args.output.resolve() if args.output else experiment / 'performance-followup'\n-if args.output:\n-    out.mkdir(parents=True, exist_ok=False)\n+area = Path.home() / 'research/ha-lovelace-extended/evaluate-stage-one-performance'\n+out = experiment / 'performance-followup'\n runs = {'loads': 'discovery-loads', 'editors': 'discovery-editors',\n         'updates': 'discovery-updates-v3', 'lifecycle': 'discovery-lifecycle',\n         'rendering': 'discovery-rendering', 'methods': 'method-validation-v2'}\n@@ -62,10 +55,7 @@\n \n rejected = []\n for run in ['control-preflight', 'discovery-updates', 'discovery-updates-v2', 'method-validation']:\n-    rejection = area / run / 'rejection.json'\n-    if not rejection.exists():\n-        continue  # Successful reproductions need not recreate rejected pilots.\n-    reason = json.loads(rejection.read_text())\n+    reason = json.loads((area / run / 'rejection.json').read_text())\n     partial = area / run / 'observations.ndjson'\n     observations = [json.loads(line) for line in partial.read_text().splitlines()] if partial.exists() else []\n     rejected.append({'run': run, **reason, 'partial_observations': observations})\n",
+    "scope": "Post-publication reproduction changes: honor MCC_RESEARCH; optional new --output directory; absent failed pilots are not required for successful reproductions. Default aggregation and this campaign report remain unchanged."
+  }
+]

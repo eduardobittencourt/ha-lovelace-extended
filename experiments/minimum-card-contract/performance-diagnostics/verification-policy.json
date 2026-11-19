@@ -1,0 +1,12 @@
+{
+  "phase": "separate diagnostic-change verification of the existing four approved metrics",
+  "planSha256": "ee0bcd0daa9df5e7a3fb6433394cfcdb59a9cfe60d37a94c82b1e6669f2ba997",
+  "environmentSha256": "2fbce792f1e06944baee4ece23d804cb3d9ad016bca73d39fb19f8c382c04bdf",
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "eligible": "Four rows already approved on 2026-11-19; keep six pending rows from the frozen plan",
+  "schedule": "Reuse exact 120 loads and 180 activations, including matched controls, with no R1 phase observer",
+  "aggregation": "Show fresh per-row results; preserve unresolved historical approved cold failure and all pending gates"
+}

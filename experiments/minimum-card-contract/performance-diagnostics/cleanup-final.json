@@ -1,0 +1,23 @@
+{
+  "phase": "final disposable lab lifecycle",
+  "serveProcess": "stopped",
+  "storageGuard": "exited",
+  "loopbackPort18123": "closed",
+  "pidFile": "absent",
+  "bridgeSocket": "absent",
+  "removed": [
+    "campaign-owned expanded image and any remaining layer files",
+    "generated disposable HA configuration and private state"
+  ],
+  "storageGuardObservation": {
+    "minimum_free_bytes": 2044186624,
+    "current_free_bytes": 2053165056,
+    "reserve_bytes": 1073741824
+  },
+  "freeBeforeCleanupBytes": 2053091328,
+  "freeAfterCleanupBytes": 4934463488,
+  "rawCapturesVerifiedUnchanged": 8,
+  "historicalAndSourceHashes": "matched initial preflight",
+  "managedBrowserCache": "preserved",
+  "productionHomeAssistant": "outside the campaign"
+}

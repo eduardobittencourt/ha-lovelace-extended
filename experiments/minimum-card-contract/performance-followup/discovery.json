@@ -1,0 +1,4840 @@
+{
+  "phase": "discovery/method validation only; no acceptance collection",
+  "historical_cold_outlier_ms": 1108.6,
+  "provenance": {
+    "loads": {
+      "run": "discovery-loads",
+      "file": "samples.json",
+      "sha256": "fa604c9c1ef1213d8d9867a5e04434150d46247af9906eeacf01e8f96768178c"
+    },
+    "editors": {
+      "run": "discovery-editors",
+      "file": "samples.json",
+      "sha256": "b7a2906e434163b18012dce4ed4c7a498819308ae964230cabcac9cd3f3e861f"
+    },
+    "updates": {
+      "run": "discovery-updates-v3",
+      "file": "samples.json",
+      "sha256": "9607e9c7c51f0a75ad624d092ed903d7efb7572255189db17d2a09e78aac0dcd"
+    },
+    "lifecycle": {
+      "run": "discovery-lifecycle",
+      "file": "lifecycle.json",
+      "sha256": "4336f0e236a6edb7b110078462e2021c0febd78c4a4b661aaa2df0115cddbe91"
+    },
+    "rendering": {
+      "run": "discovery-rendering",
+      "file": "rendering.json",
+      "sha256": "8d2e4db697869301b6032dedb358458b96af441120ace863529ad61a181396aa"
+    },
+    "methods": {
+      "run": "method-validation-v2",
+      "file": "methods.json",
+      "sha256": "fb201a45a5c016ac2837d4c7faccbede0c81a38cdbc743ec06fd298fcbfaef20"
+    }
+  },
+  "public_samples": [
+    "timing-discovery.json",
+    "lifecycle-discovery.json",
+    "rendering-discovery.json"
+  ],
+  "load_summary": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 612.6999999284744,
+        "median": 644.3999999761581,
+        "maximum": 670.0999999046326
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 126.04299999999999,
+        "median": 128.3945,
+        "maximum": 135.119
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 543.1,
+        "median": 552.4214999999999,
+        "maximum": 568.455
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1355539,
+        "median": 1355539.0,
+        "maximum": 1355539
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 339.89999997615814,
+        "median": 354.19999998807907,
+        "maximum": 455.2000000476837
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 39.285000000000004,
+        "median": 41.134,
+        "maximum": 41.743
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 312.249,
+        "median": 319.6955,
+        "maximum": 343.579
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 626.3000000715256,
+        "median": 660.6999999880791,
+        "maximum": 688
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 131.176,
+        "median": 133.9855,
+        "maximum": 136.513
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 566.2779999999999,
+        "median": 575.562,
+        "maximum": 604.3100000000001
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1364934,
+        "median": 1364934.0,
+        "maximum": 1374510
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 440,
+        "median": 455.75,
+        "maximum": 473.10000002384186
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 42.671,
+        "median": 43.4025,
+        "maximum": 46.877
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 337.863,
+        "median": 345.034,
+        "maximum": 353.82000000000005
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 622.5,
+        "median": 639.8000000715256,
+        "maximum": 666.5
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 132.61700000000002,
+        "median": 133.3555,
+        "maximum": 138.717
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 550.997,
+        "median": 563.1005,
+        "maximum": 578.661
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1368049,
+        "median": 1368049.0,
+        "maximum": 1377625
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 11610,
+        "median": 11610.0,
+        "maximum": 11610
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 12510,
+        "median": 12510.0,
+        "maximum": 12510
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 452.60000002384186,
+        "median": 456.7000000476837,
+        "maximum": 473.5
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 42.028999999999996,
+        "median": 44.7025,
+        "maximum": 45.313
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 329.31,
+        "median": 338.907,
+        "maximum": 359.076
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 11610,
+        "median": 11610.0,
+        "maximum": 11610
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 616.5999999046326,
+        "median": 641.7000000476837,
+        "maximum": 659
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 126.65799999999999,
+        "median": 128.88,
+        "maximum": 136.314
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 539.0500000000001,
+        "median": 547.1475,
+        "maximum": 559.319
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1355539,
+        "median": 1355539.0,
+        "maximum": 1355539
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 353.2000000476837,
+        "median": 357.14999997615814,
+        "maximum": 389.3000000715256
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 39.874,
+        "median": 41.75,
+        "maximum": 43.414
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 316.81100000000004,
+        "median": 322.52049999999997,
+        "maximum": 339.1
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 678.6000000238419,
+        "median": 698.1500000357628,
+        "maximum": 711
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 142.714,
+        "median": 145.943,
+        "maximum": 155.15300000000002
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 620.1719999999999,
+        "median": 631.5345,
+        "maximum": 651.165
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1364934,
+        "median": 1364934.0,
+        "maximum": 1364934
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 456,
+        "median": 470.55000001192093,
+        "maximum": 572.6999999284744
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 54.929,
+        "median": 57.06,
+        "maximum": 76.864
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 393.874,
+        "median": 400.90700000000004,
+        "maximum": 540.117
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 643,
+        "median": 658.3500000238419,
+        "maximum": 669.7999999523163
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 135.589,
+        "median": 140.0335,
+        "maximum": 155.743
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 568.542,
+        "median": 582.046,
+        "maximum": 594.467
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 1368049,
+        "median": 1368049.0,
+        "maximum": 1368049
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 11610,
+        "median": 11610.0,
+        "maximum": 11610
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 12510,
+        "median": 12510.0,
+        "maximum": 12510
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 453.7000000476837,
+        "median": 456.8499999642372,
+        "maximum": 473.39999997615814
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 47.143,
+        "median": 48.608000000000004,
+        "maximum": 51.183
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 345.835,
+        "median": 354.88800000000003,
+        "maximum": 365.574
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 3931,
+        "median": 3931.0,
+        "maximum": 3931
+      },
+      "customDecoded": {
+        "n": 10,
+        "minimum": 11610,
+        "median": 11610.0,
+        "maximum": 11610
+      },
+      "customTransfer": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    }
+  ],
+  "input_summary": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "intentMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.19999992847442627,
+        "maximum": 0.30000007152557373
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": {
+        "n": 30,
+        "minimum": 0.6999999284744263,
+        "median": 0.8000000715255737,
+        "maximum": 2.100000023841858
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": {
+        "n": 30,
+        "minimum": 0.09999990463256836,
+        "median": 0.20000004768371582,
+        "maximum": 0.6000000238418579
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "intentMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.10000002384185791,
+        "maximum": 1
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": {
+        "n": 30,
+        "minimum": 1,
+        "median": 1.100000023841858,
+        "maximum": 3.3000000715255737
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": {
+        "n": 30,
+        "minimum": 0.10000002384185791,
+        "median": 0.20000004768371582,
+        "maximum": 0.6000000238418579
+      }
+    }
+  ],
+  "editor_summary": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 279.5,
+        "median": 290.9500000476837,
+        "maximum": 310.89999997615814
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 283.90000009536743,
+        "median": 296.9000000357628,
+        "maximum": 317.7999999523163
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 10.221000000000007,
+        "median": 10.90350000000001,
+        "maximum": 15.19200000000001
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 73.29000000000008,
+        "median": 78.679,
+        "maximum": 90.57300000000001
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 20436,
+        "median": 53714.0,
+        "maximum": 53714
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 48.800000071525574,
+        "median": 54.05000001192093,
+        "maximum": 62
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 50.700000047683716,
+        "median": 55.5,
+        "maximum": 63.89999997615814
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 6.484000000000018,
+        "median": 7.115499999999996,
+        "maximum": 9.355000000000002
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 31.040999999999986,
+        "median": 33.35949999999998,
+        "maximum": 45.79099999999991
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 312.5,
+        "median": 332.75,
+        "maximum": 343
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 272.39999997615814,
+        "median": 283.7000000476837,
+        "maximum": 306
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 591,
+        "median": 619.3000000119209,
+        "maximum": 651.8999999761581
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 60.158000000000015,
+        "median": 61.736999999999995,
+        "maximum": 68.50999999999999
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 380.105,
+        "median": 394.5754999999999,
+        "maximum": 429.52099999999996
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 304795,
+        "median": 304795.0,
+        "maximum": 304795
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 67,
+        "median": 70.05000001192093,
+        "maximum": 79.5
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 121.5,
+        "median": 125.75,
+        "maximum": 143.70000004768372
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 191.69999992847443,
+        "median": 202.0999999642372,
+        "maximum": 212.60000002384186
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 29.757000000000005,
+        "median": 30.991500000000006,
+        "maximum": 33.775999999999975
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 161.79199999999994,
+        "median": 166.50149999999996,
+        "maximum": 189.28400000000002
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 105.79999995231628,
+        "median": 315.00000005960464,
+        "maximum": 319.5
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 130.69999992847443,
+        "median": 134.75,
+        "maximum": 150.90000009536743
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 263.2000000476837,
+        "median": 453.05000001192093,
+        "maximum": 459.1999999284744
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 33.43600000000002,
+        "median": 34.38250000000001,
+        "maximum": 37.75000000000001
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 223.99500000000006,
+        "median": 230.81449999999998,
+        "maximum": 235.08700000000005
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 93958,
+        "median": 93958.0,
+        "maximum": 103353
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 58.60000002384186,
+        "median": 62.75,
+        "maximum": 88.29999995231628
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 84.30000007152557,
+        "median": 86.69999992847443,
+        "maximum": 94.79999995231628
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 145.60000002384186,
+        "median": 151.3499999642372,
+        "maximum": 184.09999990463257
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 18.866999999999994,
+        "median": 19.191500000000012,
+        "maximum": 22.45899999999998
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 116.26499999999996,
+        "median": 117.606,
+        "maximum": 134.44299999999998
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 87.10000002384186,
+        "median": 296.4500000476837,
+        "maximum": 302.89999997615814
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 97,
+        "median": 298.85000002384186,
+        "maximum": 310.2000000476837
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 10.062999999999988,
+        "median": 10.526999999999994,
+        "maximum": 26.405999999999985
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 62.20999999999988,
+        "median": 78.96999999999998,
+        "maximum": 167.51499999999996
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 35616,
+        "median": 53714.0,
+        "maximum": 53714
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 52.39999997615814,
+        "median": 54.89999997615814,
+        "maximum": 66.29999995231628
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 54.10000002384186,
+        "median": 56.25,
+        "maximum": 68.29999995231628
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 6.551000000000001,
+        "median": 6.973000000000007,
+        "maximum": 8.969000000000005
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 29.843000000000064,
+        "median": 31.544999999999987,
+        "maximum": 43.055000000000064
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 259.2000000476837,
+        "median": 436.14999997615814,
+        "maximum": 633
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 414.3000000715256,
+        "median": 478.14999997615814,
+        "maximum": 697.1999999284744
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 679.9000000953674,
+        "median": 905.5500000119209,
+        "maximum": 1336.0999999046326
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 105.47700000000002,
+        "median": 125.0105,
+        "maximum": 202.097
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 657.456,
+        "median": 794.2225000000001,
+        "maximum": 1261.4779999999998
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 304795,
+        "median": 304795.0,
+        "maximum": 304795
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 166.5,
+        "median": 204.94999992847443,
+        "maximum": 226.39999997615814
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 259.90000009536743,
+        "median": 292.60000002384186,
+        "maximum": 398.3000000715256
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 491.8000000715256,
+        "median": 515.6500000357628,
+        "maximum": 621.0999999046326
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 77.07600000000004,
+        "median": 85.22899999999997,
+        "maximum": 99.08099999999997
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 454.5779999999999,
+        "median": 486.0665000000001,
+        "maximum": 579.4329999999999
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "first_open",
+      "setupMs": {
+        "n": 10,
+        "minimum": 159.69999992847443,
+        "median": 356.69999998807907,
+        "maximum": 433.90000009536743
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 154.5,
+        "median": 179.8499999642372,
+        "maximum": 220.70000004768372
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 321.39999997615814,
+        "median": 550.8499999642372,
+        "maximum": 650.6000000238419
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 49.38000000000001,
+        "median": 62.0995,
+        "maximum": 82.91699999999999
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 288.6740000000001,
+        "median": 378.8205,
+        "maximum": 476.71200000000005
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 93958,
+        "median": 103353.0,
+        "maximum": 103353
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "setupMs": {
+        "n": 10,
+        "minimum": 116.70000004768372,
+        "median": 128.39999997615814,
+        "maximum": 176.5
+      },
+      "editorMs": {
+        "n": 10,
+        "minimum": 129.60000002384186,
+        "median": 160.05000001192093,
+        "maximum": 210.5
+      },
+      "totalReadyMs": {
+        "n": 10,
+        "minimum": 247.10000002384186,
+        "median": 299.85000002384186,
+        "maximum": 359.2000000476837
+      },
+      "scriptMs": {
+        "n": 10,
+        "minimum": 31.777,
+        "median": 37.85550000000001,
+        "maximum": 51.91600000000002
+      },
+      "taskMs": {
+        "n": 10,
+        "minimum": 220.26100000000005,
+        "median": 272.6429999999999,
+        "maximum": 329.94599999999986
+      },
+      "transferBytes": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0
+      }
+    }
+  ],
+  "update_summary": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 9.399999999999991,
+        "median": 9.80700000000001,
+        "maximum": 9.809000000000012
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 85.53499999999991,
+        "median": 85.65600000000006,
+        "maximum": 90.27399999999997
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.084596,
+        "median": 60012.717996999854,
+        "maximum": 60013.19525699993
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.68,
+        "median": 16.709000000000003,
+        "maximum": 18.992000000000008
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 99.76400000000008,
+        "median": 101.383,
+        "maximum": 109.16599999999998
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.606984999962,
+        "median": 10014.694467000001,
+        "maximum": 10015.27068299998
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.173000000000012,
+        "median": 6.291999999999992,
+        "maximum": 6.509999999999988
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 36.37900000000005,
+        "median": 36.63700000000003,
+        "maximum": 37.34300000000002
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.68545300001,
+        "median": 60012.752227000004,
+        "maximum": 60013.74090899993
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.866999999999994,
+        "median": 18.02200000000001,
+        "maximum": 18.238000000000003
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 96.48900000000005,
+        "median": 101.04399999999991,
+        "maximum": 102.89399999999993
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.633480000077,
+        "median": 10015.436861999915,
+        "maximum": 10015.639635
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 9.451000000000015,
+        "median": 9.608000000000006,
+        "maximum": 9.61899999999999
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 180.601,
+        "median": 184.685,
+        "maximum": 185.50099999999992
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60011.93835199997,
+        "median": 60012.93298099999,
+        "maximum": 60013.77702799998
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 20.253999999999994,
+        "median": 20.681000000000004,
+        "maximum": 20.85500000000001
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 355.9509999999999,
+        "median": 377.818,
+        "maximum": 377.94000000000005
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10030.43158600002,
+        "median": 10031.527603999944,
+        "maximum": 10031.568639000005
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.213999999999997,
+        "median": 6.376000000000021,
+        "maximum": 6.903999999999994
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 43.869999999999855,
+        "median": 48.332999999999956,
+        "maximum": 50.065000000000026
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.99110700001,
+        "median": 60013.00902600004,
+        "maximum": 60013.9117060001
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.99099999999998,
+        "median": 17.616999999999994,
+        "maximum": 17.69899999999999
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 116.31100000000005,
+        "median": 119.16000000000015,
+        "maximum": 125.50400000000006
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.166114999913,
+        "median": 10015.075537999975,
+        "maximum": 10015.113274000003
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 9.375999999999996,
+        "median": 9.432999999999996,
+        "maximum": 9.442000000000005
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 156.23999999999992,
+        "median": 157.7139999999999,
+        "maximum": 159.75400000000008
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.33430499997,
+        "median": 60012.894927000045,
+        "maximum": 60012.89610000001
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 20.017000000000007,
+        "median": 20.047999999999984,
+        "maximum": 20.800999999999988
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 304.192,
+        "median": 317.33899999999994,
+        "maximum": 326.49300000000005
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10031.709459000034,
+        "median": 10031.901841000014,
+        "maximum": 10031.946267999941
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.356000000000001,
+        "median": 6.510000000000016,
+        "maximum": 6.568999999999992
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 41.536999999999935,
+        "median": 41.849000000000025,
+        "maximum": 43.64199999999996
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.65083000006,
+        "median": 60012.90261799999,
+        "maximum": 60013.02520299994
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.672999999999995,
+        "median": 17.499000000000013,
+        "maximum": 17.591000000000022
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 120.22399999999989,
+        "median": 123.80900000000005,
+        "maximum": 125.72699999999992
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.721657000016,
+        "median": 10015.137467999943,
+        "maximum": 10015.195988000021
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 9.217000000000002,
+        "median": 9.284000000000015,
+        "maximum": 9.385999999999978
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 83.95300000000006,
+        "median": 85.21400000000001,
+        "maximum": 86.38699999999999
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.55763199995,
+        "median": 60012.66528100008,
+        "maximum": 60014.26921899989
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.717999999999982,
+        "median": 16.832999999999988,
+        "maximum": 17.43900000000001
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 97.45500000000007,
+        "median": 98.67400000000004,
+        "maximum": 102.33999999999999
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10013.914447000017,
+        "median": 10014.592236000113,
+        "maximum": 10014.77840499999
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.248000000000004,
+        "median": 6.273000000000001,
+        "maximum": 6.526000000000004
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 36.385,
+        "median": 37.26300000000005,
+        "maximum": 38.190999999999974
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.304068000056,
+        "median": 60012.84555500001,
+        "maximum": 60012.99187899986
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 17.294000000000004,
+        "median": 17.43700000000001,
+        "maximum": 17.475999999999992
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 94.61599999999993,
+        "median": 98.19200000000006,
+        "maximum": 103.24199999999995
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.806520999875,
+        "median": 10015.162281000055,
+        "maximum": 10015.505169000011
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 10.369000000000018,
+        "median": 10.655999999999999,
+        "maximum": 10.750000000000009
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 362.54599999999994,
+        "median": 364.676,
+        "maximum": 390.041
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60011.9768749997,
+        "median": 60013.23961899988,
+        "maximum": 60013.4024410001
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 20.391999999999992,
+        "median": 20.783999999999995,
+        "maximum": 20.962000000000007
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 867.173,
+        "median": 879.2299999999999,
+        "maximum": 882.8549999999999
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10031.260985000059,
+        "median": 10031.5213909999,
+        "maximum": 10031.999551000074
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.543999999999994,
+        "median": 6.6829999999999945,
+        "maximum": 6.709999999999994
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 100.24999999999994,
+        "median": 101.85900000000015,
+        "maximum": 103.53899999999983
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60012.77732299967,
+        "median": 60013.343129999936,
+        "maximum": 60013.73611900001
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 15.640000000000015,
+        "median": 16.66799999999999,
+        "maximum": 16.741000000000007
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 249.09999999999988,
+        "median": 252.1190000000002,
+        "maximum": 268.61199999999985
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.420782999834,
+        "median": 10014.65863099997,
+        "maximum": 10015.080633000005
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 10.075000000000001,
+        "median": 10.227000000000015,
+        "maximum": 10.585000000000012
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 234.47700000000003,
+        "median": 234.978,
+        "maximum": 243.72000000000006
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60011.145502000116,
+        "median": 60012.09434500011,
+        "maximum": 60013.233111000154
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 20.275000000000016,
+        "median": 21.33199999999999,
+        "maximum": 21.41699999999999
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 526.7,
+        "median": 530.1179999999999,
+        "maximum": 542.799
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10031.122688999865,
+        "median": 10031.91335999989,
+        "maximum": 10032.114699000027
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 6.736999999999993,
+        "median": 6.8070000000000075,
+        "maximum": 6.938
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 58.80900000000011,
+        "median": 62.20200000000009,
+        "maximum": 67.11899999999993
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 60011.569479000056,
+        "median": 60013.01325199986,
+        "maximum": 60013.04524699971
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": {
+        "n": 3,
+        "minimum": 16.352000000000004,
+        "median": 17.034999999999993,
+        "maximum": 17.241000000000007
+      },
+      "taskMs": {
+        "n": 3,
+        "minimum": 135.3709999999999,
+        "median": 138.30799999999988,
+        "maximum": 139.51900000000018
+      },
+      "elapsedMs": {
+        "n": 3,
+        "minimum": 10014.912814000156,
+        "median": 10014.96793799987,
+        "maximum": 10015.113440999994
+      },
+      "late": {
+        "n": 3,
+        "minimum": 0,
+        "median": 0,
+        "maximum": 0
+      }
+    }
+  ],
+  "rendering_summary": [
+    {
+      "variant": "native",
+      "count": 1,
+      "instrumented": false,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0.10000002384185791
+      }
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "instrumented": true,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0.10000002384185791
+      },
+      "mutationMs": {
+        "n": 30,
+        "minimum": 0.30000007152557373,
+        "median": 0.5,
+        "maximum": 0.8999999761581421
+      },
+      "frameMs": {
+        "n": 30,
+        "minimum": 12.700000047683716,
+        "median": 14.449999988079071,
+        "maximum": 15.199999928474426
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "instrumented": false,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0.09999990463256836,
+        "median": 0.10000002384185791,
+        "maximum": 0.2999999523162842
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "instrumented": true,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.10000002384185791,
+        "maximum": 0.2999999523162842
+      },
+      "mutationMs": {
+        "n": 30,
+        "minimum": 0.09999990463256836,
+        "median": 0.20000004768371582,
+        "maximum": 0.3999999761581421
+      },
+      "frameMs": {
+        "n": 30,
+        "minimum": 11.699999928474426,
+        "median": 14.599999904632568,
+        "maximum": 15.200000047683716
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "instrumented": false,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0.10000002384185791
+      }
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "instrumented": true,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0.10000002384185791
+      },
+      "mutationMs": {
+        "n": 30,
+        "minimum": 1.2000000476837158,
+        "median": 1.5,
+        "maximum": 3
+      },
+      "frameMs": {
+        "n": 30,
+        "minimum": 13,
+        "median": 14.849999964237213,
+        "maximum": 15.800000071525574
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "instrumented": false,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0.2999999523162842,
+        "median": 0.3999999761581421,
+        "maximum": 0.8999999761581421
+      }
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "instrumented": true,
+      "setterMs": {
+        "n": 30,
+        "minimum": 0.2999999523162842,
+        "median": 0.5,
+        "maximum": 0.7000000476837158
+      },
+      "mutationMs": {
+        "n": 30,
+        "minimum": 0.2999999523162842,
+        "median": 0.5,
+        "maximum": 0.8000000715255737
+      },
+      "frameMs": {
+        "n": 30,
+        "minimum": 13.600000023841858,
+        "median": 14.75,
+        "maximum": 16.100000023841858
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 17.90000009536743,
+      "scriptMs": 3.9170000000000016,
+      "taskMs": 44.039999999999964,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 84.99999988079071,
+      "scriptMs": 3.1480000000000032,
+      "taskMs": 26.658999999999992,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": -17.59999990463257,
+      "scriptMs": 4.336000000000013,
+      "taskMs": 18.39099999999985,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 82.79999995231628,
+      "scriptMs": 3.4369999999999976,
+      "taskMs": 19.68199999999996,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 30.5,
+      "scriptMs": 7.967000000000013,
+      "taskMs": 33.979000000000156,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 101.89999997615814,
+      "scriptMs": 3.6469999999999914,
+      "taskMs": 28.922000000000025,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 10.700000047683716,
+      "scriptMs": 5.2520000000000095,
+      "taskMs": 14.61200000000008,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 99.89999997615814,
+      "scriptMs": 2.7439999999999927,
+      "taskMs": 9.297000000000025,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": -27.600000023841858,
+      "scriptMs": 11.473000000000013,
+      "taskMs": 13.745999999999981,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 133.60000002384186,
+      "scriptMs": 3.838000000000001,
+      "taskMs": 28.361999999999966,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 11.0,
+      "scriptMs": 4.456000000000017,
+      "taskMs": 22.045999999999935,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 112.29999995231628,
+      "scriptMs": 2.496000000000002,
+      "taskMs": 23.851,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 14.100000143051147,
+      "scriptMs": 9.871000000000024,
+      "taskMs": 43.416000000000054,
+      "transferBytes": 18971
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 102.80000007152557,
+      "scriptMs": 1.3430000000000035,
+      "taskMs": 21.406000000000006,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": -0.9999998807907104,
+      "scriptMs": 8.377000000000024,
+      "taskMs": 25.819000000000074,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 102.80000007152557,
+      "scriptMs": 1.641999999999996,
+      "taskMs": 16.65100000000001,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 34.699999928474426,
+      "scriptMs": 1.2299999999999898,
+      "taskMs": 14.490000000000009,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 116.60000002384186,
+      "scriptMs": 2.875000000000007,
+      "taskMs": 28.505999999999972,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 0.5999999046325684,
+      "scriptMs": 2.8530000000000086,
+      "taskMs": -1.4109999999999445,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 116.20000004768372,
+      "scriptMs": 4.003,
+      "taskMs": 20.242999999999995,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": -21.600000023841858,
+      "scriptMs": -2.497000000000014,
+      "taskMs": -3.6200000000001182,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 116.39999997615814,
+      "scriptMs": 3.4739999999999966,
+      "taskMs": 27.901999999999987,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 31.0,
+      "scriptMs": 0.16599999999999682,
+      "taskMs": 18.80099999999993,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 116.0,
+      "scriptMs": 5.557000000000002,
+      "taskMs": 22.646000000000015,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 62.700000047683716,
+      "scriptMs": 4.497000000000014,
+      "taskMs": 37.96500000000003,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 99.10000002384186,
+      "scriptMs": 3.6570000000000036,
+      "taskMs": 31.781999999999925,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 28.5,
+      "scriptMs": 4.921999999999997,
+      "taskMs": 25.249000000000137,
+      "transferBytes": 22086
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 110,
+      "scriptMs": 4.286999999999999,
+      "taskMs": 26.504999999999995,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 0.30000007152557373,
+      "scriptMs": 5.311000000000021,
+      "taskMs": 23.177999999999884,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 1.6999999284744263,
+      "scriptMs": 0.9279999999999973,
+      "taskMs": -1.992999999999995,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 12.700000047683716,
+      "scriptMs": 5.376000000000019,
+      "taskMs": 19.100000000000023,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": -1.9000000953674316,
+      "scriptMs": 2.8959999999999937,
+      "taskMs": -6.22199999999998,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 5.800000071525574,
+      "scriptMs": 6.052999999999997,
+      "taskMs": -3.9890000000000327,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 102.89999997615814,
+      "scriptMs": 2.1799999999999997,
+      "taskMs": 13.97199999999998,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": -17.49999988079071,
+      "scriptMs": 5.468999999999994,
+      "taskMs": 5.607999999999947,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 86.19999992847443,
+      "scriptMs": 1.9429999999999978,
+      "taskMs": 11.583999999999946,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": -0.8999999761581421,
+      "scriptMs": 6.209000000000003,
+      "taskMs": 18.742000000000075,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 99.89999997615814,
+      "scriptMs": 3.823999999999991,
+      "taskMs": 19.62700000000001,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": -21.59999990463257,
+      "scriptMs": 2.3130000000000166,
+      "taskMs": 3.0019999999999527,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 116.09999990463257,
+      "scriptMs": 4.228999999999999,
+      "taskMs": 15.725999999999999,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 78.20000004768372,
+      "scriptMs": 12.969000000000023,
+      "taskMs": 91.52099999999996,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 101.5,
+      "scriptMs": 14.701999999999998,
+      "taskMs": 73.09899999999993,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 37.0,
+      "scriptMs": 12.386000000000024,
+      "taskMs": 27.670000000000073,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 100.00000011920929,
+      "scriptMs": 6.177999999999997,
+      "taskMs": 29.116999999999962,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 77.90000009536743,
+      "scriptMs": 16.705000000000013,
+      "taskMs": 86.06200000000001,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 96.5,
+      "scriptMs": 13.306999999999995,
+      "taskMs": 78.18400000000003,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 45.300000071525574,
+      "scriptMs": 27.076999999999998,
+      "taskMs": 47.71199999999999,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 97.39999997615814,
+      "scriptMs": 5.853999999999999,
+      "taskMs": 37.57800000000003,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 1.600000023841858,
+      "scriptMs": 8.829999999999998,
+      "taskMs": 27.091000000000008,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 100.5,
+      "scriptMs": 5.802999999999997,
+      "taskMs": 31.853000000000065,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 37.200000047683716,
+      "scriptMs": 15.744000000000014,
+      "taskMs": 87.33799999999997,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 116.5,
+      "scriptMs": 15.015999999999998,
+      "taskMs": 71.78800000000007,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 69.39999997615814,
+      "scriptMs": 28.495000000000033,
+      "taskMs": 108.19500000000005,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 111.0,
+      "scriptMs": 21.134999999999998,
+      "taskMs": 104.827,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 28.199999928474426,
+      "scriptMs": 12.945000000000022,
+      "taskMs": 43.006000000000085,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 84.60000002384186,
+      "scriptMs": 7.514000000000003,
+      "taskMs": 24.89300000000003,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 61.300000071525574,
+      "scriptMs": 20.98700000000001,
+      "taskMs": 96.60400000000004,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 219.4999998807907,
+      "scriptMs": 36.99,
+      "taskMs": 223.30599999999993,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 23.40000009536743,
+      "scriptMs": 12.88000000000001,
+      "taskMs": 26.336000000000013,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 119.49999988079071,
+      "scriptMs": 9.301000000000002,
+      "taskMs": 40.43399999999997,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 0.10000002384185791,
+      "scriptMs": 10.093999999999994,
+      "taskMs": 41.56299999999999,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 100.99999988079071,
+      "scriptMs": 8.808,
+      "taskMs": 27.387,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 31.5,
+      "scriptMs": 14.704999999999984,
+      "taskMs": 85.81600000000003,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 115.29999995231628,
+      "scriptMs": 16.431000000000004,
+      "taskMs": 77.45400000000001,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 77.50000011920929,
+      "scriptMs": 7.7660000000000196,
+      "taskMs": 82.81100000000004,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 100.10000002384186,
+      "scriptMs": 22.862999999999992,
+      "taskMs": 94.56699999999995,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 32.90000009536743,
+      "scriptMs": 3.1580000000000155,
+      "taskMs": 19.975000000000023,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 85.30000007152557,
+      "scriptMs": 6.440999999999995,
+      "taskMs": 15.162999999999954,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 66.59999990463257,
+      "scriptMs": 14.998999999999967,
+      "taskMs": 82.67899999999986,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 98.70000004768372,
+      "scriptMs": 12.747999999999998,
+      "taskMs": 76.37500000000006,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 12.600000023841858,
+      "scriptMs": 10.509999999999991,
+      "taskMs": 39.06599999999992,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 116.10000002384186,
+      "scriptMs": 7.027999999999999,
+      "taskMs": 44.210000000000036,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 1.5000001192092896,
+      "scriptMs": 15.98599999999999,
+      "taskMs": 46.70099999999991,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 113.19999992847443,
+      "scriptMs": 9.243000000000002,
+      "taskMs": 42.39000000000004,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 34.60000002384186,
+      "scriptMs": 21.245000000000005,
+      "taskMs": 81.43299999999988,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 100,
+      "scriptMs": 14.545000000000002,
+      "taskMs": 78.95000000000005,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 37.09999990463257,
+      "scriptMs": 15.457999999999984,
+      "taskMs": 68.99099999999987,
+      "transferBytes": 9395
+    },
+    {
+      "comparison": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 67.09999990463257,
+      "scriptMs": 14.140999999999998,
+      "taskMs": 60.073999999999955,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 2.399999976158142,
+      "scriptMs": 8.332999999999984,
+      "taskMs": 25.71799999999996,
+      "transferBytes": 12510
+    },
+    {
+      "comparison": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 64.39999997615814,
+      "scriptMs": 6.503,
+      "taskMs": 11.687999999999988,
+      "transferBytes": 0
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": -0.35599999999999454,
+      "taskMs": 94.94499999999994
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 1.6889999999999965,
+      "taskMs": 268.652
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": -0.07799999999999496,
+      "taskMs": 11.953999999999908
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.5390000000000121,
+      "taskMs": 24.46000000000015
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": -0.36500000000000377,
+      "taskMs": 72.05799999999985
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 1.055999999999976,
+      "taskMs": 208.17299999999994
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.06400000000000894,
+      "taskMs": 5.4699999999999775
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.7389999999999901,
+      "taskMs": 22.765000000000143
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 0.2080000000000144,
+      "taskMs": 99.96600000000001
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 3.544999999999991,
+      "taskMs": 256.18699999999984
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.20300000000000917,
+      "taskMs": 7.2329999999998265
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": 0.12399999999998457,
+      "taskMs": 19.822000000000003
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": -0.02399999999999558,
+      "taskMs": 70.70500000000001
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 4.0919999999999845,
+      "taskMs": 226.72899999999998
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.3370000000000042,
+      "taskMs": 4.899999999999906
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.19399999999999906,
+      "taskMs": 23.734999999999843
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": -0.37600000000001543,
+      "taskMs": 69.4800000000001
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 3.337000000000007,
+      "taskMs": 202.80900000000003
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.059000000000003716,
+      "taskMs": 6.298999999999943
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 1,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.4309999999999867,
+      "taskMs": 22.832999999999984
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": -0.1900000000000226,
+      "taskMs": 94.41100000000003
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 4.175000000000011,
+      "taskMs": 276.5570000000001
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.39400000000000546,
+      "taskMs": 12.722000000000008
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 1,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.40500000000001535,
+      "taskMs": 16.26600000000022
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 1.270000000000021,
+      "taskMs": 279.462
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 2.9529999999999816,
+      "taskMs": 780.5559999999998
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.1839999999999895,
+      "taskMs": 63.66800000000018
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.7349999999999852,
+      "taskMs": 150.90799999999982
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 0.8410000000000366,
+      "taskMs": 149.26300000000003
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 0,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 3.8929999999999794,
+      "taskMs": 444.12499999999994
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.4119999999999955,
+      "taskMs": 28.927999999999955
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 0,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.23499999999998522,
+      "taskMs": 40.115999999999815
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 1.1520000000000152,
+      "taskMs": 276.15899999999993
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 3.9510000000000076,
+      "taskMs": 785.3999999999999
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.2709999999999937,
+      "taskMs": 63.864999999999945
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -1.7969999999999935,
+      "taskMs": 173.99599999999992
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 1.3680000000000092,
+      "taskMs": 157.33300000000008
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 1,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 4.584000000000003,
+      "taskMs": 432.6629999999999
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.5340000000000069,
+      "taskMs": 22.424000000000113
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 1,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.40200000000001523,
+      "taskMs": 40.75499999999997
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 0.7909999999999862,
+      "taskMs": 151.02499999999995
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 3.557000000000034,
+      "taskMs": 424.36000000000007
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.4889999999999892,
+      "taskMs": 24.939000000000043
+    },
+    {
+      "comparison": "update",
+      "variant": "experimental",
+      "count": 10,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.9420000000000002,
+      "taskMs": 36.27700000000023
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 1,
+      "scriptMs": 1.465999999999994,
+      "taskMs": 306.08799999999997
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 2,
+      "kind": "relevant",
+      "hz": 20,
+      "scriptMs": 4.244000000000025,
+      "taskMs": 764.833
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 1,
+      "scriptMs": 0.4349999999999907,
+      "taskMs": 66.27599999999978
+    },
+    {
+      "comparison": "update",
+      "variant": "native",
+      "count": 10,
+      "repeat": 2,
+      "kind": "unrelated",
+      "hz": 20,
+      "scriptMs": -0.6260000000000154,
+      "taskMs": 148.87700000000024
+    }
+  ],
+  "contrasts_limit": "Adjacent trial/repetition blocks with rotated order, not simultaneous exact isolation. Full ranges expose variation; no confidence intervals or universal per-card ranking. Native includes extra body-state rendering.",
+  "lifecycle": {
+    "series": [
+      {
+        "variant": "empty",
+        "count": 1,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13324460,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13284872,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13290104,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13311660,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13311820,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13312136,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13927452,
+            "documents": 4,
+            "nodes": 2675,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 10,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13981116,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 20,
+            "created": 60,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14048164,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 30,
+            "created": 90,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14087432,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 40,
+            "created": 120,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14093136,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 50,
+            "created": 150,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14107264,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13748296,
+            "documents": 4,
+            "nodes": 2210,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13764636,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13768096,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13790808,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13791388,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13791704,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "empty",
+        "count": 1,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13317052,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13277464,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13282696,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13304252,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13304412,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13304728,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13950640,
+            "documents": 4,
+            "nodes": 2675,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 10,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13991208,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 20,
+            "created": 60,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14058404,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 30,
+            "created": 90,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14096160,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 40,
+            "created": 120,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14101900,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 50,
+            "created": 150,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14116652,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13755524,
+            "documents": 4,
+            "nodes": 2210,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13769920,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13773380,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13796116,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13796696,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13797012,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "empty",
+        "count": 1,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13311680,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13272092,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13277324,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13298880,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13299040,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13299356,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13950660,
+            "documents": 4,
+            "nodes": 2675,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 10,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13991808,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 20,
+            "created": 60,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14060832,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 30,
+            "created": 90,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14096784,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 40,
+            "created": 120,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14102464,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          },
+          {
+            "cycle": 50,
+            "created": 150,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14117216,
+            "documents": 2,
+            "nodes": 2585,
+            "jsEventListeners": 497
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13747836,
+            "documents": 4,
+            "nodes": 2210,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 10,
+            "created": 10,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13764184,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 20,
+            "created": 20,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13767644,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 30,
+            "created": 30,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13790356,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 40,
+            "created": 40,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13790936,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          },
+          {
+            "cycle": 50,
+            "created": 50,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13791252,
+            "documents": 2,
+            "nodes": 2120,
+            "jsEventListeners": 402
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13314100,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13281412,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13283604,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13308132,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13310516,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13314244,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14615572,
+            "documents": 4,
+            "nodes": 6331,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 10,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14724028,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 20,
+            "created": 600,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14843628,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 30,
+            "created": 900,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14865464,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 40,
+            "created": 1200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14874996,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 50,
+            "created": 1500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14887384,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "repeat": 0,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13871684,
+            "documents": 4,
+            "nodes": 2437,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13840916,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13887024,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13951564,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13955540,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13963440,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13317916,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13285268,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13287460,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13312000,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13314384,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13318112,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14645144,
+            "documents": 4,
+            "nodes": 6331,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 10,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14755256,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 20,
+            "created": 600,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14855608,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 30,
+            "created": 900,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14875816,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 40,
+            "created": 1200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14883116,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 50,
+            "created": 1500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14895564,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "repeat": 1,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13889360,
+            "documents": 4,
+            "nodes": 2437,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13858456,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13902840,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13967360,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13971336,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13979380,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13342188,
+            "documents": 4,
+            "nodes": 2158,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13309492,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13311684,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13334972,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13337356,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13341060,
+            "documents": 2,
+            "nodes": 2068,
+            "jsEventListeners": 382
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14599608,
+            "documents": 4,
+            "nodes": 6331,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 10,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14704700,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 20,
+            "created": 600,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14825764,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 30,
+            "created": 900,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14846236,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 40,
+            "created": 1200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14855768,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          },
+          {
+            "cycle": 50,
+            "created": 1500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 14868192,
+            "documents": 2,
+            "nodes": 6241,
+            "jsEventListeners": 1415
+          }
+        ],
+        "ownedAfterRemoval": "not exposed; control/global diagnostics only",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "repeat": 2,
+        "version": {
+          "protocolVersion": "1.3",
+          "product": "HeadlessChrome/159.0.8154.6",
+          "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+          "jsVersion": "15.9.128.1"
+        },
+        "positiveControl": {
+          "retainedVisible": true,
+          "releasedCollected": true
+        },
+        "cycles": 50,
+        "settleMs": 100,
+        "readings": [
+          {
+            "cycle": 0,
+            "created": 0,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13902792,
+            "documents": 4,
+            "nodes": 2437,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 10,
+            "created": 100,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13872288,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 20,
+            "created": 200,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13918132,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 30,
+            "created": 300,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13982652,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 40,
+            "created": 400,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13986776,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          },
+          {
+            "cycle": 50,
+            "created": 500,
+            "weakTargetsStillPresent": 0,
+            "heapBytes": 13995216,
+            "documents": 2,
+            "nodes": 2347,
+            "jsEventListeners": 447
+          }
+        ],
+        "ownedAfterRemoval": "zero after every removal",
+        "method": "Fresh nodes per cycle; harness retains WeakRefs only; scalar results and no node handles; GC/checkpoint observations across separate jobs",
+        "limitation": "Forced GC and weak-reference observations are diagnostic. Uncollected targets require retainer investigation; zero observations do not prove universal leak absence or bound renderer-global memory. Empty div control does not reproduce native internals."
+      }
+    ],
+    "acceptance": "pending; diagnostic method investigation"
+  },
+  "rendering_limit": "unsupported: no validated event/content-to-display/compositor presentation mapping; observed DOM and rAF milestones only",
+  "methods": {
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "HeadlessChrome/159.0.8154.6",
+      "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+      "jsVersion": "15.9.128.1"
+    },
+    "method": "Separate diagnostic run; deliberate 500 ms page click-handler script, then reload; never mixed with timing samples",
+    "counterProbe": {
+      "beforeMs": 129.427,
+      "busyMs": 630.9,
+      "afterReloadMs": 43.004,
+      "beforeOrigin": 1795092632170.5,
+      "afterOrigin": 1795092633398.6
+    },
+    "decision": "Use CDP totals after navigation and differences only inside one document. Readiness is driver-observed CSS/fonts/card completion plus two rAF opportunities; no final-paint claim.",
+    "cacheProof": "All workload trials include resource transfer observations; same-context warm reload is distinct from cold new context plus explicit cache clear.",
+    "primarySources": {
+      "heapProtocol": "https://chromium.googlesource.com/v8/v8/+/cde7a77e3a253dc96424a7ef8d7118022cd26dfd/include/js_protocol.pdl",
+      "weakReferences": "https://github.com/v8/v8.dev/blob/a1dc18bd5c9d0577cee563179fa3922665c68e31/src/features/weak-references.md",
+      "animationFrames": "https://github.com/whatwg/html/blob/c4aab9ee4477adbbb7e546b2c4abfc864e918e04/source"
+    },
+    "sourceScope": "Versioned primary method definitions; pinned runtime API and observed controls establish compatibility here. These documentation revisions are not asserted to be the browser build source."
+  },
+  "rejected_attempts": [
+    {
+      "run": "control-preflight",
+      "status": "rejected preflight; no timing samples",
+      "reason": "Driver control appended behind full-screen HA host; pointer action could not reach it. New preflight positions the control explicitly; no forced activation.",
+      "partial_observations": []
+    },
+    {
+      "run": "discovery-updates",
+      "reason": "Stopped by driver author before extended collection: fixed REST access token would expire during a 42-minute run. New run refreshes outside each timed workload; no subject change. Partial observations retained; no slow sample exclusion.",
+      "status": "incomplete discovery attempt",
+      "partial_observations": []
+    },
+    {
+      "run": "discovery-updates-v2",
+      "reason": "Stopped method pilot to require browser-observed final fixture state for every timed window, in addition to successful REST responses. Partial CPU observations retained, not excluded for speed. No subject change.",
+      "status": "incomplete method pilot",
+      "partial_observations": [
+        {
+          "kind": "relevant",
+          "variant": "empty",
+          "count": 1,
+          "repeat": 0,
+          "hz": 1,
+          "seconds": 60,
+          "updates": 60,
+          "late": 0,
+          "elapsedMs": 60015.583416,
+          "scriptMs": 9.800000000000002,
+          "taskMs": 84.80199999999994
+        },
+        {
+          "kind": "relevant",
+          "variant": "empty",
+          "count": 1,
+          "repeat": 0,
+          "hz": 20,
+          "seconds": 10,
+          "updates": 200,
+          "late": 0,
+          "elapsedMs": 10014.588588999999,
+          "scriptMs": 18.588999999999995,
+          "taskMs": 103.54200000000003
+        },
+        {
+          "kind": "unrelated",
+          "variant": "empty",
+          "count": 1,
+          "repeat": 0,
+          "hz": 1,
+          "seconds": 60,
+          "updates": 60,
+          "late": 0,
+          "elapsedMs": 60012.81594099999,
+          "scriptMs": 6.376999999999994,
+          "taskMs": 36.918999999999926
+        },
+        {
+          "kind": "unrelated",
+          "variant": "empty",
+          "count": 1,
+          "repeat": 0,
+          "hz": 20,
+          "seconds": 10,
+          "updates": 200,
+          "late": 0,
+          "elapsedMs": 10015.001453000004,
+          "scriptMs": 19.27000000000001,
+          "taskMs": 102.66999999999993
+        },
+        {
+          "kind": "relevant",
+          "variant": "native",
+          "count": 1,
+          "repeat": 0,
+          "hz": 1,
+          "seconds": 60,
+          "updates": 60,
+          "late": 0,
+          "elapsedMs": 60011.62987100001,
+          "scriptMs": 9.631,
+          "taskMs": 184.929
+        },
+        {
+          "kind": "relevant",
+          "variant": "native",
+          "count": 1,
+          "repeat": 0,
+          "hz": 20,
+          "seconds": 10,
+          "updates": 200,
+          "late": 0,
+          "elapsedMs": 10031.562697999994,
+          "scriptMs": 20.499000000000017,
+          "taskMs": 357.461
+        },
+        {
+          "kind": "unrelated",
+          "variant": "native",
+          "count": 1,
+          "repeat": 0,
+          "hz": 1,
+          "seconds": 60,
+          "updates": 60,
+          "late": 0,
+          "elapsedMs": 60012.906495,
+          "scriptMs": 6.293999999999994,
+          "taskMs": 43.559000000000125
+        },
+        {
+          "kind": "unrelated",
+          "variant": "native",
+          "count": 1,
+          "repeat": 0,
+          "hz": 20,
+          "seconds": 10,
+          "updates": 200,
+          "late": 0,
+          "elapsedMs": 10015.17895999999,
+          "scriptMs": 17.246999999999986,
+          "taskMs": 121.45499999999987
+        }
+      ]
+    },
+    {
+      "run": "method-validation",
+      "status": "diagnostic probe failed; no timing captures discarded",
+      "reason": "Inspector Runtime.evaluate busy-loop did not increment ScriptDuration by the assumed 400 ms minimum. Counter calibration requires an actual page event, or a specific unsupported result; no acceptance inference is made.",
+      "partial_observations": []
+    }
+  ],
+  "approval": "all numerical rows remain unapproved",
+  "stage1": "open"
+}

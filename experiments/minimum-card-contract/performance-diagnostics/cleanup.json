@@ -1,0 +1,23 @@
+{
+  "sandbox": "stopped; serve process exited normally",
+  "storage_guard": "exited after sandbox PID removal",
+  "loopback_port_18123": "closed",
+  "sandbox_pid": "absent",
+  "bridge_socket": "absent",
+  "removed": [
+    "campaign-owned rootfs",
+    "campaign-owned compressed layers after extraction",
+    "generated disposable private state"
+  ],
+  "raw_evidence": "preserved, including incomplete pilot and traces",
+  "managed_caches": "preserved",
+  "subject_and_historical_hashes": "all preflight hashes still match",
+  "storage_guard_observation": {
+    "minimum_free_bytes": 2085650432,
+    "current_free_bytes": 2085650432,
+    "reserve_bytes": 1073741824
+  },
+  "free_after_cleanup_bytes": 4966006784,
+  "reserve_bytes": 1073741824,
+  "remaining_tasks": "Tasks 2.1 onward pending; cleanup performed after partial pilot failure; final lifecycle task not marked complete for the unfinished campaign"
+}

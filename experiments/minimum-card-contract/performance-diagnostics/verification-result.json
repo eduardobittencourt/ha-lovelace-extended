@@ -1,0 +1,232 @@
+{
+  "phase": "verification review",
+  "approvalId": "maintainer-four-metrics-2026-11-19",
+  "planSha256": "ee0bcd0daa9df5e7a3fb6433394cfcdb59a9cfe60d37a94c82b1e6669f2ba997",
+  "complete": true,
+  "provenance": true,
+  "rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "required": true,
+      "approval": "approved",
+      "status": "pass",
+      "workloads": [
+        {
+          "variant": "experimental",
+          "count": 1,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 11610,
+          "limit": 16384,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 10,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 11610,
+          "limit": 16384,
+          "status": "pass"
+        }
+      ],
+      "reason": "All scheduled maxima meet the approved limit"
+    },
+    {
+      "id": "cold-ready",
+      "required": true,
+      "approval": "approved",
+      "status": "pass",
+      "workloads": [
+        {
+          "variant": "native",
+          "count": 1,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 679.2999999523163,
+          "limit": 1000,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 1,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 707.8000000715256,
+          "limit": 1000,
+          "status": "pass"
+        },
+        {
+          "variant": "native",
+          "count": 10,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 738.2999999523163,
+          "limit": 1000,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 10,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 672.1999999284744,
+          "limit": 1000,
+          "status": "pass"
+        }
+      ],
+      "reason": "All scheduled maxima meet the approved limit"
+    },
+    {
+      "id": "warm-ready",
+      "required": true,
+      "approval": "approved",
+      "status": "pass",
+      "workloads": [
+        {
+          "variant": "native",
+          "count": 1,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 474.3000000715256,
+          "limit": 750,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 1,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 472.5,
+          "limit": 750,
+          "status": "pass"
+        },
+        {
+          "variant": "native",
+          "count": 10,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 490.89999997615814,
+          "limit": 750,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 10,
+          "samples": 10,
+          "expected": 10,
+          "maximum": 473.60000002384186,
+          "limit": 750,
+          "status": "pass"
+        }
+      ],
+      "reason": "All scheduled maxima meet the approved limit"
+    },
+    {
+      "id": "local-intent",
+      "required": true,
+      "approval": "approved",
+      "status": "pass",
+      "workloads": [
+        {
+          "variant": "native",
+          "count": 1,
+          "samples": 30,
+          "expected": 30,
+          "maximum": 2.5,
+          "limit": 16.7,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 1,
+          "samples": 30,
+          "expected": 30,
+          "maximum": 0.5999999046325684,
+          "limit": 16.7,
+          "status": "pass"
+        },
+        {
+          "variant": "native",
+          "count": 10,
+          "samples": 30,
+          "expected": 30,
+          "maximum": 2.3000000715255737,
+          "limit": 16.7,
+          "status": "pass"
+        },
+        {
+          "variant": "experimental",
+          "count": 10,
+          "samples": 30,
+          "expected": 30,
+          "maximum": 0.6000000238418579,
+          "limit": 16.7,
+          "status": "pass"
+        }
+      ],
+      "reason": "All scheduled maxima meet the approved limit"
+    },
+    {
+      "id": "load-cpu",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Explicit dated approval absent"
+    },
+    {
+      "id": "load-transfer",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Explicit dated approval absent"
+    },
+    {
+      "id": "editor",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Explicit dated approval absent"
+    },
+    {
+      "id": "updates",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Explicit dated approval absent"
+    },
+    {
+      "id": "retention",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Required method unsupported; no pass inferred"
+    },
+    {
+      "id": "presentation",
+      "required": true,
+      "approval": "proposed",
+      "status": "pending",
+      "workloads": [],
+      "reason": "Required method unsupported; no pass inferred"
+    }
+  ],
+  "approvedSubsetStatus": "pass",
+  "stage1Status": "fail",
+  "historicalColdOutlierMs": 1108.6,
+  "historicalObservationRetained": true,
+  "scope": "Frozen local headless UI measurements only; unsupported/unapproved required rows remain pending. No transport/physical or production-stack acceptance.",
+  "validFreeze": true,
+  "controlData": true,
+  "freshRequiredGate": "pending",
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "overallReason": "Historical approved cold maximum failure remains unresolved on the unchanged subject; six requirements remain pending."
+}

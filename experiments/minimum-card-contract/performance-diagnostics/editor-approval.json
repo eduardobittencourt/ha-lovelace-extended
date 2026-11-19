@@ -1,0 +1,31 @@
+{
+  "id": "maintainer-editor-2026-11-19",
+  "status": "approved",
+  "date_utc": "2026-11-19",
+  "recorded_at_utc": "2026-11-19T14:30:43.700421+00:00",
+  "authority": "Maintainer, explicit response in this project conversation",
+  "response_english": "Approve the editor limits and protocol.",
+  "boundary": "Initiating entry into dashboard edit mode through the actual card editor ready, including setup and activation; no save in timed interval.",
+  "groups": [
+    1,
+    10
+  ],
+  "pairsPerWorkload": 10,
+  "statistic": "maximum per workload and phase",
+  "limitsMs": {
+    "first_open": 1000,
+    "same_document_reopen": 750
+  },
+  "scope": "Experimental card; native editor and empty edit-mode controls are descriptive.",
+  "exceedance": "Retain every valid observation; any experimental exceedance fails the row. Missing or invalid captures remain pending.",
+  "environmentSha256": "2fbce792f1e06944baee4ece23d804cb3d9ad016bca73d39fb19f8c382c04bdf",
+  "requiredSources": {
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc"
+  }
+}

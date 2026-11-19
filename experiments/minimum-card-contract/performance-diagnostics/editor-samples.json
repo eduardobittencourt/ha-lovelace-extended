@@ -1,0 +1,1945 @@
+{
+  "completed": true,
+  "planSha256": "263e9d9438a3b3a0cf4e1ca1d43eb40ce6d44ed60d0c56e89008a51098850b7d",
+  "sourceHashes": {
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/diagnostic-editor.mjs": "29485c41fae5ba4337440e1d4b0005ef3d73df39ba18a660e1aa2a37e2fa8a34",
+    "tools/diagnostic-editor-evaluate.mjs": "82f54d049b6f4bb8cd42779ddeefc407bedbbc125b2f9a87b8586f74ed939dc3",
+    "tools/diagnostic-common.mjs": "e833ad3ce2d8327f8a6465015106725fa0758a30e5091207b8b3bd444dd78083"
+  },
+  "environmentSha256": "2fbce792f1e06944baee4ece23d804cb3d9ad016bca73d39fb19f8c382c04bdf",
+  "rows": [
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 302.5,
+      "totalReadyMs": 309.3000000715256,
+      "editorMs": null,
+      "timeOrigin": 1795098808448.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 55.300000071525574,
+      "totalReadyMs": 56.200000047683716,
+      "editorMs": null,
+      "timeOrigin": 1795098808448.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 336.7999999523163,
+      "totalReadyMs": 626.2000000476837,
+      "editorMs": 289.40000009536743,
+      "timeOrigin": 1795098809608.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 68.79999995231628,
+      "totalReadyMs": 193.79999995231628,
+      "editorMs": 125,
+      "timeOrigin": 1795098809608.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 101.5,
+      "totalReadyMs": 233.39999997615814,
+      "editorMs": 131.89999997615814,
+      "timeOrigin": 1795098812162.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 98.79999995231628,
+      "totalReadyMs": 184.5,
+      "editorMs": 85.70000004768372,
+      "timeOrigin": 1795098812162.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 324.89999997615814,
+      "totalReadyMs": 625.3999999761581,
+      "editorMs": 300.5,
+      "timeOrigin": 1795098814830.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 69.30000007152557,
+      "totalReadyMs": 191.5,
+      "editorMs": 122.19999992847443,
+      "timeOrigin": 1795098814830.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 103.09999990463257,
+      "totalReadyMs": 232.89999997615814,
+      "editorMs": 129.80000007152557,
+      "timeOrigin": 1795098817569.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 65.10000002384186,
+      "totalReadyMs": 151.10000002384186,
+      "editorMs": 86,
+      "timeOrigin": 1795098817569.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 303.39999997615814,
+      "totalReadyMs": 304.5,
+      "editorMs": null,
+      "timeOrigin": 1795098820253,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 54.89999997615814,
+      "totalReadyMs": 55.800000071525574,
+      "editorMs": null,
+      "timeOrigin": 1795098820253,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 100.20000004768372,
+      "totalReadyMs": 233.10000002384186,
+      "editorMs": 132.89999997615814,
+      "timeOrigin": 1795098821491.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 70.39999997615814,
+      "totalReadyMs": 155.80000007152557,
+      "editorMs": 85.40000009536743,
+      "timeOrigin": 1795098821491.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 303.90000009536743,
+      "totalReadyMs": 305.3000000715256,
+      "editorMs": null,
+      "timeOrigin": 1795098824337.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 54.60000002384186,
+      "totalReadyMs": 55.5,
+      "editorMs": null,
+      "timeOrigin": 1795098824337.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 336.3000000715256,
+      "totalReadyMs": 665.9000000953674,
+      "editorMs": 329.60000002384186,
+      "timeOrigin": 1795098825575.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 68.19999992847443,
+      "totalReadyMs": 192.19999992847443,
+      "editorMs": 124,
+      "timeOrigin": 1795098825575.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 307.1999999284744,
+      "totalReadyMs": 309.6999999284744,
+      "editorMs": null,
+      "timeOrigin": 1795098828291.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 54.5,
+      "totalReadyMs": 55.300000071525574,
+      "editorMs": null,
+      "timeOrigin": 1795098828291.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 285.5,
+      "totalReadyMs": 668.5,
+      "editorMs": 383,
+      "timeOrigin": 1795098829722.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 80.10000002384186,
+      "totalReadyMs": 201.79999995231628,
+      "editorMs": 121.69999992847443,
+      "timeOrigin": 1795098829722.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 238.70000004768372,
+      "totalReadyMs": 423.7000000476837,
+      "editorMs": 185,
+      "timeOrigin": 1795098832470.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 61.10000002384186,
+      "totalReadyMs": 146.70000004768372,
+      "editorMs": 85.60000002384186,
+      "timeOrigin": 1795098832470.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 117.10000002384186,
+      "totalReadyMs": 487.60000002384186,
+      "editorMs": 370.5,
+      "timeOrigin": 1795098834993.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 78.60000002384186,
+      "totalReadyMs": 341.5,
+      "editorMs": 262.89999997615814,
+      "timeOrigin": 1795098834993.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 306.7999999523163,
+      "totalReadyMs": 500.5,
+      "editorMs": 193.70000004768372,
+      "timeOrigin": 1795098838103.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 199.60000002384186,
+      "totalReadyMs": 372.89999997615814,
+      "editorMs": 173.29999995231628,
+      "timeOrigin": 1795098838103.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 300.10000002384186,
+      "totalReadyMs": 301.89999997615814,
+      "editorMs": null,
+      "timeOrigin": 1795098841216.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 54.5,
+      "totalReadyMs": 55.40000009536743,
+      "editorMs": null,
+      "timeOrigin": 1795098841216.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 359.2000000476837,
+      "totalReadyMs": 559.8000000715256,
+      "editorMs": 200.60000002384186,
+      "timeOrigin": 1795098842503.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 82.60000002384186,
+      "totalReadyMs": 201.70000004768372,
+      "editorMs": 119.10000002384186,
+      "timeOrigin": 1795098842503.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 381.2000000476837,
+      "totalReadyMs": 383.5,
+      "editorMs": null,
+      "timeOrigin": 1795098845991.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 66.89999997615814,
+      "totalReadyMs": 68,
+      "editorMs": null,
+      "timeOrigin": 1795098845991.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 265.10000002384186,
+      "totalReadyMs": 678.7000000476837,
+      "editorMs": 413.60000002384186,
+      "timeOrigin": 1795098847510.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 67.29999995231628,
+      "totalReadyMs": 274.1999999284744,
+      "editorMs": 206.89999997615814,
+      "timeOrigin": 1795098847510.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 291.89999997615814,
+      "totalReadyMs": 293.2000000476837,
+      "editorMs": null,
+      "timeOrigin": 1795098850389.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 53,
+      "totalReadyMs": 53.700000047683716,
+      "editorMs": null,
+      "timeOrigin": 1795098850389.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 116.79999995231628,
+      "totalReadyMs": 435.39999997615814,
+      "editorMs": 318.60000002384186,
+      "timeOrigin": 1795098851881.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 71.30000007152557,
+      "totalReadyMs": 221.10000002384186,
+      "editorMs": 149.79999995231628,
+      "timeOrigin": 1795098851881.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 101.20000004768372,
+      "totalReadyMs": 285.89999997615814,
+      "editorMs": 184.69999992847443,
+      "timeOrigin": 1795098854831.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 72.19999992847443,
+      "totalReadyMs": 180.69999992847443,
+      "editorMs": 108.5,
+      "timeOrigin": 1795098854831.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 319,
+      "totalReadyMs": 728,
+      "editorMs": 409,
+      "timeOrigin": 1795098858319,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 79.89999997615814,
+      "totalReadyMs": 219.59999990463257,
+      "editorMs": 139.69999992847443,
+      "timeOrigin": 1795098858319,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 117.19999992847443,
+      "totalReadyMs": 254.39999997615814,
+      "editorMs": 137.20000004768372,
+      "timeOrigin": 1795098861164.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 71.70000004768372,
+      "totalReadyMs": 174.20000004768372,
+      "editorMs": 102.5,
+      "timeOrigin": 1795098861164.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 127.19999992847443,
+      "totalReadyMs": 129.89999997615814,
+      "editorMs": null,
+      "timeOrigin": 1795098864400.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 66.39999997615814,
+      "totalReadyMs": 67.80000007152557,
+      "editorMs": null,
+      "timeOrigin": 1795098864400.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 110.5,
+      "totalReadyMs": 257.2000000476837,
+      "editorMs": 146.70000004768372,
+      "timeOrigin": 1795098866327.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 66,
+      "totalReadyMs": 162.29999995231628,
+      "editorMs": 96.29999995231628,
+      "timeOrigin": 1795098866327.4,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 94.89999997615814,
+      "totalReadyMs": 98.10000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098869569.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 52.5,
+      "totalReadyMs": 53.5,
+      "editorMs": null,
+      "timeOrigin": 1795098869569.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 355.1999999284744,
+      "totalReadyMs": 813.6000000238419,
+      "editorMs": 458.40000009536743,
+      "timeOrigin": 1795098871204.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 70.5,
+      "totalReadyMs": 213,
+      "editorMs": 142.5,
+      "timeOrigin": 1795098871204.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 67.80000007152557,
+      "totalReadyMs": 69.20000004768372,
+      "editorMs": null,
+      "timeOrigin": 1795098874179.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 51.40000009536743,
+      "totalReadyMs": 52.40000009536743,
+      "editorMs": null,
+      "timeOrigin": 1795098874179.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 122.30000007152557,
+      "totalReadyMs": 532.1000000238419,
+      "editorMs": 409.7999999523163,
+      "timeOrigin": 1795098875903.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 79.5,
+      "totalReadyMs": 205,
+      "editorMs": 125.5,
+      "timeOrigin": 1795098875903.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 98.80000007152557,
+      "totalReadyMs": 269.3000000715256,
+      "editorMs": 170.5,
+      "timeOrigin": 1795098879324.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 66.5,
+      "totalReadyMs": 152.80000007152557,
+      "editorMs": 86.30000007152557,
+      "timeOrigin": 1795098879324.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 70.70000004768372,
+      "totalReadyMs": 76.89999997615814,
+      "editorMs": null,
+      "timeOrigin": 1795098883207.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 55.5,
+      "totalReadyMs": 56.09999990463257,
+      "editorMs": null,
+      "timeOrigin": 1795098883207.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 634.1000000238419,
+      "totalReadyMs": 1565.6000000238419,
+      "editorMs": 931.5,
+      "timeOrigin": 1795098885134.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 260.1999999284744,
+      "totalReadyMs": 962.5,
+      "editorMs": 702.3000000715256,
+      "timeOrigin": 1795098885134.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 158,
+      "totalReadyMs": 366.5,
+      "editorMs": 208.5,
+      "timeOrigin": 1795098890066.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 124.19999992847443,
+      "totalReadyMs": 268.60000002384186,
+      "editorMs": 144.40000009536743,
+      "timeOrigin": 1795098890066.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 522.2999999523163,
+      "totalReadyMs": 1060.7999999523163,
+      "editorMs": 538.5,
+      "timeOrigin": 1795098893584,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 222.29999995231628,
+      "totalReadyMs": 628.1000000238419,
+      "editorMs": 405.8000000715256,
+      "timeOrigin": 1795098893584,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 244.5,
+      "totalReadyMs": 639.2000000476837,
+      "editorMs": 394.7000000476837,
+      "timeOrigin": 1795098898144.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 120.10000002384186,
+      "totalReadyMs": 271.1999999284744,
+      "editorMs": 151.09999990463257,
+      "timeOrigin": 1795098898144.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 319.89999997615814,
+      "totalReadyMs": 324,
+      "editorMs": null,
+      "timeOrigin": 1795098902094.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 67.19999992847443,
+      "totalReadyMs": 68.5,
+      "editorMs": null,
+      "timeOrigin": 1795098902094.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 265.39999997615814,
+      "totalReadyMs": 594.1999999284744,
+      "editorMs": 328.7999999523163,
+      "timeOrigin": 1795098904037.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 140.5,
+      "totalReadyMs": 289.6999999284744,
+      "editorMs": 149.19999992847443,
+      "timeOrigin": 1795098904037.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 71.20000004768372,
+      "totalReadyMs": 78.60000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098908216.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 55.200000047683716,
+      "totalReadyMs": 56.10000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098908216.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 285.59999990463257,
+      "totalReadyMs": 977.5999999046326,
+      "editorMs": 692,
+      "timeOrigin": 1795098910321.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 163,
+      "totalReadyMs": 612.8000000715256,
+      "editorMs": 449.8000000715256,
+      "timeOrigin": 1795098910321.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 78.09999990463257,
+      "totalReadyMs": 83.69999992847443,
+      "editorMs": null,
+      "timeOrigin": 1795098915039.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 54,
+      "totalReadyMs": 54.799999952316284,
+      "editorMs": null,
+      "timeOrigin": 1795098915039.9,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 502.5,
+      "totalReadyMs": 1070.3000000715256,
+      "editorMs": 567.8000000715256,
+      "timeOrigin": 1795098917004,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 199.79999995231628,
+      "totalReadyMs": 964.6000000238419,
+      "editorMs": 764.8000000715256,
+      "timeOrigin": 1795098917004,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 176.89999997615814,
+      "totalReadyMs": 516.8999999761581,
+      "editorMs": 340,
+      "timeOrigin": 1795098921471.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 195.19999992847443,
+      "totalReadyMs": 490.10000002384186,
+      "editorMs": 294.90000009536743,
+      "timeOrigin": 1795098921471.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 340,
+      "totalReadyMs": 1005.1000000238419,
+      "editorMs": 665.1000000238419,
+      "timeOrigin": 1795098925933.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 197.30000007152557,
+      "totalReadyMs": 524.8000000715256,
+      "editorMs": 327.5,
+      "timeOrigin": 1795098925933.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 234.20000004768372,
+      "totalReadyMs": 468.10000002384186,
+      "editorMs": 233.89999997615814,
+      "timeOrigin": 1795098930697.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 167.09999990463257,
+      "totalReadyMs": 330.39999997615814,
+      "editorMs": 163.30000007152557,
+      "timeOrigin": 1795098930697.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 319.5,
+      "totalReadyMs": 321.60000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098934784.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 68.10000002384186,
+      "totalReadyMs": 69.5,
+      "editorMs": null,
+      "timeOrigin": 1795098934784.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 253.29999995231628,
+      "totalReadyMs": 559.2999999523163,
+      "editorMs": 306,
+      "timeOrigin": 1795098936880.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 133.29999995231628,
+      "totalReadyMs": 270,
+      "editorMs": 136.70000004768372,
+      "timeOrigin": 1795098936880.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 75.39999997615814,
+      "totalReadyMs": 77.89999997615814,
+      "editorMs": null,
+      "timeOrigin": 1795098940611.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 170.10000002384186,
+      "totalReadyMs": 172.70000004768372,
+      "editorMs": null,
+      "timeOrigin": 1795098940611.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 331.5,
+      "totalReadyMs": 1190.2999999523163,
+      "editorMs": 858.7999999523163,
+      "timeOrigin": 1795098942622,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 233.80000007152557,
+      "totalReadyMs": 582.8000000715256,
+      "editorMs": 349,
+      "timeOrigin": 1795098942622,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 75.20000004768372,
+      "totalReadyMs": 77.90000009536743,
+      "editorMs": null,
+      "timeOrigin": 1795098947577.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 52.199999928474426,
+      "totalReadyMs": 53.199999928474426,
+      "editorMs": null,
+      "timeOrigin": 1795098947577.1,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 693.6000000238419,
+      "totalReadyMs": 1697.7000000476837,
+      "editorMs": 1004.1000000238419,
+      "timeOrigin": 1795098949475.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 217.90000009536743,
+      "totalReadyMs": 617.8000000715256,
+      "editorMs": 399.89999997615814,
+      "timeOrigin": 1795098949475.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 294.39999997615814,
+      "totalReadyMs": 801.3999999761581,
+      "editorMs": 507,
+      "timeOrigin": 1795098955171.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 229.60000002384186,
+      "totalReadyMs": 584.2999999523163,
+      "editorMs": 354.6999999284744,
+      "timeOrigin": 1795098955171.6,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 377.2000000476837,
+      "totalReadyMs": 1025.7000000476837,
+      "editorMs": 648.5,
+      "timeOrigin": 1795098959721.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 237.80000007152557,
+      "totalReadyMs": 1142.7000000476837,
+      "editorMs": 904.8999999761581,
+      "timeOrigin": 1795098959721.3,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 353.5,
+      "totalReadyMs": 557.6000000238419,
+      "editorMs": 204.10000002384186,
+      "timeOrigin": 1795098965098,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 151.39999997615814,
+      "totalReadyMs": 337,
+      "editorMs": 185.60000002384186,
+      "timeOrigin": 1795098965098,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 78.5,
+      "totalReadyMs": 83.29999995231628,
+      "editorMs": null,
+      "timeOrigin": 1795098969261.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 66.29999995231628,
+      "totalReadyMs": 67.5,
+      "editorMs": null,
+      "timeOrigin": 1795098969261.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 174.19999992847443,
+      "totalReadyMs": 456.89999997615814,
+      "editorMs": 282.7000000476837,
+      "timeOrigin": 1795098971215.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 163.10000002384186,
+      "totalReadyMs": 327.6999999284744,
+      "editorMs": 164.59999990463257,
+      "timeOrigin": 1795098971215.5,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 82.79999995231628,
+      "totalReadyMs": 87.89999997615814,
+      "editorMs": null,
+      "timeOrigin": 1795098975172,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 50.699999928474426,
+      "totalReadyMs": 51.60000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098975172,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 284.60000002384186,
+      "totalReadyMs": 1062.1000000238419,
+      "editorMs": 777.5,
+      "timeOrigin": 1795098977336.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 291.39999997615814,
+      "totalReadyMs": 1248.1000000238419,
+      "editorMs": 956.7000000476837,
+      "timeOrigin": 1795098977336.7,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "empty",
+      "phase": "first_open",
+      "setupMs": 117.60000002384186,
+      "totalReadyMs": 123.60000002384186,
+      "editorMs": null,
+      "timeOrigin": 1795098983451,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "empty",
+      "phase": "same_document_reopen",
+      "setupMs": 64.30000007152557,
+      "totalReadyMs": 65.80000007152557,
+      "editorMs": null,
+      "timeOrigin": 1795098983451,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "native",
+      "phase": "first_open",
+      "setupMs": 414.6999999284744,
+      "totalReadyMs": 1273.6999999284744,
+      "editorMs": 859,
+      "timeOrigin": 1795098985970.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "native",
+      "phase": "same_document_reopen",
+      "setupMs": 242,
+      "totalReadyMs": 634.8000000715256,
+      "editorMs": 392.8000000715256,
+      "timeOrigin": 1795098985970.8,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "experimental",
+      "phase": "first_open",
+      "setupMs": 161.30000007152557,
+      "totalReadyMs": 392.3000000715256,
+      "editorMs": 231,
+      "timeOrigin": 1795098991469.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "experimental",
+      "phase": "same_document_reopen",
+      "setupMs": 176,
+      "totalReadyMs": 365.5,
+      "editorMs": 189.5,
+      "timeOrigin": 1795098991469.2,
+      "interception": true,
+      "targets": [
+        "off",
+        "off",
+        "off"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "hostLoadAfter": [
+    3.31,
+    2.2,
+    1.37
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "runtime": {
+    "bindings": {
+      "initial": [
+        "21.1",
+        "72.2"
+      ],
+      "changedA": "72.2",
+      "sibling": "72.2",
+      "siblingMutations": 0,
+      "originalUnchanged": true,
+      "targets": [
+        "input_boolean.mcc_target_body",
+        "input_boolean.mcc_target_b"
+      ]
+    },
+    "validation": {
+      "messages": [
+        "Slot A requires a synthetic input_number display binding",
+        "Slot A requires an allowlisted synthetic target",
+        "Unsupported experimental configuration field",
+        "confirm must be boolean"
+      ],
+      "stale": "Configuration error"
+    },
+    "availability": {
+      "snapshots": [
+        {
+          "a": "Missing source",
+          "b": "72.2"
+        },
+        {
+          "a": "Unknown",
+          "b": "72.2"
+        },
+        {
+          "a": "Unavailable",
+          "b": "72.2"
+        }
+      ],
+      "disabledA": true,
+      "disabledB": false,
+      "recovery": {
+        "value": "31.5",
+        "events": 0
+      }
+    },
+    "actions": [
+      {
+        "method": "pointer",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "Enter",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "Space",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "touch",
+        "events": [
+          "input_boolean.mcc_target_b"
+        ]
+      },
+      {
+        "method": "body",
+        "events": [
+          "input_boolean.mcc_target_body"
+        ]
+      }
+    ],
+    "rejected": "Rejected",
+    "cancelled": "Cancelled",
+    "updates": {
+      "unrelated": {
+        "a": 0,
+        "b": 0,
+        "body": 0
+      },
+      "relevant": {
+        "a": 1,
+        "b": 0,
+        "body": 0
+      },
+      "localized": "21,1",
+      "dark": "rgb(17, 17, 17)"
+    },
+    "lifecycle": {
+      "removed": [
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        },
+        {
+          "listeners": 0,
+          "subscriptions": 0,
+          "scheduled": 0
+        }
+      ],
+      "connected": {
+        "listeners": 1,
+        "subscriptions": 0,
+        "scheduled": 0
+      },
+      "value": "49",
+      "events": 1
+    }
+  },
+  "recorder": {
+    "direct": {
+      "accepted": {
+        "status": "recorded"
+      },
+      "rejected": {
+        "status": "rejected"
+      },
+      "cancelled": {
+        "status": "cancelled"
+      },
+      "injected": {
+        "status": "rejected"
+      },
+      "count": 1
+    },
+    "valid": [
+      {
+        "target": "input_boolean.mcc_target_a",
+        "origin": "native"
+      }
+    ],
+    "native": {
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off"
+    },
+    "transport": "all browser call_service messages intercepted; REST services blocked"
+  },
+  "fresh_controls": {
+    "checks": [
+      {
+        "variant": "empty",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      }
+    ],
+    "acceptance": "pending; discovery only"
+  },
+  "verification_inputs": "All 180 local activations recorded exactly one fixture-A intent with unchanged off target state; all loads retained interception",
+  "subject": "unchanged source hashes verified before capture"
+}

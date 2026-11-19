@@ -1,0 +1,233 @@
+{
+  "phase": "offline diagnostic preflight; no lab or acceptance collection",
+  "source_hashes_sha256": {
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/followup-common.mjs": "838d1ae770a24f40f3efd634fbf77ef32090692ab10ebb5e16293638dcd38f74",
+    "tools/followup-verify.mjs": "9e01d2d6acdc2617d13ef87c888aaadb6ce1db71ad1eec3139bb1aa57357f118",
+    "tools/followup-evaluate.mjs": "d3947d5da874d4e11fb618f8f5e243e533d8031ab516ff1e651d93a0db8d5a5d",
+    "tools/followup-evaluate.test.mjs": "f2afe29ffdfd6aa401bcf789d922e99af0ab78617a9579a65416d5a0128530a0",
+    "performance-followup/approval.json": "65b7bcbe01e3f37f5f01938e888fb5d214001252b0b822a65c6c47a48f00de24",
+    "performance-followup/verification-environment.json": "39932b152db3edf18637716f8e2fbf6e9dcf0d298fb95c87fbc2acb880c9c941",
+    "tools/allocate.mjs": "bac8c96bb93ca6a4913ff9ffe2d5a6863df3eeca99605e73986ecbf031deaf9a",
+    "tools/editor-load-check.mjs": "8d9649408ac7ea9c3b137ff692cef723cc2b427573d46cfeda3f123ed52e3adc",
+    "tools/ha-smoke.mjs": "48e87f2d1f38ec6a0a164f35dfa92467d838dbe262263c4aa02afa9a4bfbb9bf",
+    "tools/image.py": "edb7e27b48ff746d875e7bbfaa957d60bdadb77128a9a57dc4a09e668411ac99",
+    "tools/integrated-check.mjs": "748f2ddb4c02802fa4b10d0e4ba690ee0f84dc9b441869112eb16af5e81b21e5",
+    "tools/layout-check.mjs": "b764208c2b7a54f24e828d211fa6026e9408abefccd63f9c9a29eb5f74754327",
+    "tools/measure.mjs": "fe6baeffc8d4348fff4f2994c0cef874a19806d11e39ae61c829e78416dd1425",
+    "tools/measurement-preflight.mjs": "3d4d5bf7fed95cab09f3d424c44b75d72cd8125d70b9926b2947cb69918f5c99",
+    "tools/persistence-check.mjs": "d10ceb1e8a011cbe847681496fb359297a105b7e092b3f1f3fc47f5c44351f6f",
+    "tools/recorder-check.mjs": "ea7bb1b3a87d49b828864693f03b8638b5cb89e120d7fa4c32091f7b59f10865",
+    "tools/register.mjs": "5ab734ba20ab2002bf803cb3d4343f5ea2ace5d2de432b2afd2a9f49e518b4e4",
+    "tools/runtime-check.mjs": "194546b61300d357ea5c401ff472281549b41fac5df84f99b7d1c6a8d40bcca6",
+    "tools/sandbox.py": "d0403e4d4d99e0d0c42ccf9315cfe993b1d135d81d182049df828ec4edc65fa4",
+    "tools/setup.py": "34c9a7a3e2b3737e2a132fddbbec6991ad374d121ac410a9126e372ed183b427",
+    "tools/summarize.py": "b8b2275fbe9a06cd7a3f783e0c62019dd921eb3c79feb9e341200eb263de8fb0",
+    "tools/verification.mjs": "24b9720cbbe2c5b9ac500bfdaea045fc0f7ec9ab14af785a67ff25b24ba2d093",
+    "fixtures/configuration.yaml": "5c716e174943ae08eb28680ee3631c445a5e68b5b10f57bd0ae6071db6064285",
+    "tools/followup-lifecycle.mjs": "8962b874959597845c99a37277577ce3cb1457687758ea9394a8ea6bf12b2563",
+    "tools/followup-measure.mjs": "b0dc0a68b2d8a84710ad35d74a939a919f5906c382f596fb14c3ff7bb9b23dad",
+    "tools/followup-methods.mjs": "1775b13c63dec5d401834d90cb9baf5c04547145775eda7682254134588333b4",
+    "tools/followup-preflight.mjs": "77953ccac78455e7b71332b501ee59f65aba9ed586c278f5573de55c94278a38",
+    "tools/followup-rendering.mjs": "299db1f842b5afa63c3214b87577b0d1334c18dc9e3cf1712cd5ce369ff73cee",
+    "tools/followup-summarize.py": "5febfeda694204b96fc357b9b2a34b38c0cf4da3557a1cdf055d2265bcb1eee3"
+  },
+  "historical_evidence_sha256": {
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "results/budget-review.json": "3d18252f076c272d7bfd46508cce3f38adf874fdb754d79d83d6d370b55fda93",
+    "results/editor-loading.json": "1d7d9b084990b3635964d3ff004f4dd9ab2e54f56062af9d2f281068e3164e70",
+    "results/fresh-verification.json": "394f65499d8ec5be89fd91c466b1a6245d3fcc0c5f572b90752fd567a80c333d",
+    "results/integrated-check.json": "379e0a45b1c40512c5adceafab4dab3fad39eb36b1215de896952e8a1f2ff7eb",
+    "results/layout.json": "e1e3e5e7cb62793ae5dc3c03d65fdd3fde2b83302bd2578d9a9455af9d4d815f",
+    "results/load-samples.csv": "aa8f15e3a6dcca4b036085860e9af1684e43e4f1551597271e63f8a4ca5c5b2a",
+    "results/measurements.json": "d1285ea45cc73498a7875e80f05891917284cdb9422a0c68f7fcb1d80152e8d9",
+    "results/measurements.md": "e739f857bb35e48d97713f1056efde7d6cf7854f1aa4f87fa959ba605d619863",
+    "results/persistence.json": "6767097aac5ec1d2da3e795ecea77172afc8bfeada1ae63aab8c0e028ef5e1f2",
+    "results/runtime-check.json": "2419f4a89224cd2ef8ba866d2c2f9e1af641e66650c52a173b314500fffad6c1",
+    "results/scenario-map.md": "3912d6f209e2387a7b839e2e0c2ca0d341bc8f9fb47d7e2f9f048efc9f126f05",
+    "performance-followup/approval.json": "65b7bcbe01e3f37f5f01938e888fb5d214001252b0b822a65c6c47a48f00de24",
+    "performance-followup/budget-review.json": "8a05487b3c4e40107568ff02f44c86e34032a4d5901000c7837f34b0cc41ab70",
+    "performance-followup/cleanup.json": "0b5009ab4fefec621a3572745a97ae54fc2034c19d98140ffb1d11f8df401a9d",
+    "performance-followup/control-preflight.json": "840dbe4ad51c23893dd300e81a259bb75ca8721e1276415f21b213ca9048b63d",
+    "performance-followup/correctness.json": "693b927210c72d60a2674574b4c0967938f777fcaf6aa5d0e7e244c7fea71f5d",
+    "performance-followup/discovery.json": "8fe502ccf4b1248114b333a0b88d659c489c935572ae1fa8eb67c4b5f514ec14",
+    "performance-followup/discovery.md": "b67bc1ce23c4715f72cedf7460df51e2f075da8209cc8c2a9a455c19b21761a5",
+    "performance-followup/execution.json": "7737ed849c0eff7227e19f39498b9ae90582a835bdca7431c89297628a271193",
+    "performance-followup/lifecycle-discovery.json": "f441ea39800bfa4159d1bf5c606f49c79c17f93f09ac3fddd9ab01de1ba239f8",
+    "performance-followup/method-history.json": "42f103242c8a300aa90076749291acadded54c6319faff9e01cbe21d2c9980e3",
+    "performance-followup/rendering-discovery.json": "ec7a94a4f93342b0eb2fa2ab5a8216bc09c4c8a58ec107c2b8b2ddce75ea6a99",
+    "performance-followup/review.md": "04ba6ef602392c70123ca14af72336ffacf5d30e9480733bbe691f6cb260501e",
+    "performance-followup/timing-discovery.json": "dda641801df25a70fda9dadfcf358860c1fb63114c1799110d4656862295f84b",
+    "performance-followup/validation.json": "fa6b8dfdee09854118310c4e78fc000f7822419a29a9f7a5ef67ba9e7ce2078b",
+    "performance-followup/verification-cleanup.json": "bdc4b6774285b5e2bd4fedcf06fabb3185a74e3770c16ec9807bfd23c924cce8",
+    "performance-followup/verification-correctness.json": "76fe7005815d2cef46a72b09d3467775db0b954919169e7daa74960a58d6db58",
+    "performance-followup/verification-environment.json": "39932b152db3edf18637716f8e2fbf6e9dcf0d298fb95c87fbc2acb880c9c941",
+    "performance-followup/verification-plan.json": "ee0bcd0daa9df5e7a3fb6433394cfcdb59a9cfe60d37a94c82b1e6669f2ba997",
+    "performance-followup/verification-review.json": "c4ea88c3e0d88659c15907fe5235bd5baef68cce83ce21ded12ff2b0ef7a02f2",
+    "performance-followup/verification-samples.json": "67b6698ce0f2a253751399ba2453d113757b69491aa3504a984fbdc41e01d9e7",
+    "performance-followup/verification-validation.json": "2d40af309176c9fc826b4ce14783f55aaa4885f9cd490553e737433ef3643db2"
+  },
+  "reconstructed_method_identities": [
+    {
+      "revision": "v1",
+      "sha256": "24305e8c369683064f6f2a8e53a06e96cdbc8bcb4f1e4d02996adb0f291baa1e"
+    },
+    {
+      "revision": "v2",
+      "sha256": "2524ecd8de724221ddad2b0bfa2092b7e67a68ac71d472cd4cf55ca31d7c9944"
+    },
+    {
+      "revision": "v3",
+      "sha256": "b0dc0a68b2d8a84710ad35d74a939a919f5906c382f596fb14c3ff7bb9b23dad"
+    },
+    {
+      "revision": "common-during-discovery",
+      "sha256": "52c9983105caeffee26b24dcfbe51e8967977f2407a971d4dacec2f358501b11"
+    },
+    {
+      "revision": "publisher-used-for-discovery",
+      "sha256": "b63cd2075cb7af4ff3a2b5c3f3edaf2f78a1e1e8469595c668932c755bb6740a"
+    }
+  ],
+  "verification_replay": "exact match with published evaluator output",
+  "historical_cold_observations_ms": [
+    1108.6,
+    1104.8000000715256
+  ],
+  "approval": {
+    "id": "maintainer-four-metrics-2026-11-19",
+    "date_utc": "2026-11-19",
+    "recorded_at_utc": "2026-11-19T13:17:39.006109+00:00",
+    "authority": "Maintainer, explicit response in this project conversation",
+    "response_english": "Approve these four candidates and the proposed rule.",
+    "context": "Approval answers the exact four-limit question, including maximum per one/ten-group workload, ten cold/warm loads and thirty activations, no replacement of slow valid observations, retained 1108.60 ms historical result, other budgets/evidence pending, no stage 1 closure.",
+    "limits": {
+      "runtime-decoded-bytes": 16384,
+      "cold-ready": 1000,
+      "warm-ready": 750,
+      "local-intent": 16.7
+    },
+    "statistic": "maximum per workload",
+    "cold_trials": 10,
+    "warm_trials": 10,
+    "inputs_per_workload": 30,
+    "groups": [
+      1,
+      10
+    ],
+    "variants": [
+      "native",
+      "experimental"
+    ],
+    "controls": [
+      "empty"
+    ],
+    "slow_valid_observations": "retain; any exceedance fails the approved row",
+    "missing_or_invalid": "retain reason and leave affected evaluation pending; no silent retry",
+    "pending_rows_waived": false,
+    "stage1_approval": false
+  },
+  "required_rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "supported": true
+    },
+    {
+      "id": "cold-ready",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "supported": true
+    },
+    {
+      "id": "warm-ready",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "supported": true
+    },
+    {
+      "id": "local-intent",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "supported": true
+    },
+    {
+      "id": "load-cpu",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": true
+    },
+    {
+      "id": "load-transfer",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": true
+    },
+    {
+      "id": "editor",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": true
+    },
+    {
+      "id": "updates",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": true
+    },
+    {
+      "id": "retention",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": false
+    },
+    {
+      "id": "presentation",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "supported": false
+    }
+  ],
+  "capacity": {
+    "free_bytes": 4979064832,
+    "reserve_bytes": 1073741824
+  },
+  "stage1": "open; historical failure and all required pending rows preserved"
+}

@@ -1,0 +1,3598 @@
+{
+  "phase": "R1 diagnostic only",
+  "completed": true,
+  "sampleCount": 120,
+  "rawSamplesSha256": "e88bc32b4f8cd05aff337a3b69e552d44db76c247f55fea5bbe8794e7ebd02cd",
+  "scheduleSha256": "89f48672a92fc94bc695a377720424949e8effee17613b1a4380d160882020e6",
+  "sourceHashes": {
+    "tools/diagnostic-common.mjs": "e833ad3ce2d8327f8a6465015106725fa0758a30e5091207b8b3bd444dd78083",
+    "tools/diagnostic-phases.mjs": "28152848224b7b289af85c23fca0174a7426e736fa96071176a9a16bfc3b3292",
+    "tools/diagnostic-loads.mjs": "e53ca326f6861d46f3d13f1d9b92e498b8792ed5caca3a0ed3c1f5f3f6780f2e",
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/followup-common.mjs": "838d1ae770a24f40f3efd634fbf77ef32090692ab10ebb5e16293638dcd38f74",
+    "tools/followup-verify.mjs": "9e01d2d6acdc2617d13ef87c888aaadb6ce1db71ad1eec3139bb1aa57357f118",
+    "tools/followup-evaluate.mjs": "d3947d5da874d4e11fb618f8f5e243e533d8031ab516ff1e651d93a0db8d5a5d",
+    "tools/followup-evaluate.test.mjs": "f2afe29ffdfd6aa401bcf789d922e99af0ab78617a9579a65416d5a0128530a0",
+    "performance-followup/approval.json": "65b7bcbe01e3f37f5f01938e888fb5d214001252b0b822a65c6c47a48f00de24",
+    "performance-followup/verification-environment.json": "39932b152db3edf18637716f8e2fbf6e9dcf0d298fb95c87fbc2acb880c9c941"
+  },
+  "cachePolicy": "new context plus explicit cache clear for cold; same-context reload for warm; service workers blocked",
+  "order": "Count 1 then 10; rotate variants each trial; each cold load followed by warm reload",
+  "hostLoadBefore": [
+    1.04,
+    0.97,
+    0.58
+  ],
+  "minimumFreeBytes": 2072170496,
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "excludedLoads": [],
+  "summary": [
+    {
+      "count": 1,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 615.2000000476837,
+        "median": 648.75,
+        "maximum": 685.5
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 231.30000007152557,
+        "median": 237.30000001192093,
+        "maximum": 249
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 15,
+        "median": 16.100000023841858,
+        "maximum": 17.699999928474426
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 553.5999999046326,
+        "median": 564.5999999642372,
+        "maximum": 579.8999999761581
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.10000002384185791,
+        "maximum": 0.20000004768371582
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 7.300000071525574,
+        "median": 14.600000023841858,
+        "maximum": 20.799999952316284
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 48.39999997615814,
+        "median": 68.15000003576279,
+        "maximum": 84.80000007152557
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 631.2582800000018,
+        "median": 661.4975134999986,
+        "maximum": 697.3503259999998
+      }
+    },
+    {
+      "count": 1,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 349.2999999523163,
+        "median": 356.3499999642372,
+        "maximum": 363.90000009536743
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 175.40000009536743,
+        "median": 183.99999994039536,
+        "maximum": 189.69999992847443
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.39999997615814,
+        "median": 33.89999997615814,
+        "maximum": 36.300000071525574
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 304.2000000476837,
+        "median": 319.64999997615814,
+        "maximum": 323.6999999284744
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 0.10000002384185791
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 4.399999976158142,
+        "median": 9.200000047683716,
+        "maximum": 23.600000023841858
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 8.299999952316284,
+        "median": 32.15000003576279,
+        "maximum": 42.10000002384186
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 360.7496990000036,
+        "median": 369.6194684999989,
+        "maximum": 377.87935800000014
+      }
+    },
+    {
+      "count": 1,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 631.6000000238419,
+        "median": 655.8000000119209,
+        "maximum": 687
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 230.90000009536743,
+        "median": 238.3499999642372,
+        "maximum": 254.5
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 16.09999990463257,
+        "median": 17.200000047683716,
+        "maximum": 18.600000023841858
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 576.2999999523163,
+        "median": 582.6000000238419,
+        "maximum": 603.8999999761581
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 1,
+        "median": 1.25,
+        "maximum": 1.7000000476837158
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 1.7000000476837158,
+        "median": 5.600000023841858,
+        "maximum": 26.300000071525574
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 40,
+        "median": 67.05000001192093,
+        "maximum": 81.10000002384186
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 643.1568630000002,
+        "median": 668.6696814999996,
+        "maximum": 699.7033959999994
+      }
+    },
+    {
+      "count": 1,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 445.8000000715256,
+        "median": 462.64999997615814,
+        "maximum": 478.60000002384186
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 174.29999995231628,
+        "median": 186.0,
+        "maximum": 190.10000002384186
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.299999952316284,
+        "median": 33.85000002384186,
+        "maximum": 38.299999952316284
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 309,
+        "median": 325.44999998807907,
+        "maximum": 335.60000002384186
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 1,
+        "median": 1.100000023841858,
+        "maximum": 1.2999999523162842
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 2.1999999284744263,
+        "median": 9.199999928474426,
+        "maximum": 17.5
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 111.30000007152557,
+        "median": 131.1500000357628,
+        "maximum": 134.80000007152557
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 457.3596039999993,
+        "median": 474.3651794999987,
+        "maximum": 492.70862399999896
+      }
+    },
+    {
+      "count": 1,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 630,
+        "median": 646.8000000119209,
+        "maximum": 712.1000000238419
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 231.30000007152557,
+        "median": 236.30000001192093,
+        "maximum": 256.39999997615814
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 14.700000047683716,
+        "median": 16.250000059604645,
+        "maximum": 18
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 572.6000000238419,
+        "median": 586.6000000238419,
+        "maximum": 665.3999999761581
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.20000004768371582,
+        "median": 0.5,
+        "maximum": 2.0999999046325684
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 17.5,
+        "median": 24.200000047683716,
+        "maximum": 27.700000047683716
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 18.600000023841858,
+        "median": 35.25,
+        "maximum": 52.10000002384186
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 641.8525569999983,
+        "median": 660.6870804999999,
+        "maximum": 724.5108239999972
+      }
+    },
+    {
+      "count": 1,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 442.8000000715256,
+        "median": 459.85000002384186,
+        "maximum": 477.10000002384186
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 173,
+        "median": 180.30000001192093,
+        "maximum": 189.39999997615814
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.10000002384186,
+        "median": 33.19999998807907,
+        "maximum": 40.10000002384186
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 302.5,
+        "median": 321.4500000476837,
+        "maximum": 338.6999999284744
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.10000002384185791,
+        "median": 1.100000023841858,
+        "maximum": 2
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 15.299999952316284,
+        "median": 21.05000001192093,
+        "maximum": 28.200000047683716
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 101.69999992847443,
+        "median": 118.44999998807907,
+        "maximum": 123.79999995231628
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 456.7866580000009,
+        "median": 473.0483750000021,
+        "maximum": 490.4131290000005
+      }
+    },
+    {
+      "count": 10,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 619.5,
+        "median": 658.7999999523163,
+        "maximum": 1272.6999999284744
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 234.19999992847443,
+        "median": 237.94999992847443,
+        "maximum": 311.5
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 15.199999928474426,
+        "median": 15.799999952316284,
+        "maximum": 27.199999928474426
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 548.3999999761581,
+        "median": 576.9499999880791,
+        "maximum": 839.6999999284744
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.10000002384185791,
+        "maximum": 0.19999992847442627
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 6.800000071525574,
+        "median": 7.799999952316284,
+        "maximum": 17.899999976158142
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 51.39999997615814,
+        "median": 67.94999998807907,
+        "maximum": 425.39999997615814
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 631.5337569999974,
+        "median": 671.0112394999996,
+        "maximum": 1283.9875329999995
+      }
+    },
+    {
+      "count": 10,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 344.2999999523163,
+        "median": 363.0500000715256,
+        "maximum": 379.5
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 177.20000004768372,
+        "median": 181.89999997615814,
+        "maximum": 202.80000007152557
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.89999997615814,
+        "median": 34.15000003576279,
+        "maximum": 39.09999990463257
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 304.7000000476837,
+        "median": 313.05000001192093,
+        "maximum": 336.09999990463257
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0,
+        "median": 0.04999995231628418,
+        "maximum": 0.10000002384185791
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 4.399999976158142,
+        "median": 10.949999988079071,
+        "maximum": 22.399999976158142
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 14.200000047683716,
+        "median": 33.250000059604645,
+        "maximum": 47
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 355.4517729999934,
+        "median": 376.1566544999987,
+        "maximum": 444.36562799999956
+      }
+    },
+    {
+      "count": 10,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 684.6000000238419,
+        "median": 719.8499999642372,
+        "maximum": 855.1000000238419
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 230.39999997615814,
+        "median": 244.5,
+        "maximum": 328.5
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 15.200000047683716,
+        "median": 17.099999964237213,
+        "maximum": 18.300000071525574
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 637.7000000476837,
+        "median": 673.6499999761581,
+        "maximum": 821.4000000953674
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.09999990463256836,
+        "median": 0.2500000596046448,
+        "maximum": 0.6999999284744263
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 2.5,
+        "median": 19.400000035762787,
+        "maximum": 25.799999952316284
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 2.399999976158142,
+        "median": 24.80000001192093,
+        "maximum": 35.299999952316284
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 702.7862099999984,
+        "median": 734.6552794999989,
+        "maximum": 868.3900839999988
+      }
+    },
+    {
+      "count": 10,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 442.40000009536743,
+        "median": 463.69999998807907,
+        "maximum": 575.7999999523163
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 164.20000004768372,
+        "median": 184.1500000357628,
+        "maximum": 251.29999995231628
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.300000071525574,
+        "median": 34.35000002384186,
+        "maximum": 41.39999997615814
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 352.7000000476837,
+        "median": 374.55000001192093,
+        "maximum": 500.10000002384186
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.19999992847442627,
+        "median": 0.5,
+        "maximum": 3.5
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 4,
+        "median": 20.400000035762787,
+        "maximum": 24.100000023841858
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 53,
+        "median": 66.19999998807907,
+        "maximum": 141.60000002384186
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 453.89208099999814,
+        "median": 477.4136270000017,
+        "maximum": 592.5970970000053
+      }
+    },
+    {
+      "count": 10,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": {
+        "n": 10,
+        "minimum": 641.5,
+        "median": 662.5499999523163,
+        "maximum": 917.3999999761581
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 230.79999995231628,
+        "median": 241.69999998807907,
+        "maximum": 325
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 15.299999952316284,
+        "median": 15.850000023841858,
+        "maximum": 31.300000071525574
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 589.5,
+        "median": 598.7000000476837,
+        "maximum": 846.5
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.19999992847442627,
+        "median": 0.30000001192092896,
+        "maximum": 3.200000047683716
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 9.899999976158142,
+        "median": 23.25,
+        "maximum": 29.700000047683716
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 26,
+        "median": 37.69999998807907,
+        "maximum": 52
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 653.035447000002,
+        "median": 674.551835000002,
+        "maximum": 932.8062919999938
+      }
+    },
+    {
+      "count": 10,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": {
+        "n": 10,
+        "minimum": 447.1999999284744,
+        "median": 463.75,
+        "maximum": 582.8999999761581
+      },
+      "hassDetectedMs": {
+        "n": 10,
+        "minimum": 177.69999992847443,
+        "median": 185.85000002384186,
+        "maximum": 229
+      },
+      "domContentLoadedMs": {
+        "n": 10,
+        "minimum": 32.89999997615814,
+        "median": 34.25,
+        "maximum": 37.89999997615814
+      },
+      "mountedMs": {
+        "n": 10,
+        "minimum": 324.60000002384186,
+        "median": 328.94999998807907,
+        "maximum": 441.89999997615814
+      },
+      "mountToSettleMs": {
+        "n": 10,
+        "minimum": 0.09999990463256836,
+        "median": 1.699999988079071,
+        "maximum": 5.899999976158142
+      },
+      "settleToFramesMs": {
+        "n": 10,
+        "minimum": 12,
+        "median": 20.700000047683716,
+        "maximum": 26.899999976158142
+      },
+      "observerAfterFramesMs": {
+        "n": 10,
+        "minimum": 85,
+        "median": 106.69999998807907,
+        "maximum": 169.69999992847443
+      },
+      "hostElapsedMs": {
+        "n": 10,
+        "minimum": 462.7769890000054,
+        "median": 475.7851794999988,
+        "maximum": 609.9846030000044
+      }
+    }
+  ],
+  "samples": [
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 648.2999999523163,
+      "mountedMs": 579.8999999761581,
+      "hassDetectedMs": 249,
+      "domContentLoadedMs": 16.100000023841858,
+      "hostElapsedMs": 667.4469079999999,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 16.399999976158142,
+      "observerAfterFramesMs": 51.89999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 354,
+      "mountedMs": 319.5,
+      "hassDetectedMs": 182.19999992847443,
+      "domContentLoadedMs": 35.699999928474426,
+      "hostElapsedMs": 369.07881399999997,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 23.09999990463257,
+      "observerAfterFramesMs": 11.400000095367432,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 687,
+      "mountedMs": 603.8999999761581,
+      "hassDetectedMs": 254.5,
+      "domContentLoadedMs": 18.600000023841858,
+      "hostElapsedMs": 699.7033959999994,
+      "mountToSettleMs": 1.7000000476837158,
+      "settleToFramesMs": 13.5,
+      "observerAfterFramesMs": 67.89999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 462.7999999523163,
+      "mountedMs": 330.6999999284744,
+      "hassDetectedMs": 181.10000002384186,
+      "domContentLoadedMs": 34.799999952316284,
+      "hostElapsedMs": 476.0538199999992,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 15.600000023841858,
+      "observerAfterFramesMs": 115.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 662,
+      "mountedMs": 586.1000000238419,
+      "hassDetectedMs": 233.29999995231628,
+      "domContentLoadedMs": 16.100000023841858,
+      "hostElapsedMs": 675.7120349999996,
+      "mountToSettleMs": 1.399999976158142,
+      "settleToFramesMs": 22.399999976158142,
+      "observerAfterFramesMs": 52.10000002384186,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 538.8999999761581,
+          "end": 541.3999999761581,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 564.2000000476837,
+          "end": 566.5,
+          "duration": 2.299999952316284,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 577.2999999523163,
+          "end": 580.1000000238419,
+          "duration": 2.8000000715255737,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 0,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 465.6999999284744,
+      "mountedMs": 323.7999999523163,
+      "hassDetectedMs": 179.19999992847443,
+      "domContentLoadedMs": 33.299999952316284,
+      "hostElapsedMs": 479.6056120000003,
+      "mountToSettleMs": 1.899999976158142,
+      "settleToFramesMs": 16.200000047683716,
+      "observerAfterFramesMs": 123.79999995231628,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 281.5,
+          "end": 281.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 304.2999999523163,
+          "end": 304.2999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 315.2999999523163,
+          "end": 315.2999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 637.2000000476837,
+      "mountedMs": 584.8000000715256,
+      "hassDetectedMs": 242.5,
+      "domContentLoadedMs": 17.200000047683716,
+      "hostElapsedMs": 649.7150879999999,
+      "mountToSettleMs": 1.2999999523162842,
+      "settleToFramesMs": 5,
+      "observerAfterFramesMs": 46.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 463.7999999523163,
+      "mountedMs": 322.7999999523163,
+      "hassDetectedMs": 186.29999995231628,
+      "domContentLoadedMs": 32.5,
+      "hostElapsedMs": 476.0699649999997,
+      "mountToSettleMs": 1,
+      "settleToFramesMs": 10.299999952316284,
+      "observerAfterFramesMs": 129.70000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 644.1000000238419,
+      "mountedMs": 600.5,
+      "hassDetectedMs": 237.5,
+      "domContentLoadedMs": 18,
+      "hostElapsedMs": 659.2932309999997,
+      "mountToSettleMs": 0.2999999523162842,
+      "settleToFramesMs": 24.700000047683716,
+      "observerAfterFramesMs": 18.600000023841858,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 541.1000000238419,
+          "end": 543.7999999523163,
+          "duration": 2.6999999284744263,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 581.7999999523163,
+          "end": 584.6999999284744,
+          "duration": 2.899999976158142,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 589,
+          "end": 591.5,
+          "duration": 2.5,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 442.8000000715256,
+      "mountedMs": 302.5,
+      "hassDetectedMs": 173,
+      "domContentLoadedMs": 32.10000002384186,
+      "hostElapsedMs": 457.40639199999987,
+      "mountToSettleMs": 0.9000000953674316,
+      "settleToFramesMs": 21,
+      "observerAfterFramesMs": 118.39999997615814,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 271.90000009536743,
+          "end": 271.90000009536743,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 290.90000009536743,
+          "end": 290.90000009536743,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 301.10000002384186,
+          "end": 301.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 643,
+      "mountedMs": 560,
+      "hassDetectedMs": 243,
+      "domContentLoadedMs": 15.099999904632568,
+      "hostElapsedMs": 655.178206999999,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 15,
+      "observerAfterFramesMs": 68,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 363.40000009536743,
+      "mountedMs": 321.5,
+      "hassDetectedMs": 186.5,
+      "domContentLoadedMs": 36.300000071525574,
+      "hostElapsedMs": 377.02675400000044,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 9.100000023841858,
+      "observerAfterFramesMs": 32.800000071525574,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 633.5,
+      "mountedMs": 588.1000000238419,
+      "hassDetectedMs": 234.60000002384186,
+      "domContentLoadedMs": 15.200000047683716,
+      "hostElapsedMs": 647.3037249999998,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 26.399999976158142,
+      "observerAfterFramesMs": 18.799999952316284,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 533.5,
+          "end": 536.9000000953674,
+          "duration": 3.4000000953674316,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 571.5,
+          "end": 574.6000000238419,
+          "duration": 3.100000023841858,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 578.7000000476837,
+          "end": 581.4000000953674,
+          "duration": 2.700000047683716,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 443,
+      "mountedMs": 307.1999999284744,
+      "hassDetectedMs": 174.29999995231628,
+      "domContentLoadedMs": 32.5,
+      "hostElapsedMs": 456.7866580000009,
+      "mountToSettleMs": 1.9000000953674316,
+      "settleToFramesMs": 15.299999952316284,
+      "observerAfterFramesMs": 118.60000002384186,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 273.2999999523163,
+          "end": 273.2999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 292,
+          "end": 292,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 302.7999999523163,
+          "end": 302.7999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 647.8999999761581,
+      "mountedMs": 559.2999999523163,
+      "hassDetectedMs": 234.70000004768372,
+      "domContentLoadedMs": 16.100000023841858,
+      "hostElapsedMs": 660.4791320000004,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 7.5,
+      "observerAfterFramesMs": 81,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 363.7000000476837,
+      "mountedMs": 320.8000000715256,
+      "hassDetectedMs": 186.60000002384186,
+      "domContentLoadedMs": 34,
+      "hostElapsedMs": 377.87935800000014,
+      "mountToSettleMs": 0.09999990463256836,
+      "settleToFramesMs": 11.300000071525574,
+      "observerAfterFramesMs": 31.5,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 664.6000000238419,
+      "mountedMs": 580.3999999761581,
+      "hassDetectedMs": 237.89999997615814,
+      "domContentLoadedMs": 17,
+      "hostElapsedMs": 676.8692460000002,
+      "mountToSettleMs": 1.600000023841858,
+      "settleToFramesMs": 13.600000023841858,
+      "observerAfterFramesMs": 69,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 445.8000000715256,
+      "mountedMs": 315.90000009536743,
+      "hassDetectedMs": 179.80000007152557,
+      "domContentLoadedMs": 33.40000009536743,
+      "hostElapsedMs": 457.3596039999993,
+      "mountToSettleMs": 1.0999999046325684,
+      "settleToFramesMs": 17.5,
+      "observerAfterFramesMs": 111.30000007152557,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 653,
+      "mountedMs": 569.1999999284744,
+      "hassDetectedMs": 243.60000002384186,
+      "domContentLoadedMs": 16.100000023841858,
+      "hostElapsedMs": 665.2765459999991,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 15.399999976158142,
+      "observerAfterFramesMs": 68.20000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 363.90000009536743,
+      "mountedMs": 320.40000009536743,
+      "hassDetectedMs": 187.5,
+      "domContentLoadedMs": 32.90000009536743,
+      "hostElapsedMs": 375.1067549999989,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 10.299999952316284,
+      "observerAfterFramesMs": 33.200000047683716,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 672.6000000238419,
+      "mountedMs": 585.9000000953674,
+      "hassDetectedMs": 230.90000009536743,
+      "domContentLoadedMs": 16.700000047683716,
+      "hostElapsedMs": 688.0881399999998,
+      "mountToSettleMs": 1.1999999284744263,
+      "settleToFramesMs": 4.399999976158142,
+      "observerAfterFramesMs": 81.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 460,
+      "mountedMs": 327.89999997615814,
+      "hassDetectedMs": 189.09999990463257,
+      "domContentLoadedMs": 33.39999997615814,
+      "hostElapsedMs": 473.0557580000004,
+      "mountToSettleMs": 1.2999999523162842,
+      "settleToFramesMs": 17.5,
+      "observerAfterFramesMs": 113.30000007152557,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 649.5,
+      "mountedMs": 587.1000000238419,
+      "hassDetectedMs": 234.89999997615814,
+      "domContentLoadedMs": 17,
+      "hostElapsedMs": 662.0809300000001,
+      "mountToSettleMs": 0.2999999523162842,
+      "settleToFramesMs": 27,
+      "observerAfterFramesMs": 35.10000002384186,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 536.6000000238419,
+          "end": 539.3999999761581,
+          "duration": 2.799999952316284,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 570.8000000715256,
+          "end": 574.6000000238419,
+          "duration": 3.799999952316284,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 578.5,
+          "end": 581.2000000476837,
+          "duration": 2.700000047683716,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 446.2000000476837,
+      "mountedMs": 307.2999999523163,
+      "hassDetectedMs": 174.79999995231628,
+      "domContentLoadedMs": 33.60000002384186,
+      "hostElapsedMs": 458.0486549999987,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 21.100000023841858,
+      "observerAfterFramesMs": 116.70000004768372,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 275.2999999523163,
+          "end": 275.2999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 294.60000002384186,
+          "end": 294.60000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 305,
+          "end": 305,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 631.6000000238419,
+      "mountedMs": 576.8000000715256,
+      "hassDetectedMs": 236.39999997615814,
+      "domContentLoadedMs": 16.600000023841858,
+      "hostElapsedMs": 643.1568630000002,
+      "mountToSettleMs": 1.2999999523162842,
+      "settleToFramesMs": 4.200000047683716,
+      "observerAfterFramesMs": 49.299999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 462.2000000476837,
+      "mountedMs": 321,
+      "hassDetectedMs": 183.80000007152557,
+      "domContentLoadedMs": 34.300000071525574,
+      "hostElapsedMs": 473.56948700000066,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 5.600000023841858,
+      "observerAfterFramesMs": 134.5,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 712.1000000238419,
+      "mountedMs": 665.3999999761581,
+      "hassDetectedMs": 256.39999997615814,
+      "domContentLoadedMs": 17.299999952316284,
+      "hostElapsedMs": 724.5108239999972,
+      "mountToSettleMs": 0.2999999523162842,
+      "settleToFramesMs": 27.700000047683716,
+      "observerAfterFramesMs": 18.700000047683716,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 602.8999999761581,
+          "end": 606.1000000238419,
+          "duration": 3.200000047683716,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 638.1999999284744,
+          "end": 641,
+          "duration": 2.8000000715255737,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 656.1999999284744,
+          "end": 659.5,
+          "duration": 3.3000000715255737,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 462.60000002384186,
+      "mountedMs": 332.39999997615814,
+      "hassDetectedMs": 189.39999997615814,
+      "domContentLoadedMs": 34.199999928474426,
+      "hostElapsedMs": 474.32134399999995,
+      "mountToSettleMs": 0.2999999523162842,
+      "settleToFramesMs": 28.200000047683716,
+      "observerAfterFramesMs": 101.70000004768372,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 291.89999997615814,
+          "end": 291.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 314.1999999284744,
+          "end": 314.1999999284744,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 322.89999997615814,
+          "end": 322.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 649.2000000476837,
+      "mountedMs": 569.2000000476837,
+      "hassDetectedMs": 236.70000004768372,
+      "domContentLoadedMs": 15.100000023841858,
+      "hostElapsedMs": 660.5920340000011,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 11.5,
+      "observerAfterFramesMs": 68.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 351.6999999284744,
+      "mountedMs": 319.7999999523163,
+      "hassDetectedMs": 185.79999995231628,
+      "domContentLoadedMs": 34.299999952316284,
+      "hostElapsedMs": 364.47352800000226,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 23.600000023841858,
+      "observerAfterFramesMs": 8.299999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 635.4000000953674,
+      "mountedMs": 581.8000000715256,
+      "hassDetectedMs": 236.5,
+      "domContentLoadedMs": 16,
+      "hostElapsedMs": 650.6684180000011,
+      "mountToSettleMs": 0.3999999761581421,
+      "settleToFramesMs": 17.5,
+      "observerAfterFramesMs": 35.700000047683716,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 529.3000000715256,
+          "end": 531.6000000238419,
+          "duration": 2.299999952316284,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 568,
+          "end": 570.9000000953674,
+          "duration": 2.9000000953674316,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 574.1000000238419,
+          "end": 576.5,
+          "duration": 2.399999976158142,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 458.40000009536743,
+      "mountedMs": 320.7000000476837,
+      "hassDetectedMs": 181.40000009536743,
+      "domContentLoadedMs": 36.5,
+      "hostElapsedMs": 472.2886410000028,
+      "mountToSettleMs": 1.899999976158142,
+      "settleToFramesMs": 17.300000071525574,
+      "observerAfterFramesMs": 118.5,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 281.2000000476837,
+          "end": 281.2000000476837,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 302.7000000476837,
+          "end": 302.7000000476837,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 312.3000000715256,
+          "end": 312.3000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 615.2000000476837,
+      "mountedMs": 559.5,
+      "hassDetectedMs": 231.30000007152557,
+      "domContentLoadedMs": 15,
+      "hostElapsedMs": 631.2582800000018,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 7.300000071525574,
+      "observerAfterFramesMs": 48.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 359.2000000476837,
+      "mountedMs": 312.7000000476837,
+      "hassDetectedMs": 180.80000007152557,
+      "domContentLoadedMs": 32.39999997615814,
+      "hostElapsedMs": 370.37118199999895,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 4.399999976158142,
+      "observerAfterFramesMs": 42.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 654.8999999761581,
+      "mountedMs": 579.5,
+      "hassDetectedMs": 238.79999995231628,
+      "domContentLoadedMs": 18.299999952316284,
+      "hostElapsedMs": 667.9491110000017,
+      "mountToSettleMs": 1,
+      "settleToFramesMs": 5.899999976158142,
+      "observerAfterFramesMs": 68.5,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 462.5,
+      "mountedMs": 328.5,
+      "hassDetectedMs": 185.70000004768372,
+      "domContentLoadedMs": 33.39999997615814,
+      "hostElapsedMs": 473.873728999999,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 17.299999952316284,
+      "observerAfterFramesMs": 115.60000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 652.5999999046326,
+      "mountedMs": 553.5999999046326,
+      "hassDetectedMs": 232.09999990463257,
+      "domContentLoadedMs": 15.799999952316284,
+      "hostElapsedMs": 664.6751609999992,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 14.200000047683716,
+      "observerAfterFramesMs": 84.69999992847443,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 358.6999999284744,
+      "mountedMs": 323.6999999284744,
+      "hassDetectedMs": 189.69999992847443,
+      "domContentLoadedMs": 32.59999990463257,
+      "hostElapsedMs": 370.16012299999784,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 9,
+      "observerAfterFramesMs": 25.899999976158142,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 640.8000000715256,
+      "mountedMs": 588.3000000715256,
+      "hassDetectedMs": 233.40000009536743,
+      "domContentLoadedMs": 17.5,
+      "hostElapsedMs": 652.6477249999989,
+      "mountToSettleMs": 1.1999999284744263,
+      "settleToFramesMs": 5.300000071525574,
+      "observerAfterFramesMs": 46,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 463.2999999523163,
+      "mountedMs": 323,
+      "hassDetectedMs": 186.39999997615814,
+      "domContentLoadedMs": 34.299999952316284,
+      "hostElapsedMs": 474.8566299999984,
+      "mountToSettleMs": 1.2000000476837158,
+      "settleToFramesMs": 5.899999976158142,
+      "observerAfterFramesMs": 133.19999992847443,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 633.2000000476837,
+      "mountedMs": 572.6000000238419,
+      "hassDetectedMs": 236.60000002384186,
+      "domContentLoadedMs": 14.700000047683716,
+      "hostElapsedMs": 647.6808799999999,
+      "mountToSettleMs": 1.5,
+      "settleToFramesMs": 23.700000047683716,
+      "observerAfterFramesMs": 35.39999997615814,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 521.2000000476837,
+          "end": 523.8000000715256,
+          "duration": 2.600000023841858,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 560.4000000953674,
+          "end": 563.2000000476837,
+          "duration": 2.799999952316284,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 566.1000000238419,
+          "end": 569.1000000238419,
+          "duration": 3,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 461.2999999523163,
+      "mountedMs": 322.2000000476837,
+      "hassDetectedMs": 181.70000004768372,
+      "domContentLoadedMs": 33.10000002384186,
+      "hostElapsedMs": 476.7744989999992,
+      "mountToSettleMs": 2,
+      "settleToFramesMs": 18.299999952316284,
+      "observerAfterFramesMs": 118.79999995231628,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 283.60000002384186,
+          "end": 283.60000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 304.5,
+          "end": 304.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 313.7999999523163,
+          "end": 313.7999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 645.5,
+      "mountedMs": 576.2999999523163,
+      "hassDetectedMs": 232.69999992847443,
+      "domContentLoadedMs": 16.09999990463257,
+      "hostElapsedMs": 657.9925650000005,
+      "mountToSettleMs": 1.2999999523162842,
+      "settleToFramesMs": 1.7000000476837158,
+      "observerAfterFramesMs": 66.20000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 478.60000002384186,
+      "mountedMs": 335.60000002384186,
+      "hassDetectedMs": 189.60000002384186,
+      "domContentLoadedMs": 36.5,
+      "hostElapsedMs": 492.70862399999896,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 8.099999904632568,
+      "observerAfterFramesMs": 133.80000007152557,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 660.6000000238419,
+      "mountedMs": 583.6000000238419,
+      "hassDetectedMs": 236.10000002384186,
+      "domContentLoadedMs": 15.299999952316284,
+      "hostElapsedMs": 675.9763610000009,
+      "mountToSettleMs": 2.0999999046325684,
+      "settleToFramesMs": 22.90000009536743,
+      "observerAfterFramesMs": 52,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 532.6999999284744,
+          "end": 535.2999999523163,
+          "duration": 2.600000023841858,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 560.8999999761581,
+          "end": 563.5,
+          "duration": 2.600000023841858,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 574.7999999523163,
+          "end": 581.1000000238419,
+          "duration": 6.300000071525574,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 477.10000002384186,
+      "mountedMs": 330.2000000476837,
+      "hassDetectedMs": 186.80000007152557,
+      "domContentLoadedMs": 33.10000002384186,
+      "hostElapsedMs": 490.4131290000005,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 27.699999928474426,
+      "observerAfterFramesMs": 119,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 295,
+          "end": 295,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 316.3000000715256,
+          "end": 316.3000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 325.10000002384186,
+          "end": 325.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 629,
+      "mountedMs": 564.8999999761581,
+      "hassDetectedMs": 237.89999997615814,
+      "domContentLoadedMs": 17.299999952316284,
+      "hostElapsedMs": 641.0845730000001,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 12.5,
+      "observerAfterFramesMs": 51.5,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 351.2000000476837,
+      "mountedMs": 304.5,
+      "hassDetectedMs": 178,
+      "domContentLoadedMs": 33.799999952316284,
+      "hostElapsedMs": 362.8038370000031,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 4.600000023841858,
+      "observerAfterFramesMs": 42.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 666.3999999761581,
+      "mountedMs": 588.3999999761581,
+      "hassDetectedMs": 237.39999997615814,
+      "domContentLoadedMs": 17.699999928474426,
+      "hostElapsedMs": 679.1926100000019,
+      "mountToSettleMs": 0.6000000238418579,
+      "settleToFramesMs": 25.5,
+      "observerAfterFramesMs": 51.89999997615814,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 541,
+          "end": 543.6000000238419,
+          "duration": 2.600000023841858,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 565.6000000238419,
+          "end": 568.1999999284744,
+          "duration": 2.5999999046325684,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 578.8999999761581,
+          "end": 581.5,
+          "duration": 2.600000023841858,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 462.2999999523163,
+      "mountedMs": 338.6999999284744,
+      "hassDetectedMs": 185.60000002384186,
+      "domContentLoadedMs": 40.10000002384186,
+      "hostElapsedMs": 473.8081090000014,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 21.800000071525574,
+      "observerAfterFramesMs": 101.69999992847443,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 284.60000002384186,
+          "end": 284.60000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 308.10000002384186,
+          "end": 308.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 318.7999999523163,
+          "end": 318.7999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 685.5,
+      "mountedMs": 579.7999999523163,
+      "hassDetectedMs": 231.69999992847443,
+      "domContentLoadedMs": 16.100000023841858,
+      "hostElapsedMs": 697.3503259999998,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 20.799999952316284,
+      "observerAfterFramesMs": 84.80000007152557,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 349.2999999523163,
+      "mountedMs": 308.59999990463257,
+      "hassDetectedMs": 176.29999995231628,
+      "domContentLoadedMs": 33.199999928474426,
+      "hostElapsedMs": 360.7496990000036,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 9.300000071525574,
+      "observerAfterFramesMs": 31.399999976158142,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 657,
+      "mountedMs": 589.6000000238419,
+      "hassDetectedMs": 250.69999992847443,
+      "domContentLoadedMs": 18.199999928474426,
+      "hostElapsedMs": 669.4116119999962,
+      "mountToSettleMs": 1.0999999046325684,
+      "settleToFramesMs": 26.300000071525574,
+      "observerAfterFramesMs": 40,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 447,
+      "mountedMs": 309,
+      "hassDetectedMs": 174.29999995231628,
+      "domContentLoadedMs": 32.299999952316284,
+      "hostElapsedMs": 459.04178200000024,
+      "mountToSettleMs": 1,
+      "settleToFramesMs": 2.1999999284744263,
+      "observerAfterFramesMs": 134.80000007152557,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 650.6999999284744,
+      "mountedMs": 564.2999999523163,
+      "hassDetectedMs": 238.19999992847443,
+      "domContentLoadedMs": 17.699999928474426,
+      "hostElapsedMs": 662.4029929999961,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 18.299999952316284,
+      "observerAfterFramesMs": 68.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 350.8000000715256,
+      "mountedMs": 304.2000000476837,
+      "hassDetectedMs": 175.40000009536743,
+      "domContentLoadedMs": 34,
+      "hostElapsedMs": 361.8323390000005,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 4.700000047683716,
+      "observerAfterFramesMs": 41.89999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 656.7000000476837,
+      "mountedMs": 577.6000000238419,
+      "hassDetectedMs": 243.5,
+      "domContentLoadedMs": 17.200000047683716,
+      "hostElapsedMs": 669.3902519999974,
+      "mountToSettleMs": 1.2000000476837158,
+      "settleToFramesMs": 9.299999952316284,
+      "observerAfterFramesMs": 68.60000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 472,
+      "mountedMs": 331.2000000476837,
+      "hassDetectedMs": 190.10000002384186,
+      "domContentLoadedMs": 38.299999952316284,
+      "hostElapsedMs": 485.9608589999989,
+      "mountToSettleMs": 1,
+      "settleToFramesMs": 7.199999928474426,
+      "observerAfterFramesMs": 132.60000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 630,
+      "mountedMs": 576.6000000238419,
+      "hassDetectedMs": 231.30000007152557,
+      "domContentLoadedMs": 16.40000009536743,
+      "hostElapsedMs": 641.8525569999983,
+      "mountToSettleMs": 1.7000000476837158,
+      "settleToFramesMs": 22.100000023841858,
+      "observerAfterFramesMs": 29.59999990463257,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 530,
+          "end": 532.8000000715256,
+          "duration": 2.8000000715255737,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 564.7000000476837,
+          "end": 567.9000000953674,
+          "duration": 3.200000047683716,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 571.1000000238419,
+          "end": 574.3000000715256,
+          "duration": 3.200000047683716,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 446.09999990463257,
+      "mountedMs": 305.6999999284744,
+      "hassDetectedMs": 175,
+      "domContentLoadedMs": 33,
+      "hostElapsedMs": 458.3250759999937,
+      "mountToSettleMs": 1.100000023841858,
+      "settleToFramesMs": 21.100000023841858,
+      "observerAfterFramesMs": 118.19999992847443,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 274.39999997615814,
+          "end": 274.39999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 293.59999990463257,
+          "end": 293.59999990463257,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 303.89999997615814,
+          "end": 303.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 652.0999999046326,
+      "mountedMs": 562.6999999284744,
+      "hassDetectedMs": 234.19999992847443,
+      "domContentLoadedMs": 15.5,
+      "hostElapsedMs": 664.3194249999942,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 7.899999976158142,
+      "observerAfterFramesMs": 81.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 344.2999999523163,
+      "mountedMs": 310.59999990463257,
+      "hassDetectedMs": 182,
+      "domContentLoadedMs": 39.09999990463257,
+      "hostElapsedMs": 355.4517729999934,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 19.5,
+      "observerAfterFramesMs": 14.200000047683716,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 702.8000000715256,
+      "mountedMs": 648.8000000715256,
+      "hassDetectedMs": 247.30000007152557,
+      "domContentLoadedMs": 15.200000047683716,
+      "hostElapsedMs": 716.2132599999968,
+      "mountToSettleMs": 0.09999990463256836,
+      "settleToFramesMs": 18.800000071525574,
+      "observerAfterFramesMs": 35.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 462.39999997615814,
+      "mountedMs": 371.8000000715256,
+      "hassDetectedMs": 183.80000007152557,
+      "domContentLoadedMs": 37.300000071525574,
+      "hostElapsedMs": 473.65562299999874,
+      "mountToSettleMs": 0.3999999761581421,
+      "settleToFramesMs": 20.100000023841858,
+      "observerAfterFramesMs": 70.09999990463257,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 643.4000000953674,
+      "mountedMs": 589.6000000238419,
+      "hassDetectedMs": 232.70000004768372,
+      "domContentLoadedMs": 16,
+      "hostElapsedMs": 655.4770569999964,
+      "mountToSettleMs": 0.30000007152557373,
+      "settleToFramesMs": 21.5,
+      "observerAfterFramesMs": 32,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 528.4000000953674,
+          "end": 530.9000000953674,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 568.5,
+          "end": 571.6000000238419,
+          "duration": 3.100000023841858,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 574.8000000715256,
+          "end": 577.4000000953674,
+          "duration": 2.600000023841858,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 0,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 463.7999999523163,
+      "mountedMs": 324.60000002384186,
+      "hassDetectedMs": 183,
+      "domContentLoadedMs": 34.299999952316284,
+      "hostElapsedMs": 475.8412329999992,
+      "mountToSettleMs": 2.799999952316284,
+      "settleToFramesMs": 21.200000047683716,
+      "observerAfterFramesMs": 115.19999992847443,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 286,
+          "end": 286,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 306.5,
+          "end": 306.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 320.39999997615814,
+          "end": 320.39999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 692.5999999046326,
+      "mountedMs": 654.6999999284744,
+      "hassDetectedMs": 230.39999997615814,
+      "domContentLoadedMs": 15.699999928474426,
+      "hostElapsedMs": 704.229836999999,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 20.699999928474426,
+      "observerAfterFramesMs": 17,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 464.2000000476837,
+      "mountedMs": 368.89999997615814,
+      "hassDetectedMs": 175.60000002384186,
+      "domContentLoadedMs": 33.89999997615814,
+      "hostElapsedMs": 477.91966200000024,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 20.800000071525574,
+      "observerAfterFramesMs": 74,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 641.5,
+      "mountedMs": 596.8000000715256,
+      "hassDetectedMs": 245.20000004768372,
+      "domContentLoadedMs": 15.5,
+      "hostElapsedMs": 653.035447000002,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 9.899999976158142,
+      "observerAfterFramesMs": 34.60000002384186,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 538.5,
+          "end": 541.3000000715256,
+          "duration": 2.8000000715255737,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 576.3000000715256,
+          "end": 579.2000000476837,
+          "duration": 2.899999976158142,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 582.3999999761581,
+          "end": 585.3000000715256,
+          "duration": 2.9000000953674316,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 465.39999997615814,
+      "mountedMs": 328.89999997615814,
+      "hassDetectedMs": 186.79999995231628,
+      "domContentLoadedMs": 33.199999928474426,
+      "hostElapsedMs": 476.97118200000114,
+      "mountToSettleMs": 3,
+      "settleToFramesMs": 20.200000047683716,
+      "observerAfterFramesMs": 113.29999995231628,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 289,
+          "end": 289,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 310.1999999284744,
+          "end": 310.1999999284744,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 323.10000002384186,
+          "end": 323.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 619.5,
+      "mountedMs": 548.3999999761581,
+      "hassDetectedMs": 236.5,
+      "domContentLoadedMs": 15.199999928474426,
+      "hostElapsedMs": 631.5337569999974,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 6.899999976158142,
+      "observerAfterFramesMs": 64.10000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 1,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 363.40000009536743,
+      "mountedMs": 314.60000002384186,
+      "hassDetectedMs": 182.20000004768372,
+      "domContentLoadedMs": 34.300000071525574,
+      "hostElapsedMs": 377.4646219999995,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 19.100000023841858,
+      "observerAfterFramesMs": 29.700000047683716,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 649.8000000715256,
+      "mountedMs": 589.5,
+      "hassDetectedMs": 236,
+      "domContentLoadedMs": 15.700000047683716,
+      "hostElapsedMs": 663.2798679999978,
+      "mountToSettleMs": 0.30000007152557373,
+      "settleToFramesMs": 28.799999952316284,
+      "observerAfterFramesMs": 31.200000047683716,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 530.8999999761581,
+          "end": 533.3000000715256,
+          "duration": 2.4000000953674316,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 569.2000000476837,
+          "end": 572.3999999761581,
+          "duration": 3.1999999284744263,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 576.6000000238419,
+          "end": 579.6000000238419,
+          "duration": 3,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 462.39999997615814,
+      "mountedMs": 337,
+      "hassDetectedMs": 187,
+      "domContentLoadedMs": 35.60000002384186,
+      "hostElapsedMs": 474.43053900000086,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 23.399999976158142,
+      "observerAfterFramesMs": 101.79999995231628,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 286.2000000476837,
+          "end": 286.2000000476837,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 307.89999997615814,
+          "end": 307.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 321.10000002384186,
+          "end": 321.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 649.7000000476837,
+      "mountedMs": 557.8999999761581,
+      "hassDetectedMs": 235.39999997615814,
+      "domContentLoadedMs": 15.200000047683716,
+      "hostElapsedMs": 664.7383679999984,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 6.800000071525574,
+      "observerAfterFramesMs": 84.89999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 362.7000000476837,
+      "mountedMs": 316.3000000715256,
+      "hassDetectedMs": 179.39999997615814,
+      "domContentLoadedMs": 33.60000002384186,
+      "hostElapsedMs": 374.8486869999979,
+      "mountToSettleMs": 0.09999990463256836,
+      "settleToFramesMs": 12.100000023841858,
+      "observerAfterFramesMs": 34.200000047683716,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 781.2999999523163,
+      "mountedMs": 752.7999999523163,
+      "hassDetectedMs": 245.89999997615814,
+      "domContentLoadedMs": 17.899999976158142,
+      "hostElapsedMs": 793.314741000002,
+      "mountToSettleMs": 0.30000007152557373,
+      "settleToFramesMs": 25.799999952316284,
+      "observerAfterFramesMs": 2.399999976158142,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 2,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 463.1999999284744,
+      "mountedMs": 377.5,
+      "hassDetectedMs": 186.59999990463257,
+      "domContentLoadedMs": 34.89999997615814,
+      "hostElapsedMs": 476.9075920000032,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 19.399999976158142,
+      "observerAfterFramesMs": 65.79999995231628,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 642.7999999523163,
+      "mountedMs": 563.6000000238419,
+      "hassDetectedMs": 237.29999995231628,
+      "domContentLoadedMs": 17.100000023841858,
+      "hostElapsedMs": 655.3841780000002,
+      "mountToSettleMs": 0.09999990463256836,
+      "settleToFramesMs": 10.400000095367432,
+      "observerAfterFramesMs": 68.69999992847443,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 366.2999999523163,
+      "mountedMs": 319.5,
+      "hassDetectedMs": 189.29999995231628,
+      "domContentLoadedMs": 33.39999997615814,
+      "hostElapsedMs": 377.7721810000003,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 4.399999976158142,
+      "observerAfterFramesMs": 42.299999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 684.6000000238419,
+      "mountedMs": 637.7000000476837,
+      "hassDetectedMs": 238.89999997615814,
+      "domContentLoadedMs": 17.800000071525574,
+      "hostElapsedMs": 702.7862099999984,
+      "mountToSettleMs": 0.6999999284744263,
+      "settleToFramesMs": 12.700000047683716,
+      "observerAfterFramesMs": 33.5,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 442.40000009536743,
+      "mountedMs": 352.7000000476837,
+      "hassDetectedMs": 164.20000004768372,
+      "domContentLoadedMs": 34.300000071525574,
+      "hostElapsedMs": 453.89208099999814,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 4,
+      "observerAfterFramesMs": 85.20000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 660.3999999761581,
+      "mountedMs": 600.6000000238419,
+      "hassDetectedMs": 239.89999997615814,
+      "domContentLoadedMs": 16.200000047683716,
+      "hostElapsedMs": 672.3530079999982,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 28.100000023841858,
+      "observerAfterFramesMs": 31.5,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 539.7999999523163,
+          "end": 542.2999999523163,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 581.7999999523163,
+          "end": 585,
+          "duration": 3.200000047683716,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 588.3999999761581,
+          "end": 590.7999999523163,
+          "duration": 2.399999976158142,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 3,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 463.7000000476837,
+      "mountedMs": 329,
+      "hassDetectedMs": 184.90000009536743,
+      "domContentLoadedMs": 35.5,
+      "hostElapsedMs": 475.72912599999836,
+      "mountToSettleMs": 3.3000000715255737,
+      "settleToFramesMs": 20.100000023841858,
+      "observerAfterFramesMs": 111.29999995231628,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 286.5,
+          "end": 286.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 307.3000000715256,
+          "end": 307.3000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 321.10000002384186,
+          "end": 321.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 691.0999999046326,
+      "mountedMs": 653.7999999523163,
+      "hassDetectedMs": 242.59999990463257,
+      "domContentLoadedMs": 16.899999976158142,
+      "hostElapsedMs": 704.2835090000008,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 20,
+      "observerAfterFramesMs": 17.199999928474426,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 445.60000002384186,
+      "mountedMs": 357.89999997615814,
+      "hassDetectedMs": 173.5,
+      "domContentLoadedMs": 34.39999997615814,
+      "hostElapsedMs": 456.7022949999955,
+      "mountToSettleMs": 0.30000007152557373,
+      "settleToFramesMs": 20.799999952316284,
+      "observerAfterFramesMs": 66.60000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 648.1000000238419,
+      "mountedMs": 593.3999999761581,
+      "hassDetectedMs": 235.39999997615814,
+      "domContentLoadedMs": 15.700000047683716,
+      "hostElapsedMs": 659.5899350000036,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 28.5,
+      "observerAfterFramesMs": 26,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 537.2000000476837,
+          "end": 539.7000000476837,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 575.5,
+          "end": 578.1000000238419,
+          "duration": 2.600000023841858,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 581.2000000476837,
+          "end": 583.8999999761581,
+          "duration": 2.6999999284744263,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 449.1999999284744,
+      "mountedMs": 324.7999999523163,
+      "hassDetectedMs": 178.89999997615814,
+      "domContentLoadedMs": 33.09999990463257,
+      "hostElapsedMs": 462.7769890000054,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 22.09999990463257,
+      "observerAfterFramesMs": 102.10000002384186,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 280.89999997615814,
+          "end": 280.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 301.39999997615814,
+          "end": 301.39999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 314.1999999284744,
+          "end": 314.1999999284744,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 665.5,
+      "mountedMs": 590.2999999523163,
+      "hassDetectedMs": 238.59999990463257,
+      "domContentLoadedMs": 19.699999928474426,
+      "hostElapsedMs": 677.2841110000008,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 8,
+      "observerAfterFramesMs": 67.20000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 4,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 349.60000002384186,
+      "mountedMs": 311.5,
+      "hassDetectedMs": 181.79999995231628,
+      "domContentLoadedMs": 34.799999952316284,
+      "hostElapsedMs": 365.6504330000025,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 22.399999976158142,
+      "observerAfterFramesMs": 15.600000023841858,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 664.6999999284744,
+      "mountedMs": 591.5999999046326,
+      "hassDetectedMs": 243.5,
+      "domContentLoadedMs": 17.59999990463257,
+      "hostElapsedMs": 676.7506620000058,
+      "mountToSettleMs": 3.200000047683716,
+      "settleToFramesMs": 20.5,
+      "observerAfterFramesMs": 49.39999997615814,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 539.2999999523163,
+          "end": 541.8999999761581,
+          "duration": 2.600000023841858,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 577.0999999046326,
+          "end": 580,
+          "duration": 2.9000000953674316,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 584.3999999761581,
+          "end": 587.0999999046326,
+          "duration": 2.6999999284744263,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 463.5,
+      "mountedMs": 328.2000000476837,
+      "hassDetectedMs": 180.40000009536743,
+      "domContentLoadedMs": 34.200000047683716,
+      "hostElapsedMs": 474.9585139999981,
+      "mountToSettleMs": 5.899999976158142,
+      "settleToFramesMs": 15.300000071525574,
+      "observerAfterFramesMs": 114.09999990463257,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 283.3000000715256,
+          "end": 283.3000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 305.7000000476837,
+          "end": 305.7000000476837,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 319.40000009536743,
+          "end": 319.40000009536743,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 648.5,
+      "mountedMs": 559,
+      "hassDetectedMs": 235.89999997615814,
+      "domContentLoadedMs": 15.899999976158142,
+      "hostElapsedMs": 662.451175000002,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 7.699999928474426,
+      "observerAfterFramesMs": 81.70000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 379.5,
+      "mountedMs": 336.09999990463257,
+      "hassDetectedMs": 197.5,
+      "domContentLoadedMs": 38.09999990463257,
+      "hostElapsedMs": 392.2319520000019,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 11,
+      "observerAfterFramesMs": 32.300000071525574,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 764.1000000238419,
+      "mountedMs": 725.2999999523163,
+      "hassDetectedMs": 267.10000002384186,
+      "domContentLoadedMs": 17.299999952316284,
+      "hostElapsedMs": 777.9444350000049,
+      "mountToSettleMs": 0.3999999761581421,
+      "settleToFramesMs": 8.100000023841858,
+      "observerAfterFramesMs": 30.300000071525574,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 5,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 511.6999999284744,
+      "mountedMs": 443.89999997615814,
+      "hassDetectedMs": 191.09999990463257,
+      "domContentLoadedMs": 33.39999997615814,
+      "hostElapsedMs": 524.6342599999989,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 6.299999952316284,
+      "observerAfterFramesMs": 61,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 1272.6999999284744,
+      "mountedMs": 839.6999999284744,
+      "hassDetectedMs": 248.89999997615814,
+      "domContentLoadedMs": 15.399999976158142,
+      "hostElapsedMs": 1283.9875329999995,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 7.5,
+      "observerAfterFramesMs": 425.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 353.39999997615814,
+      "mountedMs": 304.7000000476837,
+      "hassDetectedMs": 177.89999997615814,
+      "domContentLoadedMs": 33,
+      "hostElapsedMs": 364.5253170000069,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 4.699999928474426,
+      "observerAfterFramesMs": 44,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 704.2999999523163,
+      "mountedMs": 648.8999999761581,
+      "hassDetectedMs": 241.29999995231628,
+      "domContentLoadedMs": 18.199999928474426,
+      "hostElapsedMs": 720.784894000004,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 23.59999990463257,
+      "observerAfterFramesMs": 31.600000023841858,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 443.7000000476837,
+      "mountedMs": 357.7000000476837,
+      "hassDetectedMs": 173.5,
+      "domContentLoadedMs": 32.300000071525574,
+      "hostElapsedMs": 455.2409959999932,
+      "mountToSettleMs": 0.3999999761581421,
+      "settleToFramesMs": 20.700000047683716,
+      "observerAfterFramesMs": 64.89999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 678.7999999523163,
+      "mountedMs": 609,
+      "hassDetectedMs": 230.79999995231628,
+      "domContentLoadedMs": 17.799999952316284,
+      "hostElapsedMs": 690.6815520000018,
+      "mountToSettleMs": 0.2999999523162842,
+      "settleToFramesMs": 17.5,
+      "observerAfterFramesMs": 52,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 549.1999999284744,
+          "end": 551.6999999284744,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 588,
+          "end": 591.1999999284744,
+          "duration": 3.1999999284744263,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 596.1999999284744,
+          "end": 598.5,
+          "duration": 2.3000000715255737,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 6,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 447.1999999284744,
+      "mountedMs": 325,
+      "hassDetectedMs": 177.69999992847443,
+      "domContentLoadedMs": 32.89999997615814,
+      "hostElapsedMs": 463.09778099999676,
+      "mountToSettleMs": 0.09999990463256836,
+      "settleToFramesMs": 24.100000023841858,
+      "observerAfterFramesMs": 98,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 279.5,
+          "end": 279.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 300.2999999523163,
+          "end": 300.2999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 313.7999999523163,
+          "end": 313.7999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 853.6000000238419,
+      "mountedMs": 815.3000000715256,
+      "hassDetectedMs": 270,
+      "domContentLoadedMs": 18.300000071525574,
+      "hostElapsedMs": 868.3900839999988,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 2.5,
+      "observerAfterFramesMs": 35.299999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 575.7999999523163,
+      "mountedMs": 500.10000002384186,
+      "hassDetectedMs": 251.29999995231628,
+      "domContentLoadedMs": 41.39999997615814,
+      "hostElapsedMs": 587.6540129999994,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 22.5,
+      "observerAfterFramesMs": 53,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 780.5,
+      "mountedMs": 717.5,
+      "hassDetectedMs": 302.39999997615814,
+      "domContentLoadedMs": 15.5,
+      "hostElapsedMs": 792.765972000001,
+      "mountToSettleMs": 0.5999999046325684,
+      "settleToFramesMs": 10.400000095367432,
+      "observerAfterFramesMs": 52,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 651.8999999761581,
+          "end": 654.1999999284744,
+          "duration": 2.299999952316284,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 695.5,
+          "end": 698.6999999284744,
+          "duration": 3.1999999284744263,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 701.8999999761581,
+          "end": 705.5,
+          "duration": 3.600000023841858,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 495.3000000715256,
+      "mountedMs": 369.8000000715256,
+      "hassDetectedMs": 189.39999997615814,
+      "domContentLoadedMs": 34.300000071525574,
+      "hostElapsedMs": 507.8399350000109,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 26.899999976158142,
+      "observerAfterFramesMs": 98.40000009536743,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 312.8000000715256,
+          "end": 312.8000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 340.3000000715256,
+          "end": 340.3000000715256,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 355.89999997615814,
+          "end": 355.89999997615814,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 764.6999999284744,
+      "mountedMs": 695.5,
+      "hassDetectedMs": 311.5,
+      "domContentLoadedMs": 15.699999928474426,
+      "hostElapsedMs": 777.0502200000046,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 17.799999952316284,
+      "observerAfterFramesMs": 51.39999997615814,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 7,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 363.89999997615814,
+      "mountedMs": 306.2999999523163,
+      "hassDetectedMs": 177.20000004768372,
+      "domContentLoadedMs": 32.89999997615814,
+      "hostElapsedMs": 444.36562799999956,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 10.600000023841858,
+      "observerAfterFramesMs": 47,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 917.3999999761581,
+      "mountedMs": 846.5,
+      "hassDetectedMs": 325,
+      "domContentLoadedMs": 31.300000071525574,
+      "hostElapsedMs": 932.8062919999938,
+      "mountToSettleMs": 0.3999999761581421,
+      "settleToFramesMs": 29.700000047683716,
+      "observerAfterFramesMs": 40.799999952316284,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 771.2000000476837,
+          "end": 774.3000000715256,
+          "duration": 3.100000023841858,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 802.6000000238419,
+          "end": 805.6000000238419,
+          "duration": 3,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 826.8999999761581,
+          "end": 829.8999999761581,
+          "duration": 3,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 543.0999999046326,
+      "mountedMs": 441.89999997615814,
+      "hassDetectedMs": 229,
+      "domContentLoadedMs": 37.89999997615814,
+      "hostElapsedMs": 556.430229000005,
+      "mountToSettleMs": 4.199999928474426,
+      "settleToFramesMs": 12,
+      "observerAfterFramesMs": 85,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 380.7999999523163,
+          "end": 380.7999999523163,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 411.5,
+          "end": 411.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 430.59999990463257,
+          "end": 430.59999990463257,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 816.4000000953674,
+      "mountedMs": 743.4000000953674,
+      "hassDetectedMs": 246.80000007152557,
+      "domContentLoadedMs": 16.40000009536743,
+      "hostElapsedMs": 830.6041059999989,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 17.899999976158142,
+      "observerAfterFramesMs": 54.90000009536743,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 374.3000000715256,
+      "mountedMs": 331.60000002384186,
+      "hassDetectedMs": 202.80000007152557,
+      "domContentLoadedMs": 35.10000002384186,
+      "hostElapsedMs": 385.53002400000696,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 10.899999976158142,
+      "observerAfterFramesMs": 31.700000047683716,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 735.3999999761581,
+      "mountedMs": 692.6000000238419,
+      "hassDetectedMs": 243.10000002384186,
+      "domContentLoadedMs": 15.700000047683716,
+      "hostElapsedMs": 748.5256649999938,
+      "mountToSettleMs": 0.19999992847442627,
+      "settleToFramesMs": 23.700000047683716,
+      "observerAfterFramesMs": 18.899999976158142,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 8,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 543.6000000238419,
+      "mountedMs": 377.2999999523163,
+      "hassDetectedMs": 189.70000004768372,
+      "domContentLoadedMs": 35.299999952316284,
+      "hostElapsedMs": 592.5970970000053,
+      "mountToSettleMs": 0.6000000238418579,
+      "settleToFramesMs": 24.100000023841858,
+      "observerAfterFramesMs": 141.60000002384186,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "empty",
+      "cache": "cold",
+      "readyMs": 729.5,
+      "mountedMs": 655.8999999761581,
+      "hassDetectedMs": 305.5,
+      "domContentLoadedMs": 27.199999928474426,
+      "hostElapsedMs": 741.9001160000043,
+      "mountToSettleMs": 0.10000002384185791,
+      "settleToFramesMs": 7.299999952316284,
+      "observerAfterFramesMs": 66.20000004768372,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "empty",
+      "cache": "warm",
+      "readyMs": 350.5,
+      "mountedMs": 310.2999999523163,
+      "hassDetectedMs": 178.39999997615814,
+      "domContentLoadedMs": 34,
+      "hostElapsedMs": 362.1396149999928,
+      "mountToSettleMs": 0,
+      "settleToFramesMs": 5.200000047683716,
+      "observerAfterFramesMs": 35,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "native",
+      "cache": "cold",
+      "readyMs": 855.1000000238419,
+      "mountedMs": 821.4000000953674,
+      "hassDetectedMs": 328.5,
+      "domContentLoadedMs": 15.400000095367432,
+      "hostElapsedMs": 866.9448080000002,
+      "mountToSettleMs": 0.5,
+      "settleToFramesMs": 13.899999976158142,
+      "observerAfterFramesMs": 19.299999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "native",
+      "cache": "warm",
+      "readyMs": 493.89999997615814,
+      "mountedMs": 414.39999997615814,
+      "hassDetectedMs": 184.5,
+      "domContentLoadedMs": 34.10000002384186,
+      "hostElapsedMs": 507.24873199999274,
+      "mountToSettleMs": 3.5,
+      "settleToFramesMs": 19.200000047683716,
+      "observerAfterFramesMs": 56.799999952316284,
+      "runtimeResources": []
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "experimental",
+      "cache": "cold",
+      "readyMs": 758.6000000238419,
+      "mountedMs": 681.3999999761581,
+      "hassDetectedMs": 269.5,
+      "domContentLoadedMs": 15.299999952316284,
+      "hostElapsedMs": 770.8416839999991,
+      "mountToSettleMs": 0.20000004768371582,
+      "settleToFramesMs": 25,
+      "observerAfterFramesMs": 52,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 625.1999999284744,
+          "end": 627.6999999284744,
+          "duration": 2.5,
+          "transfer": 7894,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 663.3999999761581,
+          "end": 666.1000000238419,
+          "duration": 2.700000047683716,
+          "transfer": 3211,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 669.1999999284744,
+          "end": 671.6000000238419,
+          "duration": 2.4000000953674316,
+          "transfer": 1405,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "trial": 9,
+      "variant": "experimental",
+      "cache": "warm",
+      "readyMs": 582.8999999761581,
+      "mountedMs": 396,
+      "hassDetectedMs": 204.10000002384186,
+      "domContentLoadedMs": 33.39999997615814,
+      "hostElapsedMs": 609.9846030000044,
+      "mountToSettleMs": 0.6000000238418579,
+      "settleToFramesMs": 16.600000023841858,
+      "observerAfterFramesMs": 169.69999992847443,
+      "runtimeResources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "start": 330.2000000476837,
+          "end": 330.2000000476837,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 7594,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "start": 354.5,
+          "end": 354.5,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 2911,
+          "initiator": "script"
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "start": 369.10000002384186,
+          "end": 369.10000002384186,
+          "duration": 0,
+          "transfer": 0,
+          "decoded": 1105,
+          "initiator": "link"
+        }
+      ]
+    }
+  ]
+}

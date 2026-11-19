@@ -1,0 +1,21 @@
+{
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "HeadlessChrome/159.0.8154.6",
+    "revision": "@98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+    "jsVersion": "15.9.128.1"
+  },
+  "sources": [
+    "https://github.com/chromium/chromium/blob/98a2592026af8d673b9fa83b626ac68bdf4ae78a/third_party/blink/public/devtools_protocol/domains/HeadlessExperimental.pdl",
+    "https://github.com/chromium/chromium/blob/98a2592026af8d673b9fa83b626ac68bdf4ae78a/components/viz/service/display/display.cc",
+    "https://github.com/chromium/chromium/blob/98a2592026af8d673b9fa83b626ac68bdf4ae78a/headless/lib/browser/protocol/headless_handler.cc"
+  ],
+  "driverSha256": "ba54c5e7b46d6997795e79e9e17b305f46b3cb8b052c31de76f9260074ce7211",
+  "controls": [
+    "delayed change from red to green",
+    "no change (red)"
+  ],
+  "boundary": "Trace screenshots identify content only; require a common explicit display frame identifier and successful presentation feedback to claim association.",
+  "revision": "When trace association fails, probe explicit begin-frame capture with frame control; drawing/hasDamage remains weaker than presentation."
+}

@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "custom": [],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "driver-control"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "custom": [],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Recorded inner activation"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "custom": [
+        "/local/minimum-card-contract/card.js",
+        "/local/minimum-card-contract/recorder.js",
+        "/local/minimum-card-contract/card.css"
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "experimental"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Recorded inner activation"
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "custom": [],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "driver-control"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "custom": [],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Recorded inner activation"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "custom": [
+        "/local/minimum-card-contract/card.js",
+        "/local/minimum-card-contract/recorder.js",
+        "/local/minimum-card-contract/card.css"
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "experimental"
+        }
+      ],
+      "state": "off",
+      "interception": true,
+      "control": "Recorded inner activation"
+    }
+  ],
+  "acceptance": "pending; discovery only"
+}

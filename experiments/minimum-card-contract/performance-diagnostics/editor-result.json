@@ -1,0 +1,120 @@
+{
+  "id": "editor",
+  "approvalId": "maintainer-editor-2026-11-19",
+  "approvalDate": "2026-11-19",
+  "provenance": true,
+  "complete": true,
+  "controls": true,
+  "totalObservations": 120,
+  "workloads": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 383.5,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "empty",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 68,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 324,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 172.70000004768372,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 813.6000000238419,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 341.5,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 1697.7000000476837,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 1248.1000000238419,
+      "limit": null,
+      "status": "control"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 559.8000000715256,
+      "limit": 1000,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 372.89999997615814,
+      "limit": 750,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 801.3999999761581,
+      "limit": 1000,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 584.2999999523163,
+      "limit": 750,
+      "status": "pass"
+    }
+  ],
+  "status": "pass"
+}

@@ -57,6 +57,10 @@ An experiment needing code must be an explicitly bounded experimental change. Su
 
 The archived [minimum-card experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) records actual two-slot binding/editor persistence, intercepted actions, selective updates/lifecycle and Chromium layout coverage. Its performance gate remains open. These findings are supporting evidence only; the separate D0 synthesis supplies scope completeness, while desk acceptance and untested device/assistive-technology support remain unproven.
 
+The current [stage 1 follow-up](../experiments/minimum-card-contract/performance-followup/discovery.md) publishes repeated whole-dashboard/control observations, released-object diagnostics and browser-clock DOM-content milestones. Signed contrasts are descriptive; global heap and frame opportunities do not establish isolated retained-byte budgets or final presentation. The [subsequent verification review](../experiments/minimum-card-contract/performance-followup/review.md) records four explicitly approved limits: three passed and cold readiness failed; six other required rows remain pending. These findings keep D2/stage 1 open and do not change stage 0's completed definition or stage 2's separate device/physical gates.
+
+The [D2 diagnostics](../experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) prioritize measuring shared pre-mount and post-frame variance. The pinned runtime's snapshot traversal failed conditional ownership calibration and headless captures provided no validated identity join from changed pixels to presentation feedback. The [current matrix](../experiments/minimum-card-contract/performance-diagnostics/budget-matrix.json) records prerequisites and measurement proposals.
+
 ## D3. Experience and integration validation
 
 **Before:** declaring the MVP complete.

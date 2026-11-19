@@ -1,0 +1,26 @@
+{
+  "repository_checks": "pass",
+  "openspec_change_strict": "pass",
+  "research_first_schema": {
+    "valid": true,
+    "issues": []
+  },
+  "new_js_python_syntax": "pass",
+  "git_diff_check": "pass",
+  "publication_reproduction": "Byte-identical discovery.json from retained inputs into a new external directory",
+  "source_history_reconstructions": 5,
+  "subject_historical_helpers_results_archives_and_specs": "unchanged",
+  "runtime_cleanup": "pass; see cleanup.json",
+  "budget_approval": "pending",
+  "fresh_acceptance_captures": 0,
+  "stage1": "open",
+  "file_and_link_checks": {
+    "files_reviewed": 29,
+    "local_links_checked": 112,
+    "json_whitespace_sanitization": "pass",
+    "source_history_reconstructions": 5,
+    "subject_historical_helpers_results_archives_and_specs": "unchanged",
+    "approval": "pending",
+    "stage1": "open"
+  }
+}

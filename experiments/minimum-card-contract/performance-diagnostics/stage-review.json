@@ -1,0 +1,74 @@
+{
+  "phase": "combined current stage 1 review",
+  "rawFourRowSamplesSha256": "846c381482950dbb4eaac60b11ae3b65dcb5bfa30dfa51ebae8f580aabce42a9",
+  "freshCampaigns": {
+    "existingFourRows": {
+      "observations": 300,
+      "source": "verification-result.json"
+    },
+    "editor": {
+      "observations": 120,
+      "source": "editor-result.json"
+    }
+  },
+  "rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "freshStatus": "pass",
+      "approval": "approved"
+    },
+    {
+      "id": "cold-ready",
+      "freshStatus": "pass",
+      "approval": "approved"
+    },
+    {
+      "id": "warm-ready",
+      "freshStatus": "pass",
+      "approval": "approved"
+    },
+    {
+      "id": "local-intent",
+      "freshStatus": "pass",
+      "approval": "approved"
+    },
+    {
+      "id": "load-cpu",
+      "freshStatus": "pending",
+      "approval": "pending"
+    },
+    {
+      "id": "load-transfer",
+      "freshStatus": "pending",
+      "approval": "pending"
+    },
+    {
+      "id": "editor",
+      "freshStatus": "pass",
+      "approval": "approved"
+    },
+    {
+      "id": "updates",
+      "freshStatus": "pending",
+      "approval": "pending"
+    },
+    {
+      "id": "retention",
+      "freshStatus": "pending",
+      "approval": "pending"
+    },
+    {
+      "id": "presentation",
+      "freshStatus": "pending",
+      "approval": "pending"
+    }
+  ],
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "unresolvedHistoricalColdFailure": true,
+  "stage1Status": "fail",
+  "stage1Open": true,
+  "measurementBoundary": "Pinned laboratory and local browser/dashboards only; HA transport and physical arrival unmeasured."
+}

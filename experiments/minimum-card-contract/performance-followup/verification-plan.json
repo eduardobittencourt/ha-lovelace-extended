@@ -1,0 +1,503 @@
+{
+  "phase": "frozen verification",
+  "frozen_at_utc": "2026-11-19T13:22:29.643215+00:00",
+  "approval": {
+    "id": "maintainer-four-metrics-2026-11-19",
+    "date_utc": "2026-11-19",
+    "recorded_at_utc": "2026-11-19T13:17:39.006109+00:00",
+    "authority": "Maintainer, explicit response in this project conversation",
+    "response_english": "Approve these four candidates and the proposed rule.",
+    "context": "Approval answers the exact four-limit question, including maximum per one/ten-group workload, ten cold/warm loads and thirty activations, no replacement of slow valid observations, retained 1108.60 ms historical result, other budgets/evidence pending, no stage 1 closure.",
+    "limits": {
+      "runtime-decoded-bytes": 16384,
+      "cold-ready": 1000,
+      "warm-ready": 750,
+      "local-intent": 16.7
+    },
+    "statistic": "maximum per workload",
+    "cold_trials": 10,
+    "warm_trials": 10,
+    "inputs_per_workload": 30,
+    "groups": [
+      1,
+      10
+    ],
+    "variants": [
+      "native",
+      "experimental"
+    ],
+    "controls": [
+      "empty"
+    ],
+    "slow_valid_observations": "retain; any exceedance fails the approved row",
+    "missing_or_invalid": "retain reason and leave affected evaluation pending; no silent retry",
+    "pending_rows_waived": false,
+    "stage1_approval": false
+  },
+  "matrix_source": "budget-review.json",
+  "environment": {
+    "date_utc": "2026-11-19T13:22:29.641494+00:00",
+    "phase": "fresh verification preflight",
+    "core": "2026.11.1",
+    "frontend": "20261028.5",
+    "image_amd64": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+    "browserVersion": "159.0.8154.6",
+    "browser_revision": "1255",
+    "playwright": "1.65.1",
+    "viewport": [
+      1280,
+      900
+    ],
+    "locale": "en",
+    "theme": "light",
+    "text_scale": 1,
+    "isolation": "Same all-namespace Bubblewrap lab, read-only rootfs, no external network/devices/production mounts; loopback relay 18123",
+    "subject_served_bytes": "match checkout",
+    "controls": {
+      "checks": [
+        {
+          "variant": "empty",
+          "count": 1,
+          "custom": [],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+        },
+        {
+          "variant": "native",
+          "count": 1,
+          "custom": [],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Recorded inner activation"
+        },
+        {
+          "variant": "experimental",
+          "count": 1,
+          "custom": [
+            "/local/minimum-card-contract/card.js",
+            "/local/minimum-card-contract/recorder.js",
+            "/local/minimum-card-contract/card.css"
+          ],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Recorded inner activation"
+        },
+        {
+          "variant": "empty",
+          "count": 10,
+          "custom": [],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+        },
+        {
+          "variant": "native",
+          "count": 10,
+          "custom": [],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Recorded inner activation"
+        },
+        {
+          "variant": "experimental",
+          "count": 10,
+          "custom": [
+            "/local/minimum-card-contract/card.js",
+            "/local/minimum-card-contract/recorder.js",
+            "/local/minimum-card-contract/card.css"
+          ],
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ],
+          "state": "off",
+          "interception": true,
+          "control": "Recorded inner activation"
+        }
+      ],
+      "acceptance": "pending; discovery only"
+    },
+    "action_checks": {
+      "direct": {
+        "accepted": {
+          "status": "recorded"
+        },
+        "rejected": {
+          "status": "rejected"
+        },
+        "cancelled": {
+          "status": "cancelled"
+        },
+        "injected": {
+          "status": "rejected"
+        },
+        "count": 1
+      },
+      "valid": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "native": {
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off"
+      },
+      "transport": "all browser call_service messages intercepted; REST services blocked"
+    },
+    "capacity": {
+      "acquisition": {
+        "exit_code": 0,
+        "initial_free_bytes": 4957134848,
+        "minimum_free_bytes": 1408024576,
+        "final_free_bytes": 1400889344
+      },
+      "pre_capture_free_bytes": 1399070720,
+      "reserve_bytes": 1073741824
+    },
+    "host_load": [
+      0.26904296875,
+      0.59375,
+      0.4052734375
+    ],
+    "concurrent_browser_timing_tests": false,
+    "startup_limitations": "Same isolated offline resolver/multicast/analytics warnings as discovery"
+  },
+  "sources": {
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/followup-common.mjs": "838d1ae770a24f40f3efd634fbf77ef32090692ab10ebb5e16293638dcd38f74",
+    "tools/followup-verify.mjs": "9e01d2d6acdc2617d13ef87c888aaadb6ce1db71ad1eec3139bb1aa57357f118",
+    "tools/followup-evaluate.mjs": "d3947d5da874d4e11fb618f8f5e243e533d8031ab516ff1e651d93a0db8d5a5d",
+    "tools/followup-evaluate.test.mjs": "f2afe29ffdfd6aa401bcf789d922e99af0ab78617a9579a65416d5a0128530a0",
+    "performance-followup/approval.json": "65b7bcbe01e3f37f5f01938e888fb5d214001252b0b822a65c6c47a48f00de24",
+    "performance-followup/verification-environment.json": "39932b152db3edf18637716f8e2fbf6e9dcf0d298fb95c87fbc2acb880c9c941"
+  },
+  "rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "unit": "bytes",
+      "outcome": "Bound the minimal runtime download/parse surface",
+      "boundary": "Cold runtime response decoded bodies; editor excluded",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 16384,
+      "rationale": "Historical 16 KiB proposal bounds growth above 11610 observed bytes; maintainer explicitly agreed on 2026-11-19",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported cold response-body measurement; approval pending",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "discovery.json",
+      "maximum": 16384,
+      "supported": true,
+      "field": "customDecoded",
+      "selector": {
+        "kind": "load",
+        "cache": "cold",
+        "variants": [
+          "experimental"
+        ]
+      }
+    },
+    {
+      "id": "cold-ready",
+      "unit": "ms",
+      "outcome": "Reach a usable fixture dashboard promptly",
+      "boundary": "Navigation start to driver-observed cards/CSS/fonts plus two frame opportunities; shared shell included",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 1000,
+      "rationale": "Historical local readiness proposal; cold 1108.60 ms is retained and exceeds 1000 ms. Maintainer agreement recorded on 2026-11-19; no robust tail estimate.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs plus matched empty dashboard",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported driver-observed readiness; final presentation not implied",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "discovery.json",
+      "maximum": 1000,
+      "supported": true,
+      "field": "readyMs",
+      "selector": {
+        "kind": "load",
+        "cache": "cold",
+        "variants": [
+          "native",
+          "experimental"
+        ]
+      }
+    },
+    {
+      "id": "warm-ready",
+      "unit": "ms",
+      "outcome": "Reach a usable fixture dashboard promptly",
+      "boundary": "Navigation start to driver-observed cards/CSS/fonts plus two frame opportunities; shared shell included",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 750,
+      "rationale": "Historical local readiness proposal; cold 1108.60 ms is retained and exceeds 1000 ms. Maintainer agreement recorded on 2026-11-19; no robust tail estimate.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs plus matched empty dashboard",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported cached reload readiness; final presentation not implied",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "discovery.json",
+      "maximum": 750,
+      "supported": true,
+      "field": "readyMs",
+      "selector": {
+        "kind": "load",
+        "cache": "warm",
+        "variants": [
+          "native",
+          "experimental"
+        ]
+      }
+    },
+    {
+      "id": "local-intent",
+      "unit": "ms",
+      "outcome": "Record one local activation promptly",
+      "boundary": "Browser pointerdown to synthetic intercepted intent, same performance clock",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 16.7,
+      "rationale": "Historical nominal 60 Hz processing allocation; not final paint, transport or physical response",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported pointerdown to intercepted local intent, first inner control only",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "discovery.json",
+      "maximum": 16.7,
+      "supported": true,
+      "field": "intentMs",
+      "selector": {
+        "kind": "input",
+        "variants": [
+          "native",
+          "experimental"
+        ]
+      }
+    },
+    {
+      "id": "load-cpu",
+      "unit": "ms",
+      "outcome": "Bound shared dashboard processing",
+      "boundary": "Post-navigation CDP ScriptDuration/TaskDuration totals plus matched HA-only contrasts",
+      "statistic": "median and full range; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "Whole-dashboard CDP durations supported; OS CPU and exact per-card isolation unsupported",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": true
+    },
+    {
+      "id": "load-transfer",
+      "unit": "bytes",
+      "outcome": "Bound shared resource transfer",
+      "boundary": "Navigation/resource timing totals, cache classes separate, matched HA-only control",
+      "statistic": "median and full range; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "Whole-dashboard timing totals supported; composition/HA shell contrasts are descriptive",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": true
+    },
+    {
+      "id": "editor",
+      "unit": "ms / bytes",
+      "outcome": "Open and reopen the actual visual configuration promptly",
+      "boundary": "Edit-mode setup separately recorded; activation to actual editor ready; script and resource interval",
+      "statistic": "median and full range by phase; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten independent first-open/reopen pairs per workload",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "Repeated actual editor boundary supported; empty setup control is not a card-editor equivalent",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": true
+    },
+    {
+      "id": "updates",
+      "unit": "ms per window",
+      "outcome": "Keep relevant changes responsive and unrelated work bounded",
+      "boundary": "CDP script/task deltas on the same document, fixture REST update driver and HA shell control",
+      "statistic": "median and full range of windows; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; at least three windows per workload/class/rate; 60 seconds at 1 Hz, 10 seconds at 20 Hz",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "Repeated same-document windows supported; no isolated per-card CPU or end-to-end latency claim",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": true
+    },
+    {
+      "id": "retention",
+      "unit": "bytes / nodes",
+      "outcome": "Release removed card instances and owned work",
+      "boundary": "Fresh instances removed; harness references released; forced-GC checkpoints and retainer evidence; matched controls",
+      "statistic": "checkpoint trend and retainer paths; numerical statistic pending method validation",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; three fifty-cycle series/workload, checkpoints every ten cycles",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "Calibrated released-object diagnostics supported; isolated retained-byte budget unsupported",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": false
+    },
+    {
+      "id": "presentation",
+      "unit": "ms",
+      "outcome": "Associate displayed content changes with observable browser work",
+      "boundary": "Browser event/content clock and overhead validation required; frame opportunity is not final presentation",
+      "statistic": "pending supported method; no numerical statistic selected",
+      "proposed_maximum": null,
+      "rationale": "No numerical bound justified by existing totals. Validate method and control variation, then request a requirement-backed limit; do not derive a pass from observed values alone.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; controlled visible relevant changes, matched controls and instrumentation overhead series",
+      "approval": {
+        "status": "proposed",
+        "maintainer_agreement": null
+      },
+      "method_status": "DOM-content and following rAF opportunity supported; final presentation unsupported",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every observation; no retries to replace slow valid samples. Proposed maximum over scheduled valid observations; any exceedance fails after agreement. Missing/invalid trials leave pending; exclusions retain reasons. New protocol requires review before new verification.",
+      "discovery_source": "discovery.json",
+      "supported": false
+    }
+  ],
+  "historicalColdOutlierMs": 1108.6,
+  "runtimeAssetPaths": [
+    "/local/minimum-card-contract/card.css",
+    "/local/minimum-card-contract/card.js",
+    "/local/minimum-card-contract/recorder.js"
+  ],
+  "schedule": {
+    "groups": [
+      1,
+      10
+    ],
+    "variants": [
+      "empty",
+      "native",
+      "experimental"
+    ],
+    "loadsPerCache": 10,
+    "inputsPerWorkload": 30,
+    "totalObservations": 300,
+    "order": "Count 1 then 10; rotate empty/native/experimental by trial for cold/warm pairs; input order empty/native/experimental",
+    "cache": "new context plus explicit cache clear for cold; same-context reload for warm; service workers blocked",
+    "settle": "unchanged readiness helper: cards/CSS/fonts plus two frame opportunities",
+    "exclusions": "none preselected; stop on invalid capture and retain reason, never replace a slow valid observation",
+    "timing": "serial; no concurrent browser tests",
+    "pending_rows": "Not collected as acceptance and never passed without approval and supported methods"
+  }
+}

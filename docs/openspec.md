@@ -117,3 +117,17 @@ Its nine requirements and 19 scenarios are consolidated in
 This specification applies to the bounded experiment and explicitly preserves
 pending acceptance gates. Performance remains unapproved and stage 1 remains
 open; archiving does not adopt a production contract or complete the desk MVP.
+
+## Archived stage 1 performance follow-up
+
+The [performance investigation](../openspec/changes/archive/2026-11-19-evaluate-stage-one-performance/tasks.md)
+was archived on 2026-11-19 using research-first, with 16/16 tasks complete.
+The requested sync assessment found no delta specs (skip_specs: true), so main
+specifications remain unchanged. The [verification review](../experiments/minimum-card-contract/performance-followup/review.md)
+records cold readiness failing, three approved rows passing and six required rows
+pending. Archiving completes this bounded investigation; stage 1 remains open
+and no production contract or full-desk acceptance is implied.
+
+## Archived stage 1 performance diagnosis
+
+The [diagnostic change](../openspec/changes/archive/2026-11-19-diagnose-stage-one-performance-gaps/research.md) preserves the archived evidence and reuses the approval-backed plan for a separately frozen run. See the [diagnosis](../experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) and [ten-row matrix](../experiments/minimum-card-contract/performance-diagnostics/budget-matrix.json) before planning an optimization or approval. The change was archived on 2026-11-19 using research-first with all 18 tasks complete. The sync assessment found no delta specs. Stage 1 remains open.

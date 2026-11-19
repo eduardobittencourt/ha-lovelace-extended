@@ -1,0 +1,3730 @@
+{
+  "phase": "verification",
+  "planSha256": "ee0bcd0daa9df5e7a3fb6433394cfcdb59a9cfe60d37a94c82b1e6669f2ba997",
+  "approvalId": "maintainer-four-metrics-2026-11-19",
+  "sourceHashes": {
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/followup-common.mjs": "838d1ae770a24f40f3efd634fbf77ef32090692ab10ebb5e16293638dcd38f74",
+    "tools/followup-verify.mjs": "9e01d2d6acdc2617d13ef87c888aaadb6ce1db71ad1eec3139bb1aa57357f118",
+    "tools/followup-evaluate.mjs": "d3947d5da874d4e11fb618f8f5e243e533d8031ab516ff1e651d93a0db8d5a5d",
+    "tools/followup-evaluate.test.mjs": "f2afe29ffdfd6aa401bcf789d922e99af0ab78617a9579a65416d5a0128530a0",
+    "performance-followup/approval.json": "65b7bcbe01e3f37f5f01938e888fb5d214001252b0b822a65c6c47a48f00de24",
+    "performance-followup/verification-environment.json": "39932b152db3edf18637716f8e2fbf6e9dcf0d298fb95c87fbc2acb880c9c941"
+  },
+  "hostLoadBefore": [
+    0.35,
+    0.61,
+    0.58
+  ],
+  "completed": true,
+  "rows": [
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 632.8000000715256,
+      "timeOrigin": 1795098307474.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 354,
+      "timeOrigin": 1795098308119.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 640.7000000476837,
+      "timeOrigin": 1795098308533.4,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 454.1999999284744,
+      "timeOrigin": 1795098309185.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 707.8000000715256,
+      "timeOrigin": 1795098309699.3,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 472.5,
+      "timeOrigin": 1795098310417.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 677,
+      "timeOrigin": 1795098310946.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 455.6999999284744,
+      "timeOrigin": 1795098311634.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 643.2999999523163,
+      "timeOrigin": 1795098312147.2,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 454.5,
+      "timeOrigin": 1795098312802.1,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 639.5,
+      "timeOrigin": 1795098313317.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 356.6999999284744,
+      "timeOrigin": 1795098313966.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 642.7999999523163,
+      "timeOrigin": 1795098314380.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 457.60000002384186,
+      "timeOrigin": 1795098315032.5,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 642.8999999761581,
+      "timeOrigin": 1795098315547.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 357.10000002384186,
+      "timeOrigin": 1795098316199.1,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 643.3999999761581,
+      "timeOrigin": 1795098316613.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 454.89999997615814,
+      "timeOrigin": 1795098317268.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 659.7999999523163,
+      "timeOrigin": 1795098317780.1,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 373.6999999284744,
+      "timeOrigin": 1795098318449.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 657.1000000238419,
+      "timeOrigin": 1795098318883,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 455.3000000715256,
+      "timeOrigin": 1795098319550.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 627.3000000715256,
+      "timeOrigin": 1795098320062.4,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 457.8000000715256,
+      "timeOrigin": 1795098320698.8,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 675.3999999761581,
+      "timeOrigin": 1795098321214.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 457.5,
+      "timeOrigin": 1795098321898.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 642.7000000476837,
+      "timeOrigin": 1795098322413.8,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 454.2000000476837,
+      "timeOrigin": 1795098323068.4,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 647.2999999523163,
+      "timeOrigin": 1795098323575.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 355.7999999523163,
+      "timeOrigin": 1795098324233.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 664.5,
+      "timeOrigin": 1795098324642.5,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 454.89999997615814,
+      "timeOrigin": 1795098325317.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 644.1999999284744,
+      "timeOrigin": 1795098325828.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 357.2000000476837,
+      "timeOrigin": 1795098326482,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 679.2999999523163,
+      "timeOrigin": 1795098326893.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 474,
+      "timeOrigin": 1795098327582.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 611.3000000715256,
+      "timeOrigin": 1795098328111.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 355.8000000715256,
+      "timeOrigin": 1795098328733.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 643.8000000715256,
+      "timeOrigin": 1795098329145.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 457.10000002384186,
+      "timeOrigin": 1795098329798.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 644.5,
+      "timeOrigin": 1795098330311.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 457.39999997615814,
+      "timeOrigin": 1795098330965.3,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 657.2000000476837,
+      "timeOrigin": 1795098331482.4,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 473.89999997615814,
+      "timeOrigin": 1795098332148.4,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 659.5,
+      "timeOrigin": 1795098332680.5,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 471.7999999523163,
+      "timeOrigin": 1795098333350.7,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 637.9000000953674,
+      "timeOrigin": 1795098333884.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 339.2000000476837,
+      "timeOrigin": 1795098334532.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 662.8999999761581,
+      "timeOrigin": 1795098334926.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 472.10000002384186,
+      "timeOrigin": 1795098335600.3,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 640.7999999523163,
+      "timeOrigin": 1795098336132.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 355.39999997615814,
+      "timeOrigin": 1795098336783.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 647.6000000238419,
+      "timeOrigin": 1795098337191.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 457.89999997615814,
+      "timeOrigin": 1795098337848,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 612.5,
+      "timeOrigin": 1795098338360,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 1,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 371.1999999284744,
+      "timeOrigin": 1795098338984.1,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 661.3000000715256,
+      "timeOrigin": 1795098339410.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 1,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 474.3000000715256,
+      "timeOrigin": 1795098340080.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 643.5,
+      "timeOrigin": 1795098340612.1,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 440.7000000476837,
+      "timeOrigin": 1795098341264.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 0,
+      "intentMs": 1,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 1,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 2,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 3,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 4,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 5,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 6,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 7,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 8,
+      "intentMs": 0,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 9,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 10,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 11,
+      "intentMs": 0,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 12,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 13,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 14,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 15,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 16,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 17,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 18,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 19,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 20,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 21,
+      "intentMs": 0,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 22,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 23,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 24,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 25,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 26,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 27,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 28,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 1,
+      "trial": 29,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "intentMs": 2.5,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 3,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 4,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 5,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 6,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 7,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 8,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 9,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 10,
+      "intentMs": 0.8000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 11,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 12,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 13,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 14,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 15,
+      "intentMs": 0.8000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 16,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 17,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 18,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 19,
+      "intentMs": 0.7000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 20,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 21,
+      "intentMs": 0.8000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 22,
+      "intentMs": 0.8000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 23,
+      "intentMs": 0.9000000953674316,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 24,
+      "intentMs": 0.9000000953674316,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 25,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 26,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 27,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 28,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 1,
+      "trial": 29,
+      "intentMs": 0.7999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "intentMs": 0.5999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 3,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 4,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 5,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 6,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 7,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 8,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 9,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 10,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 11,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 12,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 13,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 14,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 15,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 16,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 17,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 18,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 19,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 20,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 21,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 22,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 23,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 24,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 25,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 26,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 27,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 28,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 1,
+      "trial": 29,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 645.8999999761581,
+      "timeOrigin": 1795098347376.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 340.39999997615814,
+      "timeOrigin": 1795098348031.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 692.4000000953674,
+      "timeOrigin": 1795098348432.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 450.09999990463257,
+      "timeOrigin": 1795098349138.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "readyMs": 655.3999999761581,
+      "timeOrigin": 1795098349650,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "readyMs": 473.60000002384186,
+      "timeOrigin": 1795098350314.9,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 738.2999999523163,
+      "timeOrigin": 1795098350851.1,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 473.1999999284744,
+      "timeOrigin": 1795098351599.1,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 639.2999999523163,
+      "timeOrigin": 1795098352133.1,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 440.7999999523163,
+      "timeOrigin": 1795098352780.7,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "readyMs": 657.7999999523163,
+      "timeOrigin": 1795098353280.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "readyMs": 341.39999997615814,
+      "timeOrigin": 1795098353947.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 672.1999999284744,
+      "timeOrigin": 1795098354349.6,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 456.7999999523163,
+      "timeOrigin": 1795098355031.1,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 644.6999999284744,
+      "timeOrigin": 1795098355543.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 342,
+      "timeOrigin": 1795098356196.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "readyMs": 678.0999999046326,
+      "timeOrigin": 1795098356593.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "readyMs": 471.6999999284744,
+      "timeOrigin": 1795098357283.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 657.7000000476837,
+      "timeOrigin": 1795098357814,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 357.2999999523163,
+      "timeOrigin": 1795098358480.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 691.1000000238419,
+      "timeOrigin": 1795098358897.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 490.89999997615814,
+      "timeOrigin": 1795098359597.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 3,
+      "cache": "cold",
+      "readyMs": 649.6000000238419,
+      "timeOrigin": 1795098360155.4,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 3,
+      "cache": "warm",
+      "readyMs": 455.2000000476837,
+      "timeOrigin": 1795098360816.1,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 690.8000000715256,
+      "timeOrigin": 1795098361331.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 455.5,
+      "timeOrigin": 1795098362032.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 638.5,
+      "timeOrigin": 1795098362549.7,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 457.39999997615814,
+      "timeOrigin": 1795098363197.2,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 4,
+      "cache": "cold",
+      "readyMs": 640.3000000715256,
+      "timeOrigin": 1795098363714.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 4,
+      "cache": "warm",
+      "readyMs": 338.7000000476837,
+      "timeOrigin": 1795098364365.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 643.6000000238419,
+      "timeOrigin": 1795098364761.2,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 456.89999997615814,
+      "timeOrigin": 1795098365414,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 644.3999999761581,
+      "timeOrigin": 1795098365927.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 356.2999999523163,
+      "timeOrigin": 1795098366581,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 5,
+      "cache": "cold",
+      "readyMs": 712.1000000238419,
+      "timeOrigin": 1795098366993.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 5,
+      "cache": "warm",
+      "readyMs": 457.39999997615814,
+      "timeOrigin": 1795098367714.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 623.7999999523163,
+      "timeOrigin": 1795098368230.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 355.7000000476837,
+      "timeOrigin": 1795098368865.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 691.9000000953674,
+      "timeOrigin": 1795098369279.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 457.7000000476837,
+      "timeOrigin": 1795098369980.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 6,
+      "cache": "cold",
+      "readyMs": 658.2000000476837,
+      "timeOrigin": 1795098370496.4,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 6,
+      "cache": "warm",
+      "readyMs": 457,
+      "timeOrigin": 1795098371163.7,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 673,
+      "timeOrigin": 1795098371682,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 472.2000000476837,
+      "timeOrigin": 1795098372365.9,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 653.3999999761581,
+      "timeOrigin": 1795098372901.3,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 455.10000002384186,
+      "timeOrigin": 1795098373565.5,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 7,
+      "cache": "cold",
+      "readyMs": 636,
+      "timeOrigin": 1795098374084.7,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 7,
+      "cache": "warm",
+      "readyMs": 340.60000002384186,
+      "timeOrigin": 1795098374729.8,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 661.8000000715256,
+      "timeOrigin": 1795098375125.9,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 456.90000009536743,
+      "timeOrigin": 1795098375796.9,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 642.8000000715256,
+      "timeOrigin": 1795098376311.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 355.09999990463257,
+      "timeOrigin": 1795098376965.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 8,
+      "cache": "cold",
+      "readyMs": 689.6999999284744,
+      "timeOrigin": 1795098377381.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 8,
+      "cache": "warm",
+      "readyMs": 471.10000002384186,
+      "timeOrigin": 1795098378083.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 674.6999999284744,
+      "timeOrigin": 1795098378612.6,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "empty",
+      "count": 10,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 357.7999999523163,
+      "timeOrigin": 1795098379296.2,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 675.5999999046326,
+      "timeOrigin": 1795098379712.3,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "native",
+      "count": 10,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 457.7999999523163,
+      "timeOrigin": 1795098380396.5,
+      "interception": true,
+      "customDecoded": 0,
+      "resources": []
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 9,
+      "cache": "cold",
+      "readyMs": 657.4000000953674,
+      "timeOrigin": 1795098380913.4,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "load",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 9,
+      "cache": "warm",
+      "readyMs": 457.7000000476837,
+      "timeOrigin": 1795098381579.9,
+      "interception": true,
+      "customDecoded": 11610,
+      "resources": [
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 0,
+      "intentMs": 0.3999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 1,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 2,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 3,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 4,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 5,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 6,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 7,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 8,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 9,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 10,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 11,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 12,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 13,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 14,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 15,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 16,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 17,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 18,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 19,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 20,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 21,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 22,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 23,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 24,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 25,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 26,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 27,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 28,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "empty",
+      "count": 10,
+      "trial": 29,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "intentMs": 2.3000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "intentMs": 1.1999999284744263,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 3,
+      "intentMs": 1.3000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 4,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 5,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 6,
+      "intentMs": 1.1999999284744263,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 7,
+      "intentMs": 1,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 8,
+      "intentMs": 1.1999999284744263,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 9,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 10,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 11,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 12,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 13,
+      "intentMs": 1.1999999284744263,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 14,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 15,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 16,
+      "intentMs": 1,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 17,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 18,
+      "intentMs": 1.0999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 19,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 20,
+      "intentMs": 1.0999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 21,
+      "intentMs": 1,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 22,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 23,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 24,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 25,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 26,
+      "intentMs": 1.0999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 27,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 28,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "native",
+      "count": 10,
+      "trial": 29,
+      "intentMs": 1.100000023841858,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "intentMs": 0.6000000238418579,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 3,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 4,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 5,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 6,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 7,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 8,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 9,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 10,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 11,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 12,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 13,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 14,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 15,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 16,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 17,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 18,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 19,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 20,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 21,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 22,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 23,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 24,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 25,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 26,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 27,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 28,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    },
+    {
+      "kind": "input",
+      "variant": "experimental",
+      "count": 10,
+      "trial": 29,
+      "intentMs": 0.09999990463256836,
+      "target": "input_boolean.mcc_target_a",
+      "state": "off"
+    }
+  ],
+  "exclusions": [],
+  "noSlowValidObservationReplaced": true
+}

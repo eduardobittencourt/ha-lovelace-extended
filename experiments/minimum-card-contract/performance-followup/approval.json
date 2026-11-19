@@ -1,0 +1,33 @@
+{
+  "id": "maintainer-four-metrics-2026-11-19",
+  "date_utc": "2026-11-19",
+  "recorded_at_utc": "2026-11-19T13:17:39.006109+00:00",
+  "authority": "Maintainer, explicit response in this project conversation",
+  "response_english": "Approve these four candidates and the proposed rule.",
+  "context": "Approval answers the exact four-limit question, including maximum per one/ten-group workload, ten cold/warm loads and thirty activations, no replacement of slow valid observations, retained 1108.60 ms historical result, other budgets/evidence pending, no stage 1 closure.",
+  "limits": {
+    "runtime-decoded-bytes": 16384,
+    "cold-ready": 1000,
+    "warm-ready": 750,
+    "local-intent": 16.7
+  },
+  "statistic": "maximum per workload",
+  "cold_trials": 10,
+  "warm_trials": 10,
+  "inputs_per_workload": 30,
+  "groups": [
+    1,
+    10
+  ],
+  "variants": [
+    "native",
+    "experimental"
+  ],
+  "controls": [
+    "empty"
+  ],
+  "slow_valid_observations": "retain; any exceedance fails the approved row",
+  "missing_or_invalid": "retain reason and leave affected evaluation pending; no silent retry",
+  "pending_rows_waived": false,
+  "stage1_approval": false
+}

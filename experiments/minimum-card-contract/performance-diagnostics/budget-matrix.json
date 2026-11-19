@@ -1,0 +1,245 @@
+{
+  "phase": "ten required rows; proposal and measurement status",
+  "date_utc": "2026-11-19",
+  "historical_cold_failures_ms": [
+    1108.6,
+    1104.8
+  ],
+  "cold_objective": "Seek repeatable sub-1000 ms readiness. No tighter ceiling proposed.",
+  "approval_policy": "Additional statistics and limits require explicit dated agreement. Existing four approvals and the separate editor approval apply.",
+  "rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "unit": "bytes",
+      "outcome": "Bound the minimal runtime download/parse surface",
+      "boundary": "Cold runtime response decoded bodies; editor excluded",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 16384,
+      "rationale": "Historical 16 KiB proposal bounds growth above 11610 observed bytes; maintainer explicitly agreed on 2026-11-19",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold loads per workload",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "../performance-followup/approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported by the frozen approval-backed method.",
+      "acceptance": "pass in fresh campaign",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "maximum": 16384,
+      "verification_source": "verification-result.json"
+    },
+    {
+      "id": "cold-ready",
+      "unit": "ms",
+      "outcome": "Reach a usable fixture dashboard promptly",
+      "boundary": "Navigation start to driver-observed cards/CSS/fonts plus two frame opportunities; shared shell included",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 1000,
+      "rationale": "Historical local readiness proposal; cold 1108.60 ms is retained and exceeds 1000 ms. Maintainer agreement recorded on 2026-11-19; no robust tail estimate.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs plus matched empty dashboard",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "../performance-followup/approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported by the frozen approval-backed method.",
+      "acceptance": "pass in fresh campaign; historical failure unresolved",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "maximum": 1000,
+      "verification_source": "verification-result.json"
+    },
+    {
+      "id": "warm-ready",
+      "unit": "ms",
+      "outcome": "Reach a usable fixture dashboard promptly",
+      "boundary": "Navigation start to driver-observed cards/CSS/fonts plus two frame opportunities; shared shell included",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 750,
+      "rationale": "Historical local readiness proposal; cold 1108.60 ms is retained and exceeds 1000 ms. Maintainer agreement recorded on 2026-11-19; no robust tail estimate.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs plus matched empty dashboard",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "../performance-followup/approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported by the frozen approval-backed method.",
+      "acceptance": "pass in fresh campaign",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "maximum": 750,
+      "verification_source": "verification-result.json"
+    },
+    {
+      "id": "local-intent",
+      "unit": "ms",
+      "outcome": "Record one local activation promptly",
+      "boundary": "Browser pointerdown to synthetic intercepted intent, same performance clock",
+      "statistic": "maximum per workload",
+      "proposed_maximum": 16.7,
+      "rationale": "Historical nominal 60 Hz processing allocation; not final paint, transport or physical response",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; thirty activations per workload with matched driver control",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "reference": "../performance-followup/approval.json",
+        "maintainer_agreement": "maintainer-four-metrics-2026-11-19"
+      },
+      "method_status": "Supported by the frozen approval-backed method.",
+      "acceptance": "pass in fresh campaign",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain all valid observations; any exceedance fails. Missing or invalid captures leave pending; no silent replacements.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "maximum": 16.7,
+      "verification_source": "verification-result.json"
+    },
+    {
+      "id": "load-cpu",
+      "unit": "ms",
+      "outcome": "Bound shared dashboard processing",
+      "boundary": "Post-navigation CDP ScriptDuration/TaskDuration totals plus matched HA-only contrasts",
+      "statistic": "median and full range; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "Whole-dashboard main-thread task time guards processing cost. Select a CPU allowance from a representative device/workload objective; the current 594.467 ms experimental maximum alone supplies no ceiling.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs",
+      "approval": {
+        "status": "pending",
+        "date_utc": null,
+        "maintainer_agreement": null
+      },
+      "method_status": "Whole-dashboard CDP durations supported; OS CPU and exact per-card isolation unsupported",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Proposed maximum: retain all valid observations; any exceedance fails only after explicit approval. Missing or invalid observations leave the metric pending.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "candidate_statistic": "Maximum CDP TaskDuration per workload and cache class; ScriptDuration as companion."
+    },
+    {
+      "id": "load-transfer",
+      "unit": "bytes",
+      "outcome": "Bound shared resource transfer",
+      "boundary": "Navigation/resource timing totals, cache classes separate, matched HA-only control",
+      "statistic": "median and full range; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "Protect first-use and repeat-use network cost independently. Select a ceiling from a download-time target and representative bandwidth; 1,377,625 B observed cold is a baseline.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; ten cold/warm pairs",
+      "approval": {
+        "status": "pending",
+        "date_utc": null,
+        "maintainer_agreement": null
+      },
+      "method_status": "Whole-dashboard timing totals supported; composition/HA shell contrasts are descriptive",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Proposed maximum: retain all valid observations; any exceedance fails only after explicit approval. Missing or invalid observations leave the metric pending.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "candidate_statistic": "Maximum whole-dashboard transferred bytes per workload and cache class."
+    },
+    {
+      "id": "editor",
+      "unit": "ms",
+      "outcome": "Open and reopen the actual visual configuration promptly",
+      "boundary": "Activation to enter edit mode through actual editor ready, with setup and editor-open intervals recorded separately.",
+      "statistic": "maximum per workload and phase",
+      "rationale": "For the experimental editor, apply the explicitly agreed prompt-readiness targets as a user-facing interaction policy: 1000 ms first open and 750 ms reopen. Native and empty are controls. The observed experimental maxima were 650.6 and 359.2 ms.",
+      "required": true,
+      "coverage": "Experimental one/ten groups, ten independent first-open and same-document reopen pairs per workload; native and empty controls.",
+      "approval": {
+        "status": "approved",
+        "date_utc": "2026-11-19",
+        "maintainer_agreement": "maintainer-editor-2026-11-19",
+        "reference": "editor-approval.json"
+      },
+      "method_status": "Supported in the pinned lab for the experimental editor, with matched setup/editor controls.",
+      "acceptance": "pass",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Retain every valid observation; any experimental exceedance fails the row. Missing or invalid captures remain pending.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "limits_ms": {
+        "first_open": 1000,
+        "same_document_reopen": 750
+      },
+      "verification_source": "editor-result.json"
+    },
+    {
+      "id": "updates",
+      "unit": "ms per window",
+      "outcome": "Keep relevant changes responsive and unrelated work bounded",
+      "boundary": "CDP script/task deltas on the same document, fixture REST update driver and HA shell control",
+      "statistic": "median and full range of windows; acceptance statistic pending discovery",
+      "proposed_maximum": null,
+      "rationale": "Protect sustained responsiveness under relevant and unrelated activity. Select a main-thread occupancy allowance for the intended device, keeping 1 Hz and 20 Hz windows separate. A 542.799 ms observed maximum across unlike windows cannot supply that allowance.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; at least three windows per workload/class/rate; 60 seconds at 1 Hz, 10 seconds at 20 Hz",
+      "approval": {
+        "status": "pending",
+        "date_utc": null,
+        "maintainer_agreement": null
+      },
+      "method_status": "Repeated same-document windows supported; no isolated per-card CPU or end-to-end latency claim",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Proposed maximum: retain all valid observations; any exceedance fails only after explicit approval. Missing or invalid observations leave the metric pending.",
+      "discovery_source": "../performance-followup/discovery.json",
+      "candidate_statistic": "Maximum CDP TaskDuration delta separately per variant, count, relevance class and rate; ScriptDuration as companion."
+    },
+    {
+      "id": "retention",
+      "unit": "bytes / nodes",
+      "outcome": "Release removed card instances and owned work",
+      "boundary": "Fresh instances removed; harness references released; forced-GC checkpoints and retainer evidence; matched controls",
+      "statistic": "checkpoint trend and retainer paths; numerical statistic pending method validation",
+      "proposed_maximum": null,
+      "rationale": "Require validated conditional ownership and embedder attribution before proposing a byte ceiling.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; three fifty-cycle series/workload, checkpoints every ten cycles",
+      "approval": {
+        "status": "pending",
+        "date_utc": null,
+        "maintainer_agreement": null
+      },
+      "method_status": "Unsupported after bounded calibration",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Pending calibrated method and explicit numerical agreement.",
+      "discovery_source": "retention-calibration.json",
+      "proposed_statistic": null
+    },
+    {
+      "id": "presentation",
+      "unit": "ms",
+      "outcome": "Associate displayed content changes with observable browser work",
+      "boundary": "Browser event/content clock and overhead validation required; frame opportunity is not final presentation",
+      "statistic": "pending supported method; no numerical statistic selected",
+      "proposed_maximum": null,
+      "rationale": "Require changed-content identity joined to successful presentation feedback before proposing a latency ceiling.",
+      "required": true,
+      "coverage": "native/experimental, one/ten groups, pinned viewport/theme/locale, interception always active; controlled visible relevant changes, matched controls and instrumentation overhead series",
+      "approval": {
+        "status": "pending",
+        "date_utc": null,
+        "maintainer_agreement": null
+      },
+      "method_status": "Unsupported after bounded calibration",
+      "acceptance": "pending",
+      "uncertainty": "Single Linux headless environment; no tail or device generalization",
+      "exceedance_policy": "Pending calibrated method and explicit numerical agreement.",
+      "discovery_source": "presentation-calibration.json",
+      "proposed_statistic": null
+    }
+  ],
+  "overall": "Stage 1 remains open with unresolved historical cold failure and five required measurements pending."
+}

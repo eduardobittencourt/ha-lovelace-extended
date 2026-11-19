@@ -1,0 +1,208 @@
+{
+  "campaign": "evaluate-stage-one-performance",
+  "phase": "discovery complete; agreement/fresh acceptance pending",
+  "date_utc": "2026-11-19T11:53:29.596730+00:00",
+  "image_amd64": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+  "core": "2026.11.1",
+  "frontend": "20261028.5",
+  "browser": "Chrome Headless Shell 159.0.8154.6",
+  "browser_revision": "1255",
+  "playwright": "1.65.1",
+  "tools": {
+    "python": "3.14.9",
+    "node": "24.22.0",
+    "bubblewrap": "0.12.0"
+  },
+  "environment": {
+    "viewport": [
+      1280,
+      900
+    ],
+    "locale": "en",
+    "theme": "light",
+    "scale": 1,
+    "available_cpu_count": 8,
+    "ha_cpu_count": 2,
+    "ha_per_process_address_space_bytes": 3221225472,
+    "host_load_preflight": [
+      1.5087890625,
+      1.3154296875,
+      0.62060546875
+    ],
+    "concurrent_browser_tests": false
+  },
+  "storage": {
+    "initial_free_bytes": 4982603776,
+    "after_image_free_bytes": 1425674240,
+    "runtime_reserve_bytes": 1073741824,
+    "guard": "External monitor stops sandbox below reserve; no host-cache deletion"
+  },
+  "isolation": {
+    "bubblewrap_unshare_all_identity": "pass",
+    "external_network": "none",
+    "relay": "127.0.0.1:18123 only",
+    "production_mounts": false,
+    "fixtures": "five synthetic helpers; no production configuration",
+    "action_interception": "recorder-check and measurement-preflight pass for native/experimental one/ten groups",
+    "fixture_state_after_activation": "off; intent only",
+    "served_source_hashes": "match checkout"
+  },
+  "startup_limitations": [
+    "Offline resolver/analytics/marketplace and missing multicast interface warnings in isolated namespace; not production compatibility evidence"
+  ],
+  "source_hashes_sha256": {
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "tools/allocate.mjs": "bac8c96bb93ca6a4913ff9ffe2d5a6863df3eeca99605e73986ecbf031deaf9a",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/editor-load-check.mjs": "8d9649408ac7ea9c3b137ff692cef723cc2b427573d46cfeda3f123ed52e3adc",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/ha-smoke.mjs": "48e87f2d1f38ec6a0a164f35dfa92467d838dbe262263c4aa02afa9a4bfbb9bf",
+    "tools/image.py": "edb7e27b48ff746d875e7bbfaa957d60bdadb77128a9a57dc4a09e668411ac99",
+    "tools/integrated-check.mjs": "748f2ddb4c02802fa4b10d0e4ba690ee0f84dc9b441869112eb16af5e81b21e5",
+    "tools/layout-check.mjs": "b764208c2b7a54f24e828d211fa6026e9408abefccd63f9c9a29eb5f74754327",
+    "tools/measure.mjs": "fe6baeffc8d4348fff4f2994c0cef874a19806d11e39ae61c829e78416dd1425",
+    "tools/measurement-preflight.mjs": "3d4d5bf7fed95cab09f3d424c44b75d72cd8125d70b9926b2947cb69918f5c99",
+    "tools/persistence-check.mjs": "d10ceb1e8a011cbe847681496fb359297a105b7e092b3f1f3fc47f5c44351f6f",
+    "tools/recorder-check.mjs": "ea7bb1b3a87d49b828864693f03b8638b5cb89e120d7fa4c32091f7b59f10865",
+    "tools/register.mjs": "5ab734ba20ab2002bf803cb3d4343f5ea2ace5d2de432b2afd2a9f49e518b4e4",
+    "tools/runtime-check.mjs": "194546b61300d357ea5c401ff472281549b41fac5df84f99b7d1c6a8d40bcca6",
+    "tools/sandbox.py": "d0403e4d4d99e0d0c42ccf9315cfe993b1d135d81d182049df828ec4edc65fa4",
+    "tools/setup.py": "34c9a7a3e2b3737e2a132fddbbec6991ad374d121ac410a9126e372ed183b427",
+    "tools/summarize.py": "b8b2275fbe9a06cd7a3f783e0c62019dd921eb3c79feb9e341200eb263de8fb0",
+    "tools/verification.mjs": "24b9720cbbe2c5b9ac500bfdaea045fc0f7ec9ab14af785a67ff25b24ba2d093",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "fixtures/configuration.yaml": "5c716e174943ae08eb28680ee3631c445a5e68b5b10f57bd0ae6071db6064285"
+  },
+  "preflight": [
+    {
+      "count": 1,
+      "variant": "native",
+      "coldTransfer": 1361003,
+      "warmTransfer": 0,
+      "requests": [],
+      "cards": 3,
+      "interception": "pass",
+      "cache": "new context + explicit cold clear; warm reload; no HTTP routing"
+    },
+    {
+      "count": 1,
+      "variant": "experimental",
+      "coldTransfer": 1364118,
+      "warmTransfer": 0,
+      "requests": [
+        "/local/minimum-card-contract/card.js",
+        "/local/minimum-card-contract/recorder.js",
+        "/local/minimum-card-contract/card.css"
+      ],
+      "cards": 1,
+      "interception": "pass",
+      "cache": "new context + explicit cold clear; warm reload; no HTTP routing"
+    },
+    {
+      "count": 10,
+      "variant": "native",
+      "coldTransfer": 1361003,
+      "warmTransfer": 0,
+      "requests": [],
+      "cards": 30,
+      "interception": "pass",
+      "cache": "new context + explicit cold clear; warm reload; no HTTP routing"
+    },
+    {
+      "count": 10,
+      "variant": "experimental",
+      "coldTransfer": 1364118,
+      "warmTransfer": 0,
+      "requests": [
+        "/local/minimum-card-contract/card.js",
+        "/local/minimum-card-contract/recorder.js",
+        "/local/minimum-card-contract/card.css"
+      ],
+      "cards": 10,
+      "interception": "pass",
+      "cache": "new context + explicit cold clear; warm reload; no HTTP routing"
+    }
+  ],
+  "correctness": {
+    "direct": {
+      "accepted": {
+        "status": "recorded"
+      },
+      "rejected": {
+        "status": "rejected"
+      },
+      "cancelled": {
+        "status": "cancelled"
+      },
+      "injected": {
+        "status": "rejected"
+      },
+      "count": 1
+    },
+    "valid": [
+      {
+        "target": "input_boolean.mcc_target_a",
+        "origin": "native"
+      }
+    ],
+    "native": {
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off"
+    },
+    "transport": "all browser call_service messages intercepted; REST services blocked"
+  },
+  "discovery_completed_utc": "2026-11-19T13:00:35.883464+00:00",
+  "tooling_sha256": {
+    "tools/followup-common.mjs": "52c9983105caeffee26b24dcfbe51e8967977f2407a971d4dacec2f358501b11",
+    "tools/followup-lifecycle.mjs": "8962b874959597845c99a37277577ce3cb1457687758ea9394a8ea6bf12b2563",
+    "tools/followup-measure.mjs": "b0dc0a68b2d8a84710ad35d74a939a919f5906c382f596fb14c3ff7bb9b23dad",
+    "tools/followup-methods.mjs": "1775b13c63dec5d401834d90cb9baf5c04547145775eda7682254134588333b4",
+    "tools/followup-preflight.mjs": "77953ccac78455e7b71332b501ee59f65aba9ed586c278f5573de55c94278a38",
+    "tools/followup-rendering.mjs": "299db1f842b5afa63c3214b87577b0d1334c18dc9e3cf1712cd5ce369ff73cee",
+    "tools/followup-summarize.py": "b63cd2075cb7af4ff3a2b5c3f3edaf2f78a1e1e8469595c668932c755bb6740a"
+  },
+  "lockfile_sha256": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+  "runtime_protocol": {
+    "protocol": "1.3",
+    "product": "HeadlessChrome/159.0.8154.6",
+    "revision": "98a2592026af8d673b9fa83b626ac68bdf4ae78a",
+    "v8": "15.9.128.1"
+  },
+  "captured_schedule": {
+    "loads": 120,
+    "local_inputs": 180,
+    "editor_and_setup_observations": 120,
+    "update_windows": 72,
+    "lifecycle_series": 18,
+    "cycles_per_lifecycle_series": 50,
+    "rendering_observations": 240,
+    "late_update_ticks": 0,
+    "acceptance_captures": 0
+  },
+  "pending_gates": [
+    "Explicit numerical maintainer agreement",
+    "Fresh frozen verification",
+    "Required numerical budgets for other rows",
+    "Isolated retained-byte attribution",
+    "Final presentation"
+  ],
+  "runtime_lifecycle": "stopped; campaign-owned private state and image artifacts removed",
+  "cleanup_reference": "cleanup.json",
+  "reviewed_tooling_sha256": {
+    "tools/followup-common.mjs": "838d1ae770a24f40f3efd634fbf77ef32090692ab10ebb5e16293638dcd38f74",
+    "tools/followup-lifecycle.mjs": "8962b874959597845c99a37277577ce3cb1457687758ea9394a8ea6bf12b2563",
+    "tools/followup-measure.mjs": "b0dc0a68b2d8a84710ad35d74a939a919f5906c382f596fb14c3ff7bb9b23dad",
+    "tools/followup-methods.mjs": "1775b13c63dec5d401834d90cb9baf5c04547145775eda7682254134588333b4",
+    "tools/followup-preflight.mjs": "77953ccac78455e7b71332b501ee59f65aba9ed586c278f5573de55c94278a38",
+    "tools/followup-rendering.mjs": "299db1f842b5afa63c3214b87577b0d1334c18dc9e3cf1712cd5ce369ff73cee",
+    "tools/followup-summarize.py": "5febfeda694204b96fc357b9b2a34b38c0cf4da3557a1cdf055d2265bcb1eee3"
+  },
+  "tooling_identity_note": "tooling_sha256 records publication/capture-era source. Post-capture output-root/publisher reproduction changes are separately hashed here; method-history.json reconstructs exact earlier sources. Measurement logic and historical files are unchanged."
+}

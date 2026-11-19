@@ -1,0 +1,166 @@
+{
+  "date_utc": "2026-11-19T13:22:29.641494+00:00",
+  "phase": "fresh verification preflight",
+  "core": "2026.11.1",
+  "frontend": "20261028.5",
+  "image_amd64": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+  "browserVersion": "159.0.8154.6",
+  "browser_revision": "1255",
+  "playwright": "1.65.1",
+  "viewport": [
+    1280,
+    900
+  ],
+  "locale": "en",
+  "theme": "light",
+  "text_scale": 1,
+  "isolation": "Same all-namespace Bubblewrap lab, read-only rootfs, no external network/devices/production mounts; loopback relay 18123",
+  "subject_served_bytes": "match checkout",
+  "controls": {
+    "checks": [
+      {
+        "variant": "empty",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      }
+    ],
+    "acceptance": "pending; discovery only"
+  },
+  "action_checks": {
+    "direct": {
+      "accepted": {
+        "status": "recorded"
+      },
+      "rejected": {
+        "status": "rejected"
+      },
+      "cancelled": {
+        "status": "cancelled"
+      },
+      "injected": {
+        "status": "rejected"
+      },
+      "count": 1
+    },
+    "valid": [
+      {
+        "target": "input_boolean.mcc_target_a",
+        "origin": "native"
+      }
+    ],
+    "native": {
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off"
+    },
+    "transport": "all browser call_service messages intercepted; REST services blocked"
+  },
+  "capacity": {
+    "acquisition": {
+      "exit_code": 0,
+      "initial_free_bytes": 4957134848,
+      "minimum_free_bytes": 1408024576,
+      "final_free_bytes": 1400889344
+    },
+    "pre_capture_free_bytes": 1399070720,
+    "reserve_bytes": 1073741824
+  },
+  "host_load": [
+    0.26904296875,
+    0.59375,
+    0.4052734375
+  ],
+  "concurrent_browser_timing_tests": false,
+  "startup_limitations": "Same isolated offline resolver/multicast/analytics warnings as discovery"
+}

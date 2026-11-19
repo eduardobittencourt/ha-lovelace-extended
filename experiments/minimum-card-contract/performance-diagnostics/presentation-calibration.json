@@ -1,0 +1,151 @@
+{
+  "results": [
+    {
+      "change": true,
+      "timing": {
+        "start": 19.199999928474426,
+        "changeMs": 199.39999997615814,
+        "end": 207.09999990463257,
+        "anchor": 19.199999928474426
+      },
+      "clock": {
+        "offsetMs": 599542677.174,
+        "boundary": "Single same-document user-timing anchor; no drift or physical-clock claim"
+      },
+      "frames": [],
+      "feedback": [
+        {
+          "name": "FramePresented",
+          "ms": 7.365999937057495,
+          "argKeys": [
+            "environment"
+          ]
+        },
+        {
+          "name": "FramePresented",
+          "ms": 24.500999927520752,
+          "argKeys": [
+            "environment"
+          ]
+        },
+        {
+          "name": "Display::FrameDisplayed",
+          "ms": 24.500999927520752,
+          "argKeys": []
+        },
+        {
+          "name": "Display::FrameDisplayed",
+          "ms": 200.69799995422363,
+          "argKeys": []
+        },
+        {
+          "name": "Display::FrameDisplayed",
+          "ms": 208.36899995803833,
+          "argKeys": []
+        }
+      ],
+      "controlPassed": false,
+      "explicitFrameIdentity": false
+    },
+    {
+      "change": false,
+      "timing": {
+        "start": 11.200000047683716,
+        "changeMs": 191.30000007152557,
+        "end": 196.40000009536743,
+        "anchor": 11.200000047683716
+      },
+      "clock": {
+        "offsetMs": 599542937.7299999,
+        "boundary": "Single same-document user-timing anchor; no drift or physical-clock claim"
+      },
+      "frames": [],
+      "feedback": [
+        {
+          "name": "FramePresented",
+          "ms": 14.308000087738037,
+          "argKeys": [
+            "environment"
+          ]
+        },
+        {
+          "name": "Display::FrameDisplayed",
+          "ms": 14.308000087738037,
+          "argKeys": []
+        },
+        {
+          "name": "FramePresented",
+          "ms": 30.485000133514404,
+          "argKeys": [
+            "environment"
+          ]
+        },
+        {
+          "name": "Display::FrameDisplayed",
+          "ms": 30.485000133514404,
+          "argKeys": []
+        }
+      ],
+      "controlPassed": false,
+      "explicitFrameIdentity": false
+    }
+  ],
+  "frameControl": {
+    "controls": [
+      {
+        "change": true,
+        "baseline": {
+          "before": 33.300000071525574,
+          "after": 43,
+          "color": "red",
+          "hasDamage": true,
+          "responseFields": [
+            "hasDamage",
+            "screenshotData"
+          ]
+        },
+        "changeMs": 233.60000002384186,
+        "following": {
+          "before": 235.5,
+          "after": 240.89999997615814,
+          "color": "green",
+          "hasDamage": true,
+          "responseFields": [
+            "hasDamage",
+            "screenshotData"
+          ]
+        },
+        "controlPassed": true
+      },
+      {
+        "change": false,
+        "baseline": {
+          "before": 246.10000002384186,
+          "after": 250.89999997615814,
+          "color": "red",
+          "hasDamage": true,
+          "responseFields": [
+            "hasDamage",
+            "screenshotData"
+          ]
+        },
+        "changeMs": 434.39999997615814,
+        "following": {
+          "before": 435.8000000715256,
+          "after": 440.10000002384186,
+          "color": "red",
+          "hasDamage": true,
+          "responseFields": [
+            "hasDamage",
+            "screenshotData"
+          ]
+        },
+        "controlPassed": true
+      }
+    ]
+  },
+  "calibrated": false,
+  "missing": "No validated identity join between the changed pixels and successful presentation of the same display frame. Begin-frame/damage and screenshot capture expose drawing or copy results.",
+  "acceptance": "pending",
+  "fullCampaignExecuted": false
+}

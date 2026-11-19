@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-11-19T13:28:03.469790+00:00",
+  "scope": "verification reconstruction only",
+  "foreground_sandbox_and_guard": "completed successfully",
+  "relay_port_18123": "closed",
+  "pid_and_bridge_socket": "absent",
+  "storage_stop_triggered": false,
+  "storage_monitor": {
+    "minimum_free_bytes": 1393528832,
+    "current_free_bytes": 1403822080,
+    "reserve_bytes": 1073741824
+  },
+  "removed": "Only verification-owned extracted image, compressed layers and generated private HA state/credentials",
+  "raw_evidence": "retained in verification campaign area",
+  "preexisting_managed_caches_and_unrelated_data": "untouched",
+  "free_bytes_before_cleanup": 1402929152,
+  "free_bytes_after_cleanup": 4958248960,
+  "reclaimed_bytes": 3555319808
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "final diagnostic change validation",
+  "publicReview": {
+    "scopedFiles": 53,
+    "localLinkTargets": 171,
+    "jsonFiles": 24,
+    "allFrozenSubjectAndHistoricalHashesMatch": true,
+    "sensitiveValuePatterns": "passed",
+    "syntaxAndWhitespace": "passed"
+  },
+  "testsPassed": 21,
+  "gitDiffCheck": "passed",
+  "openspecStrict": "passed",
+  "researchFirstSchema": "valid; no issues",
+  "replay": {
+    "historicalVerification": "exact",
+    "readinessDiagnostics": "byte-for-byte",
+    "fourRowVerification": "byte-for-byte",
+    "editorVerification": "byte-for-byte"
+  },
+  "remainingPerformanceRequirements": [
+    "load-cpu",
+    "load-transfer",
+    "updates",
+    "retention",
+    "presentation"
+  ],
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "stage1Open": true
+}

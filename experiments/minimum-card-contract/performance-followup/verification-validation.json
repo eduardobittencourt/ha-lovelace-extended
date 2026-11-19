@@ -1,0 +1,38 @@
+{
+  "date_utc": "2026-11-19T13:30:13.447704+00:00",
+  "repository_checks": "pass",
+  "openspec_strict": "pass; skip_specs zero deltas accepted",
+  "research_first_schema": {
+    "valid": true,
+    "issues": []
+  },
+  "evaluator_tests": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "new_js_python_syntax": "pass",
+  "git_diff_check": "pass",
+  "frozen_source_and_plan_provenance": "pass",
+  "offline_evaluation_replay": "Byte-identical to published verification-review.json using public plan/samples, no HA access",
+  "subject_historical_helpers_results_archives_and_specs": "unchanged",
+  "budget_approval": "four rows explicitly approved; six required rows pending",
+  "fresh_observations": 300,
+  "performance_result": {
+    "approved_subset": "fail",
+    "cold_ready": "fail",
+    "runtime_bytes_warm_ready_local_intent": "pass",
+    "other_required_rows": "pending",
+    "stage1": "open"
+  },
+  "runtime_cleanup": "complete; see verification-cleanup.json",
+  "file_and_link_checks": {
+    "files_reviewed": 41,
+    "local_links_checked": 134,
+    "json_whitespace_sanitization": "pass",
+    "source_history_reconstructions": 5,
+    "subject_historical_helpers_results_archives_and_specs": "unchanged",
+    "approval": "four rows explicitly approved; six required rows pending",
+    "stage1": "open"
+  }
+}

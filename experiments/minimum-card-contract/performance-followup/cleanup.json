@@ -1,0 +1,20 @@
+{
+  "date_utc": "2026-11-19T13:03:27.828591+00:00",
+  "relay_port_18123": "closed",
+  "sandbox_pid_file": "absent",
+  "bridge_socket": "absent",
+  "sandbox_foreground_process": "completed successfully",
+  "storage_guard_process": "completed successfully",
+  "storage_stop_triggered": false,
+  "storage_monitor": {
+    "minimum_free_bytes": 1408258048,
+    "current_free_bytes": 1408258048,
+    "reserve_bytes": 1073741824
+  },
+  "removed": "Only campaign-owned extracted image, compressed layers and generated private HA state/credentials; all absent before reconstruction",
+  "raw_evidence": "retained in campaign research area",
+  "preexisting_managed_caches_and_unrelated_data": "untouched",
+  "free_bytes_before_cleanup": 1408131072,
+  "free_bytes_after_cleanup": 4963454976,
+  "reclaimed_bytes": 3555323904
+}

@@ -1,0 +1,45 @@
+{
+  "attempt": "First frozen editor series",
+  "reportedStatus": "Diagnostic only",
+  "reason": "A separate short headless observer regression overlapped the timed series. Repeat the entire unchanged frozen series with no other browser checks running.",
+  "rawSamplesSha256": "5b5c52bebc49b5fd240c555dcb63dc7cdb42f5919eb9462e47157a85904517ef",
+  "observationsPreserved": 120,
+  "experimentalWorkloads": [
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 478.2000000476837,
+      "limit": 1000,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 159,
+      "limit": 750,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "first_open",
+      "samples": 10,
+      "maximum": 632.8000000715256,
+      "limit": 1000,
+      "status": "pass"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "phase": "same_document_reopen",
+      "samples": 10,
+      "maximum": 392.8000000715256,
+      "limit": 750,
+      "status": "pass"
+    }
+  ]
+}

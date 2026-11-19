@@ -1,0 +1,300 @@
+{
+  "phase": "diagnostic lab preflight",
+  "core": "2026.11.1",
+  "frontend": "20261028.5",
+  "image_amd64": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+  "browser_expected": "159.0.8154.6",
+  "browser_revision": "1255",
+  "playwright": "1.65.1",
+  "served_source_sha256": {
+    "card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49"
+  },
+  "fixtures": {
+    "version": "2026.11.1",
+    "language": "en",
+    "fixtures": {
+      "input_number.mcc_display_a": "21.0",
+      "input_number.mcc_display_b": "72.0",
+      "input_boolean.mcc_target_a": "off",
+      "input_boolean.mcc_target_b": "off",
+      "input_boolean.mcc_target_body": "off"
+    },
+    "assets": [
+      "/frontend_latest/core.8e1df50399c907f8.js",
+      "/frontend_latest/app.5ce0ede93b3f9512.js",
+      "/frontend_latest/84926.757e5d6addf80360.js",
+      "/frontend_latest/63901.dca0638873320b5f.js",
+      "/frontend_latest/84012.63d5ea420a138c36.js",
+      "/frontend_latest/97594.f89e70c27a3e65b1.js",
+      "/frontend_latest/83170.29fecb90c37c38e2.js",
+      "/frontend_latest/43282.779e8b39ff6c0e59.js",
+      "/frontend_latest/18725.db715f5021125499.js",
+      "/frontend_latest/42458.b01005b35a0e76c6.js",
+      "/frontend_latest/39274.a53045930d77fec6.js",
+      "/frontend_latest/68870.d8eebb7477523216.js",
+      "/frontend_latest/69238.01421cea45337956.js",
+      "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+      "/frontend_latest/83741.a30c30447d08776f.js",
+      "/frontend_latest/53910.86a8a70f5cace923.js",
+      "/frontend_latest/12374.1441d414d6cdbec7.js",
+      "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+      "/frontend_latest/56679.1e031e4b7637005b.js",
+      "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+      "/frontend_latest/64128.9724b3cb1a632a22.js",
+      "/frontend_latest/11980.7c9c09e7d0804710.js",
+      "/frontend_latest/77678.9226bd25c71625d9.js",
+      "/frontend_latest/32334.383e3bc66c13c072.js",
+      "/frontend_latest/89122.051cd59c31f1e5e9.js",
+      "/frontend_latest/70464.2c238fe9f4ada026.js",
+      "/frontend_latest/80917.dff8637f288fb94f.js",
+      "/frontend_latest/45950.715967f63c0bcb27.js",
+      "/frontend_latest/10766.4efd71b8fe05569b.js",
+      "/frontend_latest/97868.76eb030ce27559ef.js",
+      "/frontend_latest/56704.0f7876104ba6bf80.js",
+      "/frontend_latest/96500.2b35c585f257f035.js",
+      "/frontend_latest/6012.7210c0ba9ee454d6.js",
+      "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+      "/frontend_latest/83889.6d051fcc78aadb07.js",
+      "/frontend_latest/82137.61381f1cff7f7876.js",
+      "/frontend_latest/13682.860b87712425221f.js",
+      "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+      "/frontend_latest/19789.e0eec13f31bf69d0.js",
+      "/frontend_latest/37081.045060b7950b2462.js",
+      "/frontend_latest/15313.702ba081a01119fc.js",
+      "/frontend_latest/80550.8ba436abe4d43a47.js",
+      "/frontend_latest/11767.f95e9ad89c530260.js",
+      "/frontend_latest/27951.6f29551f25a1a9e8.js",
+      "/frontend_latest/96529.fb0df751c574ae46.js",
+      "/frontend_latest/55591.8f178b64be1b8b34.js",
+      "/frontend_latest/30398.26ad8bf23a5061e4.js",
+      "/frontend_latest/54584.9e3527a9d65ae971.js",
+      "/frontend_latest/74629.cde7f9d7e998da87.js",
+      "/frontend_latest/80295.c1476be3ef9d36f1.js",
+      "/frontend_latest/59795.0538085d7c03843f.js",
+      "/frontend_latest/21463.8052db07ce2a35a7.js",
+      "/frontend_latest/19167.72beebc76e98b08b.js",
+      "/frontend_latest/51771.e7bf04e12020bb56.js",
+      "/frontend_latest/7686.6fe003f288ac2ae6.js",
+      "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+      "/frontend_latest/84663.ebd149f28d43ee7a.js",
+      "/frontend_latest/25035.bd7ba72891899657.js",
+      "/frontend_latest/32087.e410292658bb97ee.js",
+      "/frontend_latest/78196.6656b9d4368edc11.js",
+      "/frontend_latest/98762.a7086cfa2e6da50e.js",
+      "/frontend_latest/24059.54be9e09ad04ef79.js",
+      "/frontend_latest/22092.52ad9836bc96d965.js",
+      "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+      "/frontend_latest/86062.1b4df64721982088.js",
+      "/frontend_latest/86301.edfe51519a369db5.js",
+      "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+      "/frontend_latest/59947.454dc658ef0f00e9.js",
+      "/frontend_latest/77870.115dde3007d897c7.js",
+      "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+      "/frontend_latest/32409.83e239054a42ebf5.js",
+      "/frontend_latest/54929.1b1ae4885236a6f4.js",
+      "/frontend_latest/42125.3eee873ce83f1ed2.js",
+      "/frontend_latest/83413.968df13f9d68ef1b.js",
+      "/frontend_latest/9665.0a2816a1d396159e.js",
+      "/frontend_latest/19917.2dd995381c258dba.js",
+      "/frontend_latest/87392.265ccc4a02f2f228.js",
+      "/frontend_latest/9052.e206c6a7be7dee0f.js",
+      "/frontend_latest/12770.9633151fe17cee4b.js",
+      "/frontend_latest/69950.3d7b34167cba973c.js",
+      "/frontend_latest/36798.80f6d2bd80fad83e.js",
+      "/frontend_latest/80632.6492f6fe558d6f44.js",
+      "/frontend_latest/61892.16be0f78a72d8bd4.js",
+      "/frontend_latest/8813.ec72272082c783e7.js",
+      "/frontend_latest/87408.cd6c30f64dd861c3.js",
+      "/frontend_latest/26412.9b5994ee48ae42d7.js",
+      "/frontend_latest/26789.2304345f305509bd.js",
+      "/frontend_latest/30724.7d18d9384e80aca3.js",
+      "/frontend_latest/37208.e27952fd5fbfcab9.js",
+      "/frontend_latest/72797.432f8aa5c314d60f.js",
+      "/frontend_latest/78047.29972e2144512b40.js",
+      "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+      "/frontend_latest/4197.aff5b847159c1c0b.js",
+      "/frontend_latest/23578.43c8b6c07132a1d3.js",
+      "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+      "/frontend_latest/68353.335d5abff86f6202.js",
+      "/frontend_latest/59346.8334a05df4407c8d.js",
+      "/frontend_latest/25232.0b4285202e90c1c3.js",
+      "/frontend_latest/50691.56db0c79ab3cd283.js",
+      "/frontend_latest/21967.2046f481b58d3ab0.js",
+      "/frontend_latest/86920.c8c3826e90a8961b.js",
+      "/frontend_latest/92510.400220d4fa7fc2ff.js",
+      "/frontend_latest/5427.1f0a3d359d16798b.js",
+      "/frontend_latest/16459.a3ed9d288958fd74.js",
+      "/frontend_latest/57491.3b35fd93d9d2d79b.js",
+      "/frontend_latest/45385.891c0ebb8d10bfb3.js",
+      "/frontend_latest/36463.44fe13b512f8eed3.js",
+      "/frontend_latest/28163.499be130a5db1ef6.js",
+      "/frontend_latest/22141.2e83955dc2712b3f.js",
+      "/frontend_latest/91481.dadfc5e2cf84462f.js",
+      "/frontend_latest/90664.7c72a02d6abdfcb4.js",
+      "/frontend_latest/21930.2af072b1948f8c91.js",
+      "/frontend_latest/92947.4d279b29cbe6b7a1.js",
+      "/frontend_latest/7168.f7a19dca9f58a5f4.js",
+      "/frontend_latest/84313.3ad9ae02f3a6f3a1.js",
+      "/frontend_latest/97759.2197338ef56b4826.js",
+      "/frontend_latest/27160.a8f54aa93f8c5a79.js",
+      "/frontend_latest/19742.cb067ea267d2bfd5.js",
+      "/frontend_latest/51338.6f9e4720fa0c6929.js",
+      "/frontend_latest/73566.36cc97cfe2cd7c93.js",
+      "/frontend_latest/3496.057dd7f609599ed9.js",
+      "/frontend_latest/54619.cebf9a1deaa8a987.js",
+      "/frontend_latest/85871.841b4d074a913825.js",
+      "/frontend_latest/49877.ba30498ef796b5a0.js",
+      "/frontend_latest/94864.d99d656fccb4172b.js",
+      "/frontend_latest/markdown-worker.7fcdb971f47a98ea.js"
+    ]
+  },
+  "safety": {
+    "direct": {
+      "accepted": {
+        "status": "recorded"
+      },
+      "rejected": {
+        "status": "rejected"
+      },
+      "cancelled": {
+        "status": "cancelled"
+      },
+      "injected": {
+        "status": "rejected"
+      },
+      "count": 1
+    },
+    "valid": [
+      {
+        "target": "input_boolean.mcc_target_a",
+        "origin": "native"
+      }
+    ],
+    "native": {
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off"
+    },
+    "transport": "all browser call_service messages intercepted; REST services blocked"
+  },
+  "controls": {
+    "checks": [
+      {
+        "variant": "empty",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 1,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 1,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "empty",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "driver-control"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Driver button added only after empty load; not equivalent to HA action semantics"
+      },
+      {
+        "variant": "native",
+        "count": 10,
+        "custom": [],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "native"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      },
+      {
+        "variant": "experimental",
+        "count": 10,
+        "custom": [
+          "/local/minimum-card-contract/card.js",
+          "/local/minimum-card-contract/recorder.js",
+          "/local/minimum-card-contract/card.css"
+        ],
+        "events": [
+          {
+            "target": "input_boolean.mcc_target_a",
+            "origin": "experimental"
+          }
+        ],
+        "state": "off",
+        "interception": true,
+        "control": "Recorded inner activation"
+      }
+    ],
+    "acceptance": "pending; discovery only"
+  },
+  "storage": {
+    "guard": {
+      "minimum_free_bytes": 2091397120,
+      "current_free_bytes": 2091397120,
+      "reserve_bytes": 1073741824
+    },
+    "layer_cleanup": {
+      "removed": "campaign-owned compressed layers after complete verified extraction",
+      "compressed_bytes": 673894423,
+      "free_before": 1419948032,
+      "free_after": 2094690304
+    }
+  },
+  "isolation": "All-namespace Bubblewrap; read-only rootfs; no external network/devices/production mounts; loopback relay 18123",
+  "startup_limitations": "Offline analytics/marketplace/resolver warnings; not production compatibility evidence",
+  "browser_observed": "159.0.8154.6",
+  "browser_identity_evidence": "Pinned-version assertion passed before all readiness pilot loads"
+}

@@ -100,3 +100,29 @@ The archived [minimum-card change](../openspec/changes/archive/2026-11-19-demons
 The [MVP scenarios](mvp.md#acceptance-criteria) now reconcile the dated read-only role/action map and map all eleven original checklist criteria to observable checks with provenance, evidence destinations and milestone ownership. The [coverage review](../openspec/changes/archive/2026-11-19-synthesize-desk-mvp-acceptance/research.md#r2-acceptance-coverage-review) found no material missing intent; stage 0's definition exit is met. Height remains direct cm sensor data, cover position remains percent, memory buttons remain independent presses and lock/unlock remains external.
 
 This is documentation synthesis, with every full-desk result pending. Stage 1 budget approval and stage 2 desk/device/accessibility, integration, physical and everyday acceptance remain open. The [performance handoff](../openspec/changes/archive/2026-11-19-synthesize-desk-mvp-acceptance/research.md#stage-1-performance-handoff) lists the separate unresolved work; no numerical limit or production mechanism is adopted.
+
+## Stage 1 performance method findings — 2026-11-19
+
+The [follow-up discovery](../experiments/minimum-card-contract/performance-followup/discovery.md)
+keeps the subject fixed and records repeated empty/native/experimental shell and
+driver controls, editor/update windows, released fresh-instance diagnostics and
+browser-clock content milestones. Its observations support the stated bounded
+methods, without a universal per-card ranking, production renderer choice or
+compatibility expansion. Calibrated weak references observed collected fresh
+instances; renderer-global retained-byte isolation remains unsupported. DOM
+content and following rAF remain distinct from unverified final presentation.
+
+The [budget matrix](../experiments/minimum-card-contract/performance-followup/budget-review.json)
+initially recorded proposed limits. The maintainer subsequently approved four
+rows and their maximum/no-replacement rule; the [fresh verification review](../experiments/minimum-card-contract/performance-followup/review.md)
+records runtime size, warm readiness and local intent passing, with experimental
+ten-group cold readiness failing at 1104.80 ms against 1000 ms. Six other required
+rows remain pending. The historical 1108.60 ms cold observation remains visible. Stage 1 stays open;
+no required evidence was waived. Stage 0 definition stays complete and stage 2
+full-desk/device/accessibility/integration/physical/everyday acceptance remains
+pending. These are measured method findings and unresolved gates, not new
+agreed production decisions or an optimization authorization.
+
+## Stage 1 diagnostic findings — 2026-11-19
+
+The [diagnosis](../experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) prioritizes measuring shared startup and reference-observer variation before changing the experimental subject. No tighter cold maximum is proposed. The [budget matrix](../experiments/minimum-card-contract/performance-diagnostics/budget-matrix.json) records the dated approval of the experimental editor limits. The [combined review](../experiments/minimum-card-contract/performance-diagnostics/stage-review.json) preserves historical cold failures and five pending requirements.

@@ -1,0 +1,142 @@
+{
+  "outcome": "Passed in the disposable pinned Home Assistant lab",
+  "sourceHashes": {
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/ha-smoke.mjs": "48e87f2d1f38ec6a0a164f35dfa92467d838dbe262263c4aa02afa9a4bfbb9bf",
+    "tools/recorder-check.mjs": "ea7bb1b3a87d49b828864693f03b8638b5cb89e120d7fa4c32091f7b59f10865",
+    "tools/runtime-check.mjs": "194546b61300d357ea5c401ff472281549b41fac5df84f99b7d1c6a8d40bcca6",
+    "tools/persistence-check.mjs": "d10ceb1e8a011cbe847681496fb359297a105b7e092b3f1f3fc47f5c44351f6f",
+    "tools/editor-load-check.mjs": "8d9649408ac7ea9c3b137ff692cef723cc2b427573d46cfeda3f123ed52e3adc"
+  },
+  "recorder": {
+    "direct": {
+      "accepted": {
+        "status": "recorded"
+      },
+      "rejected": {
+        "status": "rejected"
+      },
+      "cancelled": {
+        "status": "cancelled"
+      },
+      "injected": {
+        "status": "rejected"
+      },
+      "count": 1
+    },
+    "valid": [
+      {
+        "target": "input_boolean.mcc_target_a",
+        "origin": "native"
+      }
+    ],
+    "native": {
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "origin": "native"
+        }
+      ],
+      "state": "off"
+    },
+    "transport": "all browser call_service messages intercepted; REST services blocked"
+  },
+  "runtime": {
+    "bindings": {
+      "initial": [
+        "21.1",
+        "72.2"
+      ],
+      "changedA": "72.2",
+      "sibling": "72.2",
+      "siblingMutations": 0,
+      "originalUnchanged": true,
+      "targets": [
+        "input_boolean.mcc_target_body",
+        "input_boolean.mcc_target_b"
+      ]
+    },
+    "validation": {
+      "messages": [
+        "Slot A requires a synthetic input_number display binding",
+        "Slot A requires an allowlisted synthetic target",
+        "Unsupported experimental configuration field",
+        "confirm must be boolean"
+      ],
+      "stale": "Configuration error"
+    },
+    "actions": [
+      {
+        "method": "pointer",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "Enter",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "Space",
+        "events": [
+          "input_boolean.mcc_target_a"
+        ]
+      },
+      {
+        "method": "touch",
+        "events": [
+          "input_boolean.mcc_target_b"
+        ]
+      },
+      {
+        "method": "body",
+        "events": [
+          "input_boolean.mcc_target_body"
+        ]
+      }
+    ],
+    "selectiveUpdates": {
+      "unrelated": {
+        "a": 0,
+        "b": 0,
+        "body": 0
+      },
+      "relevant": {
+        "a": 1,
+        "b": 0,
+        "body": 0
+      },
+      "localized": "21,1",
+      "dark": "rgb(17, 17, 17)"
+    },
+    "sameNodeReconnectCycles": 50,
+    "ownedResourcesAfterRemoval": {
+      "listeners": 0,
+      "subscriptions": 0,
+      "scheduled": 0
+    },
+    "dispatchAfterReconnect": 1
+  },
+  "persistence": {
+    "visualChanges": 10,
+    "untouchedFieldsPreserved": true,
+    "saveReloadReopen": "passed",
+    "errors": 0
+  },
+  "editorLoad": {
+    "firstOpenAndReopen": "passed",
+    "errors": 0
+  },
+  "beforeAndAfterSyntheticTargets": {
+    "input_boolean.mcc_target_a": "off",
+    "input_boolean.mcc_target_b": "off",
+    "input_boolean.mcc_target_body": "off"
+  },
+  "layoutCoverage": "Historical layout matrix; not rerun in this campaign"
+}
