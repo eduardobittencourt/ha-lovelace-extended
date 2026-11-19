@@ -131,3 +131,16 @@ and no production contract or full-desk acceptance is implied.
 ## Archived stage 1 performance diagnosis
 
 The [diagnostic change](../openspec/changes/archive/2026-11-19-diagnose-stage-one-performance-gaps/research.md) preserves the archived evidence and reuses the approval-backed plan for a separately frozen run. See the [diagnosis](../experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) and [ten-row matrix](../experiments/minimum-card-contract/performance-diagnostics/budget-matrix.json) before planning an optimization or approval. The change was archived on 2026-11-19 using research-first with all 18 tasks complete. The sync assessment found no delta specs. Stage 1 remains open.
+
+
+## Archived stage 1 evidence consolidation
+
+The [consolidation change](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/tasks.md)
+was archived on 2026-11-19 using research-first, with all 6 tasks complete.
+The sync assessment found no delta specs (`skip_specs: true`); main specifications
+remain unchanged. The [decision record and MVP handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md)
+preserve four bounded passes, a fresh cold pass with two unresolved historical
+failures, and five pending requirements. The maintainer permits comparative
+component-library benchmarks to inform justified limits, without guessed numbers.
+This document review closes no performance gate and authorizes no new campaign;
+stage 1 remains open.

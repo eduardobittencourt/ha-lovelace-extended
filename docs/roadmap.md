@@ -68,7 +68,11 @@ The [stage 1 diagnosis](../experiments/minimum-card-contract/performance-diagnos
 
 **Exit:** demonstrated binding/editor correctness, layout coverage and measured costs with justified acceptance budgets met. Limited or negative feasibility findings are valid experimental outcomes, but do not close this exit or prove acceptable performance. Missing measurements remain pending. A free grid or recipe framework is not required; a prototype does not become production code automatically.
 
+The [consolidated ten-row decision record](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles four bounded passes, the fresh cold pass with two unresolved historical failures, and five pending requirements. Its [exit disposition and desk handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#stage-1-exit-disposition-and-stage-2-handoff) keeps stage 1 open and identifies the requirements, calibration and verification needed per row. The maintainer requests evidence-backed CPU, transfer and update limits, with other component-library benchmarks as a possible input and usability as the objective; no numerical limits or benchmark campaigns are approved by this review.
+
 ## 2. Complete the desk MVP
+
+Use the [D3 scenario handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#d3-scenario-handoff) for separately scoped preparation; all full-desk results and final PERF repeats remain pending.
 
 - [ ] Prepare validation scenarios and evidence for experience/integration ([D3](discovery.md#d3-experience-and-integration-validation)), separating synthetic and physical tests.
 - [ ] Deliver the fixed composition, controls, and three memory actions.

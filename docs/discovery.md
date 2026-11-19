@@ -61,6 +61,8 @@ The current [stage 1 follow-up](../experiments/minimum-card-contract/performance
 
 The [D2 diagnostics](../experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) prioritize measuring shared pre-mount and post-frame variance. The pinned runtime's snapshot traversal failed conditional ownership calibration and headless captures provided no validated identity join from changed pixels to presentation feedback. The [current matrix](../experiments/minimum-card-contract/performance-diagnostics/budget-matrix.json) records prerequisites and measurement proposals.
 
+The [consolidated decision record](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles all ten metric IDs and their approvals. Its [budget requirements](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#cpu-transfer-and-update-budget-requirements) identify missing device/workload, bandwidth and responsiveness objectives; the [D3 handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#d3-scenario-handoff) preserves all full-desk results as pending. Four bounded passes and a fresh cold pass do not resolve the two historical cold failures or five pending requirements. D2/stage 1 stays open.
+
 ## D3. Experience and integration validation
 
 **Before:** declaring the MVP complete.

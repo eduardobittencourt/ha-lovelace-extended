@@ -48,6 +48,8 @@ The [stage 1 performance follow-up](experiments/minimum-card-contract/performanc
 
 The [stage 1 diagnostics](experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) add 120 phase-observed loads. An empty cold control reached 1272.7 ms, and the fresh approval-backed verification passed the four eligible rows in that run. The historical cold failures remain unresolved. Retained-byte and presentation calibration are unsupported in the pinned lab. The separate editor run measured the newly approved limits. See the [ten-row review](experiments/minimum-card-contract/performance-diagnostics/stage-review.json) for the five pending requirements.
 
+The [stage 1 evidence consolidation](openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles all ten metrics and records the [desk MVP handoff](openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#stage-1-exit-disposition-and-stage-2-handoff). Four bounded passes remain valid; the fresh cold pass does not resolve two historical failures. Five other requirements remain pending. For CPU/transfer/updates, the maintainer requests evidence-backed limits and permits comparative benchmarks rather than guessed numbers; retention/presentation need calibrated methods. Stage 1 stays open; no new budget, campaign or production stack is adopted.
+
 ## Current boundaries
 
 The implementation stack, minimum HA version, public configuration format, and distribution strategy have not been selected. Compatibility with specific integrations or devices is not promised.
