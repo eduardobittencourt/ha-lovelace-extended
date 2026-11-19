@@ -1,0 +1,10 @@
+{
+  "name": "minimum-card-contract-experiment",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Disposable two-slot experiment; not a production package",
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}

@@ -6,8 +6,11 @@ context: |
   text must be in English. Conversation may follow the user's language without
   changing the repository language. Retain OpenSpec structural headings and
   SHALL/MUST, WHEN/THEN keywords expected by the CLI.
-  Project: Lovelace Extended. Documentation-only conception;
-  no implemented card, supported HA version or performance baseline yet.
+  Project: Lovelace Extended. Conception with a bounded stage 1 prototype under
+  experiments/minimum-card-contract; no production card or supported-version
+  policy. Consult the archived minimum-card experiment research and any active
+  change for measured evidence and open performance gates; do not infer acceptance
+  from experimental source.
   Read README.md, docs/roadmap.md and docs/decisions.md, then only the relevant
   docs/manifesto.md, docs/mvp.md and docs/architecture.md for the change.
   Product: visually consistent card with independent data/action bindings per

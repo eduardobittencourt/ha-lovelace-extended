@@ -1,0 +1,110 @@
+{
+  "bindings": {
+    "initial": [
+      "21.1",
+      "72.2"
+    ],
+    "changedA": "72.2",
+    "sibling": "72.2",
+    "siblingMutations": 0,
+    "originalUnchanged": true,
+    "targets": [
+      "input_boolean.mcc_target_body",
+      "input_boolean.mcc_target_b"
+    ]
+  },
+  "validation": {
+    "messages": [
+      "Slot A requires a synthetic input_number display binding",
+      "Slot A requires an allowlisted synthetic target",
+      "Unsupported experimental configuration field",
+      "confirm must be boolean"
+    ],
+    "stale": "Configuration error"
+  },
+  "availability": {
+    "snapshots": [
+      {
+        "a": "Missing source",
+        "b": "72.2"
+      },
+      {
+        "a": "Unknown",
+        "b": "72.2"
+      },
+      {
+        "a": "Unavailable",
+        "b": "72.2"
+      }
+    ],
+    "disabledA": true,
+    "disabledB": false,
+    "recovery": {
+      "value": "31.5",
+      "events": 0
+    }
+  },
+  "actions": [
+    {
+      "method": "pointer",
+      "events": [
+        "input_boolean.mcc_target_a"
+      ]
+    },
+    {
+      "method": "Enter",
+      "events": [
+        "input_boolean.mcc_target_a"
+      ]
+    },
+    {
+      "method": "Space",
+      "events": [
+        "input_boolean.mcc_target_a"
+      ]
+    },
+    {
+      "method": "touch",
+      "events": [
+        "input_boolean.mcc_target_b"
+      ]
+    },
+    {
+      "method": "body",
+      "events": [
+        "input_boolean.mcc_target_body"
+      ]
+    }
+  ],
+  "rejected": "Rejected",
+  "cancelled": "Cancelled",
+  "updates": {
+    "unrelated": {
+      "a": 0,
+      "b": 0,
+      "body": 0
+    },
+    "relevant": {
+      "a": 1,
+      "b": 0,
+      "body": 0
+    },
+    "localized": "21,1",
+    "dark": "rgb(17, 17, 17)"
+  },
+  "lifecycle": {
+    "connected": {
+      "listeners": 1,
+      "subscriptions": 0,
+      "scheduled": 0
+    },
+    "value": "49",
+    "events": 1,
+    "cycles": 50,
+    "ownedAfterEveryRemoval": {
+      "listeners": 0,
+      "subscriptions": 0,
+      "scheduled": 0
+    }
+  }
+}

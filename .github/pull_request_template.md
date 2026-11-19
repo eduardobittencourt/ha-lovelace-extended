@@ -12,7 +12,9 @@ require a new issue or change.
 Describe relevant sources, checks performed and limitations. For a text/link
 correction, document/link consistency and diff checks may be enough. Product,
 Home Assistant and device checks are only applicable when explicitly in scope;
-there is no product build or runtime test suite yet.
+there is no production build or repository-wide runtime test suite. For
+experimental source changes, include the relevant checks from the experiment
+guide.
 
 ## Scope and decision impact (if applicable)
 

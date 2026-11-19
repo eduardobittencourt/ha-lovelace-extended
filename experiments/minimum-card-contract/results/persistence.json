@@ -1,0 +1,309 @@
+{
+  "initial": {
+    "type": "custom:minimum-card-contract",
+    "a_source": "input_number.mcc_display_a",
+    "a_target": "input_boolean.mcc_target_a",
+    "a_label": "First reading",
+    "b_source": "input_number.mcc_display_b",
+    "b_target": "input_boolean.mcc_target_b",
+    "b_label": "Second reading",
+    "body_target": "input_boolean.mcc_target_body",
+    "body_label": "Body intent",
+    "confirm": false
+  },
+  "changes": [
+    {
+      "key": "a_source",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_a",
+        "a_target": "input_boolean.mcc_target_a",
+        "a_label": "First reading",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_a",
+        "a_label": "First reading",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "a_target",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_a",
+        "a_label": "First reading",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "a_label",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "b_source",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_b",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "b_target",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_b",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "b_label",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "body_target",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_body",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "body_label",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent edited visually",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "confirm",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent edited visually",
+        "confirm": false
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent edited visually",
+        "confirm": true
+      },
+      "untouchedPreserved": true
+    },
+    {
+      "key": "confirm",
+      "before": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent edited visually",
+        "confirm": true
+      },
+      "after": {
+        "type": "custom:minimum-card-contract",
+        "a_source": "input_number.mcc_display_b",
+        "a_target": "input_boolean.mcc_target_body",
+        "a_label": "First reading edited visually",
+        "b_source": "input_number.mcc_display_a",
+        "b_target": "input_boolean.mcc_target_a",
+        "b_label": "Second reading edited visually",
+        "body_target": "input_boolean.mcc_target_b",
+        "body_label": "Body intent edited visually",
+        "confirm": false
+      },
+      "untouchedPreserved": true
+    }
+  ],
+  "final": {
+    "type": "custom:minimum-card-contract",
+    "a_source": "input_number.mcc_display_b",
+    "a_target": "input_boolean.mcc_target_body",
+    "a_label": "First reading edited visually",
+    "b_source": "input_number.mcc_display_a",
+    "b_target": "input_boolean.mcc_target_a",
+    "b_label": "Second reading edited visually",
+    "body_target": "input_boolean.mcc_target_b",
+    "body_label": "Body intent edited visually",
+    "confirm": false
+  },
+  "errors": []
+}

@@ -53,6 +53,8 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 
 An experiment needing code must be an explicitly bounded experimental change. Success does not automatically make its prototype production code.
 
+The archived [minimum-card experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) records actual two-slot binding/editor persistence, intercepted actions, selective updates/lifecycle and Chromium layout coverage. Its performance gate remains open. These findings do not close D0 synthesis, complete desk acceptance or establish untested device/assistive-technology support.
+
 ## D3. Experience and integration validation
 
 **Before:** declaring the MVP complete.

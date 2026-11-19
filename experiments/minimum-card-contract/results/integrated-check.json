@@ -1,0 +1,66 @@
+{
+  "config": {
+    "type": "custom:minimum-card-contract",
+    "a_source": "input_number.mcc_display_b",
+    "a_target": "input_boolean.mcc_target_body",
+    "a_label": "First reading edited visually",
+    "b_source": "input_number.mcc_display_a",
+    "b_target": "input_boolean.mcc_target_a",
+    "b_label": "Second reading edited visually",
+    "body_target": "input_boolean.mcc_target_b",
+    "body_label": "Body intent edited visually",
+    "confirm": false
+  },
+  "activations": [
+    {
+      "slot": "a",
+      "method": "pointer",
+      "targets": [
+        "input_boolean.mcc_target_body"
+      ]
+    },
+    {
+      "slot": "b",
+      "method": "keyboard",
+      "targets": [
+        "input_boolean.mcc_target_a"
+      ]
+    },
+    {
+      "slot": "body",
+      "method": "touch",
+      "targets": [
+        "input_boolean.mcc_target_b"
+      ]
+    }
+  ],
+  "reloadReplay": 0,
+  "beforeValues": [
+    "72",
+    "21",
+    ""
+  ],
+  "actualHAUpdates": {
+    "unrelated": {
+      "a": 0,
+      "b": 0,
+      "body": 0
+    },
+    "relevant": {
+      "a": 0,
+      "b": 1,
+      "body": 0
+    }
+  },
+  "targetStatesBefore": {
+    "input_boolean.mcc_target_a": "off",
+    "input_boolean.mcc_target_b": "off",
+    "input_boolean.mcc_target_body": "off"
+  },
+  "targetStatesAfter": {
+    "input_boolean.mcc_target_a": "off",
+    "input_boolean.mcc_target_b": "off",
+    "input_boolean.mcc_target_body": "off"
+  },
+  "scope": "Actual persisted card and live HA hass delivery; intercepted actions only"
+}

@@ -1,0 +1,20 @@
+{
+  "review_date_utc": "2026-11-19",
+  "reviewer": "Implementation agent, technical evidence review; no independent or maintainer approval is implied",
+  "decision": "Withhold overall performance acceptance",
+  "agreement": "Candidate limits are unapproved; no maintainer agreement is inferred from implementation authorization",
+  "reason": "No agreed numerical usability requirement; shared HA/driver costs and native composition differ; one discovery cold sample exceeds the proposed one-second target; heap and next-frame observations have explicit methodological limits",
+  "candidates": [
+    {"metric": "experimentDecodedBytes", "maximum": 16384, "unit": "bytes", "scope": "Cold experimental runtime bodies", "rationale": "Three small dependency-free runtime assets currently total 11610 decoded bytes. A proposed 16 KiB ceiling bounds growth of this minimal surface and requires review before adding another runtime layer; it is not a production promise."},
+    {"metric": "usableMs", "cache": "cold", "maximum": 1000, "unit": "ms", "scope": "Frozen local headless dashboard", "rationale": "Proposed local first-usable requirement of one second. Discovery medians are below it but the retained 1108.60 ms observation exceeds it. Usability agreement is absent; do not relax the limit to erase this observation."},
+    {"metric": "usableMs", "cache": "warm", "maximum": 750, "unit": "ms", "scope": "Frozen local headless dashboard", "rationale": "Proposed stricter warm-load target because transferred assets are cached. Discovery data support feasibility only; the local target has not been agreed as a user requirement."},
+    {"metric": "intentMs", "maximum": 16.7, "unit": "ms", "scope": "Pointerdown to local synthetic intent", "rationale": "Proposed processing allocation of one nominal 60 Hz frame (1000/60 ms), not a claim about display refresh, final paint, network or device response."}
+  ],
+  "unbudgeted": [
+    {"metric": "next-frame / compositor responsiveness", "status": "pending", "reason": "Current frame opportunity includes automation observation and is not final paint; no agreed user/device target"},
+    {"metric": "shared load/editor/update CPU and total transfer", "status": "pending", "reason": "Observed totals include HA, driver and different native composition; no isolated per-card production budget justified"},
+    {"metric": "retained heap", "status": "pending", "reason": "Single same-node forced-GC series is diagnostic; no agreed heap-growth acceptance budget"}
+  ],
+  "correctness_gates": {"single_dispatch": "pass", "zero_unrelated_slot_dom_mutations": "pass", "owned_resources_zero_after_removal": "pass"},
+  "verification_plan": "Fresh three cold/three warm trials and five local activations per variant/count after this recorded review. Candidate observations may be within or outside the proposal, but every numerical performance acceptance status remains pending without agreement. Unbudgeted metrics remain pending."
+}

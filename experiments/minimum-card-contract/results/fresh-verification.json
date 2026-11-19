@@ -1,0 +1,457 @@
+{
+  "reviewDecision": "Withhold overall performance acceptance",
+  "captures": [
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "usableMs": 661.7999999523163,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 139.33599999999998,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "usableMs": 461.39999997615814,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 42.756,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "cold",
+      "usableMs": 670.1000000238419,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 138.637,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 0,
+      "cache": "warm",
+      "usableMs": 462.7999999523163,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 44.431,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "usableMs": 668.3000000715256,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 137.367,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "usableMs": 475.2000000476837,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 53.766,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "cold",
+      "usableMs": 647.5,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 136.714,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 1,
+      "cache": "warm",
+      "usableMs": 446.40000009536743,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 44.891,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "usableMs": 665.7999999523163,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 133.108,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "usableMs": 446.2000000476837,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 42.1,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "cold",
+      "usableMs": 662.5,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 139.57,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "trial": 2,
+      "cache": "warm",
+      "usableMs": 462.7000000476837,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 44.695,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "usableMs": 677.7999999523163,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 142.181,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "usableMs": 446.60000002384186,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 55.596,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "cold",
+      "usableMs": 653.0999999046326,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 139.403,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 0,
+      "cache": "warm",
+      "usableMs": 463.60000002384186,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 48.224000000000004,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "usableMs": 659.3999999761581,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 139.567,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "usableMs": 446.2999999523163,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 46.839,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "cold",
+      "usableMs": 692.1000000238419,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 145.565,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 1,
+      "cache": "warm",
+      "usableMs": 446.1999999284744,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 56.129,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "usableMs": 687.2000000476837,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 145.873,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "usableMs": 479.60000002384186,
+      "experimentDecodedBytes": 0,
+      "scriptMs": 59.653999999999996,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": null,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "cold",
+      "usableMs": 660.7999999523163,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 142.627,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "trial": 2,
+      "cache": "warm",
+      "usableMs": 462,
+      "experimentDecodedBytes": 11610,
+      "scriptMs": 48.555,
+      "candidateReadinessWithin": true,
+      "candidateBytesWithin": true,
+      "acceptance": "pending: no approved budget"
+    }
+  ],
+  "interactions": [
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": 2,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": 0.8999999761581421,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "intentMs": 0.8000000715255737,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": 0.5999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": 0.2999999523162842,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": 0.30000007152557373,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": 0.10000002384185791,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": 2.399999976158142,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": 1.2000000476837158,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": 1.1999999284744263,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "intentMs": 1,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": 0.5999999046325684,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": 0.20000004768371582,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "intentMs": 0.19999992847442627,
+      "target": "input_boolean.mcc_target_a",
+      "candidateWithin": true,
+      "acceptance": "pending: no approved budget"
+    }
+  ],
+  "performanceAcceptance": "pending",
+  "stage1Exit": "open"
+}

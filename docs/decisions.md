@@ -16,7 +16,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 | The desk and its three memories are the first real problem | Initial acceptance depends on this complete experience |
 | Future elements and recipes | Ready-made and custom experiences share building blocks |
 | Active promotion follows readiness for complete dashboards | Completing the personal MVP does not trigger promotion |
-| Current work is documentation and process setup | No product implementation, dependency installation, or HA changes in these tasks |
+| Implementation requires corresponding scope | The bounded stage 1 change authorized only its isolated experiment, local tooling and synthetic fixtures; production HA and physical commands remain outside scope |
 | OpenSpec is adopted for SDD at the user's request | Changes must consider research, discovery, and tests before assuming contracts |
 | The project is intended to be open source from the outset | Early public development is distinct from later active promotion; original material uses Apache-2.0 with third-party terms preserved |
 | Public repository: `eduardobittencourt/ha-lovelace-extended` | Initial product documentation and OpenSpec setup are published on GitHub |
@@ -90,3 +90,7 @@ This avoids coupling discovery to one capture setup while keeping performance ac
 ## Recording new decisions
 
 Record context, choice, relevant alternatives, and consequences. State whether a decision was agreed with the user or proposed for validation. Update the affected scope document instead of accumulating contradictory decisions only in this record.
+
+## Bounded experimental findings — 2026-11-19
+
+The archived [minimum-card change](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) has demonstrated two independently bound slots, the real HA schema-form round trip, local action isolation, selective updates/cleanup and the recorded Chromium layout/input matrix. It uses native JavaScript and ordinary `hass` delivery as experimental mechanisms. These findings do not adopt a production renderer/editor, stable public format, minimum supported release or distribution model. Comparative discovery samples, a recorded technical budget review and fresh verification are published separately from correctness. The review withholds overall performance acceptance: candidate limits are unapproved and shared-cost/heap/paint limitations remain. Stage 1 stays open. Stage 0 synthesis and stage 2 desk/device/physical validation remain unchanged.

@@ -1,0 +1,29 @@
+homeassistant:
+  name: Minimum card experiment
+  country: BR
+  time_zone: UTC
+  unit_system: metric
+frontend:
+http:
+  server_host: 127.0.0.1
+  server_port: 8123
+lovelace:
+  mode: storage
+input_number:
+  mcc_display_a:
+    name: Experiment display A
+    initial: 21
+    min: 0
+    max: 100
+  mcc_display_b:
+    name: Experiment display B
+    initial: 72
+    min: 0
+    max: 100
+input_boolean:
+  mcc_target_a:
+    name: Experiment target A
+  mcc_target_b:
+    name: Experiment target B
+  mcc_target_body:
+    name: Experiment body target

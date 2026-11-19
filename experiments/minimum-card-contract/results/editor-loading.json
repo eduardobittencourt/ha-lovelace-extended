@@ -1,0 +1,828 @@
+{
+  "baseline": [
+    {
+      "path": "/frontend_latest/core.8e1df50399c907f8.js",
+      "transfer": 0,
+      "encoded": 17667,
+      "decoded": 56264
+    },
+    {
+      "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+      "transfer": 0,
+      "encoded": 149712,
+      "decoded": 617808
+    },
+    {
+      "path": "/static/images/home-assistant-logo-loading.svg",
+      "transfer": 0,
+      "encoded": 754,
+      "decoded": 2790
+    },
+    {
+      "path": "/static/images/open-home-foundation-on-light.svg",
+      "transfer": 0,
+      "encoded": 2867,
+      "decoded": 8900
+    },
+    {
+      "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+      "transfer": 0,
+      "encoded": 64632,
+      "decoded": 64632
+    },
+    {
+      "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+      "transfer": 0,
+      "encoded": 65484,
+      "decoded": 65484
+    },
+    {
+      "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+      "transfer": 0,
+      "encoded": 23569,
+      "decoded": 144862
+    },
+    {
+      "path": "/frontend_latest/84926.757e5d6addf80360.js",
+      "transfer": 0,
+      "encoded": 4737,
+      "decoded": 13430
+    },
+    {
+      "path": "/static/locale-data/intl-displaynames/en.json",
+      "transfer": 0,
+      "encoded": 11117,
+      "decoded": 43298
+    },
+    {
+      "path": "/frontend_latest/63901.dca0638873320b5f.js",
+      "transfer": 0,
+      "encoded": 200,
+      "decoded": 277
+    },
+    {
+      "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+      "transfer": 0,
+      "encoded": 3230,
+      "decoded": 8832
+    },
+    {
+      "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+      "transfer": 0,
+      "encoded": 9496,
+      "decoded": 30363
+    },
+    {
+      "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+      "transfer": 0,
+      "encoded": 3706,
+      "decoded": 28701
+    },
+    {
+      "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+      "transfer": 0,
+      "encoded": 3983,
+      "decoded": 16091
+    },
+    {
+      "path": "/frontend_latest/18725.db715f5021125499.js",
+      "transfer": 0,
+      "encoded": 4690,
+      "decoded": 17744
+    },
+    {
+      "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+      "transfer": 0,
+      "encoded": 8190,
+      "decoded": 26857
+    },
+    {
+      "path": "/frontend_latest/39274.a53045930d77fec6.js",
+      "transfer": 0,
+      "encoded": 6217,
+      "decoded": 25654
+    },
+    {
+      "path": "/frontend_latest/68870.d8eebb7477523216.js",
+      "transfer": 0,
+      "encoded": 15314,
+      "decoded": 53675
+    },
+    {
+      "path": "/frontend_latest/69238.01421cea45337956.js",
+      "transfer": 0,
+      "encoded": 3051,
+      "decoded": 9457
+    },
+    {
+      "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+      "transfer": 0,
+      "encoded": 4984,
+      "decoded": 15044
+    },
+    {
+      "path": "/frontend_latest/83741.a30c30447d08776f.js",
+      "transfer": 0,
+      "encoded": 7285,
+      "decoded": 43326
+    },
+    {
+      "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+      "transfer": 0,
+      "encoded": 931,
+      "decoded": 2319
+    },
+    {
+      "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+      "transfer": 0,
+      "encoded": 84627,
+      "decoded": 304768
+    },
+    {
+      "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+      "transfer": 0,
+      "encoded": 5374,
+      "decoded": 20760
+    },
+    {
+      "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+      "transfer": 0,
+      "encoded": 7150,
+      "decoded": 23384
+    },
+    {
+      "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+      "transfer": 0,
+      "encoded": 15309,
+      "decoded": 56938
+    },
+    {
+      "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+      "transfer": 0,
+      "encoded": 10522,
+      "decoded": 37878
+    },
+    {
+      "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+      "transfer": 0,
+      "encoded": 1845,
+      "decoded": 5854
+    },
+    {
+      "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+      "transfer": 0,
+      "encoded": 4549,
+      "decoded": 14898
+    },
+    {
+      "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+      "transfer": 0,
+      "encoded": 6724,
+      "decoded": 21981
+    },
+    {
+      "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+      "transfer": 0,
+      "encoded": 5128,
+      "decoded": 22849
+    },
+    {
+      "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+      "transfer": 0,
+      "encoded": 3917,
+      "decoded": 22422
+    },
+    {
+      "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+      "transfer": 0,
+      "encoded": 4526,
+      "decoded": 14378
+    },
+    {
+      "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+      "transfer": 0,
+      "encoded": 3604,
+      "decoded": 10347
+    },
+    {
+      "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+      "transfer": 0,
+      "encoded": 7982,
+      "decoded": 22739
+    },
+    {
+      "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+      "transfer": 0,
+      "encoded": 2281,
+      "decoded": 7236
+    },
+    {
+      "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+      "transfer": 0,
+      "encoded": 71122,
+      "decoded": 244742
+    },
+    {
+      "path": "/frontend_latest/96500.2b35c585f257f035.js",
+      "transfer": 0,
+      "encoded": 5585,
+      "decoded": 15722
+    },
+    {
+      "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+      "transfer": 0,
+      "encoded": 29886,
+      "decoded": 102036
+    },
+    {
+      "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+      "transfer": 0,
+      "encoded": 3756,
+      "decoded": 9553
+    },
+    {
+      "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+      "transfer": 0,
+      "encoded": 2752,
+      "decoded": 7507
+    },
+    {
+      "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+      "transfer": 0,
+      "encoded": 102387,
+      "decoded": 357962
+    },
+    {
+      "path": "/frontend_latest/13682.860b87712425221f.js",
+      "transfer": 0,
+      "encoded": 3370,
+      "decoded": 8619
+    },
+    {
+      "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+      "transfer": 0,
+      "encoded": 3880,
+      "decoded": 14965
+    },
+    {
+      "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+      "transfer": 0,
+      "encoded": 3182,
+      "decoded": 11866
+    },
+    {
+      "path": "/frontend_latest/37081.045060b7950b2462.js",
+      "transfer": 0,
+      "encoded": 4067,
+      "decoded": 14898
+    },
+    {
+      "path": "/frontend_latest/15313.702ba081a01119fc.js",
+      "transfer": 0,
+      "encoded": 5174,
+      "decoded": 20099
+    },
+    {
+      "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+      "transfer": 0,
+      "encoded": 3689,
+      "decoded": 14427
+    },
+    {
+      "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+      "transfer": 0,
+      "encoded": 5686,
+      "decoded": 17060
+    },
+    {
+      "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+      "transfer": 0,
+      "encoded": 2964,
+      "decoded": 9658
+    },
+    {
+      "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+      "transfer": 0,
+      "encoded": 4579,
+      "decoded": 16432
+    },
+    {
+      "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+      "transfer": 0,
+      "encoded": 4312,
+      "decoded": 16099
+    },
+    {
+      "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+      "transfer": 0,
+      "encoded": 8359,
+      "decoded": 23572
+    },
+    {
+      "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+      "transfer": 0,
+      "encoded": 5209,
+      "decoded": 13808
+    },
+    {
+      "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+      "transfer": 0,
+      "encoded": 3856,
+      "decoded": 20274
+    },
+    {
+      "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+      "transfer": 0,
+      "encoded": 8353,
+      "decoded": 36477
+    },
+    {
+      "path": "/frontend_latest/59795.0538085d7c03843f.js",
+      "transfer": 0,
+      "encoded": 5153,
+      "decoded": 18251
+    },
+    {
+      "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+      "transfer": 0,
+      "encoded": 7106,
+      "decoded": 27525
+    },
+    {
+      "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+      "transfer": 0,
+      "encoded": 3466,
+      "decoded": 9259
+    },
+    {
+      "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+      "transfer": 0,
+      "encoded": 3982,
+      "decoded": 17040
+    },
+    {
+      "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+      "transfer": 0,
+      "encoded": 3251,
+      "decoded": 11384
+    },
+    {
+      "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+      "transfer": 0,
+      "encoded": 9232,
+      "decoded": 36416
+    },
+    {
+      "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+      "transfer": 0,
+      "encoded": 2996,
+      "decoded": 10754
+    },
+    {
+      "path": "/frontend_latest/25035.bd7ba72891899657.js",
+      "transfer": 0,
+      "encoded": 3680,
+      "decoded": 14576
+    },
+    {
+      "path": "/frontend_latest/32087.e410292658bb97ee.js",
+      "transfer": 0,
+      "encoded": 11155,
+      "decoded": 52882
+    },
+    {
+      "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+      "transfer": 0,
+      "encoded": 16128,
+      "decoded": 66327
+    },
+    {
+      "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+      "transfer": 0,
+      "encoded": 8092,
+      "decoded": 31768
+    },
+    {
+      "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+      "transfer": 0,
+      "encoded": 8021,
+      "decoded": 35947
+    },
+    {
+      "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+      "transfer": 0,
+      "encoded": 5548,
+      "decoded": 19736
+    },
+    {
+      "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+      "transfer": 0,
+      "encoded": 3823,
+      "decoded": 11943
+    },
+    {
+      "path": "/frontend_latest/86062.1b4df64721982088.js",
+      "transfer": 0,
+      "encoded": 4540,
+      "decoded": 14263
+    },
+    {
+      "path": "/frontend_latest/86301.edfe51519a369db5.js",
+      "transfer": 0,
+      "encoded": 12627,
+      "decoded": 47880
+    },
+    {
+      "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+      "transfer": 0,
+      "encoded": 5545,
+      "decoded": 18778
+    },
+    {
+      "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+      "transfer": 0,
+      "encoded": 8556,
+      "decoded": 26301
+    },
+    {
+      "path": "/frontend_latest/77870.115dde3007d897c7.js",
+      "transfer": 0,
+      "encoded": 83151,
+      "decoded": 449950
+    },
+    {
+      "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+      "transfer": 0,
+      "encoded": 5256,
+      "decoded": 17462
+    },
+    {
+      "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+      "transfer": 0,
+      "encoded": 3659,
+      "decoded": 14489
+    },
+    {
+      "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+      "transfer": 0,
+      "encoded": 9476,
+      "decoded": 39640
+    },
+    {
+      "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+      "transfer": 0,
+      "encoded": 4571,
+      "decoded": 13178
+    },
+    {
+      "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+      "transfer": 0,
+      "encoded": 4223,
+      "decoded": 13483
+    },
+    {
+      "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+      "transfer": 0,
+      "encoded": 4637,
+      "decoded": 14658
+    },
+    {
+      "path": "/frontend_latest/19917.2dd995381c258dba.js",
+      "transfer": 0,
+      "encoded": 4245,
+      "decoded": 13074
+    },
+    {
+      "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+      "transfer": 0,
+      "encoded": 6731,
+      "decoded": 25662
+    },
+    {
+      "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+      "transfer": 0,
+      "encoded": 8283,
+      "decoded": 28420
+    },
+    {
+      "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+      "transfer": 0,
+      "encoded": 3555,
+      "decoded": 12728
+    },
+    {
+      "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+      "transfer": 0,
+      "encoded": 3254,
+      "decoded": 11050
+    },
+    {
+      "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+      "transfer": 0,
+      "encoded": 5368,
+      "decoded": 17649
+    },
+    {
+      "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+      "transfer": 0,
+      "encoded": 3042,
+      "decoded": 13146
+    },
+    {
+      "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+      "transfer": 0,
+      "encoded": 3344,
+      "decoded": 11209
+    },
+    {
+      "path": "/frontend_latest/8813.ec72272082c783e7.js",
+      "transfer": 0,
+      "encoded": 2953,
+      "decoded": 9106
+    },
+    {
+      "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+      "transfer": 0,
+      "encoded": 9386,
+      "decoded": 35109
+    },
+    {
+      "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+      "transfer": 0,
+      "encoded": 6395,
+      "decoded": 20745
+    },
+    {
+      "path": "/frontend_latest/26789.2304345f305509bd.js",
+      "transfer": 0,
+      "encoded": 4839,
+      "decoded": 14738
+    },
+    {
+      "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+      "transfer": 0,
+      "encoded": 11969,
+      "decoded": 56368
+    },
+    {
+      "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+      "transfer": 0,
+      "encoded": 7486,
+      "decoded": 46683
+    },
+    {
+      "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+      "transfer": 0,
+      "encoded": 24225,
+      "decoded": 98198
+    },
+    {
+      "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+      "transfer": 0,
+      "encoded": 8744,
+      "decoded": 33187
+    },
+    {
+      "path": "/static/fonts/roboto/Roboto-Bold.woff2",
+      "transfer": 0,
+      "encoded": 64740,
+      "decoded": 64740
+    },
+    {
+      "path": "/frontend_latest/78047.29972e2144512b40.js",
+      "transfer": 0,
+      "encoded": 5036,
+      "decoded": 18508
+    },
+    {
+      "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+      "transfer": 0,
+      "encoded": 18634,
+      "decoded": 135443
+    },
+    {
+      "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+      "transfer": 0,
+      "encoded": 4152,
+      "decoded": 13427
+    },
+    {
+      "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+      "transfer": 0,
+      "encoded": 9659,
+      "decoded": 33385
+    },
+    {
+      "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+      "transfer": 0,
+      "encoded": 8977,
+      "decoded": 29956
+    },
+    {
+      "path": "/frontend_latest/68353.335d5abff86f6202.js",
+      "transfer": 0,
+      "encoded": 2801,
+      "decoded": 7613
+    },
+    {
+      "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+      "transfer": 0,
+      "encoded": 3744,
+      "decoded": 15142
+    },
+    {
+      "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+      "transfer": 0,
+      "encoded": 4771,
+      "decoded": 13689
+    },
+    {
+      "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+      "transfer": 0,
+      "encoded": 3736,
+      "decoded": 11707
+    },
+    {
+      "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+      "transfer": 0,
+      "encoded": 4336,
+      "decoded": 15843
+    },
+    {
+      "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+      "transfer": 0,
+      "encoded": 11492,
+      "decoded": 43923
+    },
+    {
+      "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+      "transfer": 0,
+      "encoded": 10160,
+      "decoded": 39411
+    },
+    {
+      "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+      "transfer": 0,
+      "encoded": 3037,
+      "decoded": 9443
+    },
+    {
+      "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+      "transfer": 0,
+      "encoded": 2747,
+      "decoded": 9009
+    },
+    {
+      "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+      "transfer": 0,
+      "encoded": 2331,
+      "decoded": 6490
+    },
+    {
+      "path": "/local/minimum-card-contract/card.js",
+      "transfer": 7894,
+      "encoded": 7594,
+      "decoded": 7594
+    },
+    {
+      "path": "/frontend_latest/92947.4d279b29cbe6b7a1.js",
+      "transfer": 0,
+      "encoded": 9604,
+      "decoded": 42091
+    },
+    {
+      "path": "/local/minimum-card-contract/recorder.js",
+      "transfer": 3211,
+      "encoded": 2911,
+      "decoded": 2911
+    },
+    {
+      "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+      "transfer": 0,
+      "encoded": 12880,
+      "decoded": 53156
+    },
+    {
+      "path": "/static/mdi/70d08c50ec4522dd75d11338db57846588263ee2.json",
+      "transfer": 9395,
+      "encoded": 9095,
+      "decoded": 54525
+    },
+    {
+      "path": "/local/minimum-card-contract/card.css",
+      "transfer": 1405,
+      "encoded": 1105,
+      "decoded": 1105
+    }
+  ],
+  "phases": [
+    {
+      "name": "first_open",
+      "resources": [
+        {
+          "path": "/frontend_latest/18580.f050999583d37284.js",
+          "transfer": 11870,
+          "encoded": 11570,
+          "decoded": 37140,
+          "duration": 2.899999976158142
+        },
+        {
+          "path": "/frontend_latest/219.6ee9a821c358d7cd.js",
+          "transfer": 477,
+          "encoded": 177,
+          "decoded": 255,
+          "duration": 3.100000023841858
+        },
+        {
+          "path": "/frontend_latest/7135.ebcb32f12f2350cd.js",
+          "transfer": 3626,
+          "encoded": 3326,
+          "decoded": 11983,
+          "duration": 4.399999976158142
+        },
+        {
+          "path": "/frontend_latest/85832.b237c7d70460bb91.js",
+          "transfer": 8337,
+          "encoded": 8037,
+          "decoded": 32539,
+          "duration": 5.200000047683716
+        },
+        {
+          "path": "/frontend_latest/71901.a375170da66be3fe.js",
+          "transfer": 3872,
+          "encoded": 3572,
+          "decoded": 11724,
+          "duration": 4.699999928474426
+        },
+        {
+          "path": "/frontend_latest/1293.610e0fa4a72ab6e1.js",
+          "transfer": 3533,
+          "encoded": 3233,
+          "decoded": 10266,
+          "duration": 2.399999976158142
+        },
+        {
+          "path": "/frontend_latest/61641.accc5478f151e565.js",
+          "transfer": 4780,
+          "encoded": 4480,
+          "decoded": 16277,
+          "duration": 3.5
+        },
+        {
+          "path": "/frontend_latest/42505.998d2bfa85cf7519.js",
+          "transfer": 3174,
+          "encoded": 2874,
+          "decoded": 8820,
+          "duration": 5.399999976158142
+        },
+        {
+          "path": "/frontend_latest/71988.32f87d9cb2ac50a3.js",
+          "transfer": 3529,
+          "encoded": 3229,
+          "decoded": 8785,
+          "duration": 6.100000023841858
+        },
+        {
+          "path": "/frontend_latest/17352.2eb657d27dd56b82.js",
+          "transfer": 3965,
+          "encoded": 3665,
+          "decoded": 11509,
+          "duration": 6.5
+        },
+        {
+          "path": "/frontend_latest/13094.f02df57556f83d65.js",
+          "transfer": 4195,
+          "encoded": 3895,
+          "decoded": 13614,
+          "duration": 5.799999952316284
+        },
+        {
+          "path": "/frontend_latest/27256.f64de1081affdd43.js",
+          "transfer": 6887,
+          "encoded": 6587,
+          "decoded": 25090,
+          "duration": 6.200000047683716
+        },
+        {
+          "path": "/frontend_latest/85840.07639c348a12ad23.js",
+          "transfer": 6003,
+          "encoded": 5703,
+          "decoded": 23140,
+          "duration": 6.899999976158142
+        },
+        {
+          "path": "/frontend_latest/48686.a98d5e49eaf3676a.js",
+          "transfer": 4178,
+          "encoded": 3878,
+          "decoded": 15083,
+          "duration": 6.599999904632568
+        }
+      ]
+    },
+    {
+      "name": "same_document_reopen",
+      "resources": []
+    }
+  ],
+  "errors": []
+}

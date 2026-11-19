@@ -1,0 +1,124 @@
+{
+  "status": "frozen before experimental correctness and timing captures",
+  "core": "2026.11.1",
+  "frontend": "20261028.5",
+  "image_amd64": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+  "playwright": "1.65.1",
+  "browser_revision": "1255",
+  "browser": "Chrome Headless Shell 159.0.8154.6",
+  "layout": {
+    "layouts": [
+      "sections",
+      "masonry"
+    ],
+    "target_widths": [
+      240,
+      360,
+      600
+    ],
+    "viewports": [
+      256,
+      376,
+      632
+    ],
+    "viewport_height": 900,
+    "actual_widths": {
+      "sections": [
+        240,
+        360,
+        500
+      ],
+      "masonry": [
+        240,
+        360,
+        492
+      ]
+    },
+    "wide_limit": "Nearest default one-column allocations; 600 is beyond these native default maxima",
+    "text_scale": [
+      1,
+      2
+    ],
+    "text_scale_method": "Set host font-size from 16px to 32px; verify computed size. Viewport zoom remains 1.",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "locales": [
+      "en",
+      "pt-BR"
+    ],
+    "labels": [
+      "ordinary",
+      "long unbroken and spaced labels"
+    ],
+    "device_scale_factor": 1,
+    "inputs": [
+      "mouse click",
+      "Tab/Enter/Space",
+      "Playwright touchscreen.tap in hasTouch context (emulated)"
+    ],
+    "locale_method": "Set local HA frontend user-data language preference; verify live hass.language and browser locale."
+  },
+  "performance": {
+    "viewport": [
+      1280,
+      900
+    ],
+    "theme": "light",
+    "locale": "en",
+    "text_scale": 1,
+    "experimental_cards": [
+      1,
+      10
+    ],
+    "native_tiles_per_experimental_card": 3,
+    "reference_difference": "Two native display Tiles use independent perform-action targets; a third Tile represents the body target and additionally displays its state. Tile layout/controls and editor differ. Descriptive costs only, no universal speed ranking.",
+    "cold_trials": 10,
+    "warm_trials": 10,
+    "interaction_observations": 30,
+    "steady_hz": 1,
+    "steady_seconds": 60,
+    "burst_hz": 20,
+    "burst_seconds": 10,
+    "update_classes": [
+      "relevant",
+      "unrelated"
+    ],
+    "lifecycle_cycles": 50,
+    "lifecycle_settle_ms": 100,
+    "cache": "New context and CDP Network.clearBrowserCache for cold; same context reload for warm; service workers blocked; alternate native/experimental order",
+    "instrumentation": "Correctness observers/counters separate from timing; CDP and resource timing limitations reported",
+    "budgets": "Pending sample review and explicit agreement; fresh verification required"
+  },
+  "limits": {
+    "ha_cpu_affinity_count": 2,
+    "ha_per_process_address_space_bytes": 3221225472,
+    "ha_file_descriptors": 1024,
+    "browser_cpu_throttling": "none",
+    "browser_cpu_available_count_at_preflight": 8,
+    "container_wide_memory_quota": "not configured; no host cgroup change",
+    "isolation": "Bubblewrap, all namespaces, capabilities dropped, no external network; Unix relay bound only to 127.0.0.1:18123"
+  },
+  "functional_gates": [
+    "Each delta-spec scenario maps to an observed result",
+    "Full real-HA configurations equal after save/reload/reopen; untouched fields preserved",
+    "One intent per activation, zero body intents for inner actions; no forwarded call_service",
+    "Invalid/missing/unknown/unavailable states isolated; recovery replays no action",
+    "Zero unrelated slot DOM mutations; only dependent relevant content changes",
+    "Owned listeners/subscriptions/scheduled work return to zero after removal",
+    "No overlap, unintended overflow or clipping; reachable controls, visible focus and names"
+  ],
+  "capture_commands": [
+    "node tools/ha-smoke.mjs",
+    "node tools/recorder-check.mjs",
+    "node tools/allocate.mjs",
+    "node tools/runtime-check.mjs",
+    "node tools/persistence-check.mjs",
+    "node tools/layout-check.mjs",
+    "node tools/measure.mjs",
+    "node tools/editor-load-check.mjs",
+    "node tools/measurement-preflight.mjs",
+    "node tools/measure.mjs --diagnostics"
+  ]
+}

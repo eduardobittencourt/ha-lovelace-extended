@@ -1,6 +1,6 @@
 # Incremental roadmap
 
-Product stage 0 is in progress; stages 1–6 are pending. No schedule or implementation is implied. Each stage should produce small, reviewable evidence before the next.
+Product stages 0 and 1 are in progress; stages 2–6 are pending. Stage 1 has a bounded experimental prototype; no production implementation or schedule is implied. Each stage should produce small, reviewable evidence before the next.
 
 ## Process setup — completed
 
@@ -16,7 +16,7 @@ This setup does not complete product research. Stage 0 research is tracked separ
 The project is intended to be open source from the outset. This is independent of stage 6 readiness for active promotion.
 
 - [x] Adopt Apache-2.0 for original material and preserve third-party terms in [license notices](../THIRD_PARTY_NOTICES.md).
-- [x] Publish the public repository at [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended), accurately stating its documentation-only status.
+- [x] Publish the public repository at [eduardobittencourt/ha-lovelace-extended](https://github.com/eduardobittencourt/ha-lovelace-extended), accurately stating its then-documentation-only status.
 - [x] Review contributor-facing instructions and tracked content for publication; keep durable findings understandable without private environment access.
 - [x] Add public contribution guidance, conduct/security policies and focused issue/PR templates; verify reporting routes and preserve upstream terms.
 
@@ -46,19 +46,19 @@ The current sequence separates preparation from experimental evidence. It supers
 
 ## 1. Demonstrate the minimum card contract
 
-Use the [bounded experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) when proposing the separate experimental change. It is a plan, not an executed prototype.
+The archived [demonstrate-minimum-card-contract experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) executes the separately scoped [bounded brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment). Its [source and reproduction guide](../experiments/minimum-card-contract/README.md) are experimental. Binding/editor correctness and recorded Chromium layout coverage are demonstrated. Comparative measurements, a negative technical budget review and fresh verification are published; performance acceptance remains open because candidate limits are unapproved and evidence limitations remain. This does not complete stage 0 or the desk MVP.
 
 **Entry:** document bounded questions, versioned contracts, a reproducible test environment, safe fixtures, functional/layout pass/fail checks and a measurement plan before execution. Select only the experimental mechanisms needed to investigate the questions. Neither access to a particular phone nor an existing numerical baseline is required. Experimental code, dependencies and test-environment changes require their own proposal and scope.
 
-- [ ] Bound hypotheses and checks for technical experiments ([D2](discovery.md#d2-baselines-alternatives-and-technical-experiments)); pin HA/frontend, browser, tools, theme/locale and concrete narrow/intermediate/wide card allocations before running.
-- [ ] Build the smallest surface with two elements bound to different entities.
-- [ ] Configure both visually in HA; save, reload, reopen and change one binding without losing the other.
-- [ ] Execute an independent inner action once and verify isolation from the card body action using safe intercepted dispatch.
-- [ ] Measure relevant/unrelated update work, editor loading and mount/unmount cleanup; check invalid/missing/unavailable states and theme/locale changes.
-- [ ] Validate Sections and Masonry allocations, long labels, enlarged text, keyboard focus, touch reachability and accessible names; record failures and tested coverage.
-- [ ] Collect comparable native/experimental performance samples using the protocol below; compare the current desk solution only where workloads match and it is available.
+- [x] Bound hypotheses and checks for technical experiments ([D2](discovery.md#d2-baselines-alternatives-and-technical-experiments)); pin HA/frontend, browser, tools, theme/locale and concrete narrow/intermediate/wide card allocations before running.
+- [x] Build the smallest surface with two elements bound to different entities.
+- [x] Configure both visually in HA; save, reload, reopen and change one binding without losing the other.
+- [x] Execute an independent inner action once and verify isolation from the card body action using safe intercepted dispatch.
+- [x] Measure relevant/unrelated update work, editor loading and mount/unmount cleanup; check invalid/missing/unavailable states and theme/locale changes.
+- [x] Validate Sections and Masonry allocations, long labels, enlarged text, keyboard focus, touch reachability and accessible names; record failures and tested coverage.
+- [x] Collect comparable native/experimental performance samples using the protocol below; compare the current desk solution only where workloads match and it is available.
 - [ ] Justify numerical budgets from evidence and requirements, then evaluate results against them before accepting performance or a cost-dependent production stack choice.
-- [ ] Update research and decisions with actual results, costs and limitations; scope another change if the approach must change.
+- [x] Update research and decisions with actual results, costs and limitations; scope another change if the approach must change.
 
 **Exit:** demonstrated binding/editor correctness, layout coverage and measured costs with justified acceptance budgets met. Limited or negative feasibility findings are valid experimental outcomes, but do not close this exit or prove acceptable performance. Missing measurements remain pending. A free grid or recipe framework is not required; a prototype does not become production code automatically.
 

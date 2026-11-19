@@ -1,6 +1,6 @@
 # Conceptual architecture
 
-This document records directions and hypotheses. It does not define an implemented API, configuration syntax, or settled stack.
+This document records directions and hypotheses. The [bounded experimental source](../experiments/minimum-card-contract/README.md) does not define a public API, stable configuration syntax or settled production stack.
 
 ## System parts
 
@@ -37,11 +37,11 @@ A reusable visual element does not solve domain semantics by itself: brightness,
 
 ### Stage 0 contract findings
 
-The [versioned research](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md#frontend-contract-assessment-task-22) targets Core 2026.11.1 / frontend 20261028.5. Its documented card/editor boundaries include `setConfig`, `hass`, `getConfigForm` or `getConfigElement`, and full configuration events from custom editors. Schema-driven forms are a candidate to investigate before building a custom editor; independent fields and save/reopen behavior still require a code experiment.
+The [versioned research](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/research.md#frontend-contract-assessment-task-22) targets Core 2026.11.1 / frontend 20261028.5. Its documented card/editor boundaries include `setConfig`, `hass`, `getConfigForm` or `getConfigElement`, and full configuration events from custom editors. The [stage 1 experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) has demonstrated schema-driven forms and independent flat-field save/reload/reopen on the pinned isolated release. Nested/general bindings and public configuration stability remain unproven.
 
 The pinned frontend separates state, API, UI and internationalization contexts. Selective updates must still account for locale, theme, configuration and availability changes; tracking only the primary entity is insufficient for this library. Subscriptions need explicit cleanup. Context use is an available approach, not an adopted strategy or demonstrated performance result.
 
-Tile is the selected visual research reference, with bottom controls in Sections. Its source separates inner actions from body actions and checks cover capabilities. The library must demonstrate its own event isolation and touch/keyboard behavior. `getGridOptions` and masonry `getCardSize` describe different layout contracts; Tile's size is not proof that the additional actions fit.
+Tile is the selected visual research reference, with bottom controls in Sections. Its source separates inner actions from body actions and checks cover capabilities. The two-slot experiment has demonstrated local action isolation and recorded Chromium keyboard/emulated-touch behavior; complete desk and actual-device validation remain open. `getGridOptions` and masonry `getCardSize` describe different layout contracts; Tile's size is not proof that the additional actions fit.
 
 Direct reuse of `ha-*` / `hui-*` elements and internal action helpers remains version-coupled even when the native source is useful as a reference. Documented form schemas do not make every internal selector element a stable API. No production dependency, serialization format, minimum HA version, or stack is settled by this research.
 
@@ -54,6 +54,11 @@ Validate concrete narrow/intermediate/wide allocations in Sections and Masonry, 
 The iPhone reference is one test environment. Pin versions and record actual widths for each experiment; other recorded environments can start discovery, without establishing Safari or universal compatibility. Follow the [roadmap gates](roadmap.md#performance-protocol-define-before-execution-measure-during-the-experiment). Native visual alignment does not select a private-component dependency or production stack.
 
 ## Performance
+
+The two-slot experiment uses native JavaScript and ordinary `hass` delivery with
+selective DOM patches. Synthetic correctness and lifecycle checks have passed;
+comparative costs and fresh verification are reported, with overall performance
+acceptance withheld in its research record. This is not production adoption.
 
 Hypotheses to validate in the technical experiment:
 

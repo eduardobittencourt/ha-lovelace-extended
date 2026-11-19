@@ -1,9 +1,11 @@
 # Contributing to Lovelace Extended
 
-Lovelace Extended is a public, documentation-only project in conception. There
-is no installable card, package, release, build command or product test suite yet.
-Useful contributions now include documentation corrections, source-backed
-research, clearer acceptance scenarios and bounded proposals.
+Lovelace Extended is a public project in conception with a bounded experimental
+prototype. There is no production card, installable package or release. Useful
+contributions include documentation corrections, source-backed research, clearer
+acceptance scenarios and bounded proposals. Experimental setup and checks live
+in [the experiment guide](experiments/minimum-card-contract/README.md); they do
+not establish production tooling or supported Home Assistant versions.
 
 Start with the [README](README.md), [roadmap](docs/roadmap.md) and the documents
 relevant to your contribution. The desk is the first acceptance example of a
@@ -100,9 +102,10 @@ openspec schema validate research-first --json
 ```
 
 Use the real change name. Check template/configuration YAML when editing it.
-There is no repository-wide build or runtime test command at this stage; report
-which checks were applicable, what ran and any limitations. Do not install
-runtime dependencies merely to validate a documentation contribution.
+There is no repository-wide production build or test command. For experimental
+source changes, run the relevant checks documented with that experiment and
+report conditions and limitations. Do not install runtime dependencies merely
+to validate a documentation contribution.
 
 In the PR, explain the problem and result, link an issue or OpenSpec change when
 relevant, and summarize evidence, checks and scope/decision impacts. For example,

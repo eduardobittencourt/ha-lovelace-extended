@@ -9,7 +9,7 @@ Initialized with OpenSpec **1.14.3**, **Codex** integration, and the **core** pr
 - [Research template](../openspec/schemas/research-first/templates/research.md): facts, hypotheses, questions, experiments, and outcomes.
 - Generated skills in `.agents/skills/`, versioned in the project. Customize the process through config, schema, and documents rather than editing generated skills manually.
 
-The research change [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md) was archived on 2026-11-15 with all 16 research/documentation tasks complete. The research is separate from product implementation; no runtime specification has been consolidated. Use `openspec list --json` for current work rather than inferring lifecycle state from this archive record. Tool setup and completed research tasks do not by themselves complete stage 0.
+The research change [discover-desk-and-frontend-contracts](../openspec/changes/archive/2026-11-15-discover-desk-and-frontend-contracts/proposal.md) was archived on 2026-11-15 with all 16 research/documentation tasks complete. That research was separate from product implementation and consolidated no runtime specification. The later bounded experiment has its own consolidated contract, described below. Use `openspec list --json` for current work rather than inferring lifecycle state from this archive record. Tool setup and completed research tasks do not by themselves complete stage 0.
 
 ## Contributor workflow and licensing
 
@@ -64,11 +64,11 @@ For research without product behavior changes, declare no new/modified capabilit
 
 If an answer requires a prototype, the research delivery may specify a later experimental change. Do not assume unexecuted test results to settle a production design.
 
-## Next bounded experimental proposal
+## Archived bounded experiment
 
 The documentation change [align-roadmap-with-native-ha-layout](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/proposal.md) was archived on 2026-11-18 with all 8/8 documentation tasks complete. It revises preparation and acceptance timing; it delivers no runtime implementation and does not declare stage 0 complete. The remaining scope synthesis is tracked in the roadmap. Historical findings remain unchanged.
 
-The [experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) defines the next separately scoped delivery: two independent bindings, visual save/reload/reopen in HA, isolated actions, selective updates/cleanup, allocated-width and accessibility checks, and comparable measurements. Its code, dependencies and test-environment setup require that later scope. A standalone mock cannot establish actual HA editor persistence.
+The [experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) guided the separately scoped experimental delivery: two independent bindings, visual save/reload/reopen in HA, isolated actions, selective updates/cleanup, allocated-width and accessibility checks, and comparable measurements. Its code, dependencies and test-environment setup belong to the separately authorized [demonstrate-minimum-card-contract change](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/tasks.md). That experiment now records actual isolated HA persistence and bounded correctness/layout evidence; performance acceptance remains open. Follow its [reproduction guide](../experiments/minimum-card-contract/README.md) for experimental source checks. A standalone mock cannot establish actual HA editor persistence, and experimental results do not automatically become production contracts.
 
 ## Supporting CLI commands
 
@@ -107,3 +107,13 @@ The agent must check that evidence supports subsequent artifacts. A research cha
 `openspec update --help` describes integration regeneration. Update only within a maintenance task; use the core profile and review the diff. Recheck schema resolution, dependencies, rules, and skills after updates. Local schemas are an experimental OpenSpec feature; review the fork against upstream changes.
 
 Official references: [customization](https://github.com/Fission-AI/OpenSpec/blob/main/docs/customization.md) and [OPSX workflow](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md). The installed CLI is the reference for commands actually available in this environment.
+
+## Minimum-card archive and consolidated contract
+
+The [minimum-card experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md)
+was archived on 2026-11-19 using `research-first`, with 20/20 tasks complete.
+Its nine requirements and 19 scenarios are consolidated in
+[independent-element-bindings](../openspec/specs/independent-element-bindings/spec.md).
+This specification applies to the bounded experiment and explicitly preserves
+pending acceptance gates. Performance remains unapproved and stage 1 remains
+open; archiving does not adopt a production contract or complete the desk MVP.
