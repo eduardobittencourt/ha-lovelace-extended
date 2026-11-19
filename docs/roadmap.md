@@ -1,6 +1,6 @@
 # Incremental roadmap
 
-Product stages 0 and 1 are in progress; stages 2–6 are pending. Stage 1 has a bounded experimental prototype; no production implementation or schedule is implied. Each stage should produce small, reviewable evidence before the next.
+Product stage 0 is complete as a documented scope/acceptance synthesis; stage 1 is in progress and stages 2–6 are pending. Stage 1 has a bounded experimental prototype; no production implementation or schedule is implied. Each stage should produce small, reviewable evidence before the next.
 
 ## Process setup — completed
 
@@ -33,7 +33,7 @@ Archived research evidence (2026-11-15): [discover-desk-and-frontend-contracts](
 
 The current sequence separates preparation from experimental evidence. It supersedes the archive's proposal to require phone baselines before the first experiment; historical observations and limitations remain valid. A reference device is neither a required development host nor an exclusive supported device.
 
-- [ ] Complete the short scope/acceptance specification from problem discovery and the actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing read-only findings from later physical tests.
+- [x] Complete the short scope/acceptance specification from problem discovery and the actual desk contract ([D0](discovery.md#d0-problem-discovery-and-the-actual-desk-contract)), distinguishing read-only findings from later physical tests.
 - [x] Research frontend contracts and select a versioned visual reference ([D1](discovery.md#d1-visual-discovery-and-frontend-contracts)); source findings do not prove runtime compatibility.
 - [x] Read and verify the desk's entities, attributes, capabilities, and action metadata (read-only; physical execution remains separate).
 - [x] Record only the necessary contract, without credentials or private inventories.
@@ -42,11 +42,13 @@ The current sequence separates preparation from experimental evidence. It supers
 - [x] Define the layout starting point: HA allocates dashboard space through Sections/Masonry contracts; the card adapts internally to that space. Concrete experimental allocations and environments are selected before stage 1 execution.
 - [x] Record sources, versions, hypotheses and measurement methods without inventing baseline samples or numerical limits.
 
-**Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration. The remaining synthesis item is open; this documentation revision does not declare stage 0 complete. A separately scoped stage 1 proposal may investigate its own unresolved technical questions under the entry gate below.
+**Exit:** a short specification that makes MVP criteria verifiable without assumptions about the integration. Met on 2026-11-19 by the [desk acceptance reference](mvp.md#acceptance-criteria) and its [coverage review](../openspec/changes/archive/2026-11-19-synthesize-desk-mvp-acceptance/research.md#r2-acceptance-coverage-review): dated roles/actions, all eleven criteria mapped and no material synthesis blocker. This closes definition only; all full-desk scenario results remain pending. Stage 1 performance and stage 2 desk/device/physical/everyday gates remain open.
 
 ## 1. Demonstrate the minimum card contract
 
-The archived [demonstrate-minimum-card-contract experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) executes the separately scoped [bounded brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment). Its [source and reproduction guide](../experiments/minimum-card-contract/README.md) are experimental. Binding/editor correctness and recorded Chromium layout coverage are demonstrated. Comparative measurements, a negative technical budget review and fresh verification are published; performance acceptance remains open because candidate limits are unapproved and evidence limitations remain. This does not complete stage 0 or the desk MVP.
+The archived [demonstrate-minimum-card-contract experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) executes the separately scoped [bounded brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment). Its [source and reproduction guide](../experiments/minimum-card-contract/README.md) are experimental. Binding/editor correctness and recorded Chromium layout coverage are demonstrated. Comparative measurements, a negative technical budget review and fresh verification are published; performance acceptance remains open because candidate limits are unapproved and evidence limitations remain. This experiment alone does not establish desk scope completeness or complete the desk MVP; the separate stage 0 synthesis above supplies the scope definition.
+
+The separate [performance handoff](../openspec/changes/archive/2026-11-19-synthesize-desk-mvp-acceptance/research.md#stage-1-performance-handoff) records the requirement agreement, shared-cost attribution, retained cold outlier and heap/paint limitations still to resolve. This documentation synthesis approves no budget and performs no fresh acceptance measurements.
 
 **Entry:** document bounded questions, versioned contracts, a reproducible test environment, safe fixtures, functional/layout pass/fail checks and a measurement plan before execution. Select only the experimental mechanisms needed to investigate the questions. Neither access to a particular phone nor an existing numerical baseline is required. Experimental code, dependencies and test-environment changes require their own proposal and scope.
 

@@ -24,6 +24,8 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 
 **Exit evidence:** a sanitized role/data/action map, known limitations, and acceptance scenarios. Physical observation is separate from reading data and requires corresponding task scope.
 
+The [desk scope/acceptance synthesis](mvp.md#acceptance-criteria) and [coverage review](../openspec/changes/archive/2026-11-19-synthesize-desk-mvp-acceptance/research.md#r2-acceptance-coverage-review), completed on 2026-11-19, meet the stage 0 definition exit: all eleven criteria have prospective scenarios and no material synthesis blocker remains. Historical observations are not a current-installation check. Reverify actual capabilities during implementation validation; execute full-desk scenarios, including external lock and physical/everyday observations, only in separately scoped stage 2 work.
+
 ## D1. Visual discovery and frontend contracts
 
 **Before:** choosing a visual reference and the contracts needed for an experiment; recheck version applicability before execution and dependency suitability before production adoption.
@@ -53,7 +55,7 @@ Use the change's `research.md` to maintain this record. Public sources should ha
 
 An experiment needing code must be an explicitly bounded experimental change. Success does not automatically make its prototype production code.
 
-The archived [minimum-card experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) records actual two-slot binding/editor persistence, intercepted actions, selective updates/lifecycle and Chromium layout coverage. Its performance gate remains open. These findings do not close D0 synthesis, complete desk acceptance or establish untested device/assistive-technology support.
+The archived [minimum-card experiment](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/research.md) records actual two-slot binding/editor persistence, intercepted actions, selective updates/lifecycle and Chromium layout coverage. Its performance gate remains open. These findings are supporting evidence only; the separate D0 synthesis supplies scope completeness, while desk acceptance and untested device/assistive-technology support remain unproven.
 
 ## D3. Experience and integration validation
 
