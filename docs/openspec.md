@@ -1,5 +1,9 @@
 # OpenSpec in this project
 
+## Performance budget decisions
+
+Follow the [standing benchmark policy](performance-budgets.md). The maintainer delegates numerical selection to agents: use relevant measured comparator values and keep them authoritative until the maintainer revises them. Do not block planning or verification on user-invented numbers, subjective workload/network/responsiveness allowances or separate approval of selected benchmark values. Earlier completed artifacts retain their historical approval prerequisites; the current policy supersedes them. Keep budget adoption separate from measured acceptance.
+
 ## Setup
 
 Initialized with OpenSpec **1.14.3**, **Codex** integration, and the **core** profile. All project artifacts are now configured to use English. The existing devbox CLI is used; no product runtime dependency or build tool was added.
@@ -144,3 +148,13 @@ failures, and five pending requirements. The maintainer permits comparative
 component-library benchmarks to inform justified limits, without guessed numbers.
 This document review closes no performance gate and authorizes no new campaign;
 stage 1 remains open.
+
+## Archived stage 1 verification — 2026-11-19
+
+The [verification investigation](../openspec/changes/archive/2026-11-19-verify-stage-one-performance/research.md)
+was archived using research-first with 23/23 tasks complete. The requested sync
+assessment found no delta specs (skip_specs: true); main specifications remain
+unchanged. The [compact report](../experiments/minimum-card-contract/performance-verification/review.md)
+records five bounded passes, four failed rows and unsupported presentation.
+Stage 1 remains open. Detailed captures and replay tooling are local-only
+evidence, excluded from the commit.

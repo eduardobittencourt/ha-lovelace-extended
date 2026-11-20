@@ -34,6 +34,12 @@ context: |
   Discovery-only changes may deliver research and docs. Product implementation
   and physical tests require corresponding task scope; this setup authorizes
   neither. Do not install tooling merely to plan a change.
+  Performance budgets: follow docs/performance-budgets.md. The maintainer delegates
+  selection of relevant benchmark-derived numerical limits to agents; selected
+  values are authoritative until the maintainer revises them. Do not request
+  user-invented targets, subjective workload/network/responsiveness allowances
+  or separate numerical approval. Missing measurements require investigation.
+  Adopted limits still require fresh verification before acceptance.
   External evidence: ~/research/ha-lovelace-extended/<task>/. Preserve sanitized
   durable findings and source references in the repository; never credentials,
   private inventories or full HA configurations.

@@ -417,3 +417,11 @@ approval-backed editor driver in a dedicated serial session after lab preflight.
 node tools/diagnostic-editor.mjs editor-new
 node tools/diagnostic-editor-evaluate.mjs performance-diagnostics/editor-approval.json "$MCC_DIAGNOSTICS/editor-new/plan.json" "$MCC_DIAGNOSTICS/editor-new/samples.json" "$MCC_DIAGNOSTICS/editor-new-result.json"
 ```
+
+## Fresh stage 1 verification — 2026-11-20 (UTC)
+
+The [fresh stage 1 verification](./performance-verification/review.md) summarizes 120 valid load observations, 72 valid update-only windows and 90 valid interaction windows, with 900 recorded local intents and 0 dispatch timeouts. CPU, transfer and update-script observations exceed the unchanged adopted ceilings. Two separately frozen cold series retain 240 observations and five new ten-group experimental failures, while same-helper R1 cold observations add four more; the transparent driver observer locates prolonged locator waits without resolving visibility-versus-polling causality or either historical failure. Retention is **pass** under its documented calibrated boundary; presentation is **unsupported**. The [ten-row reconciliation](./performance-verification/review.md#stage-decision) keeps stage 1 open. Candidate/final-MVP performance, reference-device/accessibility, real integration/transport, physical and everyday gates remain separate; no production stack is adopted.
+
+The [evidence summary](performance-verification/review.md#evidence-and-reproduction) records versions, protected hashes, method boundaries and outcomes. Detailed captures, scripts and replay inputs are retained only in local research evidence. The first unadmitted retention capture remains explicit; structural marker detection was positively calibrated before the adopted discovery. Raw heaps/traces remain external and private.
+
+Operational duration: R1 alone has 42 minutes of update-only windows and 60 minutes of matched interaction/control windows, executed serially. Acquisition, calibration, loads, cold diagnosis, conditional GC series and final regression add time. This is an observation schedule, not a product latency target. Keep the one-second 1 GiB storage guard and projected heap-write checks; only campaign-owned image allocation or explicitly authorized regenerable caches may be removed.

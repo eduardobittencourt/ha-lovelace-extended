@@ -1,0 +1,4 @@
+# Capture and replay artifacts belong in external local research.
+*
+!.gitignore
+!review.md

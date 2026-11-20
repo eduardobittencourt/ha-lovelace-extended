@@ -1,5 +1,11 @@
 # Decisions and open questions
 
+## Current performance budget authority — 2026-11-19
+
+The maintainer delegates benchmark-based numerical selection to agents and rejects further requests for arbitrary user-supplied targets or separate numerical approval. The [standing policy and adopted limits](performance-budgets.md) supersede earlier approval/objective prerequisites below. Native per-cell maxima are now the authoritative CPU, transfer and update ceilings until the maintainer revises them. Fresh verification is now [published](../experiments/minimum-card-contract/performance-verification/review.md) and fails selected cells; numerical adoption does not convert discovery into acceptance or erase historical failures.
+
+This initial record comes from the product discussion. “Agreed” identifies directions expressed by the user; “proposed” identifies choices still needing validation.
+
 This initial record comes from the product discussion. “Agreed” identifies directions expressed by the user; “proposed” identifies choices still needing validation.
 
 ## Agreed
@@ -73,7 +79,7 @@ This avoids coupling discovery to one capture setup while keeping performance ac
 3. Candidate source/action needs are documented in the MVP; validate visual editing and persistence before settling the public contract.
 4. Candidate fixed regions and editor flows are documented; rendered fit and exact minimum dimensions remain open.
 5. iPhone 14 Pro / Safari / reported iOS 27 remains a reference test environment; its samples are not an experiment-entry requirement. What minimum HA version and wider support matrix will be promised remains unresolved.
-6. Which concrete performance metrics, scenarios, and limits will be adopted?
+6. Apply the [adopted benchmark limits](performance-budgets.md), select further scenario-specific values under the standing delegation, and verify them without asking the maintainer for numerical targets.
 7. Which minimal stack meets the HA and editor contracts with sustainable cost?
 
 ## Resolve when the relevant stage requires it
@@ -132,3 +138,9 @@ The [diagnosis](../experiments/minimum-card-contract/performance-diagnostics/dia
 The [ten-row decision record](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles approval provenance and measured outcomes against the combined diagnostic review. Runtime size, warm readiness, local intent and editor readiness retain bounded passes. Cold readiness passed the latest campaign but the 1108.60 and 1104.80 ms historical failures remain unresolved against the approved 1000 ms maximum. CPU, transfer and updates require representative user objectives and explicit budget agreement; retained bytes and presentation require calibrated methods before budgets and verification. No row is waived.
 
 In the [budget review response](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#focused-maintainer-review), the maintainer declined to guess numerical thresholds and permitted other component-library benchmarks as supporting evidence. The stated objective is to avoid a component whose processing weight makes the dashboard nearly unusable. The [comparative direction](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#comparative-benchmark-direction) records proposed follow-up conditions; no comparator, relative tolerance, numerical budget or campaign is approved. The [stage disposition and D3 handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#stage-1-exit-disposition-and-stage-2-handoff) keep stage 1 open and carry final-MVP PERF repeats, full-desk layout/input, reference-device, physical and everyday validation forward. This is an evidence-based disposition under the existing roadmap exit, not a new agreed production stack or authorization for implementation or lab campaigns.
+
+## Fresh stage 1 verification — 2026-11-20 (UTC)
+
+The [fresh stage 1 verification](../experiments/minimum-card-contract/performance-verification/review.md) summarizes 120 valid load observations, 72 valid update-only windows and 90 valid interaction windows, with 900 recorded local intents and 0 dispatch timeouts. CPU, transfer and update-script observations exceed the unchanged adopted ceilings. Two separately frozen cold series retain 240 observations and five new ten-group experimental failures, while same-helper R1 cold observations add four more; the transparent driver observer locates prolonged locator waits without resolving visibility-versus-polling causality or either historical failure. Retention is **pass** under its documented calibrated boundary; presentation is **unsupported**. The [ten-row reconciliation](../experiments/minimum-card-contract/performance-verification/review.md#stage-decision) keeps stage 1 open. Candidate/final-MVP performance, reference-device/accessibility, real integration/transport, physical and everyday gates remain separate; no production stack is adopted.
+
+The single evidence-led revision passed every required retained/released/shared/debugger/WeakMap/native-DOM/listener/closure control in the pinned runtime. The initial auto-index parser failure remains preserved. This calibrates the stated exclusive production-root graph boundary, not a universal GC or production-memory claim. Independent discovery selected twelve exact native maxima; fresh experimental verification is pass. See the method-scoped records rather than global heap totals or a production-memory promise. Unsupported content-to-successful-presentation method in the pinned probe. One source-led target-local tracing correction restored screenshots and passed delayed/no-change/clock controls. Content carries source_id/frame_sequence, while the observed FramePresented and Display::FrameDisplayed records expose no matching identifier or ID/flow metadata. The pinned screenshot source describes expected_display_time as an estimate; it is not successful presentation feedback. No timestamp-proximity, screenshot, damage, local-intent or two-frame substitute is accepted.

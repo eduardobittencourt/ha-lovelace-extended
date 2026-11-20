@@ -25,6 +25,7 @@ The future vision allows elements to be placed on an internal grid and provides 
 | [Conceptual architecture](docs/architecture.md) | Proposed elements, bindings, and technical boundaries |
 | [Roadmap](docs/roadmap.md) | Small steps, evidence, and exit criteria |
 | [Decisions and open questions](docs/decisions.md) | Agreed directions and decisions still needed |
+| [Performance budgets](docs/performance-budgets.md) | Standing benchmark-selection authority and adopted limits |
 | [Research and discovery](docs/discovery.md) | Questions, methods, and evidence before assuming contracts |
 | [OpenSpec](docs/openspec.md) | SDD workflow, local setup, and starting changes |
 
@@ -49,6 +50,8 @@ The [stage 1 performance follow-up](experiments/minimum-card-contract/performanc
 The [stage 1 diagnostics](experiments/minimum-card-contract/performance-diagnostics/diagnosis.md) add 120 phase-observed loads. An empty cold control reached 1272.7 ms, and the fresh approval-backed verification passed the four eligible rows in that run. The historical cold failures remain unresolved. Retained-byte and presentation calibration are unsupported in the pinned lab. The separate editor run measured the newly approved limits. See the [ten-row review](experiments/minimum-card-contract/performance-diagnostics/stage-review.json) for the five pending requirements.
 
 The [stage 1 evidence consolidation](openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles all ten metrics and records the [desk MVP handoff](openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#stage-1-exit-disposition-and-stage-2-handoff). Four bounded passes remain valid; the fresh cold pass does not resolve two historical failures. Five other requirements remain pending. For CPU/transfer/updates, the maintainer requests evidence-backed limits and permits comparative benchmarks rather than guessed numbers; retention/presentation need calibrated methods. Stage 1 stays open; no new budget, campaign or production stack is adopted.
+
+The [fresh stage 1 verification](experiments/minimum-card-contract/performance-verification/review.md) summarizes 120 valid load observations, 72 valid update-only windows and 90 valid interaction windows, with 900 recorded local intents and 0 dispatch timeouts. CPU, transfer and update-script observations exceed the unchanged adopted ceilings. Two separately frozen cold series retain 240 observations and five new ten-group experimental failures, while same-helper R1 cold observations add four more; the transparent driver observer locates prolonged locator waits without resolving visibility-versus-polling causality or either historical failure. Retention is **pass** under its documented calibrated boundary; presentation is **unsupported**. The [ten-row reconciliation](experiments/minimum-card-contract/performance-verification/review.md#stage-decision) keeps stage 1 open. Candidate/final-MVP performance, reference-device/accessibility, real integration/transport, physical and everyday gates remain separate; no production stack is adopted.
 
 ## Current boundaries
 

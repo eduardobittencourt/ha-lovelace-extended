@@ -8,6 +8,7 @@
 - This project is at the conception stage. A documentation task does not authorize product implementation, dependency installation, or Home Assistant changes.
 - Preserve the distinction between the desk MVP, the future vision, and readiness for active promotion. Open source development from the outset is compatible with postponing active promotion.
 - Do not present proposals, stack choices, or unmeasured performance targets as settled decisions.
+- Performance limits follow the maintainer-approved [benchmark policy](docs/performance-budgets.md): agents select relevant benchmark-derived values and treat them as authoritative until the maintainer changes them. Never ask the maintainer to invent numerical targets, supply subjective workload/network/responsiveness allowances, or separately approve those selected values. Missing evidence requires investigation, not arbitrary user numbers.
 - When changing scope or decisions, update affected documents and keep links consistent.
 - Never add credentials, complete private configurations, or personal installation inventories.
 - Keep raw evidence, reference clones and investigation scripts outside the checkout. Local directory conventions are optional; sanitized findings and public sources must remain reviewable in the repository without private devbox or Home Assistant access.
