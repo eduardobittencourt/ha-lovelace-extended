@@ -1,0 +1,55 @@
+{
+  "checkedAtUtc": "2026-11-19T18:03:42.646483+00:00",
+  "publicPackage": {
+    "coverage": {
+      "loads": {
+        "expected": 120,
+        "attempted": 120,
+        "valid": 120
+      },
+      "updates": {
+        "expected": 72,
+        "attempted": 72,
+        "valid": 72
+      },
+      "interactions": {
+        "expected": 90,
+        "attempted": 90,
+        "valid": 90
+      },
+      "editors": {
+        "expected": 36,
+        "attempted": 36,
+        "valid": 36
+      }
+    },
+    "sourceListings": 16,
+    "subjectHashes": "pass",
+    "links": "pass",
+    "json": "pass",
+    "privateDataScan": "pass",
+    "note": "Static secret-key/IP scan complements manual review; it is not a claim of universal secret detection"
+  },
+  "reportReproduction": {
+    "source": "Reconstructed report.py from reproduction.md; public discovery.json only",
+    "reviewSha256": "63f1f4f6f8313c98f6cfc1ac527b5074ac1fa267640fc384dd832cfeca28aee1",
+    "summarySha256": "db1573f7c64c3b07f1fb9cfcf44dc6a0787b730746974744930acad168f275a7",
+    "byteIdentical": true,
+    "privateHaRequired": false
+  },
+  "openspecStrict": "passed; skip_specs information expected, no runtime deltas",
+  "researchFirstSchema": "valid; no issues",
+  "gitDiffCheck": "passed; untracked content also inspected directly",
+  "termsReview": "Selected bundles/licenses remain external; upstream source/version/license references are public; no third-party implementation vendored; existing THIRD_PARTY_NOTICES preserved",
+  "manualPrivacyReview": "Public fields contain synthetic fixtures, loopback resource paths, bounded host/allocation metadata and scalar evidence; no credentials, authenticated headers, private HA storage or personal installation inventory",
+  "frozenScriptsAndSubject": "All frozen external script and subject hashes verified; prior editor-verification subject/tool hashes unchanged",
+  "cleanup": "cleanup.json assertions pass; stopped sandbox, closed listener, absent PID/socket, owned rootfs/layers removed",
+  "limitations": [
+    "Single pinned shared Linux/Chromium lab; no general CPU/device ranking or phone conversion",
+    "Third-party keyboard eligibility failed; negative feasibility result, not comparative ranking",
+    "Whole-dashboard shared/observer costs, three-repeat windows and quantized event times",
+    "Displayed feedback, HA transport, physical/everyday behavior and reference-phone performance unmeasured",
+    "CPU/transfer/update numerical agreement and fresh verification remain pending",
+    "Historical cold failures, retained-byte attribution, final presentation and final-MVP repeats remain independent gates"
+  ]
+}

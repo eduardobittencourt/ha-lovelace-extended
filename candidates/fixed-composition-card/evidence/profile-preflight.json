@@ -1,0 +1,365 @@
+{
+  "rows": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "resources": [],
+      "dimensions": [],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": null,
+      "allServiceTransportBlocked": true
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "resources": [],
+      "dimensions": [
+        {
+          "width": 492,
+          "height": 164
+        },
+        {
+          "width": 492,
+          "height": 56
+        },
+        {
+          "width": 492,
+          "height": 56
+        },
+        {
+          "width": 492,
+          "height": 56
+        },
+        {
+          "width": 492,
+          "height": 56
+        }
+      ],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": "- group \"Synthetic desk\":\n  - button \"Synthetic desk Open · 42%\"\n  - button \"Open cover\"\n  - button \"Stop cover\"\n  - button \"Close cover\"\n  - slider \"Position\"",
+      "allServiceTransportBlocked": true
+    },
+    {
+      "variant": "candidate",
+      "count": 1,
+      "resources": [
+        "/local/fixed-composition-card/card.js",
+        "/local/fixed-composition-card/config.js",
+        "/local/fixed-composition-card/bindings.js",
+        "/local/fixed-composition-card/cover.js",
+        "/local/fixed-composition-card/actions.js",
+        "/local/fixed-composition-card/position.js",
+        "/local/fixed-composition-card/ha-adapter.js",
+        "/local/fixed-composition-card/styles.js",
+        "/local/fixed-composition-card/form.js"
+      ],
+      "dimensions": [
+        {
+          "width": 492,
+          "height": 473.265625
+        }
+      ],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": null,
+      "allServiceTransportBlocked": true
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "resources": [],
+      "dimensions": [],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": null,
+      "allServiceTransportBlocked": true
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "resources": [],
+      "dimensions": [
+        {
+          "width": 330.65625,
+          "height": 164
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 164
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 164
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 56
+        },
+        {
+          "width": 330.65625,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 164
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        },
+        {
+          "width": 330.671875,
+          "height": 56
+        }
+      ],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": "- group \"Synthetic desk\":\n  - button \"Synthetic desk Open · 42%\"\n  - button \"Open cover\"\n  - button \"Stop cover\"\n  - button \"Close cover\"\n  - slider \"Position\"",
+      "allServiceTransportBlocked": true
+    },
+    {
+      "variant": "candidate",
+      "count": 10,
+      "resources": [
+        "/local/fixed-composition-card/card.js",
+        "/local/fixed-composition-card/config.js",
+        "/local/fixed-composition-card/bindings.js",
+        "/local/fixed-composition-card/cover.js",
+        "/local/fixed-composition-card/actions.js",
+        "/local/fixed-composition-card/position.js",
+        "/local/fixed-composition-card/ha-adapter.js",
+        "/local/fixed-composition-card/styles.js",
+        "/local/fixed-composition-card/form.js"
+      ],
+      "dimensions": [
+        {
+          "width": 330.65625,
+          "height": 492.046875
+        },
+        {
+          "width": 330.65625,
+          "height": 492.046875
+        },
+        {
+          "width": 330.65625,
+          "height": 492.046875
+        },
+        {
+          "width": 330.65625,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        },
+        {
+          "width": 330.671875,
+          "height": 492.046875
+        }
+      ],
+      "coldStaticTransfer": 1149271,
+      "warmStaticTransfer": 0,
+      "allowedInput": true,
+      "coverControls": null,
+      "allServiceTransportBlocked": true
+    }
+  ],
+  "mismatches": [
+    "Native complete group uses five separate Tiles; candidate one card.",
+    "Native editor profile measures the cover Tile editor, not aggregate editing of all five Tiles.",
+    "Native position slider has native commit semantics; candidate uses release/Enter-only local preview.",
+    "Empty input is a driver-only button without HA service semantics.",
+    "Shared HA icon/dialog/editor costs remain in totals; no ownership or final-presentation attribution."
+  ]
+}

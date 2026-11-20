@@ -1,0 +1,5723 @@
+{
+  "loads": {
+    "attempts": 120,
+    "valid": 120,
+    "cells": [
+      {
+        "key": [
+          "empty",
+          1,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 542.0350000000001,
+            "median": 550.83,
+            "max": 562.816
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 126.90899999999999,
+            "median": 128.6655,
+            "max": 130.943
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 619.6999999284744,
+            "median": 639.6000000238419,
+            "max": 672
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 314.465,
+            "median": 324.2695,
+            "max": 335.54499999999996
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 39.748,
+            "median": 41.480000000000004,
+            "max": 42.347
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 339.89999997615814,
+            "median": 356.5,
+            "max": 369.40000009536743
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 552.148,
+            "median": 578.537,
+            "max": 607.146
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 131.885,
+            "median": 135.469,
+            "max": 159.482
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1364934,
+            "median": 1364934.0,
+            "max": 1374510
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1364934,
+            "median": 1364934.0,
+            "max": 1374510
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 619.7000000476837,
+            "median": 657.1500000357628,
+            "max": 696.1000000238419
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 338.988,
+            "median": 349.29,
+            "max": 372.15700000000004
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 42.952999999999996,
+            "median": 44.2525,
+            "max": 47.328
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 453.60000002384186,
+            "median": 455.6500000357628,
+            "max": 486.2999999523163
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 556.2289999999999,
+            "median": 564.8455,
+            "max": 598.0980000000001
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 132.426,
+            "median": 134.7855,
+            "max": 138.828
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1368049,
+            "median": 1368049.0,
+            "max": 1368049
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 12510,
+            "median": 12510.0,
+            "max": 12510
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 632.7000000476837,
+            "median": 653.9499999880791,
+            "max": 708.8999999761581
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 329.923,
+            "median": 338.34000000000003,
+            "max": 350.381
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 42.706,
+            "median": 43.816,
+            "max": 45.415
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 439.89999997615814,
+            "median": 455.5,
+            "max": 471.1999999284744
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 532.054,
+            "median": 548.3924999999999,
+            "max": 593.215
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 125.62599999999999,
+            "median": 130.0415,
+            "max": 133.315
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 605,
+            "median": 646.3500000238419,
+            "max": 682.7999999523163
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 312.324,
+            "median": 317.7825,
+            "max": 328.835
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 39.247,
+            "median": 40.626999999999995,
+            "max": 43.149
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 338.3000000715256,
+            "median": 355.5,
+            "max": 369.10000002384186
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 613.565,
+            "median": 623.955,
+            "max": 634.193
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 141.877,
+            "median": 144.413,
+            "max": 150.79500000000002
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1364934,
+            "median": 1364934.0,
+            "max": 1364934
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1364934,
+            "median": 1364934.0,
+            "max": 1364934
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 669.2000000476837,
+            "median": 684.8000000119209,
+            "max": 689.6000000238419
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 385.806,
+            "median": 398.8365,
+            "max": 414.956
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 55.374,
+            "median": 55.914500000000004,
+            "max": 58.681
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 439.5,
+            "median": 456.5,
+            "max": 473.7999999523163
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "cold"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 569.4169999999999,
+            "median": 574.6959999999999,
+            "max": 605.949
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 137.377,
+            "median": 139.21249999999998,
+            "max": 141.741
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 1368049,
+            "median": 1368049.0,
+            "max": 1368049
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 12510,
+            "median": 12510.0,
+            "max": 12510
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 1355539,
+            "median": 1355539.0,
+            "max": 1355539
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 634.2000000476837,
+            "median": 649.7000000476837,
+            "max": 1132.9000000953674
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "warm"
+        ],
+        "attempts": 10,
+        "valid": 10,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 10,
+            "min": 337.677,
+            "median": 351.701,
+            "max": 360.914
+          },
+          "scriptMs": {
+            "n": 10,
+            "min": 45.522,
+            "median": 47.689,
+            "max": 49.443
+          },
+          "transferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "customTransferBytes": {
+            "n": 10,
+            "min": 0,
+            "median": 0.0,
+            "max": 0
+          },
+          "sharedTransferBytes": {
+            "n": 10,
+            "min": 3931,
+            "median": 3931.0,
+            "max": 3931
+          },
+          "readyMs": {
+            "n": 10,
+            "min": 437.3000000715256,
+            "median": 453.74999994039536,
+            "max": 470.7000000476837
+          }
+        },
+        "invalidReasons": []
+      }
+    ]
+  },
+  "updates": {
+    "attempts": 72,
+    "valid": 72,
+    "cells": [
+      {
+        "key": [
+          "empty",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 84.17399999999998,
+            "median": 85.519,
+            "max": 89.68700000000007
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 9.018999999999998,
+            "median": 9.858000000000006,
+            "max": 10.012999999999995
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.33237900003,
+            "median": 60019.095124,
+            "max": 60022.19894499995
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1879279999993742,
+            "median": 1.1996040000813082,
+            "max": 1.6245199999998476
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 100.54399999999997,
+            "median": 102.29500000000003,
+            "max": 105.35600000000001
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.441000000000013,
+            "median": 17.72399999999999,
+            "max": 18.624000000000002
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10005.047924000006,
+            "median": 10005.448198000086,
+            "max": 10006.5821959998
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1858069999143481,
+            "median": 1.1923610001103953,
+            "max": 1.2771429999993416
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 37.331,
+            "median": 37.530000000000065,
+            "max": 39.32099999999994
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.215999999999999,
+            "median": 6.304000000000004,
+            "max": 6.4589999999999925
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60005.00140099996,
+            "median": 60005.33948799991,
+            "max": 60022.17544000002
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1940790000371635,
+            "median": 1.2380930000072112,
+            "max": 1.2568990000290796
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 96.76399999999997,
+            "median": 98.20700000000005,
+            "max": 101.45300000000002
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.637999999999987,
+            "median": 17.72600000000002,
+            "max": 17.996999999999986
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10006.047992999898,
+            "median": 10006.092347000027,
+            "max": 10007.074145000079
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.177280000061728,
+            "median": 1.193159000016749,
+            "max": 1.209991000010632
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 179.96699999999998,
+            "median": 181.17000000000004,
+            "max": 182.836
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 9.433999999999997,
+            "median": 9.437000000000001,
+            "max": 9.537999999999991
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60004.28865600005,
+            "median": 60005.748305999994,
+            "max": 60020.79872000002
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.2093160001095384,
+            "median": 1.2190640000044368,
+            "max": 1.305052000010619
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 373.84799999999996,
+            "median": 380.24899999999997,
+            "max": 381.621
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 20.168999999999993,
+            "median": 20.325999999999983,
+            "max": 21.319000000000006
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10021.666073,
+            "median": 10021.843781000003,
+            "max": 10022.269276999868
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.184529999998631,
+            "median": 1.1965729999355972,
+            "max": 1.1969960000133142
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 44.86200000000018,
+            "median": 47.090999999999994,
+            "max": 50.54000000000003
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.111999999999979,
+            "median": 6.245999999999974,
+            "max": 6.7170000000000005
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60004.11205100006,
+            "median": 60004.84913699998,
+            "max": 60020.800456000026
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0.6342600001953542,
+            "median": 1.1854719999828376,
+            "max": 1.2018189999798778
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 119.672,
+            "median": 136.24499999999995,
+            "max": 139.26400000000007
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.201000000000022,
+            "median": 17.33599999999999,
+            "max": 17.67100000000002
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10007.094370000006,
+            "median": 10007.830287000164,
+            "max": 10008.51157099998
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1846690000966191,
+            "median": 1.1882179999956861,
+            "max": 1.2350279999664053
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 160.9259999999999,
+            "median": 161.56300000000002,
+            "max": 170.51899999999998
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 9.034000000000015,
+            "median": 9.421000000000014,
+            "max": 9.493000000000002
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.54979799996,
+            "median": 60006.65638399997,
+            "max": 60021.98728999996
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1954339999938384,
+            "median": 1.1996880000224337,
+            "max": 1.2100109999882989
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 302.8109999999999,
+            "median": 318.608,
+            "max": 327.5009999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 19.759999999999998,
+            "median": 19.866999999999997,
+            "max": 20.386000000000017
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10022.164098999987,
+            "median": 10023.729533999925,
+            "max": 10024.198761999956
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1931889998959377,
+            "median": 1.201266000047326,
+            "max": 1.2107209999812767
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 41.61300000000012,
+            "median": 42.8980000000001,
+            "max": 46.46899999999987
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.4549999999999885,
+            "median": 6.519999999999998,
+            "max": 6.612000000000007
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60004.818081000005,
+            "median": 60005.78449800005,
+            "max": 60021.74670000002
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1897110000136308,
+            "median": 1.192202000063844,
+            "max": 1.2008549999445677
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 123.36499999999995,
+            "median": 125.98500000000001,
+            "max": 130.76700000000008
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.829999999999984,
+            "median": 18.10199999999998,
+            "max": 18.946999999999992
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10006.194568000035,
+            "median": 10007.084226000006,
+            "max": 10007.50176699995
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1902550000231713,
+            "median": 1.1938720000907779,
+            "max": 1.1993430000147782
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 84.78600000000003,
+            "median": 85.26999999999995,
+            "max": 92.14999999999995
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 8.973999999999982,
+            "median": 9.183999999999997,
+            "max": 9.672000000000015
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.47232399974,
+            "median": 60007.28229099978,
+            "max": 60023.11343299993
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1936249998398125,
+            "median": 1.203613999998197,
+            "max": 1.4237049999646842
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 97.71300000000005,
+            "median": 99.37400000000008,
+            "max": 101.23799999999994
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 16.914000000000012,
+            "median": 17.713000000000008,
+            "max": 18.136000000000013
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10005.61738600023,
+            "median": 10007.872568000108,
+            "max": 10012.610851000063
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1834179998841137,
+            "median": 1.1890370000619441,
+            "max": 1.2043110001832247
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 36.92899999999999,
+            "median": 38.487999999999964,
+            "max": 38.783000000000015
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.047999999999998,
+            "median": 6.2510000000000066,
+            "max": 6.388000000000005
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60004.79578200006,
+            "median": 60006.01403499977,
+            "max": 60021.06847000029
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1835140003822744,
+            "median": 1.293347999919206,
+            "max": 1.3078890000469983
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 93.60199999999996,
+            "median": 97.109,
+            "max": 98.55799999999992
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.010000000000026,
+            "median": 17.284999999999997,
+            "max": 17.513
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10007.424064999912,
+            "median": 10007.547089000233,
+            "max": 10008.025321999798
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1795060001313686,
+            "median": 1.1809970000758767,
+            "max": 1.190411999821663
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 357.58299999999997,
+            "median": 359.89700000000005,
+            "max": 368.3519999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 10.104000000000003,
+            "median": 10.193999999999981,
+            "max": 10.978999999999989
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60020.12732700026,
+            "median": 60020.43405000004,
+            "max": 60020.469453
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.198147000046447,
+            "median": 1.268263999838382,
+            "max": 1.3297649999149144
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 878.889,
+            "median": 881.278,
+            "max": 926.5989999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 19.728000000000023,
+            "median": 19.898,
+            "max": 20.51
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10021.983944999985,
+            "median": 10022.285807000007,
+            "max": 10022.643871999811
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1818280001170933,
+            "median": 1.1845439998432994,
+            "max": 1.2007889999076724
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 84.53500000000025,
+            "median": 85.45200000000008,
+            "max": 97.80600000000005
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.296999999999997,
+            "median": 6.395999999999985,
+            "max": 6.516999999999995
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60009.171766999876,
+            "median": 60020.78526099981,
+            "max": 60021.68844300043
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.183521999977529,
+            "median": 1.1897539999336004,
+            "max": 1.307398000266403
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 252.4329999999999,
+            "median": 253.7980000000002,
+            "max": 256.9870000000001
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 16.527999999999988,
+            "median": 16.819,
+            "max": 17.622
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10006.468056999613,
+            "median": 10006.659199000103,
+            "max": 10007.938957999926
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1799919998738915,
+            "median": 1.1859460000414401,
+            "max": 1.18969799997285
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 226.26999999999998,
+            "median": 231.36500000000004,
+            "max": 239.50700000000003
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 9.362999999999982,
+            "median": 9.94600000000001,
+            "max": 10.197999999999984
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.08163199993,
+            "median": 60007.53347199969,
+            "max": 60022.036337000085
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0.8171480000019073,
+            "median": 1.182158999843523,
+            "max": 1.1885929997079074
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 545.538,
+            "median": 545.924,
+            "max": 554.13
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 20.517000000000007,
+            "median": 20.687000000000012,
+            "max": 20.773999999999987
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10021.474557999987,
+            "median": 10022.664877000032,
+            "max": 10023.65881199995
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.178738999646157,
+            "median": 1.1950550000183284,
+            "max": 1.244436000008136
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 51.593,
+            "median": 59.620999999999924,
+            "max": 64.94
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.392999999999982,
+            "median": 6.5830000000000055,
+            "max": 6.596000000000019
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60004.93963500019,
+            "median": 60006.26497399993,
+            "max": 60020.706558999605
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0.6016679999884218,
+            "median": 1.1876339996233582,
+            "max": 1.3792779999785125
+          }
+        },
+        "invalidReasons": [],
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 134.53000000000003,
+            "median": 138.53399999999993,
+            "max": 148.60800000000006
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 16.156000000000002,
+            "median": 16.494000000000007,
+            "max": 17.122999999999998
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10006.581579999998,
+            "median": 10007.282869999995,
+            "max": 10016.693292000098
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1540959998965263,
+            "median": 1.1866829998325557,
+            "max": 1.1901710000820458
+          }
+        },
+        "invalidReasons": [],
+        "sent": 600,
+        "delivered": 600
+      }
+    ]
+  },
+  "interactions": {
+    "attempts": 90,
+    "valid": 90,
+    "cells": [
+      {
+        "key": [
+          "empty",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 106.36800000000002,
+            "median": 108.98700000000005,
+            "max": 109.02699999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 11.606999999999978,
+            "median": 11.67299999999999,
+            "max": 11.83400000000001
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.65356200002,
+            "median": 60019.266427999995,
+            "max": 60024.012266000034
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.189581999904476,
+            "median": 1.2031260000076145,
+            "max": 1.6173699999999371
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.2758839998859912,
+            "median": 0.33606499992311,
+            "max": 0.3800149999988207
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.3999999761581421,
+            "max": 1.100000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.2000000476837158,
+            "median": 1.5,
+            "max": 2.899999976158142
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.600000023841858,
+            "median": 1.9000000357627869,
+            "max": 3.799999952316284
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 120.75599999999997,
+            "median": 122.35099999999998,
+            "max": 123.37200000000004
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.880000000000006,
+            "median": 18.856999999999985,
+            "max": 19.509999999999998
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10009.656844999998,
+            "median": 10010.187579000136,
+            "max": 10011.271734999958
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1938460001256317,
+            "median": 1.2002340001054108,
+            "max": 1.3179440000021714
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.11745200003497303,
+            "max": 0.9077540000434965
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.4500000476837158,
+            "max": 0.6000000238418579
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.399999976158142,
+            "max": 2.399999976158142
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.600000023841858,
+            "median": 1.8000000715255737,
+            "max": 2.899999976158142
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 61.75700000000006,
+            "median": 61.84499999999993,
+            "max": 62.522999999999996
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.92799999999999,
+            "median": 6.989999999999997,
+            "max": 7.2689999999999975
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60009.17981899995,
+            "median": 60009.80733099999,
+            "max": 60011.28069699998
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1972759999334812,
+            "median": 1.1993420000653714,
+            "max": 1.2264299999951618
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.2568620000965893,
+            "median": 0.4038169998675585,
+            "max": 0.4054809999943245
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.40000009536743164,
+            "max": 0.6000000238418579
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.600000023841858,
+            "max": 2.0999999046325684
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.600000023841858,
+            "median": 2.0,
+            "max": 2.5
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 116.66300000000007,
+            "median": 117.77799999999993,
+            "max": 120.54900000000002
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 18.062999999999995,
+            "median": 18.593,
+            "max": 19.33599999999999
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10009.553793999832,
+            "median": 10010.808397999994,
+            "max": 10010.984678999986
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.186405000044033,
+            "median": 1.1975119998678565,
+            "max": 1.2063229999912437
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.3012929999968037,
+            "median": 0.6008329999167472,
+            "max": 0.8525710001122206
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.3999999761581421,
+            "max": 0.6000000238418579
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.399999976158142,
+            "max": 2
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.7999999523162842,
+            "max": 2.3000000715255737
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 23.96799999999999,
+            "median": 24.62300000000006,
+            "max": 24.880000000000013
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 1.1720000000000064,
+            "median": 1.2209999999999999,
+            "max": 1.2849999999999806
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.827133999905,
+            "median": 60007.91527700002,
+            "max": 60009.27316100011
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 2.3767769999976736,
+            "median": 3.833064999897033,
+            "max": 3.9304800000973046
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.3999999761581421,
+            "max": 0.5
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.399999976158142,
+            "max": 2.100000023841858
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.399999976158142,
+            "median": 1.7000000476837158,
+            "max": 2.5
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 282.95900000000006,
+            "median": 287.66700000000003,
+            "max": 294.8909999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 16.91999999999999,
+            "median": 17.023999999999983,
+            "max": 18.606999999999985
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60021.992499999935,
+            "median": 60022.13567300001,
+            "max": 60022.773210000014
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.200597999850288,
+            "median": 1.2062659999355674,
+            "max": 1.214482000010321
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.24906899989582598,
+            "max": 0.7341379999415949
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.6000000238418579,
+            "max": 1.600000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.799999952316284,
+            "median": 4.299999952316284,
+            "max": 6.399999976158142
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 3.399999976158142,
+            "median": 4.899999976158142,
+            "max": 7.799999952316284
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 469.01400000000007,
+            "median": 473.58899999999994,
+            "max": 482.87799999999993
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 24.836999999999996,
+            "median": 25.992999999999988,
+            "max": 26.073999999999987
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10025.435331000015,
+            "median": 10026.622503000079,
+            "max": 10027.793387999991
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.193684000056237,
+            "median": 1.2009539999999106,
+            "max": 1.23444600001676
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.3746500000124797,
+            "median": 0.6392410000553355,
+            "max": 0.676873000105843
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5,
+            "max": 1.600000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 2.399999976158142,
+            "max": 4.399999976158142
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 2.399999976158142,
+            "median": 2.899999976158142,
+            "max": 5
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 145.953,
+            "median": 147.15900000000005,
+            "max": 150.4399999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 10.934999999999972,
+            "median": 10.946000000000012,
+            "max": 11.077000000000004
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.427226,
+            "median": 60007.601144000015,
+            "max": 60009.14280000003
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1904790000990033,
+            "median": 1.2273200000054203,
+            "max": 1.3642000000691041
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.21388500020839274,
+            "median": 0.3444000000599772,
+            "max": 0.7292909999960102
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.5,
+            "median": 0.6000000238418579,
+            "max": 0.8000000715255737
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.6999999284744263,
+            "median": 3.0,
+            "max": 4.199999928474426
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 3.299999952316284,
+            "median": 3.649999976158142,
+            "max": 5
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 224.33800000000014,
+            "median": 229.1129999999999,
+            "max": 229.76200000000003
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 23.26700000000001,
+            "median": 23.897000000000002,
+            "max": 24.409999999999986
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10026.27888499992,
+            "median": 10027.072954999981,
+            "max": 10027.247454999946
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.18360499991104,
+            "median": 1.1933429999626242,
+            "max": 1.1949150000000373
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.05931699997745454,
+            "max": 0.1820389999775216
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.6999999284744263,
+            "max": 0.9000000953674316
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 2.850000023841858,
+            "max": 3.200000047683716
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 2.399999976158142,
+            "median": 3.5,
+            "max": 3.9000000953674316
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 100.71699999999994,
+            "median": 101.69800000000006,
+            "max": 105.38200000000009
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 4.693999999999976,
+            "median": 4.799999999999999,
+            "max": 4.882999999999998
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.672467000026,
+            "median": 60007.21196300001,
+            "max": 60007.49317899998
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 3.9071480000857264,
+            "median": 4.105359999928623,
+            "max": 4.170976999972481
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.40000009536743164,
+            "median": 0.5,
+            "max": 0.6999999284744263
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.3000000715255737,
+            "median": 2.8000000715255737,
+            "max": 3.6999999284744263
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 2.8000000715255737,
+            "median": 3.399999976158142,
+            "max": 4.299999952316284
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 172.98900000000006,
+            "median": 173.63600000000002,
+            "max": 174.54900000000006
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 11.565000000000019,
+            "median": 11.641999999999985,
+            "max": 12.247999999999982
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.49733000004,
+            "median": 60022.89288399997,
+            "max": 60023.60785800003
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.197666000109166,
+            "median": 1.1987209999933839,
+            "max": 1.2065530000254512
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.2603000000817701,
+            "median": 0.4598390001337975,
+            "max": 0.5959340000408702
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.6000000238418579,
+            "max": 1.100000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.399999976158142,
+            "max": 3.3000000715255737
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.7999999523162842,
+            "median": 1.9500000476837158,
+            "max": 4.400000095367432
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 340.3719999999999,
+            "median": 342.49299999999994,
+            "max": 342.858
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 21.40700000000001,
+            "median": 22.142999999999997,
+            "max": 22.695999999999994
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10009.982548,
+            "median": 10010.122314000037,
+            "max": 10026.96057200001
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1920509999617934,
+            "median": 1.1961190000874922,
+            "max": 1.1975000000093132
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.2807809999794699,
+            "max": 0.45180600008461624
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.40000003576278687,
+            "max": 1.399999976158142
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1,
+            "median": 1.2999999523162842,
+            "max": 2.5999999046325684
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.399999976158142,
+            "median": 1.7000000476837158,
+            "max": 3.1999999284744263
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 58.81500000000006,
+            "median": 59.33900000000003,
+            "max": 60.64999999999987
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 7.630000000000026,
+            "median": 7.973999999999981,
+            "max": 7.9940000000000015
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60008.039206999936,
+            "median": 60008.752321999986,
+            "max": 60024.225158999965
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1907430000137538,
+            "median": 1.1993640000000596,
+            "max": 1.2819479999598116
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.40378100000089034,
+            "median": 0.45589999994263053,
+            "max": 0.5472929999232292
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5999999046325684,
+            "max": 0.7000000476837158
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.0999999046325684,
+            "median": 1.399999976158142,
+            "max": 2.4000000953674316
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 2.0,
+            "max": 3
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 125.8760000000001,
+            "median": 127.26900000000008,
+            "max": 139.25900000000001
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 19.929000000000002,
+            "median": 20.15900000000001,
+            "max": 20.29600000000001
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10011.225046000094,
+            "median": 10017.175816999981,
+            "max": 10017.236132000107
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1890320000238717,
+            "median": 1.1950300000607967,
+            "max": 1.1985040000872687
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.12831900001037866,
+            "max": 0.4322880000108853
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.5,
+            "max": 0.8000000715255737
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.4500000476837158,
+            "max": 2.5
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 2.0,
+            "max": 2.8000000715255737
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 18.144999999999854,
+            "median": 18.518000000000036,
+            "max": 19.193000000000016
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 1.7129999999999923,
+            "median": 1.7679999999999918,
+            "max": 1.8669999999999798
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.432169000036,
+            "median": 60007.574227000005,
+            "max": 60008.204409
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 3.620833999942988,
+            "median": 3.8826540000736713,
+            "max": 4.163925000000745
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5,
+            "max": 0.6000000238418579
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1,
+            "median": 1.2999999523162842,
+            "max": 1.600000023841858
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.7000000476837158,
+            "max": 2
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 109.50799999999994,
+            "median": 109.838,
+            "max": 110.76799999999997
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 11.315999999999992,
+            "median": 11.414999999999981,
+            "max": 11.472999999999983
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.44622699986,
+            "median": 60023.331309999805,
+            "max": 60023.66328900028
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1863979999907315,
+            "median": 1.1912360000424087,
+            "max": 1.2527199999894947
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.29834500001743436,
+            "median": 0.3063960000872612,
+            "max": 0.4956750003620982
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.5,
+            "max": 1.100000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.399999976158142,
+            "max": 2.600000023841858
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.75,
+            "max": 3.399999976158142
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 121.36899999999994,
+            "median": 122.04899999999996,
+            "max": 125.413
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 18.647,
+            "median": 18.708000000000002,
+            "max": 19.000000000000018
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10010.815713999793,
+            "median": 10011.532143000048,
+            "max": 10011.67619199981
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.172842999920249,
+            "median": 1.191239999840036,
+            "max": 1.1956540001556277
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.049879000056535006,
+            "max": 0.06701699993573129
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.5,
+            "max": 0.6000000238418579
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.399999976158142,
+            "max": 2.5
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.899999976158142,
+            "max": 3
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 61.388,
+            "median": 62.49700000000003,
+            "max": 63.00499999999998
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 7.0369999999999875,
+            "median": 7.1470000000000145,
+            "max": 7.370999999999989
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.323456999846,
+            "median": 60008.55127699999,
+            "max": 60008.81733899983
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1373699998948723,
+            "median": 1.1888669999316335,
+            "max": 1.2029849998652935
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.122702999971807,
+            "median": 0.16856599994935095,
+            "max": 0.7375819999724627
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.20000004768371582,
+            "median": 0.3999999761581421,
+            "max": 0.5
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.2999999523162842,
+            "median": 1.5999999046325684,
+            "max": 2.200000047683716
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 2.0,
+            "max": 2.600000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 117.14500000000005,
+            "median": 118.44199999999994,
+            "max": 119.13399999999996
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 18.27999999999999,
+            "median": 18.68800000000001,
+            "max": 19.326999999999984
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10010.462755999994,
+            "median": 10010.808420000132,
+            "max": 10011.510979999788
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1653259999584407,
+            "median": 1.1758459997363389,
+            "max": 1.1851640003733337
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0.9910329999402165
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.20000004768371582,
+            "median": 0.3999999761581421,
+            "max": 0.5
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.3000000715255737,
+            "max": 2.200000047683716
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.7000000476837158,
+            "max": 2.600000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 24.931000000000036,
+            "median": 25.49699999999988,
+            "max": 26.27899999999994
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 1.1819999999999886,
+            "median": 1.227999999999979,
+            "max": 1.2999999999999956
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60007.587107000174,
+            "median": 60008.286981999874,
+            "max": 60009.72084099986
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 2.953474000096321,
+            "median": 4.02230600011535,
+            "max": 4.128238999750465
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.2999999523162842,
+            "median": 0.3999999761581421,
+            "max": 0.5
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1,
+            "median": 1.399999976158142,
+            "max": 2.1999999284744263
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.399999976158142,
+            "median": 1.7000000476837158,
+            "max": 2.5999999046325684
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 512.1370000000001,
+            "median": 517.146,
+            "max": 546.4019999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 18.55899999999999,
+            "median": 19.045000000000005,
+            "max": 19.212000000000007
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60019.25250700023,
+            "median": 60021.3109360002,
+            "max": 60021.46891100006
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.132240999955684,
+            "median": 1.18649600003846,
+            "max": 1.5900310003198683
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0.5968909999355674,
+            "max": 0.6643450004048645
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.6999999284744263,
+            "median": 0.9000000953674316,
+            "max": 4
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 3.100000023841858,
+            "median": 3.600000023841858,
+            "max": 5.299999952316284
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 4,
+            "median": 4.649999976158142,
+            "max": 8.100000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 1053.176,
+            "median": 1054.4550000000002,
+            "max": 1076.415
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 24.842000000000002,
+            "median": 24.990999999999985,
+            "max": 25.770999999999987
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10025.243679000065,
+            "median": 10025.398463000078,
+            "max": 10025.433871999849
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1832029996439815,
+            "median": 1.1846479999367148,
+            "max": 1.188736000098288
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.248605000320822,
+            "median": 0.4166839998215437,
+            "max": 0.4432699999306351
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.6000000238418579,
+            "median": 0.7000000476837158,
+            "max": 3.899999976158142
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.399999976158142,
+            "median": 2.600000023841858,
+            "max": 3.5
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 3.1999999284744263,
+            "median": 3.399999976158142,
+            "max": 6.699999928474426
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 256.3170000000001,
+            "median": 261.2180000000004,
+            "max": 263.52200000000005
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 11.466000000000005,
+            "median": 11.725000000000014,
+            "max": 12.118999999999991
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.119316000026,
+            "median": 60006.405371999834,
+            "max": 60006.690891999984
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1794150001369417,
+            "median": 1.1853489996865392,
+            "max": 1.190724000101909
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.1885739997960627,
+            "median": 0.5182769999373704,
+            "max": 0.6057950002141297
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.8999999761581421,
+            "median": 1.0,
+            "max": 1.5
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 3.0999999046325684,
+            "median": 3.5,
+            "max": 5.200000047683716
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 4.099999904632568,
+            "median": 4.5,
+            "max": 6.100000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 411.79699999999997,
+            "median": 423.16699999999986,
+            "max": 441.8009999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 23.133999999999986,
+            "median": 23.750999999999994,
+            "max": 24.099999999999984
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10025.816209999844,
+            "median": 10027.075195000041,
+            "max": 10027.46754400013
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1812089998275042,
+            "median": 1.1894640000537038,
+            "max": 1.1947820000350475
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.4894600003026426,
+            "median": 0.5552960000932217,
+            "max": 0.677073999773711
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.8999999761581421,
+            "median": 1.0,
+            "max": 1.9000000953674316
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.600000023841858,
+            "median": 3.200000047683716,
+            "max": 3.899999976158142
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 4,
+            "median": 4.300000011920929,
+            "max": 5.100000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 141.6590000000002,
+            "median": 145.56900000000007,
+            "max": 151.945
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 4.816000000000015,
+            "median": 4.844999999999988,
+            "max": 5.00500000000001
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60005.65080199996,
+            "median": 60006.77159699984,
+            "max": 60023.69432199979
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 3.3670729999430478,
+            "median": 3.9833830003626645,
+            "max": 4.087150000035763
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.7999999523162842,
+            "median": 0.8999999761581421,
+            "max": 1.2000000476837158
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 2.6999999284744263,
+            "median": 3.100000023841858,
+            "max": 4.5
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 3.5,
+            "median": 4.049999952316284,
+            "max": 5.299999952316284
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "relevant",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 245.289,
+            "median": 245.72699999999992,
+            "max": 249.32999999999993
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 11.896999999999991,
+            "median": 12.440000000000007,
+            "max": 12.538999999999994
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.88633499993,
+            "median": 60018.615555000026,
+            "max": 60022.65523699997
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1975469999015331,
+            "median": 1.2034599999897182,
+            "max": 1.2046460001729429
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0.6236140001565218
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5999999046325684,
+            "max": 1.1999999284744263
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.1999999284744263,
+            "median": 1.3000000715255737,
+            "max": 4
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 1.9000000357627869,
+            "max": 5.099999904632568
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "relevant",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 557.509,
+            "median": 558.2090000000001,
+            "max": 565.817
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 21.083999999999993,
+            "median": 21.420999999999996,
+            "max": 21.63699999999999
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10011.031878000125,
+            "median": 10011.50231599994,
+            "max": 10028.755283000413
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0.4823880000039935,
+            "median": 1.19748800015077,
+            "max": 1.2025460000149906
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.17996700014919043,
+            "median": 0.24302100017666817,
+            "max": 0.2924970001913607
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.30000007152557373,
+            "median": 0.5,
+            "max": 2.100000023841858
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.2999999523162842,
+            "max": 3.100000023841858
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.7999999523162842,
+            "max": 3.5
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "unrelated",
+          1
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 78.04999999999995,
+            "median": 78.64099999999996,
+            "max": 80.96999999999998
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 7.870000000000016,
+            "median": 7.980000000000015,
+            "max": 8.182999999999996
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60008.877652999945,
+            "median": 60008.921499999706,
+            "max": 60009.172501999885
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1897680000402033,
+            "median": 1.1915219998918474,
+            "max": 1.4753459999337792
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.2507499996572733,
+            "median": 0.4575340002775192,
+            "max": 0.9587049996480346
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5999999046325684,
+            "max": 0.8999999761581421
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.350000023841858,
+            "max": 2.1999999284744263
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 1.9000000953674316,
+            "max": 2.700000047683716
+          }
+        },
+        "timeouts": 0,
+        "sent": 180,
+        "delivered": 180
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "unrelated",
+          20
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 151.19700000000003,
+            "median": 157.76999999999995,
+            "max": 169.721
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 17.706,
+            "median": 18.08499999999999,
+            "max": 18.22299999999999
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 10008.927976999898,
+            "median": 10010.277269999962,
+            "max": 10011.455606000032
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 1.1871909997425973,
+            "median": 1.197558999992907,
+            "max": 1.2502799998037517
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 0.15038400003686547,
+            "median": 0.3389610000886023,
+            "max": 0.5473259999416769
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5,
+            "max": 0.8999999761581421
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1.100000023841858,
+            "median": 1.2999999523162842,
+            "max": 1.8000000715255737
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.6999999284744263,
+            "median": 1.850000023841858,
+            "max": 2.200000047683716
+          }
+        },
+        "timeouts": 0,
+        "sent": 600,
+        "delivered": 600
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "no-update",
+          0
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 18.515000000000057,
+            "median": 18.630000000000145,
+            "max": 19.008000000000138
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 1.696000000000003,
+            "median": 1.7910000000000148,
+            "max": 1.829000000000025
+          },
+          "elapsedMs": {
+            "n": 3,
+            "min": 60006.23102799989,
+            "median": 60007.022889000364,
+            "max": 60008.02593300026
+          },
+          "maxTickLatenessMs": {
+            "n": 3,
+            "min": 0,
+            "median": 0,
+            "max": 0
+          },
+          "maxInputLatenessMs": {
+            "n": 3,
+            "min": 3.4796480000950396,
+            "median": 4.064531000331044,
+            "max": 4.15254499996081
+          }
+        },
+        "invalidReasons": [],
+        "activationCount": 30,
+        "intendedActivationCount": 30,
+        "inputMetrics": {
+          "queueMs": {
+            "n": 30,
+            "min": 0.3999999761581421,
+            "median": 0.5,
+            "max": 0.6999999284744263
+          },
+          "handlerToIntentMs": {
+            "n": 30,
+            "min": 1,
+            "median": 1.1999999284744263,
+            "max": 1.600000023841858
+          },
+          "eventToIntentMs": {
+            "n": 30,
+            "min": 1.5,
+            "median": 1.6999999284744263,
+            "max": 2.100000023841858
+          }
+        },
+        "timeouts": 0,
+        "sent": 0,
+        "delivered": 0
+      }
+    ]
+  },
+  "editors": {
+    "attempts": 36,
+    "valid": 36,
+    "cells": [
+      {
+        "key": [
+          "empty",
+          1,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 82.20700000000004,
+            "median": 84.9430000000001,
+            "max": 85.04500000000004
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 10.639999999999983,
+            "median": 10.797,
+            "max": 10.838999999999988
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 286.39999997615814,
+            "median": 298.7999999523163,
+            "max": 307.2000000476837
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 291.09999990463257,
+            "median": 305.39999997615814,
+            "max": 310
+          },
+          "editorMs": null
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          1,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 30.962000000000046,
+            "median": 33.253000000000085,
+            "max": 35.24499999999997
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.775000000000003,
+            "median": 6.849999999999995,
+            "max": 7.252000000000009
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 51.39999997615814,
+            "median": 53.300000071525574,
+            "max": 56.39999997615814
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 52.200000047683716,
+            "median": 54.40000009536743,
+            "max": 57.199999928474426
+          },
+          "editorMs": null
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 382.25100000000003,
+            "median": 389.247,
+            "max": 394.68100000000004
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 59.735000000000014,
+            "median": 60.577999999999996,
+            "max": 60.59599999999998
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 317.2000000476837,
+            "median": 331.60000002384186,
+            "max": 332.60000002384186
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 596.2000000476837,
+            "median": 616.7000000476837,
+            "max": 618.7000000476837
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 279,
+            "median": 285.10000002384186,
+            "max": 286.10000002384186
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          1,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 160.91699999999997,
+            "median": 164.47299999999987,
+            "max": 169.13700000000009
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 30.257999999999978,
+            "median": 30.546000000000017,
+            "max": 31.36899999999998
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 64.20000004768372,
+            "median": 69.80000007152557,
+            "max": 74.30000007152557
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 190.30000007152557,
+            "median": 193.60000002384186,
+            "max": 197.30000007152557
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 120.5,
+            "median": 123,
+            "max": 129.39999997615814
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 225.981,
+            "median": 229.00600000000003,
+            "max": 232.42699999999994
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 33.251000000000005,
+            "median": 33.499,
+            "max": 34.23600000000002
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 300.5,
+            "median": 301.5,
+            "max": 312.89999997615814
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 433.5,
+            "median": 437.3000000715256,
+            "max": 452.5
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 133,
+            "median": 135.80000007152557,
+            "max": 139.60000002384186
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          1,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 115.56999999999995,
+            "median": 117.43100000000007,
+            "max": 119.21899999999997
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 18.732,
+            "median": 18.793000000000003,
+            "max": 19.793000000000006
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 65.39999997615814,
+            "median": 69.60000002384186,
+            "max": 73.69999992847443
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 153.79999995231628,
+            "median": 157.10000002384186,
+            "max": 159.39999997615814
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 85.70000004768372,
+            "median": 87.5,
+            "max": 88.39999997615814
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 73.32700000000003,
+            "median": 78.094,
+            "max": 80.98099999999997
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 10.407,
+            "median": 10.882000000000003,
+            "max": 11.453999999999992
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 278.2000000476837,
+            "median": 283.10000002384186,
+            "max": 297.2000000476837
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 279.8000000715256,
+            "median": 285.10000002384186,
+            "max": 298.3000000715256
+          },
+          "editorMs": null
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "empty",
+          10,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 30.356999999999967,
+            "median": 31.03800000000001,
+            "max": 33.62299999999996
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 6.680999999999992,
+            "median": 6.835000000000008,
+            "max": 6.890000000000008
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 50,
+            "median": 52.5,
+            "max": 52.800000071525574
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 50.89999997615814,
+            "median": 53.39999997615814,
+            "max": 53.60000002384186
+          },
+          "editorMs": null
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 667.0250000000001,
+            "median": 680.6770000000001,
+            "max": 688.169
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 105.00099999999998,
+            "median": 107.96900000000001,
+            "max": 108.638
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 377.89999997615814,
+            "median": 379.89999997615814,
+            "max": 476.90000009536743
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 783,
+            "median": 798,
+            "max": 877.2000000476837
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 400.2999999523163,
+            "median": 403.10000002384186,
+            "max": 420.10000002384186
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "native",
+          10,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 436.03100000000006,
+            "median": 436.20900000000006,
+            "max": 439.32400000000007
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 73.34299999999999,
+            "median": 73.94599999999996,
+            "max": 75.322
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 193,
+            "median": 196.79999995231628,
+            "max": 198.19999992847443
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 470,
+            "median": 470.5,
+            "max": 472.09999990463257
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 273.2000000476837,
+            "median": 273.89999997615814,
+            "max": 277.5
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "first_open"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 312.021,
+            "median": 315.9580000000001,
+            "max": 326.20799999999997
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 52.532999999999994,
+            "median": 52.89099999999999,
+            "max": 54.095000000000006
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 355.6999999284744,
+            "median": 374.10000002384186,
+            "max": 383.39999997615814
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 519.6000000238419,
+            "median": 533.5,
+            "max": 557.7000000476837
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 159.39999997615814,
+            "median": 163.90000009536743,
+            "max": 174.30000007152557
+          }
+        },
+        "invalidReasons": []
+      },
+      {
+        "key": [
+          "experimental",
+          10,
+          "same_document_reopen"
+        ],
+        "attempts": 3,
+        "valid": 3,
+        "invalid": 0,
+        "metrics": {
+          "taskMs": {
+            "n": 3,
+            "min": 226.5140000000001,
+            "median": 229.91300000000004,
+            "max": 231.4259999999999
+          },
+          "scriptMs": {
+            "n": 3,
+            "min": 31.73900000000002,
+            "median": 31.937999999999995,
+            "max": 33.207999999999984
+          },
+          "setupMs": {
+            "n": 3,
+            "min": 118.70000004768372,
+            "median": 121.20000004768372,
+            "max": 126.70000004768372
+          },
+          "totalMs": {
+            "n": 3,
+            "min": 255,
+            "median": 263.39999997615814,
+            "max": 266.10000002384186
+          },
+          "editorMs": {
+            "n": 3,
+            "min": 136.29999995231628,
+            "median": 136.69999992847443,
+            "max": 144.89999997615814
+          }
+        },
+        "invalidReasons": []
+      }
+    ]
+  },
+  "matchedDescriptiveContrasts": [
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        0,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -9.047999999999888,
+      "experimentalMinusNativeScriptMs": -7.361999999999995,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        0,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -29.76600000000002,
+      "experimentalMinusNativeScriptMs": -3.8200000000000003,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        1,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -14.822999999999865,
+      "experimentalMinusNativeScriptMs": -2.52800000000002,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        1,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -12.884000000000015,
+      "experimentalMinusNativeScriptMs": 0.8839999999999932,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        2,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -19.74000000000001,
+      "experimentalMinusNativeScriptMs": -0.1710000000000207,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        2,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -6.539999999999964,
+      "experimentalMinusNativeScriptMs": -0.5430000000000064,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        3,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": 4.247999999999934,
+      "experimentalMinusNativeScriptMs": 2.9410000000000025,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        3,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -1.1299999999999955,
+      "experimentalMinusNativeScriptMs": 1.016999999999996,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        4,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": 4.080999999999904,
+      "experimentalMinusNativeScriptMs": 0.15699999999998226,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        4,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -11.257000000000005,
+      "experimentalMinusNativeScriptMs": 0.5710000000000051,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        5,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -28.301999999999907,
+      "experimentalMinusNativeScriptMs": -26.873999999999995,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        5,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -16.550999999999988,
+      "experimentalMinusNativeScriptMs": 0.14799999999999613,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        6,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -17.269000000000005,
+      "experimentalMinusNativeScriptMs": -1.7339999999999804,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        6,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -5.858000000000004,
+      "experimentalMinusNativeScriptMs": 0.838000000000001,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        7,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": 2.8719999999999573,
+      "experimentalMinusNativeScriptMs": 4.6629999999999825,
+      "experimentalMinusNativeTransferBytes": -6461
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        7,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -11.274999999999977,
+      "experimentalMinusNativeScriptMs": -0.24699999999999278,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        8,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -18.3599999999999,
+      "experimentalMinusNativeScriptMs": -0.5060000000000002,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        8,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -7.692000000000007,
+      "experimentalMinusNativeScriptMs": -1.8179999999999978,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        9,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -9.653999999999883,
+      "experimentalMinusNativeScriptMs": -2.187000000000012,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        1,
+        9,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -10.643000000000029,
+      "experimentalMinusNativeScriptMs": -3.764000000000003,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        0,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -45.7650000000001,
+      "experimentalMinusNativeScriptMs": -5.4909999999999854,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        0,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -61.271000000000015,
+      "experimentalMinusNativeScriptMs": -10.445999999999998,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        1,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -47.27499999999998,
+      "experimentalMinusNativeScriptMs": -4.300000000000011,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        1,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -45.34700000000004,
+      "experimentalMinusNativeScriptMs": -8.259999999999998,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        2,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -34.86299999999994,
+      "experimentalMinusNativeScriptMs": -4.878000000000014,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        2,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -65.14700000000005,
+      "experimentalMinusNativeScriptMs": -8.383999999999993,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        3,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -64.77600000000007,
+      "experimentalMinusNativeScriptMs": -7.418999999999983,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        3,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -39.495000000000005,
+      "experimentalMinusNativeScriptMs": -8.259,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        4,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -39.714000000000055,
+      "experimentalMinusNativeScriptMs": -4.175000000000011,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        4,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -43.94599999999997,
+      "experimentalMinusNativeScriptMs": -8.973000000000006,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        5,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -54.68299999999999,
+      "experimentalMinusNativeScriptMs": -12.156000000000006,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        5,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -62.827,
+      "experimentalMinusNativeScriptMs": -10.378,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        6,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -7.616000000000099,
+      "experimentalMinusNativeScriptMs": -3.0579999999999927,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        6,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -59.476,
+      "experimentalMinusNativeScriptMs": -9.977000000000004,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        7,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -43.414999999999964,
+      "experimentalMinusNativeScriptMs": -7.924000000000007,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        7,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -37.71100000000001,
+      "experimentalMinusNativeScriptMs": -5.9310000000000045,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        8,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -56.18400000000008,
+      "experimentalMinusNativeScriptMs": -8.140999999999991,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        8,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -47.450999999999965,
+      "experimentalMinusNativeScriptMs": -11.055999999999997,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        9,
+        "cold"
+      ],
+      "experimentalMinusNativeTaskMs": -56.30000000000007,
+      "experimentalMinusNativeScriptMs": -3.47799999999998,
+      "experimentalMinusNativeTransferBytes": 3115
+    },
+    {
+      "mode": "loads",
+      "key": [
+        10,
+        9,
+        "warm"
+      ],
+      "experimentalMinusNativeTaskMs": -34.841999999999985,
+      "experimentalMinusNativeScriptMs": -6.776000000000003,
+      "experimentalMinusNativeTransferBytes": 0
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        0,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -10.651000000000067,
+      "experimentalMinusNativeScriptMs": 0.059000000000004604
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        0,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -46.34700000000004,
+      "experimentalMinusNativeScriptMs": -0.9329999999999892
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        0,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -7.641999999999925,
+      "experimentalMinusNativeScriptMs": -0.262000000000012
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        0,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": 6.313000000000017,
+      "experimentalMinusNativeScriptMs": 0.4309999999999583
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        1,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -19.041000000000082,
+      "experimentalMinusNativeScriptMs": -0.5039999999999765
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        1,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -61.64099999999996,
+      "experimentalMinusNativeScriptMs": -0.5659999999999847
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        1,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -5.477999999999874,
+      "experimentalMinusNativeScriptMs": 0.274000000000024
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        1,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -8.496999999999986,
+      "experimentalMinusNativeScriptMs": 1.6110000000000007
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        2,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -21.272999999999996,
+      "experimentalMinusNativeScriptMs": -0.01599999999998758
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        2,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -78.81000000000006,
+      "experimentalMinusNativeScriptMs": -0.30199999999999605
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        2,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": 1.6069999999996938,
+      "experimentalMinusNativeScriptMs": 0.5000000000000284
+    },
+    {
+      "mode": "updates",
+      "key": [
+        1,
+        2,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -12.879999999999995,
+      "experimentalMinusNativeScriptMs": 0.6289999999999623
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        0,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -128.84499999999989,
+      "experimentalMinusNativeScriptMs": -0.7810000000000041
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        0,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -372.46899999999994,
+      "experimentalMinusNativeScriptMs": 0.875999999999987
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        0,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -24.91400000000033,
+      "experimentalMinusNativeScriptMs": 0.2990000000000217
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        0,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -122.45700000000005,
+      "experimentalMinusNativeScriptMs": -0.3719999999999857
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        1,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -126.21799999999993,
+      "experimentalMinusNativeScriptMs": -0.15799999999999237
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        1,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -332.96500000000003,
+      "experimentalMinusNativeScriptMs": 0.7889999999999837
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        1,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -46.21300000000005,
+      "experimentalMinusNativeScriptMs": -0.0030000000000027782
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        1,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -103.82499999999985,
+      "experimentalMinusNativeScriptMs": 0.3039999999999985
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        2,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -133.62700000000007,
+      "experimentalMinusNativeScriptMs": -0.8309999999999995
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        2,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -335.74,
+      "experimentalMinusNativeScriptMs": 0.17700000000001026
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        2,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -20.512000000000086,
+      "experimentalMinusNativeScriptMs": 0.0660000000000105
+    },
+    {
+      "mode": "updates",
+      "key": [
+        10,
+        2,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -115.26400000000027,
+      "experimentalMinusNativeScriptMs": -1.127999999999993
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        0,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -120.34199999999984,
+      "experimentalMinusNativeScriptMs": -6.3590000000000035
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        0,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -130.73099999999994,
+      "experimentalMinusNativeScriptMs": -3.2969999999999935
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        0,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -86.61399999999998,
+      "experimentalMinusNativeScriptMs": -3.103000000000023
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        0,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -103.88599999999992,
+      "experimentalMinusNativeScriptMs": -4.250999999999976
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        0,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -83.55300000000021,
+      "experimentalMinusNativeScriptMs": -2.8269999999999964
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        1,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -109.97,
+      "experimentalMinusNativeScriptMs": -5.354999999999972
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        1,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -126.52100000000013,
+      "experimentalMinusNativeScriptMs": -3.9309999999999903
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        1,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -86.50900000000019,
+      "experimentalMinusNativeScriptMs": -2.9520000000000106
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        1,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -85.07900000000012,
+      "experimentalMinusNativeScriptMs": -3.600999999999992
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        1,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -81.52399999999993,
+      "experimentalMinusNativeScriptMs": -3.087000000000007
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        2,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -114.031,
+      "experimentalMinusNativeScriptMs": -5.381999999999998
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        2,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -142.50600000000003,
+      "experimentalMinusNativeScriptMs": -3.4299999999999855
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        2,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -91.62499999999986,
+      "experimentalMinusNativeScriptMs": -3.3049999999999464
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        2,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -101.84399999999981,
+      "experimentalMinusNativeScriptMs": -3.338000000000008
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        1,
+        2,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -86.86400000000006,
+      "experimentalMinusNativeScriptMs": -3.1150000000000064
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        0,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -271.41900000000004,
+      "experimentalMinusNativeScriptMs": -6.604999999999999
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        0,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -495.6669999999999,
+      "experimentalMinusNativeScriptMs": -3.2050000000000125
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        0,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -184.88100000000009,
+      "experimentalMinusNativeScriptMs": -3.2830000000000084
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        0,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -271.9699999999998,
+      "experimentalMinusNativeScriptMs": -5.666000000000004
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        0,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -132.93699999999984,
+      "experimentalMinusNativeScriptMs": -2.98699999999999
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        1,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -297.072,
+      "experimentalMinusNativeScriptMs": -7.3150000000000155
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        1,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -510.59799999999996,
+      "experimentalMinusNativeScriptMs": -3.906999999999993
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        1,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -178.26700000000017,
+      "experimentalMinusNativeScriptMs": -3.8549999999999978
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        1,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -284.03099999999995,
+      "experimentalMinusNativeScriptMs": -6.393999999999984
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        1,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -123.14400000000013,
+      "experimentalMinusNativeScriptMs": -3.3090000000000064
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        2,
+        "relevant",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -266.84800000000007,
+      "experimentalMinusNativeScriptMs": -6.019999999999996
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        2,
+        "relevant",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -496.2460000000001,
+      "experimentalMinusNativeScriptMs": -4.349999999999991
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        2,
+        "unrelated",
+        1
+      ],
+      "experimentalMinusNativeTaskMs": -180.24800000000045,
+      "experimentalMinusNativeScriptMs": -4.138999999999976
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        2,
+        "unrelated",
+        20
+      ],
+      "experimentalMinusNativeTaskMs": -242.07599999999996,
+      "experimentalMinusNativeScriptMs": -4.910999999999998
+    },
+    {
+      "mode": "interactions",
+      "key": [
+        10,
+        2,
+        "no-update",
+        0
+      ],
+      "experimentalMinusNativeTaskMs": -126.93899999999994,
+      "experimentalMinusNativeScriptMs": -3.0539999999999736
+    }
+  ],
+  "contrastDistributions": [
+    {
+      "key": [
+        "loads",
+        1,
+        "cold"
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 10,
+          "min": -28.301999999999907,
+          "median": -12.238499999999874,
+          "max": 4.247999999999934
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 10,
+          "min": -26.873999999999995,
+          "median": -1.1199999999999903,
+          "max": 4.6629999999999825
+        },
+        "experimentalMinusNativeTransferBytes": {
+          "n": 10,
+          "min": -6461,
+          "median": 3115.0,
+          "max": 3115
+        }
+      }
+    },
+    {
+      "key": [
+        "loads",
+        1,
+        "warm"
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 10,
+          "min": -29.76600000000002,
+          "median": -10.950000000000017,
+          "max": -1.1299999999999955
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 10,
+          "min": -3.8200000000000003,
+          "median": -0.04949999999999832,
+          "max": 1.016999999999996
+        },
+        "experimentalMinusNativeTransferBytes": {
+          "n": 10,
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "loads",
+        10,
+        "cold"
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 10,
+          "min": -64.77600000000007,
+          "median": -46.52000000000004,
+          "max": -7.616000000000099
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 10,
+          "min": -12.156000000000006,
+          "median": -5.1845,
+          "max": -3.0579999999999927
+        },
+        "experimentalMinusNativeTransferBytes": {
+          "n": 10,
+          "min": 3115,
+          "median": 3115.0,
+          "max": 3115
+        }
+      }
+    },
+    {
+      "key": [
+        "loads",
+        10,
+        "warm"
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 10,
+          "min": -65.14700000000005,
+          "median": -46.399,
+          "max": -34.841999999999985
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 10,
+          "min": -11.055999999999997,
+          "median": -8.6785,
+          "max": -5.9310000000000045
+        },
+        "experimentalMinusNativeTransferBytes": {
+          "n": 10,
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "updates",
+        1,
+        "relevant",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -21.272999999999996,
+          "median": -19.041000000000082,
+          "max": -10.651000000000067
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -0.5039999999999765,
+          "median": -0.01599999999998758,
+          "max": 0.059000000000004604
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        1,
+        "relevant",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -78.81000000000006,
+          "median": -61.64099999999996,
+          "max": -46.34700000000004
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -0.9329999999999892,
+          "median": -0.5659999999999847,
+          "max": -0.30199999999999605
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        1,
+        "unrelated",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -7.641999999999925,
+          "median": -5.477999999999874,
+          "max": 1.6069999999996938
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -0.262000000000012,
+          "median": 0.274000000000024,
+          "max": 0.5000000000000284
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        1,
+        "unrelated",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -12.879999999999995,
+          "median": -8.496999999999986,
+          "max": 6.313000000000017
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": 0.4309999999999583,
+          "median": 0.6289999999999623,
+          "max": 1.6110000000000007
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        10,
+        "relevant",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -133.62700000000007,
+          "median": -128.84499999999989,
+          "max": -126.21799999999993
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -0.8309999999999995,
+          "median": -0.7810000000000041,
+          "max": -0.15799999999999237
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        10,
+        "relevant",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -372.46899999999994,
+          "median": -335.74,
+          "max": -332.96500000000003
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": 0.17700000000001026,
+          "median": 0.7889999999999837,
+          "max": 0.875999999999987
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        10,
+        "unrelated",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -46.21300000000005,
+          "median": -24.91400000000033,
+          "max": -20.512000000000086
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -0.0030000000000027782,
+          "median": 0.0660000000000105,
+          "max": 0.2990000000000217
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "updates",
+        10,
+        "unrelated",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -122.45700000000005,
+          "median": -115.26400000000027,
+          "max": -103.82499999999985
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -1.127999999999993,
+          "median": -0.3719999999999857,
+          "max": 0.3039999999999985
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        1,
+        "relevant",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -120.34199999999984,
+          "median": -114.031,
+          "max": -109.97
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -6.3590000000000035,
+          "median": -5.381999999999998,
+          "max": -5.354999999999972
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        1,
+        "relevant",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -142.50600000000003,
+          "median": -130.73099999999994,
+          "max": -126.52100000000013
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -3.9309999999999903,
+          "median": -3.4299999999999855,
+          "max": -3.2969999999999935
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        1,
+        "unrelated",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -91.62499999999986,
+          "median": -86.61399999999998,
+          "max": -86.50900000000019
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -3.3049999999999464,
+          "median": -3.103000000000023,
+          "max": -2.9520000000000106
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        1,
+        "unrelated",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -103.88599999999992,
+          "median": -101.84399999999981,
+          "max": -85.07900000000012
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -4.250999999999976,
+          "median": -3.600999999999992,
+          "max": -3.338000000000008
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        1,
+        "no-update",
+        0
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -86.86400000000006,
+          "median": -83.55300000000021,
+          "max": -81.52399999999993
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -3.1150000000000064,
+          "median": -3.087000000000007,
+          "max": -2.8269999999999964
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        10,
+        "relevant",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -297.072,
+          "median": -271.41900000000004,
+          "max": -266.84800000000007
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -7.3150000000000155,
+          "median": -6.604999999999999,
+          "max": -6.019999999999996
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        10,
+        "relevant",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -510.59799999999996,
+          "median": -496.2460000000001,
+          "max": -495.6669999999999
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -4.349999999999991,
+          "median": -3.906999999999993,
+          "max": -3.2050000000000125
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        10,
+        "unrelated",
+        1
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -184.88100000000009,
+          "median": -180.24800000000045,
+          "max": -178.26700000000017
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -4.138999999999976,
+          "median": -3.8549999999999978,
+          "max": -3.2830000000000084
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        10,
+        "unrelated",
+        20
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -284.03099999999995,
+          "median": -271.9699999999998,
+          "max": -242.07599999999996
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -6.393999999999984,
+          "median": -5.666000000000004,
+          "max": -4.910999999999998
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    },
+    {
+      "key": [
+        "interactions",
+        10,
+        "no-update",
+        0
+      ],
+      "metrics": {
+        "experimentalMinusNativeTaskMs": {
+          "n": 3,
+          "min": -132.93699999999984,
+          "median": -126.93899999999994,
+          "max": -123.14400000000013
+        },
+        "experimentalMinusNativeScriptMs": {
+          "n": 3,
+          "min": -3.3090000000000064,
+          "median": -3.0539999999999736,
+          "max": -2.98699999999999
+        },
+        "experimentalMinusNativeTransferBytes": null
+      }
+    }
+  ],
+  "inputOverview": {
+    "validWindows": 90,
+    "recordedIntents": 900,
+    "timeouts": 0,
+    "queueMs": {
+      "n": 900,
+      "min": 0.20000004768371582,
+      "median": 0.5,
+      "max": 4
+    },
+    "handlerToIntentMs": {
+      "n": 900,
+      "min": 1,
+      "median": 1.5,
+      "max": 6.399999976158142
+    },
+    "maxInputLatenessMs": {
+      "n": 90,
+      "min": 0,
+      "median": 0.4377789999707602,
+      "max": 4.170976999972481
+    }
+  }
+}

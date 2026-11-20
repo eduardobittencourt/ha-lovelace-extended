@@ -1,0 +1,43 @@
+{
+  "ownedProcessesGone": true,
+  "pidfileAbsent": true,
+  "socketAbsent": true,
+  "listenerAbsent": true,
+  "port": 18124,
+  "historicalSourceAndLocksUnchanged": {
+    "experiments/minimum-card-contract/src/card.css": true,
+    "experiments/minimum-card-contract/src/card.js": true,
+    "experiments/minimum-card-contract/src/recorder.js": true,
+    "experiments/minimum-card-contract/package.json": true,
+    "experiments/minimum-card-contract/package-lock.json": true
+  },
+  "removedOwnedCaches": [
+    "rootfs",
+    "layers"
+  ],
+  "unrelatedEvidenceDeleted": false,
+  "productionHAChanged": false,
+  "licensesPreserved": {
+    "count": 1745,
+    "archive": "image-licenses.tar.gz",
+    "manifest": "image-license-manifest.json",
+    "archiveSha256": "12e44373e78a21d4305ed9212c3844df26940f305041f80705765d7c638861a2"
+  },
+  "freeBytesBeforeCleanup": 3046010880,
+  "freeBytesAfterCleanup": 6598238208,
+  "reserveBytes": 1073741824,
+  "remainingOwnedArtifacts": [
+    "Raw samples, failed pilots, screenshots, exact source snapshots and image manifest",
+    "Private generated candidate state retained with mode 0700; no contents published",
+    "Image license archive and manifest"
+  ],
+  "storageSupervisor": {
+    "reason": "completed",
+    "exit_code": 0,
+    "minimum_free_bytes": 3046002688,
+    "final_free_bytes": 3046002688,
+    "reserve_bytes": 1073741824,
+    "trip_bytes": 1342177280,
+    "poll_seconds": 0.1
+  }
+}

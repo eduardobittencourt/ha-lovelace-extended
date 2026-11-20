@@ -1,0 +1,299 @@
+{
+  "rows": [
+    {
+      "method": "pointer",
+      "role": "open",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "open_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "open"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "close",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "close_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "close"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "stop",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "stop_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "stop"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "action_1",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_1",
+          "data": {},
+          "origin": "action_1"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "action_2",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_2",
+          "data": {},
+          "origin": "action_2"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "action_3",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_3",
+          "data": {},
+          "origin": "action_3"
+        }
+      ]
+    },
+    {
+      "method": "pointer",
+      "role": "body",
+      "events": [
+        {
+          "kind": "more-info",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "body"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "open",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "open_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "open"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "close",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "close_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "close"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "stop",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "stop_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "stop"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "action_1",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_1",
+          "data": {},
+          "origin": "action_1"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "action_2",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_2",
+          "data": {},
+          "origin": "action_2"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "action_3",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_3",
+          "data": {},
+          "origin": "action_3"
+        }
+      ]
+    },
+    {
+      "method": "Enter",
+      "role": "body",
+      "events": [
+        {
+          "kind": "more-info",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "body"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "open",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "open_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "open"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "close",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "close_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "close"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "stop",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "cover",
+          "service": "stop_cover",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "stop"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "action_1",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_1",
+          "data": {},
+          "origin": "action_1"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "action_2",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_2",
+          "data": {},
+          "origin": "action_2"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "action_3",
+      "events": [
+        {
+          "kind": "service",
+          "domain": "button",
+          "service": "press",
+          "target": "button.fcc_memory_3",
+          "data": {},
+          "origin": "action_3"
+        }
+      ]
+    },
+    {
+      "method": "emulated-touch",
+      "role": "body",
+      "events": [
+        {
+          "kind": "more-info",
+          "target": "cover.fcc_primary",
+          "data": {},
+          "origin": "body"
+        }
+      ]
+    }
+  ],
+  "bodyNoneDisabled": true,
+  "unknownAvailableButton": true,
+  "unavailableAndMissingDisabled": true,
+  "errorNoRecord": true,
+  "cancelledConfirmationNoRecord": true,
+  "additionalDetailsAndNone": true,
+  "serviceFramesSent": 0
+}

@@ -1,0 +1,122 @@
+{
+  "status": "frozen before scheduled descriptive capture",
+  "subject": "complete synthetic fixed-composition candidate; not historical two-slot subject",
+  "versions": {
+    "core": "2026.11.1",
+    "frontend": "20261028.5",
+    "playwright": "1.65.1",
+    "browser": "159.0.8154.6"
+  },
+  "sourceHashes": {
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/ha-adapter.js": "bfc8c63e88483a456103ef59515d0102c3d5017824bd337c07be50bebf392917",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/bindings.js": "537ceb2c1dae0e3191a3002cfc012b0f48bca69baeea592937cb178e50958aeb",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/config.js": "dde3d640a7257ac7c988bbd86719764f7e80aee97c2ed453a44944f50e61752e",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/card.js": "84e558a9b9b2f4378f8a5a551de597c2782fc722b94ee3b1033ea484cdc18af2",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/cover.js": "d9c6ec942367a7ed6e6bdea8584533db8f1f53318282505aa9f6b22a7011862c",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/actions.js": "8e784b07e6b9c6810108619c305c9f90d6b48868562efdabeb426aa996f5bb26",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/styles.js": "762e1caba28c75bdff132bc043f0206fa21a88fd5133a303a7deb0b5b0bc2bdf",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/position.js": "e5f8f385eccb4f97f3bd875c070627ecea45a7799ff54da8a366a4e7c38b8892",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/form.js": "d98c52f276300a12487a8eb17e41c07760e2453f87275fd691650dd6d734322b",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/test/runtime-browser.mjs": "b3d75421bb82d60b98c9e5edcdd404b88e34d0145a8bd5c0e99f73aba36287d9",
+    "/root/workspace/ha-lovelace-extended/candidates/fixed-composition-card/test/fixtures.json": "d98cd15224062af7ff305b4ac3ff9bcfd7cad868afc561bd2a6c2017f49fbfcc",
+    "/root/workspace/ha-lovelace-extended/experiments/minimum-card-contract/package.json": "1f0ce3460340257eb2972b6a45a6e6d7322b9fa7169494b69934c5b23e6456a1",
+    "/root/workspace/ha-lovelace-extended/experiments/minimum-card-contract/package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/common.mjs": "f87cba8b0d76b439614d4021b9ccfd88c67440b7af605fb05f7230b359a334f4",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/intercept.js": "415deaa39cd0d6db409c6d8263f78b0b46528a2cae7bc290542d8f30baa8015b",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/profile-common.mjs": "0553e5da595a7997bd2381c4c656014f26687509d8716d6d5254b9bc9b51c1a3",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/profile-preflight.mjs": "7f2b160b66784707e320fb3e307bcedf7922a34d96dd454a53b88097abe28040",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/profile-run.mjs": "d7ea1ba36b605497b878cbd0ab82d12beae1b9702be1148cc55e1524f476538b",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/guard.py": "a65a90f0d47f2ae7d6749e9056c524fef5d396630794f225df682bc5105da389",
+    "/root/research/ha-lovelace-extended/implement-complete-desk-composition/tools/sandbox.py": "2391e2a64651bdd7bb55d214360d67032f86f05e7f7f95cde2c41f1d5f488c9f"
+  },
+  "groups": [
+    1,
+    10
+  ],
+  "variants": [
+    "empty",
+    "native",
+    "candidate"
+  ],
+  "viewport": [
+    1280,
+    900
+  ],
+  "theme": "light",
+  "locale": "en",
+  "textScale": 1,
+  "order": "serial; loads/editors three blocks, workload list empty/native/candidate at one then ten groups rotated left by trial index; updates/inputs same unrotated list",
+  "schedule": {
+    "loads": {
+      "pairsPerWorkload": 3,
+      "expectedObservations": 36
+    },
+    "editors": {
+      "firstReopenPairsPerWorkload": 3,
+      "expectedObservations": 36,
+      "emptySetupObservations": 12
+    },
+    "updateOnly": {
+      "seconds": 10,
+      "ratesHz": [
+        1,
+        20
+      ],
+      "classes": [
+        "relevant",
+        "unrelated"
+      ],
+      "windowsPerCell": 1,
+      "expectedWindows": 24
+    },
+    "inputs": {
+      "idlePerWorkload": 10,
+      "underUpdatesPerWorkload": 10,
+      "separateUpdateWindowSeconds": 10,
+      "rateHz": 20,
+      "expectedActivations": 120,
+      "expectedRows": 12
+    },
+    "lifecycle": {
+      "mountRemoveReinsertCycles": 50,
+      "subsequentActivations": 1
+    }
+  },
+  "boundaries": {
+    "load": "Navigation start to expected complete card count/current data, hidden HA launch overlay, fonts and two animation-frame opportunities; sampled browser clock includes driver observation overhead. No compositor-presentation claim.",
+    "cache": "Fresh browser context and explicit clearBrowserCache per cold/warm pair; warm same-context reload. Service workers blocked; no HTTP routing during timing. Static transfer and actual response resources retained.",
+    "loadCPU": "Absolute document CDP counters after readiness; never subtract across navigation. Shared HA work included.",
+    "editor": "Click edit-dashboard through actual cover Tile/candidate editor plus two frame opportunities. Same-document close and reopen. Shared resource deltas and within-document CPU deltas included; empty is setup only.",
+    "updates": "Sequential REST state POSTs scheduled on Node monotonic clock; browser additional state_changed subscription verifies every delivered event and final hass state. Counts/lateness and actual elapsed duration retained. Observer adds shared diagnostic cost; no sustained workload claim.",
+    "input": "Document-capture pointerdown to watched local descriptor-journal push, using real Playwright pointer click. Empty is driver-only journal. Ten under-update activations are spaced at midpoints of ten bins in a separate update window; CPU never pooled with update-only windows.",
+    "lifecycle": "Owned listener/work diagnostics and next activation, without retained-byte attribution."
+  },
+  "nativeMismatches": [
+    "Native complete group uses five separate Tiles; candidate one card.",
+    "Native editor profile measures the cover Tile editor, not aggregate editing of all five Tiles.",
+    "Native position slider has native commit semantics; candidate uses release/Enter-only local preview.",
+    "Empty input is a driver-only button without HA service semantics.",
+    "Shared HA icon/dialog/editor costs remain in totals; no ownership or final-presentation attribution."
+  ],
+  "invalidation": "Preserve slow valid and invalid attempts. Stop on unexpected capture failure; publish reason and keep affected row pending. No silent retry or replacement. Method pilots are separate files and excluded from frozen schedule.",
+  "capacity": {
+    "reserveBytes": 1073741824,
+    "tripBytes": 1342177280,
+    "pollSeconds": 0.1,
+    "freeBytesAtFreeze": 3052126208,
+    "scalarCaptureAllowanceBytes": 268435456,
+    "storageExit": "Guard stops owned sandbox/process group; retain evidence and reclaim only owned safe caches if necessary; otherwise stop and notify maintainer."
+  },
+  "host": {
+    "loadAverage": [
+      0.28857421875,
+      0.33056640625,
+      0.42236328125
+    ],
+    "affinityCPUs": 8,
+    "haCPUCap": 2,
+    "haPerProcessAddressSpaceBytes": 3221225472,
+    "notTotalContainerMemoryQuota": true
+  },
+  "acceptance": "Descriptive short diagnostic only. All changed-subject acceptance remains pending; historical approvals do not apply automatically; no new numerical agreement or final-MVP performance acceptance."
+}

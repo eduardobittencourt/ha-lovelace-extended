@@ -1,0 +1,99 @@
+{
+  "status": "all candidate acceptance pending; no waiver",
+  "subject": "synthetic complete-composition candidate",
+  "rows": [
+    {
+      "id": "runtime-decoded-bytes",
+      "historicalLimit": 16384,
+      "historicalDisposition": "Historical approved bounded pass",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Explicit applicability/agreement for expanded module graph",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "cold-ready",
+      "historicalLimit": 1000,
+      "historicalDisposition": "Fresh historical pass; two historical failures unresolved",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Resolve retained failures and justify candidate/final method applicability",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "warm-ready",
+      "historicalLimit": 750,
+      "historicalDisposition": "Historical approved bounded pass",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Changed subject and smaller diagnostic schedule need agreement/verification",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "local-intent",
+      "historicalLimit": 16.7,
+      "historicalDisposition": "Historical approved bounded pass",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Changed descriptor/input instrumentation and workload need agreement/verification",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "editor",
+      "historicalLimit": {
+        "first_open": 1000,
+        "same_document_reopen": 750
+      },
+      "historicalDisposition": "Historical approved bounded pass",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Expanded 23-field editor and changed three-pair schedule need agreement/verification",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "load-cpu",
+      "historicalLimit": null,
+      "historicalDisposition": "Unapproved",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Representative device/workload objectives and numerical agreement",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "load-transfer",
+      "historicalLimit": null,
+      "historicalDisposition": "Unapproved",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Bandwidth/loading objectives and numerical agreement; WebSocket bytes excluded here",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "updates",
+      "historicalLimit": null,
+      "historicalDisposition": "Unapproved",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Representative sustained workload/responsiveness objectives and numerical agreement",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "retention",
+      "historicalLimit": null,
+      "historicalDisposition": "Unsupported ownership attribution",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Calibrate retained-byte attribution; owned counts are not retained bytes",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    },
+    {
+      "id": "presentation",
+      "historicalLimit": null,
+      "historicalDisposition": "Unsupported final-presentation endpoint",
+      "candidateStatus": "pending",
+      "requiredNextStep": "Calibrate compositor presentation; DOM/frames/local intent are different endpoints",
+      "evidence": "profile-samples.json and report/report.json; descriptive only"
+    }
+  ],
+  "historicalColdFailuresMs": [
+    1108.6,
+    1104.8
+  ],
+  "candidateApplication": "No historical pass transfers to this changed subject. Three pairs/ten inputs and short diagnostics differ from accepted historical verification; no new numerical agreement was requested or obtained.",
+  "finalGates": [
+    "Applicable approved budgets and fresh verification on final MVP",
+    "Exact reference-device/input/accessibility conditions",
+    "Real transport and separately supervised physical/everyday validation"
+  ]
+}

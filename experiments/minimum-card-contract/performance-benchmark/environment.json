@@ -1,0 +1,116 @@
+{
+  "frozenEnvironment": {
+    "platform": "Linux x86_64",
+    "python": "3.14.9",
+    "host_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ha_affinity": [
+      0,
+      1
+    ],
+    "namespaces_distinct": {
+      "net": true,
+      "pid": true,
+      "mnt": true,
+      "user": true,
+      "ipc": true,
+      "uts": true
+    },
+    "capabilities_zero": true,
+    "no_external_interface": true,
+    "free_bytes": 3106185216,
+    "reserve_bytes": 1073741824,
+    "load_before": [
+      1.26220703125,
+      0.771484375,
+      0.4345703125
+    ],
+    "cpu.max": "max 100000",
+    "memory.max": "max",
+    "core": "2026.11.1",
+    "frontend": "20261028.5",
+    "image": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+    "node": "24.22.0",
+    "playwright": "1.65.1",
+    "browser": "159.0.8154.6",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1
+    },
+    "theme": "light",
+    "locale": "en-US",
+    "haLanguage": "en",
+    "textScale": 1,
+    "layout": "Masonry allocated by HA; native three Tile surfaces per group, experimental fixed three internal buttons",
+    "content": "First reading, Second reading, Body intent; synthetic A/B sources; independent A/B/body targets",
+    "allocation": "HA affinity two allowed cores; browser/driver use host affinity; no per-container CPU or memory limit claimed",
+    "network": "All-namespace HA, loopback relay; browser proxy rejects non-loopback; service workers blocked; no request routing"
+  },
+  "collectionLoads": {
+    "loads": {
+      "before": [
+        0.85,
+        0.66,
+        0.49
+      ],
+      "after": [
+        2.28,
+        1.17,
+        0.69
+      ]
+    },
+    "updates": {
+      "before": [
+        1.38,
+        1.05,
+        0.66
+      ],
+      "after": [
+        0,
+        0.02,
+        0.07
+      ]
+    },
+    "interactions": {
+      "before": [
+        0.83,
+        0.2,
+        0.12
+      ],
+      "after": [
+        0.06,
+        0.05,
+        0.07
+      ]
+    },
+    "editors": {
+      "before": [
+        0.12,
+        0.06,
+        0.08
+      ],
+      "after": [
+        1.01,
+        0.28,
+        0.15
+      ]
+    }
+  },
+  "startupLimitations": {
+    "logClassificationOnly": true,
+    "offlineAnalyticsMentions": 4,
+    "offlineMarketplaceMentions": 4,
+    "resolverMentions": 10,
+    "limitation": "Network-isolated HA can emit offline startup resolver/analytics/marketplace warnings; this is a synthetic lab, not production compatibility evidence. Raw HA logs/private state are not published."
+  },
+  "constraints": "Shared LXC host; affinity and pinned versions are recorded, without claiming fixed CPU frequency, an exclusive host or reference-phone equivalence"
+}

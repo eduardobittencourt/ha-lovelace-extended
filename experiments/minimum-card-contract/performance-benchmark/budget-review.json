@@ -1,0 +1,1785 @@
+{
+  "phase": "Completed descriptive investigation and budget review; target numerical agreement awaiting",
+  "rows": [
+    {
+      "id": "load-cpu",
+      "unit": "ms",
+      "boundary": "Post-navigation CDP TaskDuration and ScriptDuration totals at fixed readiness boundary, separately for cold/warm and one/ten groups",
+      "variants": [
+        "empty control",
+        "native three-Tile group",
+        "experimental two-slot prototype"
+      ],
+      "counts": [
+        1,
+        10
+      ],
+      "deviceApplicability": "Pinned Linux x86_64 HeadlessChrome 159.0.8154.6 only; no phone conversion, wider compatibility or final-MVP acceptance",
+      "statistic": "Future approval must specify a maximum per exact workload/cell with all valid observations retained; min/median/range/max discovery summaries remain descriptive",
+      "proposedMaximum": null,
+      "agreement": {
+        "status": "awaiting agreement",
+        "date_utc": null,
+        "provenance": null
+      },
+      "unresolvedGap": "No agreed acceptable startup work share or ready-time objective linked to CPU for a representative deployment/device; whole-dashboard and observer work remain shared.",
+      "rationale": "Publish absolute distributions, equivalent-cell controls and local input observations; do not choose an arbitrary margin, adopt an observed/comparator maximum as a ceiling, or infer desktop-to-phone equivalence. Selected third-party compositions failed eligibility, so no third-party performance ranking is available.",
+      "evidence": [
+        "discovery.json",
+        "summary.json",
+        "review.md",
+        "calibration.json",
+        "selection.md",
+        "protocol.json"
+      ],
+      "missingPolicy": "Incomplete or invalid required coverage remains pending with reasons; no silent retries or replacement of valid slow observations.",
+      "exceedancePolicy": "Only after explicit dated numerical agreement and a separately frozen fresh verification campaign: any valid exceedance fails that approved cell; required missing coverage stays pending. Discovery never becomes approval-backed verification.",
+      "observedCells": [
+        {
+          "key": [
+            "empty",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 542.0350000000001,
+              "median": 550.83,
+              "max": 562.816
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 126.90899999999999,
+              "median": 128.6655,
+              "max": 130.943
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 314.465,
+              "median": 324.2695,
+              "max": 335.54499999999996
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 39.748,
+              "median": 41.480000000000004,
+              "max": 42.347
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 552.148,
+              "median": 578.537,
+              "max": 607.146
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 131.885,
+              "median": 135.469,
+              "max": 159.482
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 338.988,
+              "median": 349.29,
+              "max": 372.15700000000004
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 42.952999999999996,
+              "median": 44.2525,
+              "max": 47.328
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 556.2289999999999,
+              "median": 564.8455,
+              "max": 598.0980000000001
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 132.426,
+              "median": 134.7855,
+              "max": 138.828
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 329.923,
+              "median": 338.34000000000003,
+              "max": 350.381
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 42.706,
+              "median": 43.816,
+              "max": 45.415
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 532.054,
+              "median": 548.3924999999999,
+              "max": 593.215
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 125.62599999999999,
+              "median": 130.0415,
+              "max": 133.315
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 312.324,
+              "median": 317.7825,
+              "max": 328.835
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 39.247,
+              "median": 40.626999999999995,
+              "max": 43.149
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 613.565,
+              "median": 623.955,
+              "max": 634.193
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 141.877,
+              "median": 144.413,
+              "max": 150.79500000000002
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 385.806,
+              "median": 398.8365,
+              "max": 414.956
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 55.374,
+              "median": 55.914500000000004,
+              "max": 58.681
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 569.4169999999999,
+              "median": 574.6959999999999,
+              "max": 605.949
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 137.377,
+              "median": 139.21249999999998,
+              "max": 141.741
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "taskMs": {
+              "n": 10,
+              "min": 337.677,
+              "median": 351.701,
+              "max": 360.914
+            },
+            "scriptMs": {
+              "n": 10,
+              "min": 45.522,
+              "median": 47.689,
+              "max": 49.443
+            }
+          }
+        }
+      ],
+      "reviewDisposition": {
+        "status": "awaiting agreement",
+        "recordedAtUtc": "2026-11-19T18:00:16.464258+00:00",
+        "authority": "No target numerical approval received; maintainer continuation was campaign direction only"
+      }
+    },
+    {
+      "id": "load-transfer",
+      "unit": "bytes",
+      "boundary": "Actual document plus ResourceTiming transferred bytes, cold/warm separately; shared HA shell and custom resources reported separately",
+      "variants": [
+        "empty control",
+        "native three-Tile group",
+        "experimental two-slot prototype"
+      ],
+      "counts": [
+        1,
+        10
+      ],
+      "deviceApplicability": "Pinned Linux x86_64 HeadlessChrome 159.0.8154.6 only; no phone conversion, wider compatibility or final-MVP acceptance",
+      "statistic": "Future approval must specify a maximum per exact workload/cell with all valid observations retained; min/median/range/max discovery summaries remain descriptive",
+      "proposedMaximum": null,
+      "agreement": {
+        "status": "awaiting agreement",
+        "date_utc": null,
+        "provenance": null
+      },
+      "unresolvedGap": "No agreed representative network bandwidth/latency/cache condition or acceptable loading wait; a measured byte maximum cannot supply that objective.",
+      "rationale": "Publish absolute distributions, equivalent-cell controls and local input observations; do not choose an arbitrary margin, adopt an observed/comparator maximum as a ceiling, or infer desktop-to-phone equivalence. Selected third-party compositions failed eligibility, so no third-party performance ranking is available.",
+      "evidence": [
+        "discovery.json",
+        "summary.json",
+        "review.md",
+        "calibration.json",
+        "selection.md",
+        "protocol.json"
+      ],
+      "missingPolicy": "Incomplete or invalid required coverage remains pending with reasons; no silent retries or replacement of valid slow observations.",
+      "exceedancePolicy": "Only after explicit dated numerical agreement and a separately frozen fresh verification campaign: any valid exceedance fails that approved cell; required missing coverage stays pending. Discovery never becomes approval-backed verification.",
+      "observedCells": [
+        {
+          "key": [
+            "empty",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1364934,
+              "median": 1364934.0,
+              "max": 1374510
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1364934,
+              "median": 1364934.0,
+              "max": 1374510
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1368049,
+              "median": 1368049.0,
+              "max": 1368049
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 12510,
+              "median": 12510.0,
+              "max": 12510
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            }
+          }
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1364934,
+              "median": 1364934.0,
+              "max": 1364934
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1364934,
+              "median": 1364934.0,
+              "max": 1364934
+            }
+          }
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "cold"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 1368049,
+              "median": 1368049.0,
+              "max": 1368049
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 12510,
+              "median": 12510.0,
+              "max": 12510
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 1355539,
+              "median": 1355539.0,
+              "max": 1355539
+            }
+          }
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "warm"
+          ],
+          "valid": 10,
+          "attempts": 10,
+          "metrics": {
+            "transferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            },
+            "customTransferBytes": {
+              "n": 10,
+              "min": 0,
+              "median": 0.0,
+              "max": 0
+            },
+            "sharedTransferBytes": {
+              "n": 10,
+              "min": 3931,
+              "median": 3931.0,
+              "max": 3931
+            }
+          }
+        }
+      ],
+      "reviewDisposition": {
+        "status": "awaiting agreement",
+        "recordedAtUtc": "2026-11-19T18:00:16.464258+00:00",
+        "authority": "No target numerical approval received; maintainer continuation was campaign direction only"
+      }
+    },
+    {
+      "id": "updates",
+      "unit": "ms per window",
+      "boundary": "Same-document TaskDuration and ScriptDuration deltas for relevant/unrelated 1 Hz 60 s and exploratory 20 Hz 10 s, alongside separate matched interaction windows",
+      "variants": [
+        "empty control",
+        "native three-Tile group",
+        "experimental two-slot prototype"
+      ],
+      "counts": [
+        1,
+        10
+      ],
+      "deviceApplicability": "Pinned Linux x86_64 HeadlessChrome 159.0.8154.6 only; no phone conversion, wider compatibility or final-MVP acceptance",
+      "statistic": "Future approval must specify a maximum per exact workload/cell with all valid observations retained; min/median/range/max discovery summaries remain descriptive",
+      "proposedMaximum": null,
+      "agreement": {
+        "status": "awaiting agreement",
+        "date_utc": null,
+        "provenance": null
+      },
+      "unresolvedGap": "No agreed class/rate-specific processing allowance or displayed responsiveness objective on representative final-MVP/device traffic; local queueing/intent does not calibrate final presentation.",
+      "rationale": "Publish absolute distributions, equivalent-cell controls and local input observations; do not choose an arbitrary margin, adopt an observed/comparator maximum as a ceiling, or infer desktop-to-phone equivalence. Selected third-party compositions failed eligibility, so no third-party performance ranking is available.",
+      "evidence": [
+        "discovery.json",
+        "summary.json",
+        "review.md",
+        "calibration.json",
+        "selection.md",
+        "protocol.json"
+      ],
+      "missingPolicy": "Incomplete or invalid required coverage remains pending with reasons; no silent retries or replacement of valid slow observations.",
+      "exceedancePolicy": "Only after explicit dated numerical agreement and a separately frozen fresh verification campaign: any valid exceedance fails that approved cell; required missing coverage stays pending. Discovery never becomes approval-backed verification.",
+      "observedCells": [
+        {
+          "key": [
+            "empty",
+            1,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 84.17399999999998,
+              "median": 85.519,
+              "max": 89.68700000000007
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 9.018999999999998,
+              "median": 9.858000000000006,
+              "max": 10.012999999999995
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60006.33237900003,
+              "median": 60019.095124,
+              "max": 60022.19894499995
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1879279999993742,
+              "median": 1.1996040000813082,
+              "max": 1.6245199999998476
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "empty",
+            1,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 100.54399999999997,
+              "median": 102.29500000000003,
+              "max": 105.35600000000001
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 17.441000000000013,
+              "median": 17.72399999999999,
+              "max": 18.624000000000002
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10005.047924000006,
+              "median": 10005.448198000086,
+              "max": 10006.5821959998
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1858069999143481,
+              "median": 1.1923610001103953,
+              "max": 1.2771429999993416
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "empty",
+            1,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 37.331,
+              "median": 37.530000000000065,
+              "max": 39.32099999999994
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.215999999999999,
+              "median": 6.304000000000004,
+              "max": 6.4589999999999925
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60005.00140099996,
+              "median": 60005.33948799991,
+              "max": 60022.17544000002
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1940790000371635,
+              "median": 1.2380930000072112,
+              "max": 1.2568990000290796
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "empty",
+            1,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 96.76399999999997,
+              "median": 98.20700000000005,
+              "max": 101.45300000000002
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 17.637999999999987,
+              "median": 17.72600000000002,
+              "max": 17.996999999999986
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10006.047992999898,
+              "median": 10006.092347000027,
+              "max": 10007.074145000079
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.177280000061728,
+              "median": 1.193159000016749,
+              "max": 1.209991000010632
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 179.96699999999998,
+              "median": 181.17000000000004,
+              "max": 182.836
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 9.433999999999997,
+              "median": 9.437000000000001,
+              "max": 9.537999999999991
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60004.28865600005,
+              "median": 60005.748305999994,
+              "max": 60020.79872000002
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.2093160001095384,
+              "median": 1.2190640000044368,
+              "max": 1.305052000010619
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 373.84799999999996,
+              "median": 380.24899999999997,
+              "max": 381.621
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 20.168999999999993,
+              "median": 20.325999999999983,
+              "max": 21.319000000000006
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10021.666073,
+              "median": 10021.843781000003,
+              "max": 10022.269276999868
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.184529999998631,
+              "median": 1.1965729999355972,
+              "max": 1.1969960000133142
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 44.86200000000018,
+              "median": 47.090999999999994,
+              "max": 50.54000000000003
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.111999999999979,
+              "median": 6.245999999999974,
+              "max": 6.7170000000000005
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60004.11205100006,
+              "median": 60004.84913699998,
+              "max": 60020.800456000026
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 0.6342600001953542,
+              "median": 1.1854719999828376,
+              "max": 1.2018189999798778
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "native",
+            1,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 119.672,
+              "median": 136.24499999999995,
+              "max": 139.26400000000007
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 17.201000000000022,
+              "median": 17.33599999999999,
+              "max": 17.67100000000002
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10007.094370000006,
+              "median": 10007.830287000164,
+              "max": 10008.51157099998
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1846690000966191,
+              "median": 1.1882179999956861,
+              "max": 1.2350279999664053
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 160.9259999999999,
+              "median": 161.56300000000002,
+              "max": 170.51899999999998
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 9.034000000000015,
+              "median": 9.421000000000014,
+              "max": 9.493000000000002
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60006.54979799996,
+              "median": 60006.65638399997,
+              "max": 60021.98728999996
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1954339999938384,
+              "median": 1.1996880000224337,
+              "max": 1.2100109999882989
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 302.8109999999999,
+              "median": 318.608,
+              "max": 327.5009999999999
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 19.759999999999998,
+              "median": 19.866999999999997,
+              "max": 20.386000000000017
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10022.164098999987,
+              "median": 10023.729533999925,
+              "max": 10024.198761999956
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1931889998959377,
+              "median": 1.201266000047326,
+              "max": 1.2107209999812767
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 41.61300000000012,
+              "median": 42.8980000000001,
+              "max": 46.46899999999987
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.4549999999999885,
+              "median": 6.519999999999998,
+              "max": 6.612000000000007
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60004.818081000005,
+              "median": 60005.78449800005,
+              "max": 60021.74670000002
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1897110000136308,
+              "median": 1.192202000063844,
+              "max": 1.2008549999445677
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "experimental",
+            1,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 123.36499999999995,
+              "median": 125.98500000000001,
+              "max": 130.76700000000008
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 17.829999999999984,
+              "median": 18.10199999999998,
+              "max": 18.946999999999992
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10006.194568000035,
+              "median": 10007.084226000006,
+              "max": 10007.50176699995
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1902550000231713,
+              "median": 1.1938720000907779,
+              "max": 1.1993430000147782
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 84.78600000000003,
+              "median": 85.26999999999995,
+              "max": 92.14999999999995
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 8.973999999999982,
+              "median": 9.183999999999997,
+              "max": 9.672000000000015
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60006.47232399974,
+              "median": 60007.28229099978,
+              "max": 60023.11343299993
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1936249998398125,
+              "median": 1.203613999998197,
+              "max": 1.4237049999646842
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 97.71300000000005,
+              "median": 99.37400000000008,
+              "max": 101.23799999999994
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 16.914000000000012,
+              "median": 17.713000000000008,
+              "max": 18.136000000000013
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10005.61738600023,
+              "median": 10007.872568000108,
+              "max": 10012.610851000063
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1834179998841137,
+              "median": 1.1890370000619441,
+              "max": 1.2043110001832247
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 36.92899999999999,
+              "median": 38.487999999999964,
+              "max": 38.783000000000015
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.047999999999998,
+              "median": 6.2510000000000066,
+              "max": 6.388000000000005
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60004.79578200006,
+              "median": 60006.01403499977,
+              "max": 60021.06847000029
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1835140003822744,
+              "median": 1.293347999919206,
+              "max": 1.3078890000469983
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "empty",
+            10,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 93.60199999999996,
+              "median": 97.109,
+              "max": 98.55799999999992
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 17.010000000000026,
+              "median": 17.284999999999997,
+              "max": 17.513
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10007.424064999912,
+              "median": 10007.547089000233,
+              "max": 10008.025321999798
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1795060001313686,
+              "median": 1.1809970000758767,
+              "max": 1.190411999821663
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 357.58299999999997,
+              "median": 359.89700000000005,
+              "max": 368.3519999999999
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 10.104000000000003,
+              "median": 10.193999999999981,
+              "max": 10.978999999999989
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60020.12732700026,
+              "median": 60020.43405000004,
+              "max": 60020.469453
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.198147000046447,
+              "median": 1.268263999838382,
+              "max": 1.3297649999149144
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 878.889,
+              "median": 881.278,
+              "max": 926.5989999999999
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 19.728000000000023,
+              "median": 19.898,
+              "max": 20.51
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10021.983944999985,
+              "median": 10022.285807000007,
+              "max": 10022.643871999811
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1818280001170933,
+              "median": 1.1845439998432994,
+              "max": 1.2007889999076724
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 84.53500000000025,
+              "median": 85.45200000000008,
+              "max": 97.80600000000005
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.296999999999997,
+              "median": 6.395999999999985,
+              "max": 6.516999999999995
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60009.171766999876,
+              "median": 60020.78526099981,
+              "max": 60021.68844300043
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.183521999977529,
+              "median": 1.1897539999336004,
+              "max": 1.307398000266403
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "native",
+            10,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 252.4329999999999,
+              "median": 253.7980000000002,
+              "max": 256.9870000000001
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 16.527999999999988,
+              "median": 16.819,
+              "max": 17.622
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10006.468056999613,
+              "median": 10006.659199000103,
+              "max": 10007.938957999926
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1799919998738915,
+              "median": 1.1859460000414401,
+              "max": 1.18969799997285
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "relevant",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 226.26999999999998,
+              "median": 231.36500000000004,
+              "max": 239.50700000000003
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 9.362999999999982,
+              "median": 9.94600000000001,
+              "max": 10.197999999999984
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60006.08163199993,
+              "median": 60007.53347199969,
+              "max": 60022.036337000085
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 0.8171480000019073,
+              "median": 1.182158999843523,
+              "max": 1.1885929997079074
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "relevant",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 545.538,
+              "median": 545.924,
+              "max": 554.13
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 20.517000000000007,
+              "median": 20.687000000000012,
+              "max": 20.773999999999987
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10021.474557999987,
+              "median": 10022.664877000032,
+              "max": 10023.65881199995
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.178738999646157,
+              "median": 1.1950550000183284,
+              "max": 1.244436000008136
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "unrelated",
+            1
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 51.593,
+              "median": 59.620999999999924,
+              "max": 64.94
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 6.392999999999982,
+              "median": 6.5830000000000055,
+              "max": 6.596000000000019
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 60004.93963500019,
+              "median": 60006.26497399993,
+              "max": 60020.706558999605
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 0.6016679999884218,
+              "median": 1.1876339996233582,
+              "max": 1.3792779999785125
+            }
+          },
+          "invalidReasons": [],
+          "sent": 180,
+          "delivered": 180
+        },
+        {
+          "key": [
+            "experimental",
+            10,
+            "unrelated",
+            20
+          ],
+          "attempts": 3,
+          "valid": 3,
+          "invalid": 0,
+          "metrics": {
+            "taskMs": {
+              "n": 3,
+              "min": 134.53000000000003,
+              "median": 138.53399999999993,
+              "max": 148.60800000000006
+            },
+            "scriptMs": {
+              "n": 3,
+              "min": 16.156000000000002,
+              "median": 16.494000000000007,
+              "max": 17.122999999999998
+            },
+            "elapsedMs": {
+              "n": 3,
+              "min": 10006.581579999998,
+              "median": 10007.282869999995,
+              "max": 10016.693292000098
+            },
+            "maxTickLatenessMs": {
+              "n": 3,
+              "min": 1.1540959998965263,
+              "median": 1.1866829998325557,
+              "max": 1.1901710000820458
+            }
+          },
+          "invalidReasons": [],
+          "sent": 600,
+          "delivered": 600
+        }
+      ],
+      "companionInteractionEvidence": "summary.json interaction cells/inputOverview; separate update-only accounting",
+      "reviewDisposition": {
+        "status": "awaiting agreement",
+        "recordedAtUtc": "2026-11-19T18:00:16.464258+00:00",
+        "authority": "No target numerical approval received; maintainer continuation was campaign direction only"
+      }
+    }
+  ],
+  "maintainerDirection": {
+    "date_utc": "2026-11-19",
+    "scope": "Explicitly continue planned native/experimental/empty negative-comparator investigation",
+    "numericalBudgetApproval": false
+  },
+  "verificationBranch": {
+    "status": "unexecuted; no target cells have numerical agreement",
+    "verificationFilePublished": false,
+    "prerequisites": [
+      "Explicit dated numerical agreement per target cell, with endpoint, units, workload/count/cache/class/rate, device applicability and statistic",
+      "Freeze a new verification manifest with exact subject/tool/adapter hashes and the same controls",
+      "Recollect fresh observations using at least the applicable discovery schedule, including matched interactions when covered",
+      "Retain all valid slow observations and publish exceedance failures; leave missing/invalid required coverage pending"
+    ],
+    "discoveryRelabelingProhibited": true
+  },
+  "independentGates": {
+    "cold": "Historical 1108.60 and 1104.80 ms failures remain unresolved against approved 1000 ms maximum",
+    "retention": "Pending calibrated isolated retained-byte attribution",
+    "presentation": "Pending calibrated final-presentation observation",
+    "finalMVP": "Repeat relevant protocol and complete device/accessibility, integration, physical and everyday validation",
+    "stage1": "open; no row waived; production stack undecided"
+  },
+  "presentedAtUtc": "2026-11-19T18:00:16.464258+00:00",
+  "coverage": {
+    "loads": {
+      "attempted": 120,
+      "valid": 120
+    },
+    "updates": {
+      "attempted": 72,
+      "valid": 72
+    },
+    "interactions": {
+      "attempted": 90,
+      "valid": 90
+    },
+    "editors": {
+      "attempted": 36,
+      "valid": 36
+    }
+  },
+  "localInputEvidence": {
+    "validWindows": 90,
+    "recordedIntents": 900,
+    "timeouts": 0,
+    "queueMs": {
+      "n": 900,
+      "min": 0.20000004768371582,
+      "median": 0.5,
+      "max": 4
+    },
+    "handlerToIntentMs": {
+      "n": 900,
+      "min": 1,
+      "median": 1.5,
+      "max": 6.399999976158142
+    },
+    "maxInputLatenessMs": {
+      "n": 90,
+      "min": 0,
+      "median": 0.4377789999707602,
+      "max": 4.170976999972481
+    }
+  },
+  "supersededBy": {
+    "decisionDate": "2026-11-19",
+    "policy": "../../../docs/performance-budgets.md",
+    "adoptedLimits": "adopted-budgets.json",
+    "scope": "Numerical approval/objective prerequisites and prohibition on comparator maxima; original discovery and review provenance preserved",
+    "currentStatus": "Native per-cell maxima adopted under standing maintainer delegation; fresh verification pending"
+  }
+}

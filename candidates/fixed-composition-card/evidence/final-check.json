@@ -1,0 +1,572 @@
+{
+  "cells": [
+    {
+      "layout": "sections",
+      "viewport": 256,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 240,
+      "height": 2837.734375,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 21,
+          "y": 93,
+          "width": 214,
+          "height": 603.0625,
+          "right": 235,
+          "bottom": 696.0625
+        },
+        {
+          "x": 21,
+          "y": 708.0625,
+          "width": 67.328125,
+          "height": 120.375,
+          "right": 88.328125,
+          "bottom": 828.4375
+        },
+        {
+          "x": 94.328125,
+          "y": 708.0625,
+          "width": 67.328125,
+          "height": 120.375,
+          "right": 161.65625,
+          "bottom": 828.4375
+        },
+        {
+          "x": 167.65625,
+          "y": 708.0625,
+          "width": 67.34375,
+          "height": 120.375,
+          "right": 235,
+          "bottom": 828.4375
+        },
+        {
+          "x": 21,
+          "y": 950.8125,
+          "width": 214,
+          "height": 44,
+          "right": 235,
+          "bottom": 994.8125
+        },
+        {
+          "x": 21,
+          "y": 1386.28125,
+          "width": 67.328125,
+          "height": 1246.5,
+          "right": 88.328125,
+          "bottom": 2632.78125
+        },
+        {
+          "x": 94.328125,
+          "y": 1386.28125,
+          "width": 67.328125,
+          "height": 1246.5,
+          "right": 161.65625,
+          "bottom": 2632.78125
+        },
+        {
+          "x": 167.65625,
+          "y": 1386.28125,
+          "width": 67.34375,
+          "height": 1246.5,
+          "right": 235,
+          "bottom": 2632.78125
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/sections-256.png"
+    },
+    {
+      "layout": "sections",
+      "viewport": 376,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 360,
+      "height": 1698.78125,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 21,
+          "y": 93,
+          "width": 334,
+          "height": 398.3125,
+          "right": 355,
+          "bottom": 491.3125
+        },
+        {
+          "x": 21,
+          "y": 503.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 127,
+          "bottom": 572.5
+        },
+        {
+          "x": 135,
+          "y": 503.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 241,
+          "bottom": 572.5
+        },
+        {
+          "x": 249,
+          "y": 503.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 355,
+          "bottom": 572.5
+        },
+        {
+          "x": 21,
+          "y": 643.6875,
+          "width": 334,
+          "height": 44,
+          "right": 355,
+          "bottom": 687.6875
+        },
+        {
+          "x": 21,
+          "y": 992.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 127,
+          "bottom": 1624.375
+        },
+        {
+          "x": 135,
+          "y": 992.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 241,
+          "bottom": 1624.375
+        },
+        {
+          "x": 249,
+          "y": 992.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 355,
+          "bottom": 1624.375
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/sections-376.png"
+    },
+    {
+      "layout": "sections",
+      "viewport": 632,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 500,
+      "height": 1348.140625,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 79,
+          "y": 93,
+          "width": 474,
+          "height": 347.125,
+          "right": 553,
+          "bottom": 440.125
+        },
+        {
+          "x": 79,
+          "y": 452.125,
+          "width": 152.65625,
+          "height": 69.1875,
+          "right": 231.65625,
+          "bottom": 521.3125
+        },
+        {
+          "x": 239.65625,
+          "y": 452.125,
+          "width": 152.671875,
+          "height": 69.1875,
+          "right": 392.328125,
+          "bottom": 521.3125
+        },
+        {
+          "x": 400.328125,
+          "y": 452.125,
+          "width": 152.671875,
+          "height": 69.1875,
+          "right": 553,
+          "bottom": 521.3125
+        },
+        {
+          "x": 79,
+          "y": 592.5,
+          "width": 474,
+          "height": 44,
+          "right": 553,
+          "bottom": 636.5
+        },
+        {
+          "x": 79,
+          "y": 846.234375,
+          "width": 152.65625,
+          "height": 427.5,
+          "right": 231.65625,
+          "bottom": 1273.734375
+        },
+        {
+          "x": 239.65625,
+          "y": 846.234375,
+          "width": 152.671875,
+          "height": 427.5,
+          "right": 392.328125,
+          "bottom": 1273.734375
+        },
+        {
+          "x": 400.328125,
+          "y": 846.234375,
+          "width": 152.671875,
+          "height": 427.5,
+          "right": 553,
+          "bottom": 1273.734375
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/sections-632.png"
+    },
+    {
+      "layout": "masonry",
+      "viewport": 256,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 240,
+      "height": 2837.734375,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 21,
+          "y": 77,
+          "width": 214,
+          "height": 603.0625,
+          "right": 235,
+          "bottom": 680.0625
+        },
+        {
+          "x": 21,
+          "y": 692.0625,
+          "width": 67.328125,
+          "height": 120.375,
+          "right": 88.328125,
+          "bottom": 812.4375
+        },
+        {
+          "x": 94.328125,
+          "y": 692.0625,
+          "width": 67.328125,
+          "height": 120.375,
+          "right": 161.65625,
+          "bottom": 812.4375
+        },
+        {
+          "x": 167.65625,
+          "y": 692.0625,
+          "width": 67.34375,
+          "height": 120.375,
+          "right": 235,
+          "bottom": 812.4375
+        },
+        {
+          "x": 21,
+          "y": 934.8125,
+          "width": 214,
+          "height": 44,
+          "right": 235,
+          "bottom": 978.8125
+        },
+        {
+          "x": 21,
+          "y": 1370.28125,
+          "width": 67.328125,
+          "height": 1246.5,
+          "right": 88.328125,
+          "bottom": 2616.78125
+        },
+        {
+          "x": 94.328125,
+          "y": 1370.28125,
+          "width": 67.328125,
+          "height": 1246.5,
+          "right": 161.65625,
+          "bottom": 2616.78125
+        },
+        {
+          "x": 167.65625,
+          "y": 1370.28125,
+          "width": 67.34375,
+          "height": 1246.5,
+          "right": 235,
+          "bottom": 2616.78125
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/masonry-256.png"
+    },
+    {
+      "layout": "masonry",
+      "viewport": 376,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 360,
+      "height": 1698.78125,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 21,
+          "y": 77,
+          "width": 334,
+          "height": 398.3125,
+          "right": 355,
+          "bottom": 475.3125
+        },
+        {
+          "x": 21,
+          "y": 487.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 127,
+          "bottom": 556.5
+        },
+        {
+          "x": 135,
+          "y": 487.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 241,
+          "bottom": 556.5
+        },
+        {
+          "x": 249,
+          "y": 487.3125,
+          "width": 106,
+          "height": 69.1875,
+          "right": 355,
+          "bottom": 556.5
+        },
+        {
+          "x": 21,
+          "y": 627.6875,
+          "width": 334,
+          "height": 44,
+          "right": 355,
+          "bottom": 671.6875
+        },
+        {
+          "x": 21,
+          "y": 976.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 127,
+          "bottom": 1608.375
+        },
+        {
+          "x": 135,
+          "y": 976.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 241,
+          "bottom": 1608.375
+        },
+        {
+          "x": 249,
+          "y": 976.125,
+          "width": 106,
+          "height": 632.25,
+          "right": 355,
+          "bottom": 1608.375
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/masonry-376.png"
+    },
+    {
+      "layout": "masonry",
+      "viewport": 632,
+      "textScale": 2,
+      "longLabels": true,
+      "width": 492,
+      "height": 1348.140625,
+      "font": "32px",
+      "controls": [
+        {
+          "x": 83,
+          "y": 77,
+          "width": 466,
+          "height": 347.125,
+          "right": 549,
+          "bottom": 424.125
+        },
+        {
+          "x": 83,
+          "y": 436.125,
+          "width": 150,
+          "height": 69.1875,
+          "right": 233,
+          "bottom": 505.3125
+        },
+        {
+          "x": 241,
+          "y": 436.125,
+          "width": 150,
+          "height": 69.1875,
+          "right": 391,
+          "bottom": 505.3125
+        },
+        {
+          "x": 399,
+          "y": 436.125,
+          "width": 150,
+          "height": 69.1875,
+          "right": 549,
+          "bottom": 505.3125
+        },
+        {
+          "x": 83,
+          "y": 576.5,
+          "width": 466,
+          "height": 44,
+          "right": 549,
+          "bottom": 620.5
+        },
+        {
+          "x": 83,
+          "y": 830.234375,
+          "width": 150,
+          "height": 427.5,
+          "right": 233,
+          "bottom": 1257.734375
+        },
+        {
+          "x": 241,
+          "y": 830.234375,
+          "width": 150,
+          "height": 427.5,
+          "right": 391,
+          "bottom": 1257.734375
+        },
+        {
+          "x": 399,
+          "y": 830.234375,
+          "width": 150,
+          "height": 427.5,
+          "right": 549,
+          "bottom": 1257.734375
+        }
+      ],
+      "overflow": [],
+      "overlap": [],
+      "failures": [],
+      "language": "en",
+      "dark": false,
+      "keyboardOrder": [
+        "body",
+        "open",
+        "close",
+        "stop",
+        "range",
+        "action_1",
+        "action_2",
+        "action_3"
+      ],
+      "focusOutline": "3px",
+      "accessibleNames": true,
+      "touch": "Playwright emulated tap; six controls reached",
+      "screenshot": "final-screenshots/masonry-632.png"
+    }
+  ],
+  "whitespaceNamesAccessible": true,
+  "persistedWhitespacePreserved": true,
+  "allFrozenSourceHashesExact": true,
+  "unitTests": 22
+}

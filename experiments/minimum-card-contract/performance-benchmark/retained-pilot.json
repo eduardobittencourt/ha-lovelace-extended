@@ -1,0 +1,5381 @@
+{
+  "rows": [
+    {
+      "variant": "empty",
+      "count": 1,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104230.5224283,
+              "c": "01M7T8SK3TNPB7Y7X8N2QQ6H9X"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "s": "41",
+            "a": {
+              "min": 0,
+              "max": 100,
+              "step": 1,
+              "mode": "slider",
+              "initial": 21,
+              "editable": false,
+              "friendly_name": "Experiment display A"
+            },
+            "c": {
+              "id": "01M7T8SK54HKX9KXZMF6DRXM82",
+              "parent_id": null,
+              "user_id": "086ba300f2834bc5abe4083731ab703e"
+            },
+            "lc": 1795104230.5646856
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "variant": "native",
+      "count": 1,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "native"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104231.707058,
+              "c": "01M7T8SM8V9R36RDC8ARSEPTSR"
+            }
+          },
+          "final": "45",
+          "visibleChanged": true
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104231.7411623,
+              "c": "01M7T8SM9X2P014Q32QDBZVKR0"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/70d08c50ec4522dd75d11338db57846588263ee2.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "variant": "experimental",
+      "count": 1,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "experimental"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104232.9453335,
+              "c": "01M7T8SNFH37TE97JK9Z690B4M"
+            }
+          },
+          "final": "45",
+          "visibleChanged": true
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104232.974492,
+              "c": "01M7T8SNGEQCCNNMCAQAT40GR4"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "variant": "empty",
+      "count": 10,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "driver-control"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104233.8079526,
+              "c": "01M7T8SPAFRPNAJYY8TX8ZASKB"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104233.838331,
+              "c": "01M7T8SPBEXBZT0WYYX3K7KAT4"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "variant": "native",
+      "count": 10,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "native"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "native"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104235.0301676,
+              "c": "01M7T8SQGPNAQ2302G2CRSQ01T"
+            }
+          },
+          "final": "45",
+          "visibleChanged": true
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104235.0813792,
+              "c": "01M7T8SQJ9JQGPTC570NRJ02AX"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/70d08c50ec4522dd75d11338db57846588263ee2.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "variant": "experimental",
+      "count": 10,
+      "actions": [
+        {
+          "slot": "a",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "a",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_a",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "b",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_b",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "pointer",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "experimental"
+            }
+          ]
+        },
+        {
+          "slot": "body",
+          "method": "keyboard",
+          "events": [
+            {
+              "target": "input_boolean.mcc_target_body",
+              "origin": "experimental"
+            }
+          ]
+        }
+      ],
+      "updates": [
+        {
+          "kind": "relevant",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104236.8642542,
+              "c": "01M7T8SSA04QRKAKH6GRFHWT0P"
+            }
+          },
+          "final": "45",
+          "visibleChanged": true
+        },
+        {
+          "kind": "unrelated",
+          "sent": 5,
+          "compressedFrames": 5,
+          "example": {
+            "+": {
+              "s": "41",
+              "lc": 1795104236.8953652,
+              "c": "01M7T8SSAZ3WK72AG2ZT0MED4F"
+            }
+          },
+          "final": "45",
+          "visibleChanged": false
+        }
+      ],
+      "status": "pass",
+      "interception": true,
+      "resources": [
+        {
+          "path": "/mcc-experiment/bench",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "host": "127.0.0.1:18123",
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "empty": "Driver/shared-shell context only; no equivalent card or editor"
+}

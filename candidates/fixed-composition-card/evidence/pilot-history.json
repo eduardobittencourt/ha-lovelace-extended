@@ -1,0 +1,44 @@
+{
+  "pilots": [
+    {
+      "task": "1.1",
+      "outcome": "invalid probe corrected",
+      "reason": "Selected outer bwrap monitor rather than HA worker when comparing namespaces; worker verified separately."
+    },
+    {
+      "task": "4.1",
+      "outcome": "setup failure corrected",
+      "reason": "Unconfirmed initial HTTP settings expired after five minutes; stopped sandbox, restarted, reseeded fixtures, then confirmed via actual UI."
+    },
+    {
+      "task": "4.1",
+      "outcome": "invalid locator corrected",
+      "reason": "Details dialog opened correctly; text filter on internal slotted dialog missed title. Parent accessibility snapshot verified entity name."
+    },
+    {
+      "task": "4.3",
+      "outcome": "invalid readiness pilot corrected",
+      "reason": "Coordinate input hit HA launch overlay before it disappeared. Driver now waits for hidden launch screen. Initial no-event observation not counted as gesture behavior."
+    },
+    {
+      "task": "5.1",
+      "outcome": "automation corrected",
+      "reason": "Wait for each actual HA form update; dropdowns expose menuitem rather than option and closing menus must be scoped to their selector."
+    },
+    {
+      "task": "5.2",
+      "outcome": "preserved partial round trips and resumed",
+      "reason": "Alternate cover and alternate height share a name prefix; picker now matches exact friendly text, preserving the first three successful edits."
+    },
+    {
+      "task": "6.1",
+      "outcome": "preflight locators corrected before freeze",
+      "reason": "Native cover labels are Open/Close/Stop cover; Masonry edit control is Edit. Six complete workload preflights and all method pilots passed before frozen collection."
+    },
+    {
+      "task": "7.2",
+      "outcome": "candidate defect fixed; complete profile repeated",
+      "reason": "Whitespace-only labels could remove accessible names. Default inheritance fixed and covered by a regression test and final browser name check; both valid complete profile runs and exact initial sources retained separately."
+    }
+  ]
+}

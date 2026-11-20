@@ -6,8 +6,6 @@ The maintainer delegates benchmark-based numerical selection to agents and rejec
 
 This initial record comes from the product discussion. “Agreed” identifies directions expressed by the user; “proposed” identifies choices still needing validation.
 
-This initial record comes from the product discussion. “Agreed” identifies directions expressed by the user; “proposed” identifies choices still needing validation.
-
 ## Agreed
 
 | Decision | Consequence |
@@ -22,7 +20,7 @@ This initial record comes from the product discussion. “Agreed” identifies d
 | The desk and its three memories are the first real problem | Initial acceptance depends on this complete experience |
 | Future elements and recipes | Ready-made and custom experiences share building blocks |
 | Active promotion follows readiness for complete dashboards | Completing the personal MVP does not trigger promotion |
-| Implementation requires corresponding scope | The bounded stage 1 change authorized only its isolated experiment, local tooling and synthetic fixtures; production HA and physical commands remain outside scope |
+| Implementation requires corresponding scope | Stage 1 authorized its isolated experiment; the separate complete-composition change authorizes its synthetic stage 2 candidate and bounded profile. Production HA and physical commands remain outside both scopes |
 | OpenSpec is adopted for SDD at the user's request | Changes must consider research, discovery, and tests before assuming contracts |
 | The project is intended to be open source from the outset | Early public development is distinct from later active promotion; original material uses Apache-2.0 with third-party terms preserved |
 | Public repository: `eduardobittencourt/ha-lovelace-extended` | Initial product documentation and OpenSpec setup are published on GitHub |
@@ -138,6 +136,39 @@ The [diagnosis](../experiments/minimum-card-contract/performance-diagnostics/dia
 The [ten-row decision record](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles approval provenance and measured outcomes against the combined diagnostic review. Runtime size, warm readiness, local intent and editor readiness retain bounded passes. Cold readiness passed the latest campaign but the 1108.60 and 1104.80 ms historical failures remain unresolved against the approved 1000 ms maximum. CPU, transfer and updates require representative user objectives and explicit budget agreement; retained bytes and presentation require calibrated methods before budgets and verification. No row is waived.
 
 In the [budget review response](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#focused-maintainer-review), the maintainer declined to guess numerical thresholds and permitted other component-library benchmarks as supporting evidence. The stated objective is to avoid a component whose processing weight makes the dashboard nearly unusable. The [comparative direction](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#comparative-benchmark-direction) records proposed follow-up conditions; no comparator, relative tolerance, numerical budget or campaign is approved. The [stage disposition and D3 handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#stage-1-exit-disposition-and-stage-2-handoff) keep stage 1 open and carry final-MVP PERF repeats, full-desk layout/input, reference-device, physical and everyday validation forward. This is an evidence-based disposition under the existing roadmap exit, not a new agreed production stack or authorization for implementation or lab campaigns.
+
+## Stage 1 negative-comparator benchmark — 2026-11-19
+
+The maintainer explicitly authorized continuing the existing investigation with native/experimental/empty controls after Button Card and Mushroom failed the selected ordinary-keyboard pilot. The [selection record](../experiments/minimum-card-contract/performance-benchmark/selection.md) preserves both failures and their runtime/editor exclusions; no third-party ranking, upstream repair or keyboard exception was adopted.
+
+The [completed review](../experiments/minimum-card-contract/performance-benchmark/review.md) publishes full scheduled discovery coverage, calibrated local queueing/intent observations, separate update-only/interaction work, actual editor context and reproducible public inputs. All 900 local activations produced their intended intercepted/recorded A intent without timeout; this is not final presentation, HA transport, physical or reference-phone acceptance. Whole-dashboard costs and the native extra body display prevent isolated per-card attribution or a universal comparison.
+
+The [budget packet](../experiments/minimum-card-contract/performance-benchmark/budget-review.json) records CPU, transfer and updates as awaiting requirements and explicit numerical agreement. Campaign continuation is not budget approval. That discovery-only delivery left fresh verification unexecuted; the subsequent investigation below records execution without relabeling discovery as acceptance. Four prior bounded passes remain within their approvals; the two historical cold failures, unsupported retention/presentation, final-MVP repeats and stage 2 acceptance remain open. The production stack, API, support and distribution decisions are not changed by these observations.
+
+## Complete synthetic composition findings — 2026-11-19
+
+The [separate stage 2 candidate](../candidates/fixed-composition-card/README.md)
+demonstrates independent cover/state/direct-height roles, three additional
+actions, capability-specific targets, requested-versus-actual position and local
+preview with one release/Enter commit. The maintainer's release-only choice is
+implemented; Enter/Escape, integer steps and cancellation are candidate defaults,
+not a new user-confirmed production interaction policy. Whitespace-only labels
+retain readable defaults and saved values remain untouched.
+
+The actual HA form supports all 23 fields without a custom-editor fallback;
+31 independent save/reload/reopen edits preserve siblings. Ninety-six Chromium
+layout cells pass down to 240 px, with ordinary keyboard/emulated-touch evidence
+and fifty owned-resource lifecycle cycles. The [coverage and next-delivery
+handoff](../candidates/fixed-composition-card/coverage.md) distinguishes these
+synthetic outcomes from current-installation, real-transport, reference-device,
+physical/everyday and final performance acceptance.
+
+The candidate uses native custom-element modules as a reversible functional
+baseline. Its changed-subject profile and explicit applicability ledger do not
+adopt a production renderer, stable format, supported-version policy or new
+performance budget. The first profile is retained separately after a final label
+accessibility correction; the final source repeats the same bounded schedule.
+Historical stage 1 passes/failures and unapproved/unsupported rows are preserved.
 
 ## Fresh stage 1 verification — 2026-11-20 (UTC)
 

@@ -1,0 +1,208 @@
+{
+  "phase": "Frozen discovery protocol; not verification or acceptance",
+  "frozenUtc": "2026-11-19T16:10:32.230901+00:00",
+  "maintainerDirection": {
+    "date_utc": "2026-11-19",
+    "response_english": "Yes",
+    "scope": "Continue planned negative-comparator branch with native/experimental/empty; third parties excluded; no budget approval"
+  },
+  "variants": [
+    "empty",
+    "native",
+    "experimental"
+  ],
+  "counts": [
+    1,
+    10
+  ],
+  "excluded": {
+    "button-card-v7.0.1": "Failed ordinary keyboard pilot; no exception",
+    "mushroom-v5.3.0": "Failed ordinary keyboard pilot; no exception"
+  },
+  "subjectHashes": {
+    "src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022",
+    "tools/common.mjs": "9c6cb2be1e1766b94ae578aea2eec39a67b71546d7fa7cef127ef4ec26595391",
+    "tools/workloads.mjs": "659b26854ad1bebba026198af4fc8c1debd9f6e2a53246204bde4e99e5c09f1d",
+    "tools/editor.mjs": "7d0174d6ade8060ab0f29f42ba35d801db405ac4558954f328a82977f1035ccc",
+    "tools/persistence-check.mjs": "d10ceb1e8a011cbe847681496fb359297a105b7e092b3f1f3fc47f5c44351f6f",
+    "tools/sandbox.py": "d0403e4d4d99e0d0c42ccf9315cfe993b1d135d81d182049df828ec4edc65fa4",
+    "tools/image.py": "edb7e27b48ff746d875e7bbfaa957d60bdadb77128a9a57dc4a09e668411ac99",
+    "tools/setup.py": "34c9a7a3e2b3737e2a132fddbbec6991ad374d121ac410a9126e372ed183b427"
+  },
+  "externalScriptHashes": {
+    "bench-common.mjs": "6e0185d075a67b39a3318ed5154366354dc1a983966e349ad4ccc4602909d0d9",
+    "collect.mjs": "49b8f6007607aa99b77d503029f57c9f5e84e86469322eef656555766b883786",
+    "calibrate.mjs": "97eb68feeb9281a7b4114d2991a441755935df50f6b8e5f9d9787df8e673aea8",
+    "driver-calibration.mjs": "28e40940fd7a8482bd0ffbf9a8a5cfd08e1bff8ed0d2d37717981ef24b98d57b",
+    "remaining-pilot.mjs": "9d80a527421d63ec49546974abe5ccf5ff6c8b5153c44f2cfb2b3ae21db99acc",
+    "native-editor-roundtrip.mjs": "e62cac8aefa0dc28041ad3cf887056bced07b0c0961b610a0e9705e3f72168ac",
+    "acquire-guarded.py": "af92abbe21402b0e9d83be9c04f44f8aa7353dab66519c1b3dc393e2210f283f",
+    "serve-guarded.py": "61b1925d0855b14d3848de9467ae6a73a8675f1e63772b4856c2fb0d2b5241ca"
+  },
+  "calibrationSha256": "ff766e4afd5c8354b74673866e455a6001beda2933536c36288ae28b9d78beb7",
+  "environment": {
+    "platform": "Linux x86_64",
+    "python": "3.14.9",
+    "host_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ha_affinity": [
+      0,
+      1
+    ],
+    "namespaces_distinct": {
+      "net": true,
+      "pid": true,
+      "mnt": true,
+      "user": true,
+      "ipc": true,
+      "uts": true
+    },
+    "capabilities_zero": true,
+    "no_external_interface": true,
+    "free_bytes": 3106185216,
+    "reserve_bytes": 1073741824,
+    "load_before": [
+      1.26220703125,
+      0.771484375,
+      0.4345703125
+    ],
+    "cpu.max": "max 100000",
+    "memory.max": "max",
+    "core": "2026.11.1",
+    "frontend": "20261028.5",
+    "image": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+    "node": "24.22.0",
+    "playwright": "1.65.1",
+    "browser": "159.0.8154.6",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1
+    },
+    "theme": "light",
+    "locale": "en-US",
+    "haLanguage": "en",
+    "textScale": 1,
+    "layout": "Masonry allocated by HA; native three Tile surfaces per group, experimental fixed three internal buttons",
+    "content": "First reading, Second reading, Body intent; synthetic A/B sources; independent A/B/body targets",
+    "allocation": "HA affinity two allowed cores; browser/driver use host affinity; no per-container CPU or memory limit claimed",
+    "network": "All-namespace HA, loopback relay; browser proxy rejects non-loopback; service workers blocked; no request routing"
+  },
+  "order": "Modes loads, updates, interactions, editors serially. Count 1 then 10; repeat outer, rotate [empty,native,experimental] left by repeat. One measured context at a time plus control page. Renew auth outside windows.",
+  "schedule": {
+    "loads": {
+      "pairsPerVariantCount": 10,
+      "cold": "New browser context and explicit cache clear per pair; HTTP caches enabled",
+      "warm": "Same-context reload immediately after cold; actual ResourceTiming and CDP cache flags retained",
+      "expectedRows": 120
+    },
+    "updates": {
+      "repeatsPerCell": 3,
+      "classes": [
+        "relevant",
+        "unrelated"
+      ],
+      "rates": [
+        {
+          "hz": 1,
+          "seconds": 60,
+          "exploratory": false
+        },
+        {
+          "hz": 20,
+          "seconds": 10,
+          "exploratory": true
+        }
+      ],
+      "expectedRows": 72
+    },
+    "interactions": {
+      "matchedUpdateCells": 72,
+      "noUpdateControlWindows": 18,
+      "activationsPerWindow": 10,
+      "offsetsMs": {
+        "60seconds": [
+          3000,
+          9000,
+          15000,
+          21000,
+          27000,
+          33000,
+          39000,
+          45000,
+          51000,
+          57000
+        ],
+        "10seconds": [
+          500,
+          1500,
+          2500,
+          3500,
+          4500,
+          5500,
+          6500,
+          7500,
+          8500,
+          9500
+        ]
+      },
+      "input": "CDP mousePressed then mouseReleased at precomputed first-A button center; 2000 ms dispatch timeout; original target off throughout",
+      "expectedRows": 90
+    },
+    "editors": {
+      "pairsPerVariantCount": 3,
+      "supportedEditors": [
+        "native individual Tile",
+        "experimental HA schema form"
+      ],
+      "empty": "Edit-mode setup context only; editorMs null",
+      "expectedSupportedRows": 24,
+      "expectedControlRows": 12
+    }
+  },
+  "endpoints": {
+    "load": "Post-navigation CDP TaskDuration/ScriptDuration totals, ms; document+resource transferSize bytes through fonts/two-frame readiness boundary; shared/custom separated descriptively",
+    "update": "Same-document TaskDuration/ScriptDuration deltas, elapsed duration, host send lateness, existing compressed entity delivery counts and final state; no extra server subscription",
+    "interaction": "Separately measured update+input windows; pointerdown event.timeStamp to capture entry (queue), capture entry to local intent, event to local intent, click stamp/entry, actual counts/targets and host intended/send/return times",
+    "editor": "First-open and same-document reopen; setup, actual editor ready and CDP work; automation included; does not reapprove existing editor acceptance"
+  },
+  "invalidation": {
+    "neverReplaceSlow": true,
+    "invalidWindow": [
+      "Document changed",
+      "Sent/delivered count or final state mismatch",
+      "Target changes despite interception",
+      "Duplicate/missing/wrong-target activation, timeout or input observer count mismatch",
+      "Driver tick later than one update period"
+    ],
+    "lateInputs": "Retain exact intended/send/return timestamps, including timeouts; no hidden drop",
+    "missing": "Publish coverage gap and reason; acceptance remains pending",
+    "resourceFailure": "Unexpected custom assets, non-loopback resource or service worker aborts affected collection, retaining attempts",
+    "fatal": "Preserve incomplete output and stop affected campaign; no silent retry"
+  },
+  "capacity": {
+    "reserveBytes": 1073741824,
+    "scalarCaptureAllowanceBytes": 268435456,
+    "guard": "External one-second sandbox supervisor plus statfs check before every scalar write; stop on reserve crossing",
+    "traces": "None planned for discovery"
+  },
+  "boundaries": [
+    "Whole dashboard shared costs, never exact per-card subtraction",
+    "Negative third-party feasibility; no third-party ranking",
+    "Desktop headless lab only; no inferred phone conversion",
+    "Presentation, HA transport and physical response unmeasured",
+    "Cold historical failures, retention and presentation stay independent; stage 1 open",
+    "Discovery cannot be relabeled fresh approval-backed acceptance"
+  ]
+}

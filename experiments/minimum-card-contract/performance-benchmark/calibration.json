@@ -1,0 +1,1649 @@
+{
+  "phase": "pre-discovery calibration; no acceptance data",
+  "date_utc": "2026-11-19",
+  "navigation": {
+    "cold": {
+      "origin": 1795104549486,
+      "now": 771.2999999523163,
+      "document": 3931,
+      "resources": [
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "transfer": 17967,
+          "decoded": 56264
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "transfer": 150012,
+          "decoded": 617808
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "transfer": 1054,
+          "decoded": 2790
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "transfer": 3167,
+          "decoded": 8900
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "transfer": 64932,
+          "decoded": 64632
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "transfer": 65784,
+          "decoded": 65484
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "transfer": 23869,
+          "decoded": 144862
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "transfer": 5037,
+          "decoded": 13430
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "transfer": 11417,
+          "decoded": 43298
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "transfer": 500,
+          "decoded": 277
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "transfer": 3530,
+          "decoded": 8832
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "transfer": 9796,
+          "decoded": 30363
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "transfer": 4006,
+          "decoded": 28701
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "transfer": 4283,
+          "decoded": 16091
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "transfer": 4990,
+          "decoded": 17744
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "transfer": 8490,
+          "decoded": 26857
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "transfer": 6517,
+          "decoded": 25654
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "transfer": 15614,
+          "decoded": 53675
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "transfer": 3351,
+          "decoded": 9457
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "transfer": 5284,
+          "decoded": 15044
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "transfer": 7585,
+          "decoded": 43326
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "transfer": 1231,
+          "decoded": 2319
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "transfer": 84927,
+          "decoded": 304768
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "transfer": 5674,
+          "decoded": 20760
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "transfer": 7450,
+          "decoded": 23384
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "transfer": 15609,
+          "decoded": 56938
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "transfer": 10822,
+          "decoded": 37878
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "transfer": 2145,
+          "decoded": 5854
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "transfer": 4849,
+          "decoded": 14898
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "transfer": 7024,
+          "decoded": 21981
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "transfer": 5428,
+          "decoded": 22849
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "transfer": 4217,
+          "decoded": 22422
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "transfer": 4826,
+          "decoded": 14378
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "transfer": 3904,
+          "decoded": 10347
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "transfer": 8282,
+          "decoded": 22739
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "transfer": 2581,
+          "decoded": 7236
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "transfer": 71422,
+          "decoded": 244742
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "transfer": 5885,
+          "decoded": 15722
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "transfer": 30186,
+          "decoded": 102036
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "transfer": 4056,
+          "decoded": 9553
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "transfer": 3052,
+          "decoded": 7507
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "transfer": 102687,
+          "decoded": 357962
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "transfer": 3670,
+          "decoded": 8619
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "transfer": 4180,
+          "decoded": 14965
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "transfer": 3482,
+          "decoded": 11866
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "transfer": 4367,
+          "decoded": 14898
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "transfer": 5474,
+          "decoded": 20099
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "transfer": 3989,
+          "decoded": 14427
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "transfer": 5986,
+          "decoded": 17060
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "transfer": 3264,
+          "decoded": 9658
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "transfer": 4879,
+          "decoded": 16432
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "transfer": 4612,
+          "decoded": 16099
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "transfer": 8659,
+          "decoded": 23572
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "transfer": 5509,
+          "decoded": 13808
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "transfer": 4156,
+          "decoded": 20274
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "transfer": 8653,
+          "decoded": 36477
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "transfer": 5453,
+          "decoded": 18251
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "transfer": 7406,
+          "decoded": 27525
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "transfer": 3766,
+          "decoded": 9259
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "transfer": 4282,
+          "decoded": 17040
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "transfer": 3551,
+          "decoded": 11384
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "transfer": 9532,
+          "decoded": 36416
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "transfer": 3296,
+          "decoded": 10754
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "transfer": 3980,
+          "decoded": 14576
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "transfer": 11455,
+          "decoded": 52882
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "transfer": 16428,
+          "decoded": 66327
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "transfer": 8392,
+          "decoded": 31768
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "transfer": 8321,
+          "decoded": 35947
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "transfer": 5848,
+          "decoded": 19736
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "transfer": 4123,
+          "decoded": 11943
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "transfer": 4840,
+          "decoded": 14263
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "transfer": 12927,
+          "decoded": 47880
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "transfer": 5845,
+          "decoded": 18778
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "transfer": 8856,
+          "decoded": 26301
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "transfer": 83451,
+          "decoded": 449950
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "transfer": 5556,
+          "decoded": 17462
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "transfer": 3959,
+          "decoded": 14489
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "transfer": 9776,
+          "decoded": 39640
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "transfer": 4871,
+          "decoded": 13178
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "transfer": 4523,
+          "decoded": 13483
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "transfer": 4937,
+          "decoded": 14658
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "transfer": 4545,
+          "decoded": 13074
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "transfer": 7031,
+          "decoded": 25662
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "transfer": 8583,
+          "decoded": 28420
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "transfer": 3855,
+          "decoded": 12728
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "transfer": 3554,
+          "decoded": 11050
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "transfer": 5668,
+          "decoded": 17649
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "transfer": 3342,
+          "decoded": 13146
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "transfer": 3644,
+          "decoded": 11209
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "transfer": 3253,
+          "decoded": 9106
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "transfer": 9686,
+          "decoded": 35109
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "transfer": 6695,
+          "decoded": 20745
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "transfer": 5139,
+          "decoded": 14738
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "transfer": 12269,
+          "decoded": 56368
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "transfer": 7786,
+          "decoded": 46683
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "transfer": 24525,
+          "decoded": 98198
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "transfer": 5336,
+          "decoded": 18508
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "transfer": 4452,
+          "decoded": 13427
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "transfer": 9959,
+          "decoded": 33385
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "transfer": 9277,
+          "decoded": 29956
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "transfer": 3101,
+          "decoded": 7613
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "transfer": 18934,
+          "decoded": 135443
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "transfer": 9044,
+          "decoded": 33187
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "transfer": 4044,
+          "decoded": 15142
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "transfer": 5071,
+          "decoded": 13689
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "transfer": 4036,
+          "decoded": 11707
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "transfer": 4636,
+          "decoded": 15843
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "transfer": 11792,
+          "decoded": 43923
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "transfer": 10460,
+          "decoded": 39411
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "transfer": 3337,
+          "decoded": 9443
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "transfer": 3047,
+          "decoded": 9009
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "transfer": 2631,
+          "decoded": 6490
+        },
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 7894,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 3211,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 1405,
+          "decoded": 1105
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "transfer": 13180,
+          "decoded": 53156
+        }
+      ],
+      "metrics": {
+        "Timestamp": 605860.293212,
+        "AudioHandlers": 0,
+        "AudioWorkletProcessors": 0,
+        "Documents": 9,
+        "Frames": 6,
+        "JSEventListeners": 532,
+        "LayoutObjects": 419,
+        "MediaKeySessions": 0,
+        "MediaKeys": 0,
+        "Nodes": 3070,
+        "Resources": 126,
+        "ContextLifecycleStateObservers": 15,
+        "V8PerContextDatas": 4,
+        "WorkerGlobalScopes": 0,
+        "UACSSResources": 0,
+        "RTCPeerConnections": 0,
+        "ResourceFetchers": 9,
+        "AdSubframes": 0,
+        "DetachedScriptStates": 2,
+        "ArrayBufferContents": 5,
+        "LayoutCount": 22,
+        "RecalcStyleCount": 31,
+        "LayoutDuration": 0.012438,
+        "RecalcStyleDuration": 0.014574,
+        "DevToolsCommandDuration": 0.035549,
+        "ScriptDuration": 0.153869,
+        "V8CompileDuration": 0.000459,
+        "TaskDuration": 0.623322,
+        "TaskOtherDuration": 0.406433,
+        "ThreadTime": 0.611045,
+        "ProcessTime": 1.02,
+        "JSHeapUsedSize": 20194120,
+        "JSHeapTotalSize": 25567232,
+        "FirstMeaningfulPaint": 0,
+        "DomContentLoaded": 605859.529692,
+        "NavigationStart": 605859.513026
+      }
+    },
+    "warm": {
+      "origin": 1795104551773.8,
+      "now": 449.6999999284744,
+      "document": 3931,
+      "resources": [
+        {
+          "path": "/frontend_latest/core.8e1df50399c907f8.js",
+          "transfer": 0,
+          "decoded": 56264
+        },
+        {
+          "path": "/frontend_latest/app.5ce0ede93b3f9512.js",
+          "transfer": 0,
+          "decoded": 617808
+        },
+        {
+          "path": "/static/images/home-assistant-logo-loading.svg",
+          "transfer": 0,
+          "decoded": 2790
+        },
+        {
+          "path": "/static/images/open-home-foundation-on-light.svg",
+          "transfer": 0,
+          "decoded": 8900
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Regular.woff2",
+          "transfer": 0,
+          "decoded": 64632
+        },
+        {
+          "path": "/static/fonts/roboto/Roboto-Medium.woff2",
+          "transfer": 0,
+          "decoded": 65484
+        },
+        {
+          "path": "/static/translations/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "transfer": 0,
+          "decoded": 144862
+        },
+        {
+          "path": "/frontend_latest/84926.757e5d6addf80360.js",
+          "transfer": 0,
+          "decoded": 13430
+        },
+        {
+          "path": "/static/locale-data/intl-displaynames/en.json",
+          "transfer": 0,
+          "decoded": 43298
+        },
+        {
+          "path": "/frontend_latest/63901.dca0638873320b5f.js",
+          "transfer": 0,
+          "decoded": 277
+        },
+        {
+          "path": "/frontend_latest/84012.63d5ea420a138c36.js",
+          "transfer": 0,
+          "decoded": 8832
+        },
+        {
+          "path": "/frontend_latest/97594.f89e70c27a3e65b1.js",
+          "transfer": 0,
+          "decoded": 30363
+        },
+        {
+          "path": "/frontend_latest/83170.29fecb90c37c38e2.js",
+          "transfer": 0,
+          "decoded": 28701
+        },
+        {
+          "path": "/frontend_latest/43282.779e8b39ff6c0e59.js",
+          "transfer": 0,
+          "decoded": 16091
+        },
+        {
+          "path": "/frontend_latest/18725.db715f5021125499.js",
+          "transfer": 0,
+          "decoded": 17744
+        },
+        {
+          "path": "/frontend_latest/42458.b01005b35a0e76c6.js",
+          "transfer": 0,
+          "decoded": 26857
+        },
+        {
+          "path": "/frontend_latest/39274.a53045930d77fec6.js",
+          "transfer": 0,
+          "decoded": 25654
+        },
+        {
+          "path": "/frontend_latest/68870.d8eebb7477523216.js",
+          "transfer": 0,
+          "decoded": 53675
+        },
+        {
+          "path": "/frontend_latest/69238.01421cea45337956.js",
+          "transfer": 0,
+          "decoded": 9457
+        },
+        {
+          "path": "/frontend_latest/39777.f4a1a79564d9ffc4.js",
+          "transfer": 0,
+          "decoded": 15044
+        },
+        {
+          "path": "/frontend_latest/83741.a30c30447d08776f.js",
+          "transfer": 0,
+          "decoded": 43326
+        },
+        {
+          "path": "/frontend_latest/53910.86a8a70f5cace923.js",
+          "transfer": 0,
+          "decoded": 2319
+        },
+        {
+          "path": "/frontend_latest/12374.1441d414d6cdbec7.js",
+          "transfer": 0,
+          "decoded": 304768
+        },
+        {
+          "path": "/frontend_latest/17247.f2ac0dd00c8483ec.js",
+          "transfer": 0,
+          "decoded": 20760
+        },
+        {
+          "path": "/frontend_latest/56679.1e031e4b7637005b.js",
+          "transfer": 0,
+          "decoded": 23384
+        },
+        {
+          "path": "/frontend_latest/70158.6bea3e346cdc3aa0.js",
+          "transfer": 0,
+          "decoded": 56938
+        },
+        {
+          "path": "/frontend_latest/64128.9724b3cb1a632a22.js",
+          "transfer": 0,
+          "decoded": 37878
+        },
+        {
+          "path": "/frontend_latest/11980.7c9c09e7d0804710.js",
+          "transfer": 0,
+          "decoded": 5854
+        },
+        {
+          "path": "/frontend_latest/77678.9226bd25c71625d9.js",
+          "transfer": 0,
+          "decoded": 14898
+        },
+        {
+          "path": "/frontend_latest/32334.383e3bc66c13c072.js",
+          "transfer": 0,
+          "decoded": 21981
+        },
+        {
+          "path": "/frontend_latest/89122.051cd59c31f1e5e9.js",
+          "transfer": 0,
+          "decoded": 22849
+        },
+        {
+          "path": "/frontend_latest/70464.2c238fe9f4ada026.js",
+          "transfer": 0,
+          "decoded": 22422
+        },
+        {
+          "path": "/frontend_latest/80917.dff8637f288fb94f.js",
+          "transfer": 0,
+          "decoded": 14378
+        },
+        {
+          "path": "/frontend_latest/45950.715967f63c0bcb27.js",
+          "transfer": 0,
+          "decoded": 10347
+        },
+        {
+          "path": "/frontend_latest/10766.4efd71b8fe05569b.js",
+          "transfer": 0,
+          "decoded": 22739
+        },
+        {
+          "path": "/frontend_latest/97868.76eb030ce27559ef.js",
+          "transfer": 0,
+          "decoded": 7236
+        },
+        {
+          "path": "/frontend_latest/56704.0f7876104ba6bf80.js",
+          "transfer": 0,
+          "decoded": 244742
+        },
+        {
+          "path": "/frontend_latest/96500.2b35c585f257f035.js",
+          "transfer": 0,
+          "decoded": 15722
+        },
+        {
+          "path": "/frontend_latest/6012.7210c0ba9ee454d6.js",
+          "transfer": 0,
+          "decoded": 102036
+        },
+        {
+          "path": "/frontend_latest/1969.5c65a5599aa5a2d8.js",
+          "transfer": 0,
+          "decoded": 9553
+        },
+        {
+          "path": "/frontend_latest/83889.6d051fcc78aadb07.js",
+          "transfer": 0,
+          "decoded": 7507
+        },
+        {
+          "path": "/frontend_latest/82137.61381f1cff7f7876.js",
+          "transfer": 0,
+          "decoded": 357962
+        },
+        {
+          "path": "/frontend_latest/13682.860b87712425221f.js",
+          "transfer": 0,
+          "decoded": 8619
+        },
+        {
+          "path": "/frontend_latest/61761.2bfd12ea7919a1b2.js",
+          "transfer": 0,
+          "decoded": 14965
+        },
+        {
+          "path": "/frontend_latest/19789.e0eec13f31bf69d0.js",
+          "transfer": 0,
+          "decoded": 11866
+        },
+        {
+          "path": "/frontend_latest/37081.045060b7950b2462.js",
+          "transfer": 0,
+          "decoded": 14898
+        },
+        {
+          "path": "/frontend_latest/15313.702ba081a01119fc.js",
+          "transfer": 0,
+          "decoded": 20099
+        },
+        {
+          "path": "/frontend_latest/80550.8ba436abe4d43a47.js",
+          "transfer": 0,
+          "decoded": 14427
+        },
+        {
+          "path": "/frontend_latest/11767.f95e9ad89c530260.js",
+          "transfer": 0,
+          "decoded": 17060
+        },
+        {
+          "path": "/frontend_latest/27951.6f29551f25a1a9e8.js",
+          "transfer": 0,
+          "decoded": 9658
+        },
+        {
+          "path": "/frontend_latest/96529.fb0df751c574ae46.js",
+          "transfer": 0,
+          "decoded": 16432
+        },
+        {
+          "path": "/frontend_latest/55591.8f178b64be1b8b34.js",
+          "transfer": 0,
+          "decoded": 16099
+        },
+        {
+          "path": "/frontend_latest/30398.26ad8bf23a5061e4.js",
+          "transfer": 0,
+          "decoded": 23572
+        },
+        {
+          "path": "/frontend_latest/54584.9e3527a9d65ae971.js",
+          "transfer": 0,
+          "decoded": 13808
+        },
+        {
+          "path": "/frontend_latest/74629.cde7f9d7e998da87.js",
+          "transfer": 0,
+          "decoded": 20274
+        },
+        {
+          "path": "/frontend_latest/80295.c1476be3ef9d36f1.js",
+          "transfer": 0,
+          "decoded": 36477
+        },
+        {
+          "path": "/frontend_latest/59795.0538085d7c03843f.js",
+          "transfer": 0,
+          "decoded": 18251
+        },
+        {
+          "path": "/frontend_latest/21463.8052db07ce2a35a7.js",
+          "transfer": 0,
+          "decoded": 27525
+        },
+        {
+          "path": "/frontend_latest/19167.72beebc76e98b08b.js",
+          "transfer": 0,
+          "decoded": 9259
+        },
+        {
+          "path": "/frontend_latest/51771.e7bf04e12020bb56.js",
+          "transfer": 0,
+          "decoded": 17040
+        },
+        {
+          "path": "/frontend_latest/7686.6fe003f288ac2ae6.js",
+          "transfer": 0,
+          "decoded": 11384
+        },
+        {
+          "path": "/frontend_latest/48421.1d81bae4ff58cdc9.js",
+          "transfer": 0,
+          "decoded": 36416
+        },
+        {
+          "path": "/frontend_latest/84663.ebd149f28d43ee7a.js",
+          "transfer": 0,
+          "decoded": 10754
+        },
+        {
+          "path": "/frontend_latest/25035.bd7ba72891899657.js",
+          "transfer": 0,
+          "decoded": 14576
+        },
+        {
+          "path": "/frontend_latest/32087.e410292658bb97ee.js",
+          "transfer": 0,
+          "decoded": 52882
+        },
+        {
+          "path": "/frontend_latest/78196.6656b9d4368edc11.js",
+          "transfer": 0,
+          "decoded": 66327
+        },
+        {
+          "path": "/frontend_latest/98762.a7086cfa2e6da50e.js",
+          "transfer": 0,
+          "decoded": 31768
+        },
+        {
+          "path": "/frontend_latest/24059.54be9e09ad04ef79.js",
+          "transfer": 0,
+          "decoded": 35947
+        },
+        {
+          "path": "/frontend_latest/22092.52ad9836bc96d965.js",
+          "transfer": 0,
+          "decoded": 19736
+        },
+        {
+          "path": "/frontend_latest/30060.f01e4ccd4daeabf8.js",
+          "transfer": 0,
+          "decoded": 11943
+        },
+        {
+          "path": "/frontend_latest/86062.1b4df64721982088.js",
+          "transfer": 0,
+          "decoded": 14263
+        },
+        {
+          "path": "/frontend_latest/86301.edfe51519a369db5.js",
+          "transfer": 0,
+          "decoded": 47880
+        },
+        {
+          "path": "/frontend_latest/3740.a1fbf6f5c06d77ad.js",
+          "transfer": 0,
+          "decoded": 18778
+        },
+        {
+          "path": "/frontend_latest/59947.454dc658ef0f00e9.js",
+          "transfer": 0,
+          "decoded": 26301
+        },
+        {
+          "path": "/frontend_latest/77870.115dde3007d897c7.js",
+          "transfer": 0,
+          "decoded": 449950
+        },
+        {
+          "path": "/frontend_latest/53768.c4c8063dcb31b4d9.js",
+          "transfer": 0,
+          "decoded": 17462
+        },
+        {
+          "path": "/frontend_latest/32409.83e239054a42ebf5.js",
+          "transfer": 0,
+          "decoded": 14489
+        },
+        {
+          "path": "/frontend_latest/54929.1b1ae4885236a6f4.js",
+          "transfer": 0,
+          "decoded": 39640
+        },
+        {
+          "path": "/frontend_latest/42125.3eee873ce83f1ed2.js",
+          "transfer": 0,
+          "decoded": 13178
+        },
+        {
+          "path": "/frontend_latest/83413.968df13f9d68ef1b.js",
+          "transfer": 0,
+          "decoded": 13483
+        },
+        {
+          "path": "/frontend_latest/9665.0a2816a1d396159e.js",
+          "transfer": 0,
+          "decoded": 14658
+        },
+        {
+          "path": "/frontend_latest/19917.2dd995381c258dba.js",
+          "transfer": 0,
+          "decoded": 13074
+        },
+        {
+          "path": "/frontend_latest/87392.265ccc4a02f2f228.js",
+          "transfer": 0,
+          "decoded": 25662
+        },
+        {
+          "path": "/frontend_latest/9052.e206c6a7be7dee0f.js",
+          "transfer": 0,
+          "decoded": 28420
+        },
+        {
+          "path": "/frontend_latest/12770.9633151fe17cee4b.js",
+          "transfer": 0,
+          "decoded": 12728
+        },
+        {
+          "path": "/frontend_latest/69950.3d7b34167cba973c.js",
+          "transfer": 0,
+          "decoded": 11050
+        },
+        {
+          "path": "/frontend_latest/36798.80f6d2bd80fad83e.js",
+          "transfer": 0,
+          "decoded": 17649
+        },
+        {
+          "path": "/frontend_latest/80632.6492f6fe558d6f44.js",
+          "transfer": 0,
+          "decoded": 13146
+        },
+        {
+          "path": "/frontend_latest/61892.16be0f78a72d8bd4.js",
+          "transfer": 0,
+          "decoded": 11209
+        },
+        {
+          "path": "/frontend_latest/8813.ec72272082c783e7.js",
+          "transfer": 0,
+          "decoded": 9106
+        },
+        {
+          "path": "/frontend_latest/87408.cd6c30f64dd861c3.js",
+          "transfer": 0,
+          "decoded": 35109
+        },
+        {
+          "path": "/frontend_latest/26412.9b5994ee48ae42d7.js",
+          "transfer": 0,
+          "decoded": 20745
+        },
+        {
+          "path": "/frontend_latest/26789.2304345f305509bd.js",
+          "transfer": 0,
+          "decoded": 14738
+        },
+        {
+          "path": "/frontend_latest/30724.7d18d9384e80aca3.js",
+          "transfer": 0,
+          "decoded": 56368
+        },
+        {
+          "path": "/frontend_latest/37208.e27952fd5fbfcab9.js",
+          "transfer": 0,
+          "decoded": 46683
+        },
+        {
+          "path": "/frontend_latest/72797.432f8aa5c314d60f.js",
+          "transfer": 0,
+          "decoded": 98198
+        },
+        {
+          "path": "/frontend_latest/19457.0cf0e3c20cfbaf5c.js",
+          "transfer": 0,
+          "decoded": 33187
+        },
+        {
+          "path": "/frontend_latest/78047.29972e2144512b40.js",
+          "transfer": 0,
+          "decoded": 18508
+        },
+        {
+          "path": "/static/translations/lovelace/en-0c0551af54ccb38e598b2a0181eb2c01.json",
+          "transfer": 0,
+          "decoded": 135443
+        },
+        {
+          "path": "/frontend_latest/4197.aff5b847159c1c0b.js",
+          "transfer": 0,
+          "decoded": 13427
+        },
+        {
+          "path": "/frontend_latest/23578.43c8b6c07132a1d3.js",
+          "transfer": 0,
+          "decoded": 33385
+        },
+        {
+          "path": "/frontend_latest/64216.28ac8b75b59ed6d3.js",
+          "transfer": 0,
+          "decoded": 29956
+        },
+        {
+          "path": "/frontend_latest/68353.335d5abff86f6202.js",
+          "transfer": 0,
+          "decoded": 7613
+        },
+        {
+          "path": "/frontend_latest/59346.8334a05df4407c8d.js",
+          "transfer": 0,
+          "decoded": 15142
+        },
+        {
+          "path": "/frontend_latest/25232.0b4285202e90c1c3.js",
+          "transfer": 0,
+          "decoded": 13689
+        },
+        {
+          "path": "/frontend_latest/50691.56db0c79ab3cd283.js",
+          "transfer": 0,
+          "decoded": 11707
+        },
+        {
+          "path": "/frontend_latest/21967.2046f481b58d3ab0.js",
+          "transfer": 0,
+          "decoded": 15843
+        },
+        {
+          "path": "/frontend_latest/86920.c8c3826e90a8961b.js",
+          "transfer": 0,
+          "decoded": 43923
+        },
+        {
+          "path": "/frontend_latest/92510.400220d4fa7fc2ff.js",
+          "transfer": 0,
+          "decoded": 39411
+        },
+        {
+          "path": "/frontend_latest/5427.1f0a3d359d16798b.js",
+          "transfer": 0,
+          "decoded": 9443
+        },
+        {
+          "path": "/frontend_latest/16459.a3ed9d288958fd74.js",
+          "transfer": 0,
+          "decoded": 9009
+        },
+        {
+          "path": "/frontend_latest/36463.44fe13b512f8eed3.js",
+          "transfer": 0,
+          "decoded": 6490
+        },
+        {
+          "path": "/local/minimum-card-contract/card.js",
+          "transfer": 0,
+          "decoded": 7594
+        },
+        {
+          "path": "/local/minimum-card-contract/recorder.js",
+          "transfer": 0,
+          "decoded": 2911
+        },
+        {
+          "path": "/local/minimum-card-contract/card.css",
+          "transfer": 0,
+          "decoded": 1105
+        },
+        {
+          "path": "/static/mdi/282121c9e45ed67f033edcc1eafd279334c00f46.json",
+          "transfer": 0,
+          "decoded": 53156
+        }
+      ],
+      "metrics": {
+        "Timestamp": 605862.257555,
+        "AudioHandlers": 0,
+        "AudioWorkletProcessors": 0,
+        "Documents": 4,
+        "Frames": 3,
+        "JSEventListeners": 402,
+        "LayoutObjects": 318,
+        "MediaKeySessions": 0,
+        "MediaKeys": 0,
+        "Nodes": 2210,
+        "Resources": 123,
+        "ContextLifecycleStateObservers": 10,
+        "V8PerContextDatas": 2,
+        "WorkerGlobalScopes": 0,
+        "UACSSResources": 0,
+        "RTCPeerConnections": 0,
+        "ResourceFetchers": 4,
+        "AdSubframes": 0,
+        "DetachedScriptStates": 0,
+        "ArrayBufferContents": 1,
+        "LayoutCount": 22,
+        "RecalcStyleCount": 27,
+        "LayoutDuration": 0.006539,
+        "RecalcStyleDuration": 0.01426,
+        "DevToolsCommandDuration": 0.029103,
+        "ScriptDuration": 0.043866,
+        "V8CompileDuration": 6.2e-05,
+        "TaskDuration": 0.336113,
+        "TaskOtherDuration": 0.242283,
+        "ThreadTime": 0.349982,
+        "ProcessTime": 3.06,
+        "JSHeapUsedSize": 15539528,
+        "JSHeapTotalSize": 39862272,
+        "FirstMeaningfulPaint": 0,
+        "DomContentLoaded": 605861.833442,
+        "NavigationStart": 605861.800681
+      }
+    },
+    "knownWorkMs": 1500,
+    "burnTaskMs": 1502.1599999999999,
+    "sameDocumentPositiveTaskMs": 52.14000000000002,
+    "postNavigationTotals": true,
+    "crossDocumentSubtraction": false
+  },
+  "inputs": [
+    {
+      "blocked": false,
+      "hostRoundtripMs": 4.178610999999364,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 559.2999999523163,
+          "entry": 560.1999999284744,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 561.2999999523163,
+          "entry": 561.7999999523163,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 561.8999999761581
+        }
+      ],
+      "block": null,
+      "now": 563.7999999523163,
+      "origin": 1795104551773.8,
+      "queueMs": 0.8999999761581421,
+      "handlerToIntentMs": 1.7000000476837158,
+      "eventToIntentMs": 2.600000023841858
+    },
+    {
+      "blocked": true,
+      "hostRoundtripMs": 201.9726009999995,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 718.8999999761581,
+          "entry": 918.2999999523163,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 919.5,
+          "entry": 919.7999999523163,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 919.7999999523163
+        }
+      ],
+      "block": {
+        "start": 667.8999999761581,
+        "end": 917.8999999761581
+      },
+      "now": 921,
+      "origin": 1795104551773.8,
+      "queueMs": 199.39999997615814,
+      "handlerToIntentMs": 1.5,
+      "eventToIntentMs": 200.89999997615814
+    },
+    {
+      "blocked": false,
+      "hostRoundtripMs": 3.116422000000057,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 923,
+          "entry": 923.2999999523163,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 924.5,
+          "entry": 924.7999999523163,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 924.8999999761581
+        }
+      ],
+      "block": null,
+      "now": 926.5999999046326,
+      "origin": 1795104551773.8,
+      "queueMs": 0.2999999523162842,
+      "handlerToIntentMs": 1.600000023841858,
+      "eventToIntentMs": 1.899999976158142
+    },
+    {
+      "blocked": true,
+      "hostRoundtripMs": 203.5830420000002,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 1080,
+          "entry": 1280.1999999284744,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 1281.5,
+          "entry": 1282.0999999046326,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 1282.0999999046326
+        }
+      ],
+      "block": {
+        "start": 1029.8999999761581,
+        "end": 1279.8999999761581
+      },
+      "now": 1284,
+      "origin": 1795104551773.8,
+      "queueMs": 200.19999992847443,
+      "handlerToIntentMs": 1.899999976158142,
+      "eventToIntentMs": 202.09999990463257
+    },
+    {
+      "blocked": false,
+      "hostRoundtripMs": 2.08356300000014,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 1286.1999999284744,
+          "entry": 1286.5999999046326,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 1287.2999999523163,
+          "entry": 1287.5,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 1287.5
+        }
+      ],
+      "block": null,
+      "now": 1288.5,
+      "origin": 1795104551773.8,
+      "queueMs": 0.3999999761581421,
+      "handlerToIntentMs": 0.9000000953674316,
+      "eventToIntentMs": 1.3000000715255737
+    },
+    {
+      "blocked": true,
+      "hostRoundtripMs": 202.10184200000003,
+      "inputs": [
+        {
+          "type": "pointerdown",
+          "stamp": 1441.6999999284744,
+          "entry": 1641.0999999046326,
+          "trusted": true
+        },
+        {
+          "type": "click",
+          "stamp": 1642.1999999284744,
+          "entry": 1642.5,
+          "trusted": true
+        }
+      ],
+      "events": [
+        {
+          "target": "input_boolean.mcc_target_a",
+          "time": 1642.5
+        }
+      ],
+      "block": {
+        "start": 1390.6999999284744,
+        "end": 1640.6999999284744
+      },
+      "now": 1643.8999999761581,
+      "origin": 1795104551773.8,
+      "queueMs": 199.39999997615814,
+      "handlerToIntentMs": 1.4000000953674316,
+      "eventToIntentMs": 200.80000007152557
+    }
+  ],
+  "observerOverhead": [
+    {
+      "repeat": 0,
+      "observed": false,
+      "events": 10,
+      "inputEvents": 0,
+      "elapsedMs": 228.16109700000015,
+      "taskMs": 11.26399999999994,
+      "scriptMs": 1.4890000000000736
+    },
+    {
+      "repeat": 0,
+      "observed": true,
+      "events": 10,
+      "inputEvents": 20,
+      "elapsedMs": 224.70989499999996,
+      "taskMs": 9.064000000000183,
+      "scriptMs": 1.1090000000000266
+    },
+    {
+      "repeat": 1,
+      "observed": true,
+      "events": 10,
+      "inputEvents": 20,
+      "elapsedMs": 226.8100340000001,
+      "taskMs": 12.979999999999992,
+      "scriptMs": 1.454999999999984
+    },
+    {
+      "repeat": 1,
+      "observed": false,
+      "events": 10,
+      "inputEvents": 0,
+      "elapsedMs": 223.7957580000002,
+      "taskMs": 8.108000000000004,
+      "scriptMs": 0.8960000000000079
+    },
+    {
+      "repeat": 2,
+      "observed": false,
+      "events": 10,
+      "inputEvents": 0,
+      "elapsedMs": 225.34235799999988,
+      "taskMs": 9.106000000000058,
+      "scriptMs": 1.0589999999999211
+    },
+    {
+      "repeat": 2,
+      "observed": true,
+      "events": 10,
+      "inputEvents": 20,
+      "elapsedMs": 225.20294399999966,
+      "taskMs": 8.97199999999998,
+      "scriptMs": 1.0710000000000441
+    },
+    {
+      "repeat": 3,
+      "observed": true,
+      "events": 10,
+      "inputEvents": 20,
+      "elapsedMs": 223.654493,
+      "taskMs": 8.423999999999987,
+      "scriptMs": 1.012000000000013
+    },
+    {
+      "repeat": 3,
+      "observed": false,
+      "events": 10,
+      "inputEvents": 0,
+      "elapsedMs": 222.26978300000064,
+      "taskMs": 7.662000000000058,
+      "scriptMs": 0.7949999999999902
+    },
+    {
+      "repeat": 4,
+      "observed": false,
+      "events": 10,
+      "inputEvents": 0,
+      "elapsedMs": 219.56496999999945,
+      "taskMs": 7.129999999999859,
+      "scriptMs": 0.7070000000000132
+    },
+    {
+      "repeat": 4,
+      "observed": true,
+      "events": 10,
+      "inputEvents": 20,
+      "elapsedMs": 222.38988699999936,
+      "taskMs": 7.66,
+      "scriptMs": 0.8359999999999479
+    }
+  ],
+  "driver": {
+    "completed": true,
+    "trials": [
+      {
+        "blocked": false,
+        "ticks": [
+          {
+            "intendedMs": 0,
+            "sentMs": 0.725674999999967
+          },
+          {
+            "intendedMs": 50,
+            "sentMs": 50.289311
+          },
+          {
+            "intendedMs": 100,
+            "sentMs": 99.462899
+          },
+          {
+            "intendedMs": 150,
+            "sentMs": 148.698354
+          },
+          {
+            "intendedMs": 200,
+            "sentMs": 199.87813800000004
+          },
+          {
+            "intendedMs": 250,
+            "sentMs": 250.04670799999997
+          },
+          {
+            "intendedMs": 300,
+            "sentMs": 299.186649
+          },
+          {
+            "intendedMs": 350,
+            "sentMs": 349.32886199999996
+          }
+        ],
+        "late": 0,
+        "maxLatenessMs": 0.725674999999967
+      },
+      {
+        "blocked": true,
+        "ticks": [
+          {
+            "intendedMs": 0,
+            "sentMs": 1.16824100000008
+          },
+          {
+            "intendedMs": 50,
+            "sentMs": 49.399392000000034
+          },
+          {
+            "intendedMs": 100,
+            "sentMs": 99.58014600000001
+          },
+          {
+            "intendedMs": 150,
+            "sentMs": 260.83103800000004
+          },
+          {
+            "intendedMs": 200,
+            "sentMs": 261.954199
+          },
+          {
+            "intendedMs": 250,
+            "sentMs": 263.07791700000007
+          },
+          {
+            "intendedMs": 300,
+            "sentMs": 299.21388000000013
+          },
+          {
+            "intendedMs": 350,
+            "sentMs": 349.330149
+          }
+        ],
+        "late": 2,
+        "maxLatenessMs": 110.83103800000004
+      }
+    ],
+    "boundary": "Host monotonic intended/send timestamps; known driver blocking detected independently of page event queueing",
+    "invalidation": "Retain late ticks and affected windows; missing delivery, final-state mismatch or action-count failure prevents valid coverage"
+  },
+  "support": {
+    "eventClock": "DOM high-resolution event time relative to the same document performance.timeOrigin; domain checks passed",
+    "queueing": "supported by positive control",
+    "localIntent": "supported, pointerdown capture entry to local recorded intent; excludes earlier queueing",
+    "overhead": "Matched observer/no-observer task/script distributions published; no zero-overhead assumption or subtraction from discovery",
+    "presentation": "pending; unmeasured",
+    "transport": "unmeasured; intercepted"
+  },
+  "deliveryCalibration": "retained-pilot.json: all five relevant/unrelated updates observed on the existing compressed entity stream for each variant/count",
+  "caveats": [
+    "Event high-resolution time is quantized; sub-resolution values are not precise",
+    "Observer/CDP costs remain in measured totals; paired variation is not an exact correction",
+    "Pointerdown-to-intent includes release and driver CDP roundtrip; click entry is retained separately",
+    "DOM readiness, rAF and local intent do not establish final presentation, transport or physical response"
+  ],
+  "calibrationSourceHashes": {
+    "bench-common.mjs": "6e0185d075a67b39a3318ed5154366354dc1a983966e349ad4ccc4602909d0d9",
+    "calibrate.mjs": "97eb68feeb9281a7b4114d2991a441755935df50f6b8e5f9d9787df8e673aea8",
+    "driver-calibration.mjs": "28e40940fd7a8482bd0ffbf9a8a5cfd08e1bff8ed0d2d37717981ef24b98d57b"
+  }
+}

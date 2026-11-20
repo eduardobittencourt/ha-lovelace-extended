@@ -1,11 +1,15 @@
 # Contributing to Lovelace Extended
 
 Lovelace Extended is a public project in conception with a bounded experimental
-prototype. There is no production card, installable package or release. Useful
+prototype and a synthetic complete-composition candidate. There is no production
+card, installable package or release. Useful
 contributions include documentation corrections, source-backed research, clearer
 acceptance scenarios and bounded proposals. Experimental setup and checks live
 in [the experiment guide](experiments/minimum-card-contract/README.md); they do
 not establish production tooling or supported Home Assistant versions.
+The separate [candidate guide](candidates/fixed-composition-card/README.md)
+documents its dependency-free unit checks and version-pinned isolated browser
+reproduction, with remaining acceptance gates kept explicit.
 
 Start with the [README](README.md), [roadmap](docs/roadmap.md) and the documents
 relevant to your contribution. The desk is the first acceptance example of a

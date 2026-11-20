@@ -1,0 +1,11 @@
+homeassistant:
+  name: Fixed composition synthetic candidate
+  country: BR
+  time_zone: UTC
+  unit_system: metric
+frontend:
+http:
+  server_host: 127.0.0.1
+  server_port: 8123
+lovelace:
+  mode: storage

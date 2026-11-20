@@ -1,0 +1,70 @@
+{
+  "historical_hashes": {
+    "experiments/minimum-card-contract/src/card.css": "943575ca0c764135007778833e8afc7039f8564ea6eb60be44b571da2129567f",
+    "experiments/minimum-card-contract/src/card.js": "9cd77264c7724379aaae54a701c250fd72be426be4e644e4ea8982cc9041c13e",
+    "experiments/minimum-card-contract/src/recorder.js": "8d1ef5b10d4e75a7077f089625c8f57576db691385497816a854219e37d14e49",
+    "experiments/minimum-card-contract/package.json": "1f0ce3460340257eb2972b6a45a6e6d7322b9fa7169494b69934c5b23e6456a1",
+    "experiments/minimum-card-contract/package-lock.json": "0f4d19f9be04593affdc1e3654fde7bf7566d6139f57c9af9822193e28b6b022"
+  },
+  "initial_free_bytes": 6633308160,
+  "reserve_bytes": 1073741824,
+  "compressed_bytes": 673894439,
+  "expanded_stream_bytes": 2550238720,
+  "capture_allowance_bytes": 268435456,
+  "status": "preflight passed; candidate not implemented",
+  "tools": {
+    "node": "24.22.0",
+    "python": "3.14.9",
+    "bubblewrap": "0.12.0",
+    "playwright": "1.65.1",
+    "chromium": "159.0.8154.6",
+    "core": "2026.11.1",
+    "frontend": "20261028.5"
+  },
+  "image": "sha256:1e25a28cb9ee48dbcd33b65cbdcf2919d01991fe11f71cdae0a09c9fc3017ebb",
+  "isolation": {
+    "http_status": 200,
+    "namespaces_distinct": {
+      "user": true,
+      "pid": true,
+      "mnt": true,
+      "net": true,
+      "ipc": true,
+      "uts": true
+    },
+    "loopback_only": true,
+    "effective_capabilities_zero": true,
+    "private_state_mode": "0o700",
+    "worker_pid": 1260083,
+    "first_probe": "Invalid probe selected the outer bwrap monitor; corrected by locating the HA worker. Worker namespaces all differ."
+  },
+  "acquisition": {
+    "reason": "completed",
+    "exit_code": 0,
+    "minimum_free_bytes": 3075887104,
+    "final_free_bytes": 3075870720,
+    "reserve_bytes": 1073741824,
+    "trip_bytes": 1342177280,
+    "poll_seconds": 0.1
+  },
+  "stop": {
+    "pidfile_absent": true,
+    "socket_absent": true,
+    "worker_absent": true,
+    "listener_absent": true
+  },
+  "guard_selftest": {
+    "reason": "storage-stop",
+    "exit_code": -15,
+    "minimum_free_bytes": 3074191360,
+    "final_free_bytes": 3074191360,
+    "reserve_bytes": 1073741824,
+    "trip_bytes": 3075239936,
+    "poll_seconds": 0.1
+  },
+  "final_free_bytes": 3074183168,
+  "known_lab_log_limitations": [
+    "Offline analytics/marketplace DNS and zeroconf multicast initialization errors occur in the deliberately network-isolated lab; HTTP readiness passed."
+  ],
+  "cache_cleanup": []
+}

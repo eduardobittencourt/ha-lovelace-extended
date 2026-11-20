@@ -1,0 +1,44 @@
+{
+  "revision": "25ca76ba06559cd6",
+  "entry": "card.js",
+  "core": "2026.11.2",
+  "frontend": "20261028.6",
+  "assets": {
+    "actions.js": {
+      "sha256": "338d68ab94ecd51971cf0f1462e23260e4c0989a2364b798ac21bd2ab80ca465",
+      "bytes": 5536
+    },
+    "bindings.js": {
+      "sha256": "c244e4f08d8954e61b75421d0f6bb5567e7d8f08ba1d92716a48de27e88b3072",
+      "bytes": 1961
+    },
+    "card.js": {
+      "sha256": "ff0b5e6dabd2e498e3e671c30ccecd332b5f27ead26d56ebdee38050c0a276f8",
+      "bytes": 14957
+    },
+    "config.js": {
+      "sha256": "2e328aaa564925e89001061bcc6a73207d482ed48a902eb87a88c0427abae5ed",
+      "bytes": 3731
+    },
+    "cover.js": {
+      "sha256": "893b412f363b352eded86a408395d70eddf6155bee2f327d33001be380107bbc",
+      "bytes": 1890
+    },
+    "form.js": {
+      "sha256": "60e2d6e869f84079c0f0f4dfc117a09d6c4e7467a547bf151b6140c09dea3b1c",
+      "bytes": 2145
+    },
+    "ha-adapter.js": {
+      "sha256": "9e3417a629a01669228ffde405ba4ef53b6227cfcacc96a34d0e0971e32398db",
+      "bytes": 1460
+    },
+    "position.js": {
+      "sha256": "e5f8f385eccb4f97f3bd875c070627ecea45a7799ff54da8a366a4e7c38b8892",
+      "bytes": 3389
+    },
+    "styles.js": {
+      "sha256": "762e1caba28c75bdff132bc043f0206fa21a88fd5133a303a7deb0b5b0bc2bdf",
+      "bytes": 1640
+    }
+  }
+}

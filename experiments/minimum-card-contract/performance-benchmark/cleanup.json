@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-11-19T17:58:01.607524+00:00",
+  "reason": "All serial discovery modes complete; no fresh acceptance branch authorized",
+  "sandbox_stopped": true,
+  "port_18123_closed": true,
+  "sandbox_pid_file_absent": true,
+  "bridge_socket_absent": true,
+  "remaining_sandbox_processes": [],
+  "free_before_owned_image_cleanup": 3057135616,
+  "free_after_owned_image_cleanup": 6612152320,
+  "minimum_runtime_free_bytes": 3057274880,
+  "reserve_bytes": 1073741824,
+  "removed": [
+    "Resume-owned rootfs/",
+    "Resume-owned layers/"
+  ],
+  "preserved": [
+    "Initial comparator failure evidence and initial pause cleanup",
+    "Raw scalar observations, immutable comparator bundles/licenses, source snapshots and reconstruction/report tools outside checkout",
+    "Private synthetic HA state; never published",
+    "All historical research, archived evidence and fixed subject/tools"
+  ],
+  "fixed_subject_and_tool_hashes_unchanged": {
+    "package-lock.json": true,
+    "src/card.css": true,
+    "src/card.js": true,
+    "src/recorder.js": true,
+    "tools/common.mjs": true,
+    "tools/workloads.mjs": true,
+    "tools/editor.mjs": true,
+    "tools/diagnostic-editor.mjs": true,
+    "tools/diagnostic-editor-evaluate.mjs": true,
+    "tools/diagnostic-common.mjs": true
+  },
+  "production_ha_changes": false,
+  "unrelated_deletion": false,
+  "priorCleanup": "cleanup-initial-pause.json",
+  "remainingCampaignArtifacts": "External scalar captures/source/provenance and private disposable state only; no running lab",
+  "futureRun": "Reacquire pinned image with storage guard and repeat identity/isolation/capacity preflight; use an exclusive directory"
+}

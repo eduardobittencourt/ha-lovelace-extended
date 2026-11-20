@@ -1,0 +1,15 @@
+{
+  "defaultIdentity": true,
+  "independentOverrides": true,
+  "sourceAttribute": true,
+  "units": [
+    "cm",
+    "in"
+  ],
+  "primaryPercentPreserved": true,
+  "registeredHAIconWithSVG": true,
+  "actualDetailsDialog": true,
+  "missingSourceIndependentControl": true,
+  "incompleteValidation": true,
+  "unknownButtonEnabled": true
+}

@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "case": "real multi-value drag/release and duplicate events",
+      "previewIntents": 0,
+      "finalIntents": 1,
+      "percent": 78
+    },
+    {
+      "case": "unchanged release",
+      "intents": 0
+    },
+    {
+      "case": "pointercancel",
+      "intents": 0
+    },
+    {
+      "case": "lostpointercapture",
+      "intents": 0
+    },
+    {
+      "case": "Escape",
+      "intents": 0
+    },
+    {
+      "case": "focus-loss",
+      "intents": 0
+    },
+    {
+      "case": "target-change",
+      "intents": 0
+    },
+    {
+      "case": "capability-loss",
+      "intents": 0
+    },
+    {
+      "case": "disconnect",
+      "intents": 0
+    },
+    {
+      "case": "concurrent HA snapshot feedback",
+      "actual": 51,
+      "requested": 73,
+      "intents": 1
+    },
+    {
+      "case": "ordinary keyboard commit/duplicate/Escape/blur",
+      "committedPercent": 44,
+      "intents": 1
+    },
+    {
+      "case": "unknown feedback explicit keyboard selection",
+      "actual": null,
+      "requested": 100,
+      "intents": 1
+    },
+    {
+      "case": "target changed during asynchronous confirmation",
+      "intents": 0
+    }
+  ],
+  "noPhysicalMovementOrPresentationClaim": true,
+  "serviceFramesSent": 0
+}

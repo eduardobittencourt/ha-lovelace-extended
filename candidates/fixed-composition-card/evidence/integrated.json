@@ -1,0 +1,1123 @@
+{
+  "rendering": {
+    "defaultIdentity": true,
+    "independentOverrides": true,
+    "sourceAttribute": true,
+    "units": [
+      "cm",
+      "in"
+    ],
+    "primaryPercentPreserved": true,
+    "registeredHAIconWithSVG": true,
+    "actualDetailsDialog": true,
+    "missingSourceIndependentControl": true,
+    "incompleteValidation": true,
+    "unknownButtonEnabled": true
+  },
+  "actions": {
+    "rows": [
+      {
+        "method": "pointer",
+        "role": "open",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "open_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "open"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "close",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "close_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "close"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "stop",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "stop_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "stop"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "action_1",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_1",
+            "data": {},
+            "origin": "action_1"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "action_2",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_2",
+            "data": {},
+            "origin": "action_2"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "action_3",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_3",
+            "data": {},
+            "origin": "action_3"
+          }
+        ]
+      },
+      {
+        "method": "pointer",
+        "role": "body",
+        "events": [
+          {
+            "kind": "more-info",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "body"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "open",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "open_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "open"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "close",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "close_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "close"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "stop",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "stop_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "stop"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "action_1",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_1",
+            "data": {},
+            "origin": "action_1"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "action_2",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_2",
+            "data": {},
+            "origin": "action_2"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "action_3",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_3",
+            "data": {},
+            "origin": "action_3"
+          }
+        ]
+      },
+      {
+        "method": "Enter",
+        "role": "body",
+        "events": [
+          {
+            "kind": "more-info",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "body"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "open",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "open_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "open"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "close",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "close_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "close"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "stop",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "cover",
+            "service": "stop_cover",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "stop"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "action_1",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_1",
+            "data": {},
+            "origin": "action_1"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "action_2",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_2",
+            "data": {},
+            "origin": "action_2"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "action_3",
+        "events": [
+          {
+            "kind": "service",
+            "domain": "button",
+            "service": "press",
+            "target": "button.fcc_memory_3",
+            "data": {},
+            "origin": "action_3"
+          }
+        ]
+      },
+      {
+        "method": "emulated-touch",
+        "role": "body",
+        "events": [
+          {
+            "kind": "more-info",
+            "target": "cover.fcc_primary",
+            "data": {},
+            "origin": "body"
+          }
+        ]
+      }
+    ],
+    "bodyNoneDisabled": true,
+    "unknownAvailableButton": true,
+    "unavailableAndMissingDisabled": true,
+    "errorNoRecord": true,
+    "cancelledConfirmationNoRecord": true,
+    "additionalDetailsAndNone": true
+  },
+  "gestures": {
+    "rows": [
+      {
+        "case": "real multi-value drag/release and duplicate events",
+        "previewIntents": 0,
+        "finalIntents": 1,
+        "percent": 78
+      },
+      {
+        "case": "unchanged release",
+        "intents": 0
+      },
+      {
+        "case": "pointercancel",
+        "intents": 0
+      },
+      {
+        "case": "lostpointercapture",
+        "intents": 0
+      },
+      {
+        "case": "Escape",
+        "intents": 0
+      },
+      {
+        "case": "focus-loss",
+        "intents": 0
+      },
+      {
+        "case": "target-change",
+        "intents": 0
+      },
+      {
+        "case": "capability-loss",
+        "intents": 0
+      },
+      {
+        "case": "disconnect",
+        "intents": 0
+      },
+      {
+        "case": "concurrent HA snapshot feedback",
+        "actual": 51,
+        "requested": 73,
+        "intents": 1
+      },
+      {
+        "case": "ordinary keyboard commit/duplicate/Escape/blur",
+        "committedPercent": 44,
+        "intents": 1
+      },
+      {
+        "case": "unknown feedback explicit keyboard selection",
+        "actual": null,
+        "requested": 100,
+        "intents": 1
+      },
+      {
+        "case": "target changed during asynchronous confirmation",
+        "intents": 0
+      }
+    ],
+    "noPhysicalMovementOrPresentationClaim": true
+  },
+  "lifecycle": {
+    "mutations": {
+      "unrelated": [],
+      "relevant": [
+        "height"
+      ]
+    },
+    "localeFormatting": "91,5 cm",
+    "themeReflected": true,
+    "missingSourceIndependentAction": true,
+    "lifecycle": {
+      "baseline": {
+        "listeners": 24,
+        "scheduled": 0,
+        "gesture": false,
+        "pending": false
+      },
+      "cycles": [
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        },
+        {
+          "removed": {
+            "listeners": 0,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          },
+          "reinserted": {
+            "listeners": 24,
+            "scheduled": 0,
+            "gesture": false,
+            "pending": false
+          }
+        }
+      ],
+      "noReplay": true
+    },
+    "subsequentActivation": 1,
+    "retainedByteAttribution": "unsupported"
+  },
+  "invalidConfirmNoDispatch": true,
+  "feedback": {
+    "before": {
+      "actual": "Actual cover: unknown",
+      "memory": "Memory one",
+      "status": "recorded"
+    },
+    "after": {
+      "actual": "Actual cover: 57 %",
+      "memory": "Memory one"
+    },
+    "intents": 1
+  },
+  "emulatedTouchDrag": {
+    "method": "CDP touchStart/touchMove/touchEnd",
+    "previewIntents": 0,
+    "releaseIntents": 1,
+    "percent": 78
+  },
+  "serviceFramesSent": 0
+}

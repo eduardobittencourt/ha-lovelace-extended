@@ -1,0 +1,34 @@
+{
+  "protocolSha256": "5b00b84d701b84975cdbd6e003cb118afb7454cf923b4984300658ec0718b198",
+  "frozenAtUtc": "2026-11-19T21:20:49.972791+00:00",
+  "publishedUtc": "2026-11-19T21:30:06.232961+00:00",
+  "finalSourceRepeat": true,
+  "scheduledCounts": {
+    "loads": 36,
+    "editors": 36,
+    "updates": 24,
+    "inputs": 12
+  },
+  "actualCounts": {
+    "loads": 36,
+    "editors": 36,
+    "updates": 24,
+    "inputs": 12
+  },
+  "inputs": 120,
+  "invalidScheduledAttempts": 0,
+  "pilotsExcluded": true,
+  "initialValidProfilePreservedSeparately": true,
+  "currentHostObservation": {
+    "observedUtc": "2026-11-19T21:22:33.581837+00:00",
+    "freeBytes": 3051909120,
+    "loadAverage": [
+      0.63671875,
+      0.3916015625,
+      0.42919921875
+    ],
+    "affinityCPUs": 8,
+    "note": "Observed during final collection. Final protocol inherited the first-run host/capacity scalar snapshot; these current observations and the continuously guarded server minimum distinguish the final run. Source/workload/schedule versions remain independently frozen."
+  },
+  "guardMinimum": "Recorded on final sandbox cleanup; applies continuously to both runs"
+}

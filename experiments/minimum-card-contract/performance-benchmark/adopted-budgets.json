@@ -1,0 +1,156 @@
+{
+  "decisionDate": "2026-11-19",
+  "status": "adopted; fresh verification pending",
+  "authority": "Explicit maintainer delegation to select benchmark-derived limits; effective until maintainer revision; no separate numerical approval required",
+  "policy": "Native observed maximum per matching cell; no added margin",
+  "source": "summary.json",
+  "reference": "native three-Tile composition",
+  "policyDocument": "../../../docs/performance-budgets.md",
+  "loadLimits": [
+    {
+      "key": [
+        1,
+        "cold"
+      ],
+      "maximum": {
+        "taskMs": 607.146,
+        "scriptMs": 159.482,
+        "transferBytes": 1374510
+      }
+    },
+    {
+      "key": [
+        1,
+        "warm"
+      ],
+      "maximum": {
+        "taskMs": 372.15700000000004,
+        "scriptMs": 47.328,
+        "transferBytes": 3931
+      }
+    },
+    {
+      "key": [
+        10,
+        "cold"
+      ],
+      "maximum": {
+        "taskMs": 634.193,
+        "scriptMs": 150.79500000000002,
+        "transferBytes": 1364934
+      }
+    },
+    {
+      "key": [
+        10,
+        "warm"
+      ],
+      "maximum": {
+        "taskMs": 414.956,
+        "scriptMs": 58.681,
+        "transferBytes": 3931
+      }
+    }
+  ],
+  "updateOnlyLimits": [
+    {
+      "key": [
+        1,
+        "relevant",
+        1
+      ],
+      "windowSeconds": 60,
+      "maximum": {
+        "taskMs": 182.836,
+        "scriptMs": 9.537999999999991
+      }
+    },
+    {
+      "key": [
+        1,
+        "relevant",
+        20
+      ],
+      "windowSeconds": 10,
+      "maximum": {
+        "taskMs": 381.621,
+        "scriptMs": 21.319000000000006
+      }
+    },
+    {
+      "key": [
+        1,
+        "unrelated",
+        1
+      ],
+      "windowSeconds": 60,
+      "maximum": {
+        "taskMs": 50.54000000000003,
+        "scriptMs": 6.7170000000000005
+      }
+    },
+    {
+      "key": [
+        1,
+        "unrelated",
+        20
+      ],
+      "windowSeconds": 10,
+      "maximum": {
+        "taskMs": 139.26400000000007,
+        "scriptMs": 17.67100000000002
+      }
+    },
+    {
+      "key": [
+        10,
+        "relevant",
+        1
+      ],
+      "windowSeconds": 60,
+      "maximum": {
+        "taskMs": 368.3519999999999,
+        "scriptMs": 10.978999999999989
+      }
+    },
+    {
+      "key": [
+        10,
+        "relevant",
+        20
+      ],
+      "windowSeconds": 10,
+      "maximum": {
+        "taskMs": 926.5989999999999,
+        "scriptMs": 20.51
+      }
+    },
+    {
+      "key": [
+        10,
+        "unrelated",
+        1
+      ],
+      "windowSeconds": 60,
+      "maximum": {
+        "taskMs": 97.80600000000005,
+        "scriptMs": 6.516999999999995
+      }
+    },
+    {
+      "key": [
+        10,
+        "unrelated",
+        20
+      ],
+      "windowSeconds": 10,
+      "maximum": {
+        "taskMs": 256.9870000000001,
+        "scriptMs": 17.622
+      }
+    }
+  ],
+  "evaluation": "Every valid observation must be <= its matching ceiling; missing required coverage stays pending; discovery is not fresh verification",
+  "scope": "Same pinned lab, subject, boundaries, workload and schedule as protocol.json; no inferred phone or physical performance",
+  "freshVerification": "not executed by this policy adoption"
+}

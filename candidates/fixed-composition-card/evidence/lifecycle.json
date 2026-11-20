@@ -1,0 +1,725 @@
+{
+  "mutations": {
+    "unrelated": [],
+    "relevant": [
+      "height"
+    ]
+  },
+  "localeFormatting": "91,5 cm",
+  "themeReflected": true,
+  "missingSourceIndependentAction": true,
+  "lifecycle": {
+    "baseline": {
+      "listeners": 24,
+      "scheduled": 0,
+      "gesture": false,
+      "pending": false
+    },
+    "cycles": [
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      },
+      {
+        "removed": {
+          "listeners": 0,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        },
+        "reinserted": {
+          "listeners": 24,
+          "scheduled": 0,
+          "gesture": false,
+          "pending": false
+        }
+      }
+    ],
+    "noReplay": true
+  },
+  "subsequentActivation": 1,
+  "retainedByteAttribution": "unsupported",
+  "serviceFramesSent": 0
+}

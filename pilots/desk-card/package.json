@@ -1,0 +1,8 @@
+{
+  "name": "lovelace-extended-desk-pilot",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Lovelace Extended Desk Pilot",
+  "scripts": { "test": "node --test test/*.test.js" }
+}

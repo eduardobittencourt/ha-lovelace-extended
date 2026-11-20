@@ -1,0 +1,8 @@
+{
+  "name": "fixed-composition-card-candidate",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Synthetic-only fixed-composition candidate; no production transport",
+  "scripts": { "test": "node --test test/*.test.js" }
+}

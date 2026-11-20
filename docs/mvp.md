@@ -19,9 +19,9 @@ The local firmware source maps its specific 62–128 cm range to cover position 
 
 ## Proposed experience
 
-Use a native HA card as the layout and visual reference. The initial research reference is horizontal Tile with bottom-aligned controls in Sections, matched to Core 2026.11.1 / frontend 20261028.5. This establishes a source reference; rendered fit and supported-version policy still need validation.
+Use a native HA card as the layout and visual reference. The initial research reference is horizontal Tile with bottom-aligned controls in Sections, matched to Core 2026.11.1 / frontend 20261028.5. This establishes a source reference; the scoped candidate's rendered evidence is described below, while final-device fit and a supported-version policy remain pending.
 
-The card will have a fixed composition with designated regions for an icon, title, subtitle/state, primary controls, and additional actions. These are fixed semantic regions; their internal placement can adapt to the allocated card space. Usable minimum allocations and precise placement still require rendered validation.
+The card will have a fixed composition with designated regions for an icon, title, subtitle/state, primary controls, and additional actions. These are fixed semantic regions; their internal placement can adapt to the allocated card space. The [synthetic candidate](../candidates/fixed-composition-card/README.md) demonstrates these regions down to 240 px in its recorded Chromium matrix; final installation/reference-device fit and a supported minimum still require validation.
 
 | Part | Expected configuration for the desk |
 | --- | --- |

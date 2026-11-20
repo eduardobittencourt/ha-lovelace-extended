@@ -63,6 +63,8 @@ The [D2 diagnostics](../experiments/minimum-card-contract/performance-diagnostic
 
 The [consolidated decision record](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#ten-row-decision-record--2026-11-19) reconciles all ten metric IDs and their approvals. Its [budget requirements](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#cpu-transfer-and-update-budget-requirements) identify missing device/workload, bandwidth and responsiveness objectives; the [D3 handoff](../openspec/changes/archive/2026-11-19-consolidate-stage-one-performance/research.md#d3-scenario-handoff) preserves all full-desk results as pending. Four bounded passes and a fresh cold pass do not resolve the two historical cold failures or five pending requirements. D2/stage 1 stays open.
 
+The [negative-comparator benchmark](../experiments/minimum-card-contract/performance-benchmark/review.md) completes another bounded D2 investigation: neither selected third-party composition passed ordinary-keyboard eligibility, and the maintainer authorized matched native/experimental/empty collection. [Calibration and samples](../experiments/minimum-card-contract/performance-benchmark/calibration.json) support the stated browser queueing/local-intent endpoints; the [public discovery](../experiments/minimum-card-contract/performance-benchmark/discovery.json) contains full scheduled load/update/interaction/editor coverage. The [budget packet](../experiments/minimum-card-contract/performance-benchmark/budget-review.json) preserves the original pending disposition. The subsequent [maintainer policy and adopted ceilings](performance-budgets.md) supersede those objective/agreement prerequisites: agents select benchmark-derived values, with native per-cell maxima adopted for this campaign and no further user numerical approval required. Fresh verification is recorded by the subsequent investigation below. Local input observations do not resolve final presentation, historical cold failures, retained-byte attribution or final-MVP/device gates. D2/stage 1 stays open.
+
 The [fresh stage 1 verification](../experiments/minimum-card-contract/performance-verification/review.md) summarizes 120 valid load observations, 72 valid update-only windows and 90 valid interaction windows, with 900 recorded local intents and 0 dispatch timeouts. CPU, transfer and update-script observations exceed the unchanged adopted ceilings. Two separately frozen cold series retain 240 observations and five new ten-group experimental failures, while same-helper R1 cold observations add four more; the transparent driver observer locates prolonged locator waits without resolving visibility-versus-polling causality or either historical failure. Retention is **pass** under its documented calibrated boundary; presentation is **unsupported**. The [ten-row reconciliation](../experiments/minimum-card-contract/performance-verification/review.md#stage-decision) keeps stage 1 open. Candidate/final-MVP performance, reference-device/accessibility, real integration/transport, physical and everyday gates remain separate; no production stack is adopted.
 
 ## D3. Experience and integration validation
@@ -76,6 +78,16 @@ The [fresh stage 1 verification](../experiments/minimum-card-contract/performanc
 - Observe everyday use and repeat the relevant performance protocol on the final result.
 
 **Exit evidence:** demonstrated MVP criteria, known discrepancies, and user acceptance of the replacement.
+
+The [complete synthetic candidate](../candidates/fixed-composition-card/README.md)
+now supplies bounded D3 evidence for independent cover/height/action roles,
+release/Enter-only requested position, cancellation, all 23 HA form fields and
+31 independent real persistence edits. Its 96-cell Chromium allocation/input
+matrix establishes a tested 240 px minimum for that candidate. These findings
+resolve the scoped complete-form/layout feasibility questions in the pinned lab;
+they do not establish a public format, reference Safari/device accessibility,
+real transport, physical/everyday acceptance or final-MVP performance. D2/stage 1
+still carries historical cold failures and the unapproved/unsupported metric rows.
 
 ## D4. Reuse and composition discovery
 

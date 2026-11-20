@@ -74,6 +74,17 @@ The documentation change [align-roadmap-with-native-ha-layout](../openspec/chang
 
 The [experiment brief](../openspec/changes/archive/2026-11-18-align-roadmap-with-native-ha-layout/research.md#brief-for-a-subsequent-bounded-experiment) guided the separately scoped experimental delivery: two independent bindings, visual save/reload/reopen in HA, isolated actions, selective updates/cleanup, allocated-width and accessibility checks, and comparable measurements. Its code, dependencies and test-environment setup belong to the separately authorized [demonstrate-minimum-card-contract change](../openspec/changes/archive/2026-11-19-demonstrate-minimum-card-contract/tasks.md). That experiment now records actual isolated HA persistence and bounded correctness/layout evidence; performance acceptance remains open. Follow its [reproduction guide](../experiments/minimum-card-contract/README.md) for experimental source checks. A standalone mock cannot establish actual HA editor persistence, and experimental results do not automatically become production contracts.
 
+## Archived fixed-composition candidate
+
+The [complete-composition change](../openspec/changes/archive/2026-11-19-implement-complete-desk-composition/tasks.md)
+was archived on 2026-11-19 using `research-first`, with all 20 tasks complete.
+Its 14 requirements and 33 scenarios are consolidated in
+[fixed-composition-card](../openspec/specs/fixed-composition-card/spec.md).
+The [candidate guide](../candidates/fixed-composition-card/README.md) and
+[scenario handoff](../candidates/fixed-composition-card/coverage.md) document
+the synthetic stage 2 delivery. Stage 1 performance and full MVP acceptance
+remain open.
+
 ## Supporting CLI commands
 
 Run at the project root:

@@ -1,0 +1,57 @@
+{
+  "completedUtc": "2026-11-19T21:37:35.274325+00:00",
+  "unitTests": {
+    "command": "node --test candidates/fixed-composition-card/test/*.test.js",
+    "passed": 22,
+    "failed": 0
+  },
+  "browser": {
+    "fullLayoutCells": 96,
+    "finalLongLabelEnlargedCells": 6,
+    "independentEditorRoundTrips": 31,
+    "visualFields": 23,
+    "actionInputCells": 21,
+    "finalIntegrated": "integrated.json",
+    "finalSourceCheck": "final-check.json",
+    "ownedLifecycleCycles": 50,
+    "nativeServiceInterceptionPreflight": "profile-preflight.json",
+    "realTransport": "not executed"
+  },
+  "profile": {
+    "loads": 36,
+    "editors": 36,
+    "updateWindows": 24,
+    "localActivations": 120,
+    "invalidScheduledAttempts": 0,
+    "allRowsAcceptance": "pending",
+    "initialValidProfile": "preserved separately"
+  },
+  "offlineReport": {
+    "reproducedByteForByte": true,
+    "files": [
+      "report/report.json",
+      "report/report.md"
+    ]
+  },
+  "checks": {
+    "gitDiffCheck": "pass",
+    "openspecStrictValidate": "pass",
+    "researchFirstSchema": "pass; no issues",
+    "candidateJsonParsed": 27,
+    "relativeLinksChecked": 308,
+    "frozenSourceHashes": 20,
+    "deltaScenariosMapped": 33,
+    "mvpScenariosMapped": 21,
+    "sourceReconstructionHashes": "pass including retained initial source snapshot and prior adapter versions",
+    "privacy": "Synthetic fixtures/data only; generated auth state remains private. Credential-shape scan and targeted source/data review passed.",
+    "terms": "Original Apache-2.0 code; existing Playwright/image/browser terms and notices preserved; 1745 image license files retained externally."
+  },
+  "cleanup": "cleanup.json",
+  "limitations": [
+    "No production registration/service transport, real desk/lock command or automatic unlock",
+    "No reference Safari/device/assistive/physical-touch acceptance",
+    "No physical/everyday or final-MVP performance acceptance",
+    "Short descriptive profile is not an applicable approved budget verification; observed size/startup concerns retained",
+    "Retained-byte ownership and final compositor presentation remain unsupported"
+  ]
+}

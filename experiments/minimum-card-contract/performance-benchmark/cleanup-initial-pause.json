@@ -1,0 +1,38 @@
+{
+  "date_utc": "2026-11-19",
+  "reason": "Paused at comparator keyboard eligibility gate; no discovery campaign started",
+  "sandbox_stopped": true,
+  "port_18123_closed": true,
+  "sandbox_pid_file_absent": true,
+  "bridge_socket_absent": true,
+  "sandbox_serve_processes": [],
+  "minimum_runtime_free_bytes": 3112742912,
+  "reserve_bytes": 1073741824,
+  "free_before_owned_image_cleanup": 3112079360,
+  "free_after_owned_image_cleanup": 6667100160,
+  "removed": [
+    "Campaign-owned rootfs/",
+    "Campaign-owned layers/"
+  ],
+  "preserved": [
+    "External comparator bundles, licenses, review sources, scripts and pilot attempts",
+    "Private disposable HA state and served comparator copies (not published)",
+    "Historical research and evidence",
+    "Playwright browser cache"
+  ],
+  "fixed_subject_and_tool_hashes_unchanged": {
+    "package-lock.json": true,
+    "src/card.css": true,
+    "src/card.js": true,
+    "src/recorder.js": true,
+    "tools/common.mjs": true,
+    "tools/workloads.mjs": true,
+    "tools/editor.mjs": true,
+    "tools/diagnostic-editor.mjs": true,
+    "tools/diagnostic-editor-evaluate.mjs": true,
+    "tools/diagnostic-common.mjs": true
+  },
+  "production_ha_changes": false,
+  "unrelated_deletion": "Only maintainer-authorized regenerable ESPHome ESP-IDF cache removed before acquisition; no unrelated evidence deleted",
+  "remaining_work": "Reacquire under guard and rerun identity/isolation preflight before resuming; no running sandbox remains"
+}

@@ -1,6 +1,6 @@
 # Conceptual architecture
 
-This document records directions and hypotheses. The [bounded experimental source](../experiments/minimum-card-contract/README.md) does not define a public API, stable configuration syntax or settled production stack.
+This document records directions and hypotheses. The [bounded experimental source](../experiments/minimum-card-contract/README.md) and [synthetic complete-composition candidate](../candidates/fixed-composition-card/README.md) do not define a public API, stable configuration syntax or settled production stack.
 
 ## System parts
 
@@ -54,6 +54,16 @@ Validate concrete narrow/intermediate/wide allocations in Sections and Masonry, 
 The iPhone reference is one test environment. Pin versions and record actual widths for each experiment; other recorded environments can start discovery, without establishing Safari or universal compatibility. Follow the [roadmap gates](roadmap.md#performance-protocol-define-before-execution-measure-during-the-experiment). Native visual alignment does not select a private-component dependency or production stack.
 
 ## Performance
+
+The complete candidate separates flat configuration, source resolution, cover
+capabilities, typed local descriptors, position transitions and pinned HA UI/form
+adapters. It uses a stable native custom-element DOM and ordinary `hass` delivery,
+with no per-card polling/subscription. Native buttons/range input and an explicit
+generation/token guard implement release/Enter-only commits and cancellation.
+This is a functional candidate baseline, with actual HA form/persistence and
+Chromium role/layout evidence; it is not a cost-based production renderer choice.
+The original two-slot source and dependency locks remain unchanged. A future
+real-transport adapter requires separate scope and current-installation checks.
 
 The two-slot experiment uses native JavaScript and ordinary `hass` delivery with
 selective DOM patches. Synthetic correctness and lifecycle checks have passed;

@@ -1,0 +1,114 @@
+{
+  "allowed": [
+    "open_cover",
+    "close_cover",
+    "stop_cover",
+    "set_cover_position",
+    "memory_1",
+    "memory_2",
+    "memory_3"
+  ],
+  "denied": 6,
+  "restBlocked": true,
+  "xhrBlocked": true,
+  "events": [
+    {
+      "type": "call_service",
+      "domain": "cover",
+      "service": "open_cover",
+      "target": {
+        "entity_id": "cover.fcc_primary"
+      },
+      "service_data": {},
+      "id": 38
+    },
+    {
+      "type": "call_service",
+      "domain": "cover",
+      "service": "close_cover",
+      "target": {
+        "entity_id": "cover.fcc_primary"
+      },
+      "service_data": {},
+      "id": 39
+    },
+    {
+      "type": "call_service",
+      "domain": "cover",
+      "service": "stop_cover",
+      "target": {
+        "entity_id": "cover.fcc_primary"
+      },
+      "service_data": {},
+      "id": 40
+    },
+    {
+      "type": "call_service",
+      "domain": "cover",
+      "service": "set_cover_position",
+      "target": {
+        "entity_id": "cover.fcc_alternate"
+      },
+      "service_data": {
+        "position": 37
+      },
+      "id": 41
+    },
+    {
+      "type": "call_service",
+      "domain": "button",
+      "service": "press",
+      "target": {
+        "entity_id": "button.fcc_memory_1"
+      },
+      "service_data": {},
+      "id": 42
+    },
+    {
+      "type": "call_service",
+      "domain": "button",
+      "service": "press",
+      "target": {
+        "entity_id": "button.fcc_memory_2"
+      },
+      "service_data": {},
+      "id": 43
+    },
+    {
+      "type": "call_service",
+      "domain": "button",
+      "service": "press",
+      "target": {
+        "entity_id": "button.fcc_memory_3"
+      },
+      "service_data": {},
+      "id": 44
+    }
+  ],
+  "blocked": [
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "websocket-service",
+    "fetch",
+    "xhr"
+  ],
+  "unknownButton": "unknown",
+  "capabilities": [
+    15,
+    5
+  ],
+  "serviceFramesSent": 0,
+  "serviceRequestsSent": 0,
+  "browser": "159.0.8154.6",
+  "fixtureCount": 7
+}
